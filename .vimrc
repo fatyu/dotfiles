@@ -1,0 +1,1 @@
+/Users/notalk/.space-vim/init.vim
