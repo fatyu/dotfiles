@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1524215685,,"wq"
+|2,0,1524218875,,"wq"
 :%s/labs/workspace\/labs
 |2,0,1524215677,,"%s/labs/workspace\\/labs"
 :%s/~labs/~workspace/labs/g
@@ -94,34 +94,46 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,48,24,0,1524215685,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
-'1  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,49,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+'0  130  10  ~/.zshrc
+|4,48,130,10,1524218875,"~/.zshrc"
+'1  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,49,24,0,1524215685,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
 '2  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
 |4,50,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
-'3  125  111  ~/.zshrc
-|4,51,125,111,1524202436,"~/.zshrc"
-'4  126  79  ~/.zshrc
-|4,52,126,79,1524201291,"~/.zshrc"
-'5  126  79  ~/.zshrc
-|4,53,126,79,1524201291,"~/.zshrc"
+'3  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,51,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+'4  125  111  ~/.zshrc
+|4,52,125,111,1524202436,"~/.zshrc"
+'5  125  111  ~/.zshrc
+|4,53,125,111,1524202436,"~/.zshrc"
 '6  126  79  ~/.zshrc
-|4,54,126,79,1524201235,"~/.zshrc"
+|4,54,126,79,1524201291,"~/.zshrc"
 '7  126  79  ~/.zshrc
-|4,55,126,79,1524201235,"~/.zshrc"
-'8  126  83  ~/.zshrc
-|4,56,126,83,1524200815,"~/.zshrc"
-'9  126  83  ~/.zshrc
-|4,57,126,83,1524200815,"~/.zshrc"
+|4,55,126,79,1524201291,"~/.zshrc"
+'8  126  79  ~/.zshrc
+|4,56,126,79,1524201291,"~/.zshrc"
+'9  126  79  ~/.zshrc
+|4,57,126,79,1524201291,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  130  10  ~/.zshrc
+|4,39,130,10,1524218875,"~/.zshrc"
+-'  125  111  ~/.zshrc
+|4,39,125,111,1524218646,"~/.zshrc"
+-'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,39,24,0,1524215685,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
 -'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
 |4,39,24,0,1524215685,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
 -'  2  25  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
 |4,39,2,25,1524215677,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+-'  2  25  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,39,2,25,1524215677,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
 -'  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
 |4,39,1,0,1524215364,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,39,1,0,1524215364,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,39,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
 -'  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
 |4,39,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
 -'  125  111  ~/.zshrc
@@ -141,6 +153,8 @@ $workspace\/labs
 -'  126  79  ~/.zshrc
 |4,39,126,79,1524202413,"~/.zshrc"
 -'  126  79  ~/.zshrc
+|4,39,126,79,1524202413,"~/.zshrc"
+-'  126  79  ~/.zshrc
 |4,39,126,79,1524201291,"~/.zshrc"
 -'  126  79  ~/.zshrc
 |4,39,126,79,1524201291,"~/.zshrc"
@@ -196,6 +210,10 @@ $workspace\/labs
 |4,39,125,0,1524200739,"~/.zshrc"
 -'  125  0  ~/.zshrc
 |4,39,125,0,1524200739,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1524196853,"~/.zshrc"
+-'  129  0  ~/.zshrc
+|4,39,129,0,1524196853,"~/.zshrc"
 -'  149  0  ~/.zshrc
 |4,39,149,0,1524196853,"~/.zshrc"
 -'  129  0  ~/.zshrc
@@ -284,24 +302,6 @@ $workspace\/labs
 |4,39,125,0,1524186946,"~/.zshrc"
 -'  125  0  ~/.zshrc
 |4,39,125,0,1524186946,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
 -'  124  39  ~/.zshrc
 |4,39,124,39,1524186917,"~/.zshrc"
 -'  124  39  ~/.zshrc
@@ -319,20 +319,14 @@ $workspace\/labs
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-	*	1524215684	0
-	"	24	0
-	.	2	0
-	+	2	0
-
 > ~/.zshrc
-	*	1524202435	0
-	"	125	111
-	^	125	112
-	.	125	111
+	*	1524218874	0
+	"	130	10
+	^	130	11
+	.	130	11
 	+	95	10
 	+	10	18
-	+	134	19
+	+	136	19
 	+	95	7
 	+	42	0
 	+	52	20
@@ -360,9 +354,9 @@ $workspace\/labs
 	+	100	6
 	+	102	6
 	+	105	12
-	+	137	23
-	+	148	0
-	+	144	0
+	+	139	23
+	+	150	0
+	+	146	0
 	+	103	0
 	+	105	0
 	+	108	7
@@ -378,9 +372,9 @@ $workspace\/labs
 	+	106	13
 	+	107	9
 	+	109	8
-	+	146	64
-	+	145	31
-	+	144	94
+	+	148	64
+	+	147	31
+	+	146	94
 	+	125	88
 	+	129	0
 	+	122	26
@@ -390,6 +384,21 @@ $workspace\/labs
 	+	125	105
 	+	126	111
 	+	125	111
+	+	131	0
+	+	130	27
+	+	131	52
+	+	131	60
+	+	131	9
+	+	132	0
+	+	131	80
+	+	132	0
+	+	130	11
+
+> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+	*	1524215684	0
+	"	24	0
+	.	2	0
+	+	2	0
 
 > ~/labs/dotfiles/dotfiles/.git/COMMIT_EDITMSG
 	*	1523542232	0
