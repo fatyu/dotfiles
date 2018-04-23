@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1524482127,,"wq"
+|2,0,1524494879,,"wq"
 :q
 |2,0,1524481909,,"q"
 :%s/labs/workspace\/labs
@@ -102,34 +102,54 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  1  18  /private/tmp/crontab.aiCvRvXh39
-|4,48,1,18,1524482127,"/private/tmp/crontab.aiCvRvXh39"
-'1  1  0  /private/tmp/crontab.OkcuOxp9pQ
-|4,49,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
-'2  1  79  /private/tmp/crontab.IqbcTot69J
-|4,50,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
-'3  1  0  ~/crontab
-|4,51,1,0,1524481694,"~/crontab"
-'4  26  0  ~/.zshrc
-|4,52,26,0,1524467309,"~/.zshrc"
-'5  164  0  ~/.zshrc
-|4,53,164,0,1524465813,"~/.zshrc"
-'6  164  0  ~/.zshrc
-|4,54,164,0,1524465813,"~/.zshrc"
-'7  1  0  ~/workspace/labs/log/gradle best practice.md
-|4,55,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
-'8  133  103  ~/.zshrc
-|4,56,133,103,1524461871,"~/.zshrc"
-'9  133  103  ~/.zshrc
-|4,57,133,103,1524461871,"~/.zshrc"
+'0  124  17  ~/.zshrc
+|4,48,124,17,1524494879,"~/.zshrc"
+'1  1  18  /private/tmp/crontab.aiCvRvXh39
+|4,49,1,18,1524482127,"/private/tmp/crontab.aiCvRvXh39"
+'2  1  0  /private/tmp/crontab.OkcuOxp9pQ
+|4,50,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
+'3  1  79  /private/tmp/crontab.IqbcTot69J
+|4,51,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+'4  1  0  ~/crontab
+|4,52,1,0,1524481694,"~/crontab"
+'5  26  0  ~/.zshrc
+|4,53,26,0,1524467309,"~/.zshrc"
+'6  26  0  ~/.zshrc
+|4,54,26,0,1524467309,"~/.zshrc"
+'7  164  0  ~/.zshrc
+|4,55,164,0,1524465813,"~/.zshrc"
+'8  164  0  ~/.zshrc
+|4,56,164,0,1524465813,"~/.zshrc"
+'9  164  0  ~/.zshrc
+|4,57,164,0,1524465813,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  124  17  ~/.zshrc
+|4,39,124,17,1524494879,"~/.zshrc"
+-'  174  0  ~/.zshrc
+|4,39,174,0,1524494854,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524494853,"~/.zshrc"
+-'  1  18  /private/tmp/crontab.aiCvRvXh39
+|4,39,1,18,1524482127,"/private/tmp/crontab.aiCvRvXh39"
 -'  1  18  /private/tmp/crontab.aiCvRvXh39
 |4,39,1,18,1524482127,"/private/tmp/crontab.aiCvRvXh39"
 -'  1  0  /private/tmp/crontab.OkcuOxp9pQ
 |4,39,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
 -'  1  0  /private/tmp/crontab.OkcuOxp9pQ
 |4,39,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
+-'  1  0  /private/tmp/crontab.OkcuOxp9pQ
+|4,39,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
+-'  1  0  /private/tmp/crontab.OkcuOxp9pQ
+|4,39,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
+-'  1  79  /private/tmp/crontab.IqbcTot69J
+|4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+-'  1  79  /private/tmp/crontab.IqbcTot69J
+|4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+-'  1  79  /private/tmp/crontab.IqbcTot69J
+|4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+-'  1  79  /private/tmp/crontab.IqbcTot69J
+|4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
 -'  1  79  /private/tmp/crontab.IqbcTot69J
 |4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
 -'  1  79  /private/tmp/crontab.IqbcTot69J
@@ -154,6 +174,22 @@ $workspace\/labs
 |4,39,1,0,1524481694,"~/crontab"
 -'  1  0  ~/crontab
 |4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
 -'  26  0  ~/.zshrc
 |4,39,26,0,1524467309,"~/.zshrc"
 -'  26  0  ~/.zshrc
@@ -186,6 +222,8 @@ $workspace\/labs
 |4,39,26,0,1524467309,"~/.zshrc"
 -'  26  0  ~/.zshrc
 |4,39,26,0,1524467309,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
 -'  164  0  ~/.zshrc
 |4,39,164,0,1524467287,"~/.zshrc"
 -'  164  0  ~/.zshrc
@@ -286,70 +324,14 @@ $workspace\/labs
 |4,39,133,103,1524465791,"~/.zshrc"
 -'  133  103  ~/.zshrc
 |4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  133  103  ~/.zshrc
-|4,39,133,103,1524465791,"~/.zshrc"
--'  1  0  ~/workspace/labs/log/gradle best practice.md
-|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
--'  1  0  ~/workspace/labs/log/gradle best practice.md
-|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
--'  1  0  ~/workspace/labs/log/gradle best practice.md
-|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
--'  1  0  ~/workspace/labs/log/gradle best practice.md
-|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
--'  1  0  ~/workspace/labs/log/gradle best practice.md
-|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
 
 # History of marks within files (newest to oldest):
 
-> /private/tmp/crontab.aiCvRvXh39
-	*	1524482126	0
-	"	1	18
-	^	1	19
-	.	1	18
-	+	1	18
-
-> /private/tmp/crontab.OkcuOxp9pQ
-	*	1524481908	0
-	"	1	0
-
-> /private/tmp/crontab.IqbcTot69J
-	*	1524481875	0
-	"	1	79
-	^	1	80
-	.	1	79
-	+	1	79
-
 > ~/.zshrc
-	*	1524467308	0
-	"	26	0
-	^	133	104
-	.	133	103
+	*	1524494876	0
+	"	124	17
+	^	124	18
+	.	124	17
 	+	95	10
 	+	10	18
 	+	149	19
@@ -447,6 +429,25 @@ $workspace\/labs
 	+	131	61
 	+	132	54
 	+	133	103
+	+	124	17
+
+> /private/tmp/crontab.aiCvRvXh39
+	*	1524482126	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> /private/tmp/crontab.OkcuOxp9pQ
+	*	1524481908	0
+	"	1	0
+
+> /private/tmp/crontab.IqbcTot69J
+	*	1524481875	0
+	"	1	79
+	^	1	80
+	.	1	79
+	+	1	79
 
 > ~/workspace/labs/log/gradle best practice.md
 	*	1524462282	0
