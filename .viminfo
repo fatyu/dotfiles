@@ -21,13 +21,13 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1524218875,,"wq"
+|2,0,1524454845,,"wq"
+:q
+|2,0,1524453611,,"q"
 :%s/labs/workspace\/labs
 |2,0,1524215677,,"%s/labs/workspace\\/labs"
 :%s/~labs/~workspace/labs/g
 |2,0,1524215504,,"%s/~labs/~workspace/labs/g"
-:q
-|2,0,1524215302,,"q"
 :w
 |2,0,1524196927,,"w"
 :.,.+19
@@ -61,32 +61,35 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	alias scphrm="scp -r /Users/notalk/workspace/utry-cloud/cloud_hrm/build/libs/hrm.war root@10.0.10.115:/tmp"
-|3,0,0,1,1,0,1524200793,"alias scphrm=\"scp -r /Users/notalk/workspace/utry-cloud/cloud_hrm/build/libs/hrm.war root@10.0.10.115:/tmp\""
+	notalk|121.40.204.241|root|Zy33862677|22|1
+|3,0,0,1,1,0,1524453525,"notalk|121.40.204.241|root|Zy33862677|22|1"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1524200743,""
+	utry-dev-115|121.40.204.241|root|Zy33862677|22|1
+|3,0,1,1,1,0,1524453545,"utry-dev-115|121.40.204.241|root|Zy33862677|22|1"
 "2	LINE	0
 	
-|3,0,2,1,1,0,1523542197,""
+|3,0,2,1,1,0,1524200743,""
 "3	LINE	0
-	alias b=brew
-|3,0,3,1,1,0,1523442581,"alias b=brew"
+	
+|3,0,3,1,1,0,1523542197,""
 "4	LINE	0
-	alias ssh115="ssh root@10.0.10.115"
-|3,0,4,1,1,0,1523442462,"alias ssh115=\"ssh root@10.0.10.115\""
+	alias b=brew
+|3,0,4,1,1,0,1523442581,"alias b=brew"
 "5	LINE	0
-	alias dpsql="mycli -h10.0.10.111 -P3306 -uroot -putry1234"
-|3,0,5,1,1,0,1523442461,"alias dpsql=\"mycli -h10.0.10.111 -P3306 -uroot -putry1234\""
+	alias ssh115="ssh root@10.0.10.115"
+|3,0,5,1,1,0,1523442462,"alias ssh115=\"ssh root@10.0.10.115\""
 "6	LINE	0
-	alias la='ls -a'
-|3,0,6,1,1,0,1522937103,"alias la='ls -a'"
+	alias dpsql="mycli -h10.0.10.111 -P3306 -uroot -putry1234"
+|3,0,6,1,1,0,1523442461,"alias dpsql=\"mycli -h10.0.10.111 -P3306 -uroot -putry1234\""
 "7	LINE	0
+	alias la='ls -a'
+|3,0,7,1,1,0,1522937103,"alias la='ls -a'"
+"8	LINE	0
 	curl -s "https://raw.githubusercontent.com/qdaxb/wtool/master/doc/get.sh" |bash -s 
-|3,0,7,1,1,0,1522898022,"curl -s \"https://raw.githubusercontent.com/qdaxb/wtool/master/doc/get.sh\" |bash -s "
+|3,0,8,1,1,0,1522898022,"curl -s \"https://raw.githubusercontent.com/qdaxb/wtool/master/doc/get.sh\" |bash -s "
 ""-	CHAR	0
-	m
-|3,1,36,0,1,0,1524200797,"m"
+	7
+|3,1,36,0,1,0,1524453563,"7"
 
 # global variables:
 !MAC	NUM	0
@@ -94,239 +97,247 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  130  10  ~/.zshrc
-|4,48,130,10,1524218875,"~/.zshrc"
-'1  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,49,24,0,1524215685,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
-'2  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,50,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
-'3  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,51,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
-'4  125  111  ~/.zshrc
-|4,52,125,111,1524202436,"~/.zshrc"
-'5  125  111  ~/.zshrc
-|4,53,125,111,1524202436,"~/.zshrc"
-'6  126  79  ~/.zshrc
-|4,54,126,79,1524201291,"~/.zshrc"
-'7  126  79  ~/.zshrc
-|4,55,126,79,1524201291,"~/.zshrc"
-'8  126  79  ~/.zshrc
-|4,56,126,79,1524201291,"~/.zshrc"
-'9  126  79  ~/.zshrc
-|4,57,126,79,1524201291,"~/.zshrc"
+'0  26  25  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,48,26,25,1524454845,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+'1  132  0  ~/.zshrc
+|4,49,132,0,1524453611,"~/.zshrc"
+'2  2  42  ~/.autosshrc
+|4,50,2,42,1524453574,"~/.autosshrc"
+'3  133  17  ~/.zshrc
+|4,51,133,17,1524312039,"~/.zshrc"
+'4  133  17  ~/.zshrc
+|4,52,133,17,1524312039,"~/.zshrc"
+'5  1  27  ~/.autosshrc
+|4,53,1,27,1524311958,"~/.autosshrc"
+'6  1  27  ~/.autosshrc
+|4,54,1,27,1524311958,"~/.autosshrc"
+'7  1  41  ~/.autosshrc
+|4,55,1,41,1524311854,"~/.autosshrc"
+'8  1  41  ~/.autosshrc
+|4,56,1,41,1524311854,"~/.autosshrc"
+'9  1  0  ~/.gitconfig
+|4,57,1,0,1524219748,"~/.gitconfig"
 
 # Jumplist (newest first):
+-'  26  25  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,39,26,25,1524454845,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+-'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,39,24,0,1524454792,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+-'  132  0  ~/.zshrc
+|4,39,132,0,1524453611,"~/.zshrc"
+-'  132  0  ~/.zshrc
+|4,39,132,0,1524453611,"~/.zshrc"
+-'  152  0  ~/.zshrc
+|4,39,152,0,1524453596,"~/.zshrc"
+-'  133  17  ~/.zshrc
+|4,39,133,17,1524453596,"~/.zshrc"
+-'  152  0  ~/.zshrc
+|4,39,152,0,1524453596,"~/.zshrc"
+-'  133  17  ~/.zshrc
+|4,39,133,17,1524453596,"~/.zshrc"
+-'  2  42  ~/.autosshrc
+|4,39,2,42,1524453574,"~/.autosshrc"
+-'  2  42  ~/.autosshrc
+|4,39,2,42,1524453574,"~/.autosshrc"
+-'  2  42  ~/.autosshrc
+|4,39,2,42,1524453574,"~/.autosshrc"
+-'  2  42  ~/.autosshrc
+|4,39,2,42,1524453574,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1524453546,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1524453546,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1524453546,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1524453546,"~/.autosshrc"
+-'  133  17  ~/.zshrc
+|4,39,133,17,1524312039,"~/.zshrc"
+-'  133  17  ~/.zshrc
+|4,39,133,17,1524312039,"~/.zshrc"
+-'  133  17  ~/.zshrc
+|4,39,133,17,1524312039,"~/.zshrc"
+-'  133  17  ~/.zshrc
+|4,39,133,17,1524312039,"~/.zshrc"
 -'  130  10  ~/.zshrc
-|4,39,130,10,1524218875,"~/.zshrc"
--'  125  111  ~/.zshrc
-|4,39,125,111,1524218646,"~/.zshrc"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1524215685,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1524215685,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  2  25  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,2,25,1524215677,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  2  25  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,2,25,1524215677,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,1,0,1524215364,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,1,0,1524215364,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,1,0,1524215302,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  125  111  ~/.zshrc
-|4,39,125,111,1524202436,"~/.zshrc"
--'  125  111  ~/.zshrc
-|4,39,125,111,1524202436,"~/.zshrc"
--'  125  111  ~/.zshrc
-|4,39,125,111,1524202436,"~/.zshrc"
--'  125  111  ~/.zshrc
-|4,39,125,111,1524202436,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524202413,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524202413,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524202413,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524202413,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524202413,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524201291,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524201291,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524201291,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524201291,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524201235,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524201235,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524201235,"~/.zshrc"
--'  126  79  ~/.zshrc
-|4,39,126,79,1524201235,"~/.zshrc"
--'  126  83  ~/.zshrc
-|4,39,126,83,1524200815,"~/.zshrc"
--'  126  83  ~/.zshrc
-|4,39,126,83,1524200815,"~/.zshrc"
--'  126  83  ~/.zshrc
-|4,39,126,83,1524200815,"~/.zshrc"
--'  126  83  ~/.zshrc
-|4,39,126,83,1524200815,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200741,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200739,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200739,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200739,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524200739,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  149  0  ~/.zshrc
-|4,39,149,0,1524196853,"~/.zshrc"
--'  129  0  ~/.zshrc
-|4,39,129,0,1524196853,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524186946,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524186946,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524186946,"~/.zshrc"
--'  125  0  ~/.zshrc
-|4,39,125,0,1524186946,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
--'  124  39  ~/.zshrc
-|4,39,124,39,1524186917,"~/.zshrc"
+|4,39,130,10,1524311999,"~/.zshrc"
+-'  130  10  ~/.zshrc
+|4,39,130,10,1524311999,"~/.zshrc"
+-'  130  10  ~/.zshrc
+|4,39,130,10,1524311999,"~/.zshrc"
+-'  130  10  ~/.zshrc
+|4,39,130,10,1524311999,"~/.zshrc"
+-'  130  10  ~/.zshrc
+|4,39,130,10,1524311999,"~/.zshrc"
+-'  130  10  ~/.zshrc
+|4,39,130,10,1524311999,"~/.zshrc"
+-'  1  27  ~/.autosshrc
+|4,39,1,27,1524311958,"~/.autosshrc"
+-'  1  27  ~/.autosshrc
+|4,39,1,27,1524311958,"~/.autosshrc"
+-'  1  27  ~/.autosshrc
+|4,39,1,27,1524311958,"~/.autosshrc"
+-'  1  27  ~/.autosshrc
+|4,39,1,27,1524311958,"~/.autosshrc"
+-'  1  27  ~/.autosshrc
+|4,39,1,27,1524311958,"~/.autosshrc"
+-'  1  27  ~/.autosshrc
+|4,39,1,27,1524311958,"~/.autosshrc"
+-'  1  27  ~/.autosshrc
+|4,39,1,27,1524311958,"~/.autosshrc"
+-'  1  27  ~/.autosshrc
+|4,39,1,27,1524311958,"~/.autosshrc"
+-'  1  41  ~/.autosshrc
+|4,39,1,41,1524311854,"~/.autosshrc"
+-'  1  41  ~/.autosshrc
+|4,39,1,41,1524311854,"~/.autosshrc"
+-'  1  41  ~/.autosshrc
+|4,39,1,41,1524311854,"~/.autosshrc"
+-'  1  41  ~/.autosshrc
+|4,39,1,41,1524311854,"~/.autosshrc"
+-'  1  41  ~/.autosshrc
+|4,39,1,41,1524311854,"~/.autosshrc"
+-'  1  41  ~/.autosshrc
+|4,39,1,41,1524311854,"~/.autosshrc"
+-'  1  41  ~/.autosshrc
+|4,39,1,41,1524311854,"~/.autosshrc"
+-'  1  41  ~/.autosshrc
+|4,39,1,41,1524311854,"~/.autosshrc"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1524219748,"~/.gitconfig"
 
 # History of marks within files (newest to oldest):
 
+> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+	*	1524454843	0
+	"	26	25
+	^	26	26
+	.	26	24
+	+	2	0
+	+	26	24
+
 > ~/.zshrc
-	*	1524218874	0
-	"	130	10
-	^	130	11
-	.	130	11
+	*	1524453609	0
+	"	132	0
+	^	133	18
+	.	133	16
 	+	95	10
 	+	10	18
-	+	136	19
+	+	137	19
 	+	95	7
 	+	42	0
 	+	52	20
@@ -354,9 +365,9 @@ $workspace\/labs
 	+	100	6
 	+	102	6
 	+	105	12
-	+	139	23
-	+	150	0
-	+	146	0
+	+	140	23
+	+	151	0
+	+	147	0
 	+	103	0
 	+	105	0
 	+	108	7
@@ -372,9 +383,9 @@ $workspace\/labs
 	+	106	13
 	+	107	9
 	+	109	8
-	+	148	64
-	+	147	31
-	+	146	94
+	+	149	64
+	+	148	31
+	+	147	94
 	+	125	88
 	+	129	0
 	+	122	26
@@ -393,12 +404,25 @@ $workspace\/labs
 	+	131	80
 	+	132	0
 	+	130	11
+	+	132	15
+	+	133	16
 
-> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-	*	1524215684	0
-	"	24	0
-	.	2	0
+> ~/.autosshrc
+	*	1524453573	0
+	"	2	42
+	^	2	43
+	.	2	42
+	+	1	27
+	+	3	0
+	+	2	42
+
+> ~/.gitconfig
+	*	1524219745	0
+	"	1	0
+	^	1	0
+	.	3	0
 	+	2	0
+	+	3	0
 
 > ~/labs/dotfiles/dotfiles/.git/COMMIT_EDITMSG
 	*	1523542232	0
@@ -423,10 +447,6 @@ $workspace\/labs
 	+	16	19
 	+	14	41
 	+	8	15
-
-> ~/.gitconfig
-	*	1523496849	0
-	"	1	0
 
 > ~/labs/dotfiles/sync-data-github.sh
 	*	1523462681	0
