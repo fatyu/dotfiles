@@ -19,10 +19,10 @@ cp -rf ~/.spacevim ~/workspace/labs/dotfiles/dotfiles/
 
 cp -rf ~/.viminfo ~/workspace/labs/dotfiles/dotfiles/
 
-cp -rf ~/.zsh_history ~/workspace/labs/dotfiles/dotfiles/
-
 cp -rf ~/.zshrc ~/workspace/labs/dotfiles/dotfiles/
 
 git commit -am "sync data"
+
+git push
 
 

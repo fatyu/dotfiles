@@ -11,19 +11,19 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/jmeter
+~MSle0~/java
 
 # Last Substitute Search Pattern:
-~MSle0~&labs
+~MSle0&labs
 
 # Last Substitute String:
 $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1524454845,,"wq"
+|2,0,1524482127,,"wq"
 :q
-|2,0,1524453611,,"q"
+|2,0,1524481909,,"q"
 :%s/labs/workspace\/labs
 |2,0,1524215677,,"%s/labs/workspace\\/labs"
 :%s/~labs/~workspace/labs/g
@@ -40,6 +40,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/java
+|2,1,1524461385,47,"java"
 ? labs
 |2,1,1524215677,,"labs"
 ?/jmeter
@@ -61,35 +63,38 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	notalk|121.40.204.241|root|Zy33862677|22|1
-|3,0,0,1,1,0,1524453525,"notalk|121.40.204.241|root|Zy33862677|22|1"
+	alias scpsys="scp -r /Users/notalk/workspace/utry-cloud/cloud_sys/build/libs/sys.war root@10.0.10.115:/tmp/cloud"
+|3,0,0,1,1,0,1524461633,"alias scpsys=\"scp -r /Users/notalk/workspace/utry-cloud/cloud_sys/build/libs/sys.war root@10.0.10.115:/tmp/cloud\""
 "1	LINE	0
-	utry-dev-115|121.40.204.241|root|Zy33862677|22|1
-|3,0,1,1,1,0,1524453545,"utry-dev-115|121.40.204.241|root|Zy33862677|22|1"
+	
+|3,0,1,1,1,0,1524455057,""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1524200743,""
+	cp -rf ~/.zsh_history ~/workspace/labs/dotfiles/dotfiles/
+|3,0,2,1,1,0,1524455056,"cp -rf ~/.zsh_history ~/workspace/labs/dotfiles/dotfiles/"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1523542197,""
+	utry-dev-115|121.40.204.241|root|Zy33862677|22|1
+|3,0,3,1,1,0,1524453545,"utry-dev-115|121.40.204.241|root|Zy33862677|22|1"
 "4	LINE	0
-	alias b=brew
-|3,0,4,1,1,0,1523442581,"alias b=brew"
+	
+|3,0,4,1,1,0,1524200743,""
 "5	LINE	0
-	alias ssh115="ssh root@10.0.10.115"
-|3,0,5,1,1,0,1523442462,"alias ssh115=\"ssh root@10.0.10.115\""
+	
+|3,0,5,1,1,0,1523542197,""
 "6	LINE	0
-	alias dpsql="mycli -h10.0.10.111 -P3306 -uroot -putry1234"
-|3,0,6,1,1,0,1523442461,"alias dpsql=\"mycli -h10.0.10.111 -P3306 -uroot -putry1234\""
+	alias b=brew
+|3,0,6,1,1,0,1523442581,"alias b=brew"
 "7	LINE	0
-	alias la='ls -a'
-|3,0,7,1,1,0,1522937103,"alias la='ls -a'"
+	alias ssh115="ssh root@10.0.10.115"
+|3,0,7,1,1,0,1523442462,"alias ssh115=\"ssh root@10.0.10.115\""
 "8	LINE	0
-	curl -s "https://raw.githubusercontent.com/qdaxb/wtool/master/doc/get.sh" |bash -s 
-|3,0,8,1,1,0,1522898022,"curl -s \"https://raw.githubusercontent.com/qdaxb/wtool/master/doc/get.sh\" |bash -s "
+	alias dpsql="mycli -h10.0.10.111 -P3306 -uroot -putry1234"
+|3,0,8,1,1,0,1523442461,"alias dpsql=\"mycli -h10.0.10.111 -P3306 -uroot -putry1234\""
+"9	LINE	0
+	alias la='ls -a'
+|3,0,9,1,1,0,1522937103,"alias la='ls -a'"
 ""-	CHAR	0
-	7
-|3,1,36,0,1,0,1524453563,"7"
+	s
+|3,1,36,0,1,0,1524461755,"s"
 
 # global variables:
 !MAC	NUM	0
@@ -97,247 +102,257 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  26  25  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,48,26,25,1524454845,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
-'1  132  0  ~/.zshrc
-|4,49,132,0,1524453611,"~/.zshrc"
-'2  2  42  ~/.autosshrc
-|4,50,2,42,1524453574,"~/.autosshrc"
-'3  133  17  ~/.zshrc
-|4,51,133,17,1524312039,"~/.zshrc"
-'4  133  17  ~/.zshrc
-|4,52,133,17,1524312039,"~/.zshrc"
-'5  1  27  ~/.autosshrc
-|4,53,1,27,1524311958,"~/.autosshrc"
-'6  1  27  ~/.autosshrc
-|4,54,1,27,1524311958,"~/.autosshrc"
-'7  1  41  ~/.autosshrc
-|4,55,1,41,1524311854,"~/.autosshrc"
-'8  1  41  ~/.autosshrc
-|4,56,1,41,1524311854,"~/.autosshrc"
-'9  1  0  ~/.gitconfig
-|4,57,1,0,1524219748,"~/.gitconfig"
+'0  1  18  /private/tmp/crontab.aiCvRvXh39
+|4,48,1,18,1524482127,"/private/tmp/crontab.aiCvRvXh39"
+'1  1  0  /private/tmp/crontab.OkcuOxp9pQ
+|4,49,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
+'2  1  79  /private/tmp/crontab.IqbcTot69J
+|4,50,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+'3  1  0  ~/crontab
+|4,51,1,0,1524481694,"~/crontab"
+'4  26  0  ~/.zshrc
+|4,52,26,0,1524467309,"~/.zshrc"
+'5  164  0  ~/.zshrc
+|4,53,164,0,1524465813,"~/.zshrc"
+'6  164  0  ~/.zshrc
+|4,54,164,0,1524465813,"~/.zshrc"
+'7  1  0  ~/workspace/labs/log/gradle best practice.md
+|4,55,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
+'8  133  103  ~/.zshrc
+|4,56,133,103,1524461871,"~/.zshrc"
+'9  133  103  ~/.zshrc
+|4,57,133,103,1524461871,"~/.zshrc"
 
 # Jumplist (newest first):
--'  26  25  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,26,25,1524454845,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1524454792,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  132  0  ~/.zshrc
-|4,39,132,0,1524453611,"~/.zshrc"
--'  132  0  ~/.zshrc
-|4,39,132,0,1524453611,"~/.zshrc"
--'  152  0  ~/.zshrc
-|4,39,152,0,1524453596,"~/.zshrc"
--'  133  17  ~/.zshrc
-|4,39,133,17,1524453596,"~/.zshrc"
--'  152  0  ~/.zshrc
-|4,39,152,0,1524453596,"~/.zshrc"
--'  133  17  ~/.zshrc
-|4,39,133,17,1524453596,"~/.zshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1524453574,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1524453574,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1524453574,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1524453574,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1524453546,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1524453546,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1524453546,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1524453546,"~/.autosshrc"
--'  133  17  ~/.zshrc
-|4,39,133,17,1524312039,"~/.zshrc"
--'  133  17  ~/.zshrc
-|4,39,133,17,1524312039,"~/.zshrc"
--'  133  17  ~/.zshrc
-|4,39,133,17,1524312039,"~/.zshrc"
--'  133  17  ~/.zshrc
-|4,39,133,17,1524312039,"~/.zshrc"
--'  130  10  ~/.zshrc
-|4,39,130,10,1524311999,"~/.zshrc"
--'  130  10  ~/.zshrc
-|4,39,130,10,1524311999,"~/.zshrc"
--'  130  10  ~/.zshrc
-|4,39,130,10,1524311999,"~/.zshrc"
--'  130  10  ~/.zshrc
-|4,39,130,10,1524311999,"~/.zshrc"
--'  130  10  ~/.zshrc
-|4,39,130,10,1524311999,"~/.zshrc"
--'  130  10  ~/.zshrc
-|4,39,130,10,1524311999,"~/.zshrc"
--'  1  27  ~/.autosshrc
-|4,39,1,27,1524311958,"~/.autosshrc"
--'  1  27  ~/.autosshrc
-|4,39,1,27,1524311958,"~/.autosshrc"
--'  1  27  ~/.autosshrc
-|4,39,1,27,1524311958,"~/.autosshrc"
--'  1  27  ~/.autosshrc
-|4,39,1,27,1524311958,"~/.autosshrc"
--'  1  27  ~/.autosshrc
-|4,39,1,27,1524311958,"~/.autosshrc"
--'  1  27  ~/.autosshrc
-|4,39,1,27,1524311958,"~/.autosshrc"
--'  1  27  ~/.autosshrc
-|4,39,1,27,1524311958,"~/.autosshrc"
--'  1  27  ~/.autosshrc
-|4,39,1,27,1524311958,"~/.autosshrc"
--'  1  41  ~/.autosshrc
-|4,39,1,41,1524311854,"~/.autosshrc"
--'  1  41  ~/.autosshrc
-|4,39,1,41,1524311854,"~/.autosshrc"
--'  1  41  ~/.autosshrc
-|4,39,1,41,1524311854,"~/.autosshrc"
--'  1  41  ~/.autosshrc
-|4,39,1,41,1524311854,"~/.autosshrc"
--'  1  41  ~/.autosshrc
-|4,39,1,41,1524311854,"~/.autosshrc"
--'  1  41  ~/.autosshrc
-|4,39,1,41,1524311854,"~/.autosshrc"
--'  1  41  ~/.autosshrc
-|4,39,1,41,1524311854,"~/.autosshrc"
--'  1  41  ~/.autosshrc
-|4,39,1,41,1524311854,"~/.autosshrc"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1524219748,"~/.gitconfig"
+-'  1  18  /private/tmp/crontab.aiCvRvXh39
+|4,39,1,18,1524482127,"/private/tmp/crontab.aiCvRvXh39"
+-'  1  0  /private/tmp/crontab.OkcuOxp9pQ
+|4,39,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
+-'  1  0  /private/tmp/crontab.OkcuOxp9pQ
+|4,39,1,0,1524481909,"/private/tmp/crontab.OkcuOxp9pQ"
+-'  1  79  /private/tmp/crontab.IqbcTot69J
+|4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+-'  1  79  /private/tmp/crontab.IqbcTot69J
+|4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+-'  1  79  /private/tmp/crontab.IqbcTot69J
+|4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+-'  1  79  /private/tmp/crontab.IqbcTot69J
+|4,39,1,79,1524481877,"/private/tmp/crontab.IqbcTot69J"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  1  0  ~/crontab
+|4,39,1,0,1524481694,"~/crontab"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  26  0  ~/.zshrc
+|4,39,26,0,1524467309,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524467287,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  164  0  ~/.zshrc
+|4,39,164,0,1524465813,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  133  103  ~/.zshrc
+|4,39,133,103,1524465791,"~/.zshrc"
+-'  1  0  ~/workspace/labs/log/gradle best practice.md
+|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
+-'  1  0  ~/workspace/labs/log/gradle best practice.md
+|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
+-'  1  0  ~/workspace/labs/log/gradle best practice.md
+|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
+-'  1  0  ~/workspace/labs/log/gradle best practice.md
+|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
+-'  1  0  ~/workspace/labs/log/gradle best practice.md
+|4,39,1,0,1524462284,"~/workspace/labs/log/gradle best practice.md"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-	*	1524454843	0
-	"	26	25
-	^	26	26
-	.	26	24
-	+	2	0
-	+	26	24
+> /private/tmp/crontab.aiCvRvXh39
+	*	1524482126	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> /private/tmp/crontab.OkcuOxp9pQ
+	*	1524481908	0
+	"	1	0
+
+> /private/tmp/crontab.IqbcTot69J
+	*	1524481875	0
+	"	1	79
+	^	1	80
+	.	1	79
+	+	1	79
 
 > ~/.zshrc
-	*	1524453609	0
-	"	132	0
-	^	133	18
-	.	133	16
+	*	1524467308	0
+	"	26	0
+	^	133	104
+	.	133	103
 	+	95	10
 	+	10	18
-	+	137	19
+	+	149	19
 	+	95	7
 	+	42	0
 	+	52	20
@@ -365,9 +380,9 @@ $workspace\/labs
 	+	100	6
 	+	102	6
 	+	105	12
-	+	140	23
-	+	151	0
-	+	147	0
+	+	152	23
+	+	163	0
+	+	159	0
 	+	103	0
 	+	105	0
 	+	108	7
@@ -383,29 +398,90 @@ $workspace\/labs
 	+	106	13
 	+	107	9
 	+	109	8
-	+	149	64
-	+	148	31
-	+	147	94
+	+	161	64
+	+	160	31
+	+	159	94
 	+	125	88
-	+	129	0
+	+	138	0
 	+	122	26
 	+	120	22
 	+	125	0
-	+	128	0
+	+	137	0
 	+	125	105
-	+	126	111
+	+	127	111
 	+	125	111
+	+	140	0
+	+	139	27
+	+	140	52
+	+	140	60
+	+	140	9
+	+	141	0
+	+	140	80
+	+	141	0
+	+	139	11
+	+	141	15
+	+	142	18
+	+	144	20
+	+	159	61
+	+	128	0
+	+	129	0
+	+	130	0
 	+	131	0
-	+	130	27
-	+	131	52
-	+	131	60
-	+	131	9
 	+	132	0
-	+	131	80
-	+	132	0
-	+	130	11
-	+	132	15
-	+	133	16
+	+	133	0
+	+	134	0
+	+	125	0
+	+	128	9
+	+	129	10
+	+	130	12
+	+	131	12
+	+	132	12
+	+	133	12
+	+	128	105
+	+	129	47
+	+	130	50
+	+	131	50
+	+	132	50
+	+	133	50
+	+	130	82
+	+	131	61
+	+	132	54
+	+	133	103
+
+> ~/workspace/labs/log/gradle best practice.md
+	*	1524462282	0
+	"	1	0
+
+> /private/tmp/crontab.eJI4qnT4Kq
+	*	1524458816	0
+	"	1	79
+	^	1	80
+	.	1	61
+	+	1	61
+
+> /private/tmp/crontab.uh1ZanWIIV
+	*	1524458633	0
+	"	1	15
+	.	1	15
+	+	1	15
+
+> ~/workspace/labs/dotfiles/dotfiles/README.md
+	*	1524456158	0
+	"	5	50
+	^	5	51
+	.	5	50
+	+	3	61
+	+	5	50
+
+> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+	*	1524455066	0
+	"	26	7
+	^	26	8
+	.	26	7
+	+	2	0
+	+	24	24
+	+	22	0
+	+	26	7
 
 > ~/.autosshrc
 	*	1524453573	0
@@ -560,3 +636,6 @@ $workspace\/labs
 	^	6	9
 	.	6	8
 	+	6	8
+
+> ~/crontab
+	"	1	0
