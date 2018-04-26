@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/alia
+~MSle0~/vzsh
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,12 +20,14 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1524721768,,"wq"
 :q
-|2,0,1524667858,,"q"
+|2,0,1524711042,,"q"
+:vzsh
+|2,0,1524711012,,"vzsh"
 :w
 |2,0,1524667766,,"w"
-:wq
-|2,0,1524653147,,"wq"
 :.,.+910+
 |2,0,1524497742,,".,.+910+"
 :kkkkkkk
@@ -44,6 +46,10 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/vzsh
+|2,1,1524711017,47,"vzsh"
+?/zsh
+|2,1,1524711009,47,"zsh"
 ?/alia
 |2,1,1524667709,47,"alia"
 ?/plugi
@@ -75,8 +81,8 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	alias scpdata="scp -r /Users/notalk/workspace/utry/DataProcessingSystem/build/libs/DataProcessingSystem.war root@10.0.10.115:/tmp/cloud"
-|3,0,0,1,1,0,1524570532,"alias scpdata=\"scp -r /Users/notalk/workspace/utry/DataProcessingSystem/build/libs/DataProcessingSystem.war root@10.0.10.115:/tmp/cloud\""
+	alias dpsql="mycli -h10.0.10.115 -P3306 -uroot -putry1234"
+|3,0,0,1,1,0,1524721592,"alias dpsql=\"mycli -h10.0.10.115 -P3306 -uroot -putry1234\""
 "1	LINE	0
 	  git autojump wd autoupdate zsh-autosuggestions colored-man-pages zsh-syntax-highlighting 
 	)
@@ -106,8 +112,8 @@ $workspace\/labs
 	6='cd -6'
 |3,0,9,1,1,0,1524497872,"6='cd -6'"
 ""-	CHAR	0
-	autoupdate 
-|3,1,36,0,1,0,1524653115,"autoupdate "
+	p
+|3,1,36,0,1,0,1524721600,"p"
 
 # global variables:
 !MAC	NUM	0
@@ -115,30 +121,84 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  152  13  ~/.zshrc
-|4,48,152,13,1524667858,"~/.zshrc"
-'1  64  92  ~/.zshrc
-|4,49,64,92,1524653147,"~/.zshrc"
-'2  64  92  ~/.zshrc
-|4,50,64,92,1524653147,"~/.zshrc"
-'3  66  28  ~/.zshrc
-|4,51,66,28,1524652881,"~/.zshrc"
-'4  64  28  ~/.zshrc
-|4,52,64,28,1524652881,"~/.zshrc"
-'5  66  28  ~/.zshrc
-|4,53,66,28,1524652881,"~/.zshrc"
-'6  64  28  ~/.zshrc
-|4,54,64,28,1524652881,"~/.zshrc"
-'7  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,55,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
-'8  12  0  ~/workspace/labs/D/md/git ops.md
-|4,56,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
-'9  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,57,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
+'0  157  25  ~/.zshrc
+|4,48,157,25,1524721768,"~/.zshrc"
+'1  161  32  ~/.zshrc
+|4,49,161,32,1524721618,"~/.zshrc"
+'2  158  32  ~/.zshrc
+|4,50,158,32,1524721618,"~/.zshrc"
+'3  174  8  ~/.zshrc
+|4,51,174,8,1524711042,"~/.zshrc"
+'4  173  8  ~/.zshrc
+|4,52,173,8,1524711042,"~/.zshrc"
+'5  171  8  ~/.zshrc
+|4,53,171,8,1524711042,"~/.zshrc"
+'6  170  8  ~/.zshrc
+|4,54,170,8,1524711042,"~/.zshrc"
+'7  174  8  ~/.zshrc
+|4,55,174,8,1524711033,"~/.zshrc"
+'8  173  8  ~/.zshrc
+|4,56,173,8,1524711033,"~/.zshrc"
+'9  171  8  ~/.zshrc
+|4,57,171,8,1524711033,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524721768,"~/.zshrc"
+-'  161  32  ~/.zshrc
+|4,39,161,32,1524721736,"~/.zshrc"
+-'  158  32  ~/.zshrc
+|4,39,158,32,1524721618,"~/.zshrc"
+-'  174  8  ~/.zshrc
+|4,39,174,8,1524721587,"~/.zshrc"
+-'  171  8  ~/.zshrc
+|4,39,171,8,1524721587,"~/.zshrc"
+-'  173  8  ~/.zshrc
+|4,39,173,8,1524711042,"~/.zshrc"
+-'  170  8  ~/.zshrc
+|4,39,170,8,1524711042,"~/.zshrc"
+-'  170  8  ~/.zshrc
+|4,39,170,8,1524711033,"~/.zshrc"
+-'  4  21  ~/.zshrc
+|4,39,4,21,1524711017,"~/.zshrc"
+-'  4  21  ~/.zshrc
+|4,39,4,21,1524711017,"~/.zshrc"
+-'  4  21  ~/.zshrc
+|4,39,4,21,1524711017,"~/.zshrc"
+-'  4  21  ~/.zshrc
+|4,39,4,21,1524711017,"~/.zshrc"
+-'  160  31  ~/.zshrc
+|4,39,160,31,1524711009,"~/.zshrc"
+-'  157  31  ~/.zshrc
+|4,39,157,31,1524711009,"~/.zshrc"
+-'  157  31  ~/.zshrc
+|4,39,157,31,1524711009,"~/.zshrc"
+-'  157  31  ~/.zshrc
+|4,39,157,31,1524711009,"~/.zshrc"
+-'  157  31  ~/.zshrc
+|4,39,157,31,1524710998,"~/.zshrc"
+-'  152  13  ~/.zshrc
+|4,39,152,13,1524710985,"~/.zshrc"
+-'  152  13  ~/.zshrc
+|4,39,152,13,1524710985,"~/.zshrc"
+-'  152  13  ~/.zshrc
+|4,39,152,13,1524710985,"~/.zshrc"
+-'  152  13  ~/.zshrc
+|4,39,152,13,1524710985,"~/.zshrc"
+-'  152  13  ~/.zshrc
+|4,39,152,13,1524710985,"~/.zshrc"
 -'  152  13  ~/.zshrc
 |4,39,152,13,1524667858,"~/.zshrc"
+-'  64  92  ~/.zshrc
+|4,39,64,92,1524667709,"~/.zshrc"
+-'  64  92  ~/.zshrc
+|4,39,64,92,1524667709,"~/.zshrc"
+-'  64  92  ~/.zshrc
+|4,39,64,92,1524667709,"~/.zshrc"
+-'  64  92  ~/.zshrc
+|4,39,64,92,1524667709,"~/.zshrc"
+-'  64  92  ~/.zshrc
+|4,39,64,92,1524667709,"~/.zshrc"
 -'  64  92  ~/.zshrc
 |4,39,64,92,1524667709,"~/.zshrc"
 -'  64  92  ~/.zshrc
@@ -147,8 +207,32 @@ $workspace\/labs
 |4,39,66,0,1524653111,"~/.zshrc"
 -'  66  0  ~/.zshrc
 |4,39,66,0,1524653111,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1524653111,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1524653111,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1524653111,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1524653111,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1524653111,"~/.zshrc"
 -'  64  28  ~/.zshrc
 |4,39,64,28,1524652881,"~/.zshrc"
+-'  172  0  ~/.zshrc
+|4,39,172,0,1524652870,"~/.zshrc"
+-'  171  0  ~/.zshrc
+|4,39,171,0,1524652870,"~/.zshrc"
+-'  169  0  ~/.zshrc
+|4,39,169,0,1524652870,"~/.zshrc"
+-'  168  0  ~/.zshrc
+|4,39,168,0,1524652870,"~/.zshrc"
+-'  168  0  ~/.zshrc
+|4,39,168,0,1524652870,"~/.zshrc"
+-'  170  0  ~/.zshrc
+|4,39,170,0,1524652870,"~/.zshrc"
+-'  168  0  ~/.zshrc
+|4,39,168,0,1524652870,"~/.zshrc"
 -'  170  0  ~/.zshrc
 |4,39,170,0,1524652870,"~/.zshrc"
 -'  168  0  ~/.zshrc
@@ -171,189 +255,102 @@ $workspace\/labs
 |4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
 -'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
 |4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  12  0  ~/workspace/labs/D/md/git ops.md
-|4,39,12,0,1524652275,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  1  0  ~/workspace/labs/D/md/git ops.md
-|4,39,1,0,1524652269,"~/workspace/labs/D/md/git ops.md"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  8  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,8,0,1524637638,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
--'  1  0  ~/workspace/labs/java-infinity/.gitignore
-|4,39,1,0,1524637626,"~/workspace/labs/java-infinity/.gitignore"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
+|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1524667857	0
-	"	152	13
-	^	152	14
-	.	152	13
-	+	100	6
-	+	102	6
-	+	105	12
-	+	155	23
-	+	168	0
-	+	162	0
-	+	103	0
-	+	105	0
-	+	108	7
+	*	1524721767	0
+	"	157	25
+	^	157	26
+	.	157	25
 	+	124	0
 	+	125	0
 	+	105	0
@@ -366,9 +363,9 @@ $workspace\/labs
 	+	106	13
 	+	107	9
 	+	109	8
-	+	164	64
-	+	163	31
-	+	162	94
+	+	168	64
+	+	167	31
+	+	166	94
 	+	127	88
 	+	140	0
 	+	124	26
@@ -390,7 +387,7 @@ $workspace\/labs
 	+	143	15
 	+	144	18
 	+	146	20
-	+	162	61
+	+	166	61
 	+	130	0
 	+	131	0
 	+	132	0
@@ -416,13 +413,13 @@ $workspace\/labs
 	+	134	54
 	+	135	103
 	+	126	17
-	+	175	31
-	+	174	43
-	+	175	0
+	+	179	31
+	+	178	43
+	+	179	0
 	+	66	16
-	+	174	9
-	+	175	9
-	+	176	9
+	+	178	9
+	+	179	9
+	+	180	9
 	+	66	79
 	+	118	8
 	+	118	0
@@ -436,14 +433,24 @@ $workspace\/labs
 	+	116	23
 	+	117	7
 	+	118	0
-	+	184	62
-	+	166	0
-	+	167	82
-	+	168	0
+	+	188	62
+	+	170	0
+	+	171	82
+	+	172	0
 	+	66	0
 	+	64	92
 	+	112	15
 	+	152	13
+	+	160	31
+	+	155	8
+	+	154	8
+	+	173	8
+	+	174	8
+	+	161	0
+	+	160	10
+	+	161	32
+	+	158	0
+	+	157	25
 
 > ~/workspace/labs/dotfiles/dotfiles/alias
 	*	1524652855	0
