@@ -20,14 +20,14 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1524721768,,"wq"
 :q
-|2,0,1524711042,,"q"
+|2,0,1524808348,,"q"
+:wq
+|2,0,1524788338,,"wq"
+:w
+|2,0,1524758226,,"w"
 :vzsh
 |2,0,1524711012,,"vzsh"
-:w
-|2,0,1524667766,,"w"
 :.,.+910+
 |2,0,1524497742,,".,.+910+"
 :kkkkkkk
@@ -46,6 +46,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/op
+|2,1,1524808342,47,"op"
 ?/vzsh
 |2,1,1524711017,47,"vzsh"
 ?/zsh
@@ -83,37 +85,36 @@ $workspace\/labs
 "0	LINE	0
 	alias dpsql="mycli -h10.0.10.115 -P3306 -uroot -putry1234"
 |3,0,0,1,1,0,1524721592,"alias dpsql=\"mycli -h10.0.10.115 -P3306 -uroot -putry1234\""
-"1	LINE	0
-	  git autojump wd autoupdate zsh-autosuggestions colored-man-pages zsh-syntax-highlighting 
-	)
-|3,0,1,1,2,0,1524653110,"  git autojump wd autoupdate zsh-autosuggestions colored-man-pages zsh-syntax-highlighting ",")"
+""1	LINE	0
+	alias his='history'
+|3,1,1,1,1,0,1524788196,"alias his='history'"
 "2	LINE	0
-	alias scpdata="scp -r /Users/notalk/workspace/utry/DataProcessingSystem/build/libs/DataProcessingSystem.war root@10.0.10.115:/tmp/cloud"
-|3,0,2,1,1,0,1524570529,"alias scpdata=\"scp -r /Users/notalk/workspace/utry/DataProcessingSystem/build/libs/DataProcessingSystem.war root@10.0.10.115:/tmp/cloud\""
+	
+|3,0,2,1,1,0,1524751266,""
 "3	LINE	0
-	alias b="cd .."
-|3,0,3,1,1,0,1524497924,"alias b=\"cd ..\""
+	
+|3,0,3,1,1,0,1524751262,""
 "4	LINE	0
-	alias b="cd .."
-|3,0,4,1,1,0,1524497923,"alias b=\"cd ..\""
+	
+|3,0,4,1,1,0,1524751262,""
 "5	LINE	0
-	alias b="cd .."
-|3,0,5,1,1,0,1524497922,"alias b=\"cd ..\""
+	
+|3,0,5,1,1,0,1524751261,""
 "6	LINE	0
-	9='cd -9' 
-|3,0,6,1,1,0,1524497874,"9='cd -9' "
+	
+|3,0,6,1,1,0,1524751256,""
 "7	LINE	0
-	8='cd -8'
-|3,0,7,1,1,0,1524497873,"8='cd -8'"
+	
+|3,0,7,1,1,0,1524751256,""
 "8	LINE	0
-	7='cd -7'
-|3,0,8,1,1,0,1524497873,"7='cd -7'"
+	
+|3,0,8,1,1,0,1524751227,""
 "9	LINE	0
-	6='cd -6'
-|3,0,9,1,1,0,1524497872,"6='cd -6'"
-""-	CHAR	0
-	p
-|3,1,36,0,1,0,1524721600,"p"
+	
+|3,0,9,1,1,0,1524751225,""
+"-	CHAR	0
+	hackeres 
+|3,0,36,0,1,0,1524751143,"hackeres "
 
 # global variables:
 !MAC	NUM	0
@@ -121,260 +122,245 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  157  25  ~/.zshrc
-|4,48,157,25,1524721768,"~/.zshrc"
-'1  161  32  ~/.zshrc
-|4,49,161,32,1524721618,"~/.zshrc"
-'2  158  32  ~/.zshrc
-|4,50,158,32,1524721618,"~/.zshrc"
-'3  174  8  ~/.zshrc
-|4,51,174,8,1524711042,"~/.zshrc"
-'4  173  8  ~/.zshrc
-|4,52,173,8,1524711042,"~/.zshrc"
-'5  171  8  ~/.zshrc
-|4,53,171,8,1524711042,"~/.zshrc"
-'6  170  8  ~/.zshrc
-|4,54,170,8,1524711042,"~/.zshrc"
-'7  174  8  ~/.zshrc
-|4,55,174,8,1524711033,"~/.zshrc"
-'8  173  8  ~/.zshrc
-|4,56,173,8,1524711033,"~/.zshrc"
-'9  171  8  ~/.zshrc
-|4,57,171,8,1524711033,"~/.zshrc"
+'0  133  18  ~/.zshrc
+|4,48,133,18,1524808348,"~/.zshrc"
+'1  133  18  ~/.zshrc
+|4,49,133,18,1524788338,"~/.zshrc"
+'2  185  0  ~/.zshrc
+|4,50,185,0,1524751269,"~/.zshrc"
+'3  182  0  ~/.zshrc
+|4,51,182,0,1524751269,"~/.zshrc"
+'4  185  0  ~/.zshrc
+|4,52,185,0,1524751269,"~/.zshrc"
+'5  182  0  ~/.zshrc
+|4,53,182,0,1524751269,"~/.zshrc"
+'6  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,54,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+'7  2  8  ~/workspace/labs/D/.gitignore
+|4,55,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+'8  2  0  ~/workspace/labs/D/.gitignore
+|4,56,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+'9  157  25  ~/.zshrc
+|4,57,157,25,1524721768,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  133  18  ~/.zshrc
+|4,39,133,18,1524808348,"~/.zshrc"
+-'  133  18  ~/.zshrc
+|4,39,133,18,1524788338,"~/.zshrc"
+-'  185  0  ~/.zshrc
+|4,39,185,0,1524758192,"~/.zshrc"
+-'  185  0  ~/.zshrc
+|4,39,185,0,1524758192,"~/.zshrc"
+-'  182  0  ~/.zshrc
+|4,39,182,0,1524751269,"~/.zshrc"
+-'  182  0  ~/.zshrc
+|4,39,182,0,1524751269,"~/.zshrc"
+-'  65  0  ~/.zshrc
+|4,39,65,0,1524751139,"~/.zshrc"
+-'  65  0  ~/.zshrc
+|4,39,65,0,1524751139,"~/.zshrc"
+-'  65  0  ~/.zshrc
+|4,39,65,0,1524751139,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524751053,"~/.zshrc"
+-'  154  25  ~/.zshrc
+|4,39,154,25,1524751053,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524751053,"~/.zshrc"
+-'  154  25  ~/.zshrc
+|4,39,154,25,1524751053,"~/.zshrc"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1524749570,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  8  ~/workspace/labs/D/.gitignore
+|4,39,2,8,1524748984,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1524736265,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  1  0  ~/workspace/labs/D/.gitignore
+|4,39,1,0,1524736245,"~/workspace/labs/D/.gitignore"
+-'  160  25  ~/.zshrc
+|4,39,160,25,1524721768,"~/.zshrc"
+-'  160  25  ~/.zshrc
+|4,39,160,25,1524721768,"~/.zshrc"
 -'  157  25  ~/.zshrc
 |4,39,157,25,1524721768,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524721768,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524721768,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524721768,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524721768,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524721768,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524721768,"~/.zshrc"
+-'  157  25  ~/.zshrc
+|4,39,157,25,1524721768,"~/.zshrc"
+-'  164  32  ~/.zshrc
+|4,39,164,32,1524721736,"~/.zshrc"
 -'  161  32  ~/.zshrc
 |4,39,161,32,1524721736,"~/.zshrc"
--'  158  32  ~/.zshrc
-|4,39,158,32,1524721618,"~/.zshrc"
--'  174  8  ~/.zshrc
-|4,39,174,8,1524721587,"~/.zshrc"
--'  171  8  ~/.zshrc
-|4,39,171,8,1524721587,"~/.zshrc"
--'  173  8  ~/.zshrc
-|4,39,173,8,1524711042,"~/.zshrc"
--'  170  8  ~/.zshrc
-|4,39,170,8,1524711042,"~/.zshrc"
--'  170  8  ~/.zshrc
-|4,39,170,8,1524711033,"~/.zshrc"
--'  4  21  ~/.zshrc
-|4,39,4,21,1524711017,"~/.zshrc"
--'  4  21  ~/.zshrc
-|4,39,4,21,1524711017,"~/.zshrc"
--'  4  21  ~/.zshrc
-|4,39,4,21,1524711017,"~/.zshrc"
--'  4  21  ~/.zshrc
-|4,39,4,21,1524711017,"~/.zshrc"
--'  160  31  ~/.zshrc
-|4,39,160,31,1524711009,"~/.zshrc"
--'  157  31  ~/.zshrc
-|4,39,157,31,1524711009,"~/.zshrc"
--'  157  31  ~/.zshrc
-|4,39,157,31,1524711009,"~/.zshrc"
--'  157  31  ~/.zshrc
-|4,39,157,31,1524711009,"~/.zshrc"
--'  157  31  ~/.zshrc
-|4,39,157,31,1524710998,"~/.zshrc"
--'  152  13  ~/.zshrc
-|4,39,152,13,1524710985,"~/.zshrc"
--'  152  13  ~/.zshrc
-|4,39,152,13,1524710985,"~/.zshrc"
--'  152  13  ~/.zshrc
-|4,39,152,13,1524710985,"~/.zshrc"
--'  152  13  ~/.zshrc
-|4,39,152,13,1524710985,"~/.zshrc"
--'  152  13  ~/.zshrc
-|4,39,152,13,1524710985,"~/.zshrc"
--'  152  13  ~/.zshrc
-|4,39,152,13,1524667858,"~/.zshrc"
--'  64  92  ~/.zshrc
-|4,39,64,92,1524667709,"~/.zshrc"
--'  64  92  ~/.zshrc
-|4,39,64,92,1524667709,"~/.zshrc"
--'  64  92  ~/.zshrc
-|4,39,64,92,1524667709,"~/.zshrc"
--'  64  92  ~/.zshrc
-|4,39,64,92,1524667709,"~/.zshrc"
--'  64  92  ~/.zshrc
-|4,39,64,92,1524667709,"~/.zshrc"
--'  64  92  ~/.zshrc
-|4,39,64,92,1524667709,"~/.zshrc"
--'  64  92  ~/.zshrc
-|4,39,64,92,1524653147,"~/.zshrc"
--'  66  0  ~/.zshrc
-|4,39,66,0,1524653111,"~/.zshrc"
--'  66  0  ~/.zshrc
-|4,39,66,0,1524653111,"~/.zshrc"
--'  66  0  ~/.zshrc
-|4,39,66,0,1524653111,"~/.zshrc"
--'  66  0  ~/.zshrc
-|4,39,66,0,1524653111,"~/.zshrc"
--'  66  0  ~/.zshrc
-|4,39,66,0,1524653111,"~/.zshrc"
--'  66  0  ~/.zshrc
-|4,39,66,0,1524653111,"~/.zshrc"
--'  66  0  ~/.zshrc
-|4,39,66,0,1524653111,"~/.zshrc"
--'  64  28  ~/.zshrc
-|4,39,64,28,1524652881,"~/.zshrc"
--'  172  0  ~/.zshrc
-|4,39,172,0,1524652870,"~/.zshrc"
--'  171  0  ~/.zshrc
-|4,39,171,0,1524652870,"~/.zshrc"
--'  169  0  ~/.zshrc
-|4,39,169,0,1524652870,"~/.zshrc"
--'  168  0  ~/.zshrc
-|4,39,168,0,1524652870,"~/.zshrc"
--'  168  0  ~/.zshrc
-|4,39,168,0,1524652870,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1524652870,"~/.zshrc"
--'  168  0  ~/.zshrc
-|4,39,168,0,1524652870,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1524652870,"~/.zshrc"
--'  168  0  ~/.zshrc
-|4,39,168,0,1524652870,"~/.zshrc"
--'  168  0  ~/.zshrc
-|4,39,168,0,1524652870,"~/.zshrc"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/alias
-|4,39,1,0,1524652857,"~/workspace/labs/dotfiles/dotfiles/alias"
+-'  164  32  ~/.zshrc
+|4,39,164,32,1524721736,"~/.zshrc"
+-'  157  32  ~/.zshrc
+|4,39,157,32,1524721736,"~/.zshrc"
+-'  161  32  ~/.zshrc
+|4,39,161,32,1524721736,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1524721767	0
-	"	157	25
-	^	157	26
-	.	157	25
-	+	124	0
-	+	125	0
-	+	105	0
-	+	122	21
-	+	118	0
-	+	107	7
-	+	106	11
-	+	104	14
-	+	107	7
-	+	106	13
-	+	107	9
-	+	109	8
-	+	168	64
-	+	167	31
-	+	166	94
-	+	127	88
+	*	1524808347	0
+	"	133	18
+	^	133	19
+	.	133	18
+	+	123	88
 	+	140	0
-	+	124	26
-	+	122	22
-	+	127	0
+	+	121	26
+	+	120	22
+	+	123	0
 	+	139	0
-	+	127	105
-	+	129	111
+	+	123	105
 	+	127	111
+	+	123	111
 	+	142	0
 	+	141	27
 	+	142	52
@@ -387,39 +373,39 @@ $workspace\/labs
 	+	143	15
 	+	144	18
 	+	146	20
-	+	166	61
+	+	165	61
+	+	128	0
 	+	130	0
 	+	131	0
-	+	132	0
 	+	133	0
 	+	134	0
 	+	135	0
 	+	136	0
-	+	127	0
-	+	130	9
-	+	131	10
-	+	132	12
+	+	123	0
+	+	128	9
+	+	130	10
+	+	131	12
 	+	133	12
 	+	134	12
 	+	135	12
-	+	130	105
-	+	131	47
-	+	132	50
+	+	128	105
+	+	130	47
+	+	131	50
 	+	133	50
 	+	134	50
 	+	135	50
-	+	132	82
+	+	131	82
 	+	133	61
 	+	134	54
 	+	135	103
-	+	126	17
-	+	179	31
-	+	178	43
-	+	179	0
+	+	123	17
+	+	176	31
+	+	175	43
+	+	176	0
 	+	66	16
-	+	178	9
-	+	179	9
-	+	180	9
+	+	175	9
+	+	176	9
+	+	177	9
 	+	66	79
 	+	118	8
 	+	118	0
@@ -433,24 +419,50 @@ $workspace\/labs
 	+	116	23
 	+	117	7
 	+	118	0
-	+	188	62
-	+	170	0
-	+	171	82
-	+	172	0
+	+	183	62
+	+	169	0
+	+	170	82
+	+	171	0
 	+	66	0
 	+	64	92
 	+	112	15
 	+	152	13
-	+	160	31
+	+	159	31
 	+	155	8
 	+	154	8
+	+	172	8
 	+	173	8
-	+	174	8
-	+	161	0
-	+	160	10
-	+	161	32
+	+	160	0
+	+	159	10
+	+	160	32
 	+	158	0
 	+	157	25
+	+	64	86
+	+	64	79
+	+	119	0
+	+	120	0
+	+	121	0
+	+	158	0
+	+	174	0
+	+	182	0
+	+	186	0
+	+	189	0
+	+	123	0
+	+	124	14
+	+	129	18
+	+	132	7
+	+	133	18
+
+> ~/workspace/labs/D/.git/MERGE_MSG
+	*	1524749569	0
+	"	1	0
+
+> ~/workspace/labs/D/.gitignore
+	*	1524748983	0
+	"	2	8
+	^	2	9
+	.	2	8
+	+	2	8
 
 > ~/workspace/labs/dotfiles/dotfiles/alias
 	*	1524652855	0
