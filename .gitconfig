@@ -2,7 +2,8 @@
 #	name = 张羽
 #	email = zhangyu@utry.cn
 [core]
-	autocrlf = input
+    autocrlf = input
+    quotepath = false
 [user]
 	name = 张羽
 	email = zhangyu@utry.cn
