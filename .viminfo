@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/vzsh
+~MSle0~/data-process-system
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,11 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1525328684,,"wq"
+|2,0,1525430944,,"wq"
+:p
+|2,0,1525429286,,"p"
 :q
-|2,0,1525328625,,"q"
+|2,0,1525428940,,"q"
 :w
 |2,0,1524758226,,"w"
 :vzsh
@@ -46,6 +48,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/data-process-system
+|2,1,1525429544,47,"data-process-system"
 ?/op
 |2,1,1524808342,47,"op"
 ?/vzsh
@@ -83,38 +87,38 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	alias sql116="mycli -h10.0.10.116 -P3306 -uroot -putry1234"
-|3,0,0,1,1,0,1525318062,"alias sql116=\"mycli -h10.0.10.116 -P3306 -uroot -putry1234\""
+	echo "-----------------------data-process-system code synced------------------hack it!"
+|3,0,0,1,1,0,1525429491,"echo \"-----------------------data-process-system code synced------------------hack it!\""
 "1	LINE	0
-	
-|3,0,1,1,1,0,1525328453,""
+	git pull;
+|3,0,1,1,1,0,1525429775,"git pull;"
 "2	LINE	0
-	cp -rf ~/.zshrc ~/workspace/labs/dotfiles/dotfiles/
-|3,0,2,1,1,0,1525328452,"cp -rf ~/.zshrc ~/workspace/labs/dotfiles/dotfiles/"
+	cd /Users/notalk/workspace/utry/translators;
+|3,0,2,1,1,0,1525429775,"cd /Users/notalk/workspace/utry/translators;"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1525328451,""
+	echo "-----------------------hrm----synced------------------hack it!"
+|3,0,3,1,1,0,1525429773,"echo \"-----------------------hrm----synced------------------hack it!\""
 "4	LINE	0
-	cp -rf ~/.viminfo ~/workspace/labs/dotfiles/dotfiles/
-|3,0,4,1,1,0,1525328451,"cp -rf ~/.viminfo ~/workspace/labs/dotfiles/dotfiles/"
+	git pull;
+|3,0,4,1,1,0,1525429772,"git pull;"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1525328450,""
+	cd /Users/notalk/workspace/utry/hrm;
+|3,0,5,1,1,0,1525429771,"cd /Users/notalk/workspace/utry/hrm;"
 "6	LINE	0
-	cp -rf ~/.spacevim ~/workspace/labs/dotfiles/dotfiles/
-|3,0,6,1,1,0,1525328450,"cp -rf ~/.spacevim ~/workspace/labs/dotfiles/dotfiles/"
+	echo "-----------------------ivs synced------------------hack it!"
+|3,0,6,1,1,0,1525429770,"echo \"-----------------------ivs synced------------------hack it!\""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1525328450,""
+	git pull;
+|3,0,7,1,1,0,1525429769,"git pull;"
 "8	LINE	0
-	cp -rf ~/.gitconfig ~/workspace/labs/dotfiles/dotfiles/
-|3,0,8,1,1,0,1525328450,"cp -rf ~/.gitconfig ~/workspace/labs/dotfiles/dotfiles/"
+	cd /Users/notalk/workspace/utry/IVS;
+|3,0,8,1,1,0,1525429769,"cd /Users/notalk/workspace/utry/IVS;"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1525328450,""
+	echo "-----------------------ivs-task synced------------------hack it!"
+|3,0,9,1,1,0,1525429769,"echo \"-----------------------ivs-task synced------------------hack it!\""
 ""-	CHAR	0
-	a
-|3,1,36,0,1,0,1525328458,"a"
+	engine   
+|3,1,36,0,1,0,1525430876,"engine   "
 
 # global variables:
 !MAC	NUM	0
@@ -122,230 +126,316 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  6  20  ~/.gitconfig
-|4,48,6,20,1525328684,"~/.gitconfig"
-'1  68  0  ~/workspace/labs/D/md/git ops.md
-|4,49,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
-'2  2  46  ~/workspace/labs/D/sync-data-github.sh
-|4,50,2,46,1525328486,"~/workspace/labs/D/sync-data-github.sh"
-'3  179  41  ~/.zshrc
-|4,51,179,41,1525318114,"~/.zshrc"
-'4  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,52,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
-'5  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,53,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
-'6  64  0  ~/workspace/labs/D/md/git ops.md
-|4,54,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
-'7  64  0  ~/workspace/labs/D/md/git ops.md
-|4,55,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
-'8  133  18  ~/.zshrc
-|4,56,133,18,1524808348,"~/.zshrc"
-'9  133  18  ~/.zshrc
-|4,57,133,18,1524808348,"~/.zshrc"
+'0  11  43  ~/workspace/utry-cloud/sync.sh
+|4,48,11,43,1525430944,"~/workspace/utry-cloud/sync.sh"
+'1  13  38  ~/workspace/utry-cloud/sync.sh
+|4,49,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
+'2  13  38  ~/workspace/utry-cloud/sync.sh
+|4,50,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
+'3  34  32  ~/workspace/utry/sync.sh
+|4,51,34,32,1525429704,"~/workspace/utry/sync.sh"
+'4  35  34  ~/workspace/utry/sync.sh
+|4,52,35,34,1525429301,"~/workspace/utry/sync.sh"
+'5  25  34  ~/workspace/utry/sync.sh
+|4,53,25,34,1525429301,"~/workspace/utry/sync.sh"
+'6  6  20  ~/.gitconfig
+|4,54,6,20,1525328684,"~/.gitconfig"
+'7  68  0  ~/workspace/labs/D/md/git ops.md
+|4,55,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+'8  2  46  ~/workspace/labs/D/sync-data-github.sh
+|4,56,2,46,1525328486,"~/workspace/labs/D/sync-data-github.sh"
+'9  179  41  ~/.zshrc
+|4,57,179,41,1525318114,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  11  43  ~/workspace/utry-cloud/sync.sh
+|4,39,11,43,1525430944,"~/workspace/utry-cloud/sync.sh"
+-'  13  38  ~/workspace/utry-cloud/sync.sh
+|4,39,13,38,1525430930,"~/workspace/utry-cloud/sync.sh"
+-'  13  38  ~/workspace/utry-cloud/sync.sh
+|4,39,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
+-'  8  23  ~/workspace/utry-cloud/sync.sh
+|4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  8  23  ~/workspace/utry-cloud/sync.sh
+|4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  1  0  ~/workspace/utry-cloud/sync.sh
+|4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
+-'  1  0  ~/workspace/utry-cloud/sync.sh
+|4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  6  0  ~/workspace/utry/sync.sh
+|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
+-'  6  0  ~/workspace/utry/sync.sh
+|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
+-'  6  0  ~/workspace/utry/sync.sh
+|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
+-'  6  0  ~/workspace/utry/sync.sh
+|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
+-'  6  0  ~/workspace/utry/sync.sh
+|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
+-'  6  0  ~/workspace/utry/sync.sh
+|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
+-'  6  0  ~/workspace/utry/sync.sh
+|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
+-'  6  0  ~/workspace/utry/sync.sh
+|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
+-'  1  6  ~/workspace/utry/sync.sh
+|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
+-'  1  6  ~/workspace/utry/sync.sh
+|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
+-'  1  6  ~/workspace/utry/sync.sh
+|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
+-'  1  6  ~/workspace/utry/sync.sh
+|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
+-'  1  6  ~/workspace/utry/sync.sh
+|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
+-'  1  6  ~/workspace/utry/sync.sh
+|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
+-'  1  6  ~/workspace/utry/sync.sh
+|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
+-'  1  6  ~/workspace/utry/sync.sh
+|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
 -'  6  20  ~/.gitconfig
 |4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1525328684,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1525328651,"~/.gitconfig"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1525328651,"~/.gitconfig"
 -'  68  0  ~/workspace/labs/D/md/git ops.md
 |4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
 -'  68  0  ~/workspace/labs/D/md/git ops.md
 |4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1525328620,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1525328620,"~/workspace/labs/D/md/git ops.md"
--'  2  46  ~/workspace/labs/D/sync-data-github.sh
-|4,39,2,46,1525328486,"~/workspace/labs/D/sync-data-github.sh"
--'  2  46  ~/workspace/labs/D/sync-data-github.sh
-|4,39,2,46,1525328486,"~/workspace/labs/D/sync-data-github.sh"
--'  2  46  ~/workspace/labs/D/sync-data-github.sh
-|4,39,2,46,1525328486,"~/workspace/labs/D/sync-data-github.sh"
--'  2  46  ~/workspace/labs/D/sync-data-github.sh
-|4,39,2,46,1525328486,"~/workspace/labs/D/sync-data-github.sh"
--'  1  0  ~/workspace/labs/D/sync-data-github.sh
-|4,39,1,0,1525328442,"~/workspace/labs/D/sync-data-github.sh"
--'  1  0  ~/workspace/labs/D/sync-data-github.sh
-|4,39,1,0,1525328442,"~/workspace/labs/D/sync-data-github.sh"
--'  1  0  ~/workspace/labs/D/sync-data-github.sh
-|4,39,1,0,1525328442,"~/workspace/labs/D/sync-data-github.sh"
--'  1  0  ~/workspace/labs/D/sync-data-github.sh
-|4,39,1,0,1525328442,"~/workspace/labs/D/sync-data-github.sh"
--'  179  41  ~/.zshrc
-|4,39,179,41,1525318114,"~/.zshrc"
--'  179  41  ~/.zshrc
-|4,39,179,41,1525318114,"~/.zshrc"
--'  179  41  ~/.zshrc
-|4,39,179,41,1525318114,"~/.zshrc"
--'  179  41  ~/.zshrc
-|4,39,179,41,1525318114,"~/.zshrc"
--'  179  41  ~/.zshrc
-|4,39,179,41,1525318114,"~/.zshrc"
--'  179  41  ~/.zshrc
-|4,39,179,41,1525318114,"~/.zshrc"
--'  179  41  ~/.zshrc
-|4,39,179,41,1525318114,"~/.zshrc"
--'  179  41  ~/.zshrc
-|4,39,179,41,1525318114,"~/.zshrc"
--'  133  18  ~/.zshrc
-|4,39,133,18,1525318048,"~/.zshrc"
--'  133  18  ~/.zshrc
-|4,39,133,18,1525318048,"~/.zshrc"
--'  133  18  ~/.zshrc
-|4,39,133,18,1525318048,"~/.zshrc"
--'  133  18  ~/.zshrc
-|4,39,133,18,1525318048,"~/.zshrc"
--'  133  18  ~/.zshrc
-|4,39,133,18,1525318048,"~/.zshrc"
--'  133  18  ~/.zshrc
-|4,39,133,18,1525318048,"~/.zshrc"
--'  133  18  ~/.zshrc
-|4,39,133,18,1525318048,"~/.zshrc"
--'  133  18  ~/.zshrc
-|4,39,133,18,1525318048,"~/.zshrc"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-|4,39,1,0,1525317120,"~/.Trash/data/ivs_tuniu.voice_config-schema.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  1  0  ~/.Trash/data/ivs_tuniu.voice_config.sql
-|4,39,1,0,1525316558,"~/.Trash/data/ivs_tuniu.voice_config.sql"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
--'  64  0  ~/workspace/labs/D/md/git ops.md
-|4,39,64,0,1524880365,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
+-'  68  0  ~/workspace/labs/D/md/git ops.md
+|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/workspace/utry-cloud/sync.sh
+	*	1525430943	0
+	"	11	43
+	^	13	39
+	.	11	43
+	+	14	0
+	+	2	46
+	+	5	41
+	+	8	40
+	+	11	36
+	+	8	36
+	+	5	36
+	+	4	39
+	+	7	40
+	+	10	38
+	+	13	38
+	+	2	43
+	+	5	43
+	+	8	43
+	+	11	43
+
+> ~/workspace/utry/sync.sh
+	*	1525429703	0
+	"	34	32
+	^	34	33
+	.	34	32
+	+	1	8
+	+	2	53
+	+	3	9
+	+	5	0
+	+	6	0
+	+	8	0
+	+	11	0
+	+	14	0
+	+	17	0
+	+	20	0
+	+	23	0
+	+	26	0
+	+	29	0
+	+	32	0
+	+	5	41
+	+	8	32
+	+	11	32
+	+	14	32
+	+	17	32
+	+	20	32
+	+	23	32
+	+	26	32
+	+	29	32
+	+	32	34
+	+	29	40
+	+	26	45
+	+	23	38
+	+	20	54
+	+	17	45
+	+	14	42
+	+	11	41
+	+	8	46
+	+	35	34
+	+	4	85
+	+	7	0
+	+	10	0
+	+	13	0
+	+	16	0
+	+	19	0
+	+	22	0
+	+	25	0
+	+	28	0
+	+	31	0
+	+	34	0
+	+	37	35
+	+	7	39
+	+	10	44
+	+	13	42
+	+	16	40
+	+	19	44
+	+	22	54
+	+	25	37
+	+	28	44
+	+	31	37
+	+	34	32
+
+> /usr/share/vim/vim80/doc/help.txt
+	*	1525428939	0
+	"	1	0
 
 > ~/.gitconfig
 	*	1525328683	0
