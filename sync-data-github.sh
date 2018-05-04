@@ -21,8 +21,12 @@ cp -rf ~/.viminfo ~/workspace/labs/dotfiles/dotfiles/
 
 cp -rf ~/.zshrc ~/workspace/labs/dotfiles/dotfiles/
 
+echo "---------文件拷贝成功....开始进行git提交:^-^----------"
+git add * 
+
 git commit -am "sync data"
 
+echo "---------....开始进行push操作:^-^----------"
 git push
 
 

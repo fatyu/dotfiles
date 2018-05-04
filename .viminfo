@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1525430944,,"wq"
+|2,0,1525432584,,"wq"
 :p
 |2,0,1525429286,,"p"
 :q
@@ -87,38 +87,38 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	echo "-----------------------data-process-system code synced------------------hack it!"
-|3,0,0,1,1,0,1525429491,"echo \"-----------------------data-process-system code synced------------------hack it!\""
-"1	LINE	0
-	git pull;
-|3,0,1,1,1,0,1525429775,"git pull;"
+	echo "---------文件拷贝成功....开始进行git提交:^-^----------"
+|3,0,0,1,1,0,1525432302,"echo \"---------文件拷贝成功....开始进行git提交:^-^----------\""
+""1	LINE	0
+	echo "---------文件拷贝成功....开始进行git提交:^-^----------"
+|3,1,1,1,1,0,1525432577,"echo \"---------文件拷贝成功....开始进行git提交:^-^----------\""
 "2	LINE	0
-	cd /Users/notalk/workspace/utry/translators;
-|3,0,2,1,1,0,1525429775,"cd /Users/notalk/workspace/utry/translators;"
+	git pull;
+|3,0,2,1,1,0,1525429775,"git pull;"
 "3	LINE	0
-	echo "-----------------------hrm----synced------------------hack it!"
-|3,0,3,1,1,0,1525429773,"echo \"-----------------------hrm----synced------------------hack it!\""
+	cd /Users/notalk/workspace/utry/translators;
+|3,0,3,1,1,0,1525429775,"cd /Users/notalk/workspace/utry/translators;"
 "4	LINE	0
-	git pull;
-|3,0,4,1,1,0,1525429772,"git pull;"
+	echo "-----------------------hrm----synced------------------hack it!"
+|3,0,4,1,1,0,1525429773,"echo \"-----------------------hrm----synced------------------hack it!\""
 "5	LINE	0
-	cd /Users/notalk/workspace/utry/hrm;
-|3,0,5,1,1,0,1525429771,"cd /Users/notalk/workspace/utry/hrm;"
-"6	LINE	0
-	echo "-----------------------ivs synced------------------hack it!"
-|3,0,6,1,1,0,1525429770,"echo \"-----------------------ivs synced------------------hack it!\""
-"7	LINE	0
 	git pull;
-|3,0,7,1,1,0,1525429769,"git pull;"
+|3,0,5,1,1,0,1525429772,"git pull;"
+"6	LINE	0
+	cd /Users/notalk/workspace/utry/hrm;
+|3,0,6,1,1,0,1525429771,"cd /Users/notalk/workspace/utry/hrm;"
+"7	LINE	0
+	echo "-----------------------ivs synced------------------hack it!"
+|3,0,7,1,1,0,1525429770,"echo \"-----------------------ivs synced------------------hack it!\""
 "8	LINE	0
-	cd /Users/notalk/workspace/utry/IVS;
-|3,0,8,1,1,0,1525429769,"cd /Users/notalk/workspace/utry/IVS;"
+	git pull;
+|3,0,8,1,1,0,1525429769,"git pull;"
 "9	LINE	0
-	echo "-----------------------ivs-task synced------------------hack it!"
-|3,0,9,1,1,0,1525429769,"echo \"-----------------------ivs-task synced------------------hack it!\""
-""-	CHAR	0
-	engine   
-|3,1,36,0,1,0,1525430876,"engine   "
+	cd /Users/notalk/workspace/utry/IVS;
+|3,0,9,1,1,0,1525429769,"cd /Users/notalk/workspace/utry/IVS;"
+"-	CHAR	0
+	t
+|3,0,36,0,1,0,1525432560,"t"
 
 # global variables:
 !MAC	NUM	0
@@ -126,38 +126,92 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  11  43  ~/workspace/utry-cloud/sync.sh
-|4,48,11,43,1525430944,"~/workspace/utry-cloud/sync.sh"
-'1  13  38  ~/workspace/utry-cloud/sync.sh
-|4,49,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
-'2  13  38  ~/workspace/utry-cloud/sync.sh
-|4,50,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
-'3  34  32  ~/workspace/utry/sync.sh
-|4,51,34,32,1525429704,"~/workspace/utry/sync.sh"
-'4  35  34  ~/workspace/utry/sync.sh
-|4,52,35,34,1525429301,"~/workspace/utry/sync.sh"
-'5  25  34  ~/workspace/utry/sync.sh
-|4,53,25,34,1525429301,"~/workspace/utry/sync.sh"
-'6  6  20  ~/.gitconfig
-|4,54,6,20,1525328684,"~/.gitconfig"
-'7  68  0  ~/workspace/labs/D/md/git ops.md
-|4,55,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
-'8  2  46  ~/workspace/labs/D/sync-data-github.sh
-|4,56,2,46,1525328486,"~/workspace/labs/D/sync-data-github.sh"
-'9  179  41  ~/.zshrc
-|4,57,179,41,1525318114,"~/.zshrc"
+'0  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,48,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+'1  3  0  ~/workspace/labs/D/g.sh
+|4,49,3,0,1525432221,"~/workspace/labs/D/g.sh"
+'2  11  43  ~/workspace/utry-cloud/sync.sh
+|4,50,11,43,1525430944,"~/workspace/utry-cloud/sync.sh"
+'3  13  38  ~/workspace/utry-cloud/sync.sh
+|4,51,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
+'4  13  38  ~/workspace/utry-cloud/sync.sh
+|4,52,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
+'5  34  32  ~/workspace/utry/sync.sh
+|4,53,34,32,1525429704,"~/workspace/utry/sync.sh"
+'6  35  34  ~/workspace/utry/sync.sh
+|4,54,35,34,1525429301,"~/workspace/utry/sync.sh"
+'7  25  34  ~/workspace/utry/sync.sh
+|4,55,25,34,1525429301,"~/workspace/utry/sync.sh"
+'8  6  20  ~/.gitconfig
+|4,56,6,20,1525328684,"~/.gitconfig"
+'9  68  0  ~/workspace/labs/D/md/git ops.md
+|4,57,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
 
 # Jumplist (newest first):
+-'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+-'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
+-'  3  0  ~/workspace/labs/D/g.sh
+|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
+-'  3  0  ~/workspace/labs/D/g.sh
+|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
+-'  1  0  ~/workspace/labs/D/g.sh
+|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
+-'  1  0  ~/workspace/labs/D/g.sh
+|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
+-'  11  43  ~/workspace/utry-cloud/sync.sh
+|4,39,11,43,1525430944,"~/workspace/utry-cloud/sync.sh"
+-'  11  43  ~/workspace/utry-cloud/sync.sh
+|4,39,11,43,1525430944,"~/workspace/utry-cloud/sync.sh"
+-'  11  43  ~/workspace/utry-cloud/sync.sh
+|4,39,11,43,1525430944,"~/workspace/utry-cloud/sync.sh"
 -'  11  43  ~/workspace/utry-cloud/sync.sh
 |4,39,11,43,1525430944,"~/workspace/utry-cloud/sync.sh"
 -'  13  38  ~/workspace/utry-cloud/sync.sh
 |4,39,13,38,1525430930,"~/workspace/utry-cloud/sync.sh"
+-'  13  38  ~/workspace/utry-cloud/sync.sh
+|4,39,13,38,1525430930,"~/workspace/utry-cloud/sync.sh"
+-'  13  38  ~/workspace/utry-cloud/sync.sh
+|4,39,13,38,1525430930,"~/workspace/utry-cloud/sync.sh"
+-'  13  38  ~/workspace/utry-cloud/sync.sh
+|4,39,13,38,1525430930,"~/workspace/utry-cloud/sync.sh"
+-'  13  38  ~/workspace/utry-cloud/sync.sh
+|4,39,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
+-'  13  38  ~/workspace/utry-cloud/sync.sh
+|4,39,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
+-'  13  38  ~/workspace/utry-cloud/sync.sh
+|4,39,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
 -'  13  38  ~/workspace/utry-cloud/sync.sh
 |4,39,13,38,1525430884,"~/workspace/utry-cloud/sync.sh"
 -'  8  23  ~/workspace/utry-cloud/sync.sh
 |4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
 -'  8  23  ~/workspace/utry-cloud/sync.sh
 |4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  8  23  ~/workspace/utry-cloud/sync.sh
+|4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  8  23  ~/workspace/utry-cloud/sync.sh
+|4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  8  23  ~/workspace/utry-cloud/sync.sh
+|4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  8  23  ~/workspace/utry-cloud/sync.sh
+|4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  8  23  ~/workspace/utry-cloud/sync.sh
+|4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  8  23  ~/workspace/utry-cloud/sync.sh
+|4,39,8,23,1525430852,"~/workspace/utry-cloud/sync.sh"
+-'  1  0  ~/workspace/utry-cloud/sync.sh
+|4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
+-'  1  0  ~/workspace/utry-cloud/sync.sh
+|4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
+-'  1  0  ~/workspace/utry-cloud/sync.sh
+|4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
+-'  1  0  ~/workspace/utry-cloud/sync.sh
+|4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
+-'  1  0  ~/workspace/utry-cloud/sync.sh
+|4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
+-'  1  0  ~/workspace/utry-cloud/sync.sh
+|4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
 -'  1  0  ~/workspace/utry-cloud/sync.sh
 |4,39,1,0,1525429758,"~/workspace/utry-cloud/sync.sh"
 -'  1  0  ~/workspace/utry-cloud/sync.sh
@@ -170,6 +224,54 @@ $workspace\/labs
 |4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
 -'  34  32  ~/workspace/utry/sync.sh
 |4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  34  32  ~/workspace/utry/sync.sh
+|4,39,34,32,1525429704,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
+-'  31  34  ~/workspace/utry/sync.sh
+|4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
 -'  31  34  ~/workspace/utry/sync.sh
 |4,39,31,34,1525429668,"~/workspace/utry/sync.sh"
 -'  31  34  ~/workspace/utry/sync.sh
@@ -186,6 +288,54 @@ $workspace\/labs
 |4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
 -'  35  35  ~/workspace/utry/sync.sh
 |4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  35  35  ~/workspace/utry/sync.sh
+|4,39,35,35,1525429544,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
+-'  25  34  ~/workspace/utry/sync.sh
+|4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
 -'  25  34  ~/workspace/utry/sync.sh
 |4,39,25,34,1525429301,"~/workspace/utry/sync.sh"
 -'  25  34  ~/workspace/utry/sync.sh
@@ -198,158 +348,29 @@ $workspace\/labs
 |4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
 -'  6  0  ~/workspace/utry/sync.sh
 |4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
--'  6  0  ~/workspace/utry/sync.sh
-|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
--'  6  0  ~/workspace/utry/sync.sh
-|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
--'  6  0  ~/workspace/utry/sync.sh
-|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
--'  6  0  ~/workspace/utry/sync.sh
-|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
--'  6  0  ~/workspace/utry/sync.sh
-|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
--'  6  0  ~/workspace/utry/sync.sh
-|4,39,6,0,1525428567,"~/workspace/utry/sync.sh"
--'  1  6  ~/workspace/utry/sync.sh
-|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
--'  1  6  ~/workspace/utry/sync.sh
-|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
--'  1  6  ~/workspace/utry/sync.sh
-|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
--'  1  6  ~/workspace/utry/sync.sh
-|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
--'  1  6  ~/workspace/utry/sync.sh
-|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
--'  1  6  ~/workspace/utry/sync.sh
-|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
--'  1  6  ~/workspace/utry/sync.sh
-|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
--'  1  6  ~/workspace/utry/sync.sh
-|4,39,1,6,1525428503,"~/workspace/utry/sync.sh"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1525328684,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1525328651,"~/.gitconfig"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
--'  68  0  ~/workspace/labs/D/md/git ops.md
-|4,39,68,0,1525328625,"~/workspace/labs/D/md/git ops.md"
 
 # History of marks within files (newest to oldest):
+
+> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
+	*	1525432583	0
+	"	24	0
+	.	27	0
+	+	2	0
+	+	27	24
+	+	22	0
+	+	30	7
+	+	24	71
+	+	22	51
+	+	27	0
+	+	29	38
+	+	27	0
+
+> ~/workspace/labs/D/g.sh
+	*	1525432220	0
+	"	3	0
+	^	3	0
+	.	2	9
+	+	2	9
 
 > ~/workspace/utry-cloud/sync.sh
 	*	1525430943	0
@@ -646,16 +667,6 @@ $workspace\/labs
 	.	5	50
 	+	3	61
 	+	5	50
-
-> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-	*	1524455066	0
-	"	26	7
-	^	26	8
-	.	26	7
-	+	2	0
-	+	24	24
-	+	22	0
-	+	26	7
 
 > ~/.autosshrc
 	*	1524453573	0
