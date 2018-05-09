@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/data-process-system
+~MSle0~/test
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1525691502,,"wq"
+|2,0,1525855362,,"wq"
 :q
-|2,0,1525691500,,"q"
+|2,0,1525852320,,"q"
 :p
 |2,0,1525429286,,"p"
 :w
@@ -48,6 +48,16 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/test
+|2,1,1525852420,47,"test"
+?/cloud-1
+|2,1,1525852269,47,"cloud-1"
+?/cloud-1.
+|2,1,1525851226,47,"cloud-1."
+?/cloud
+|2,1,1525850986,47,"cloud"
+?/cloud-1.0
+|2,1,1525850801,47,"cloud-1.0"
 ?/dotn
 |2,1,1525691434,47,"dotn"
 ?/data-process-system
@@ -91,9 +101,9 @@ $workspace\/labs
 "0	LINE	0
 	alias doc="cd /Users/notalk/workspace/labs/D"
 |3,0,0,1,1,0,1525691468,"alias doc=\"cd /Users/notalk/workspace/labs/D\""
-""1	LINE	0
+"1	LINE	0
 	alias dot="cd /Users/notalk/workspace/labs/D"
-|3,1,1,1,1,0,1525691490,"alias dot=\"cd /Users/notalk/workspace/labs/D\""
+|3,0,1,1,1,0,1525691490,"alias dot=\"cd /Users/notalk/workspace/labs/D\""
 "2	LINE	0
 	alias dev="cd /Users/notalk/workspace/labs/"
 |3,0,2,1,1,0,1525691456,"alias dev=\"cd /Users/notalk/workspace/labs/\""
@@ -118,9 +128,9 @@ $workspace\/labs
 "9	LINE	0
 	echo "-----------------------ivs synced------------------hack it!"
 |3,0,9,1,1,0,1525429770,"echo \"-----------------------ivs synced------------------hack it!\""
-"-	CHAR	0
-	o
-|3,0,36,0,1,0,1525691489,"o"
+""-	CHAR	0
+	4
+|3,1,36,0,1,0,1525852429,"4"
 
 # global variables:
 !MAC	NUM	0
@@ -128,230 +138,304 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  178  12  ~/.zshrc
-|4,48,178,12,1525691502,"~/.zshrc"
-'1  181  34  ~/.zshrc
-|4,49,181,34,1525656172,"~/.zshrc"
-'2  182  34  ~/.zshrc
-|4,50,182,34,1525656172,"~/.zshrc"
-'3  180  12  ~/.zshrc
-|4,51,180,12,1525655272,"~/.zshrc"
-'4  180  12  ~/.zshrc
-|4,52,180,12,1525655272,"~/.zshrc"
-'5  181  12  ~/.zshrc
-|4,53,181,12,1525655272,"~/.zshrc"
-'6  181  12  ~/.zshrc
-|4,54,181,12,1525655272,"~/.zshrc"
-'7  1  0  ~/.zsh
-|4,55,1,0,1525655238,"~/.zsh"
-'8  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,56,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
-'9  3  0  ~/workspace/labs/D/g.sh
-|4,57,3,0,1525432221,"~/workspace/labs/D/g.sh"
+'0  3  48  ~/.autosshrc
+|4,48,3,48,1525855362,"~/.autosshrc"
+'1  196  40  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,49,196,40,1525852438,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+'2  1  0  ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
+|4,50,1,0,1525852320,"~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG"
+'3  196  40  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,51,196,40,1525852273,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+'4  109  40  ~/workspace/utry/IVS/build.gradle
+|4,52,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+'5  134  40  ~/workspace/utry/translators/build.gradle
+|4,53,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+'6  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,54,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+'7  114  40  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,55,114,40,1525850991,"~/workspace/utry/DataProcessingSystem/build.gradle"
+'8  4  0  ~/workspace/utry/ivs-task/.gitignore
+|4,56,4,0,1525850855,"~/workspace/utry/ivs-task/.gitignore"
+'9  204  40  ~/workspace/utry/ivs-task/build.gradle
+|4,57,204,40,1525850806,"~/workspace/utry/ivs-task/build.gradle"
 
 # Jumplist (newest first):
--'  178  12  ~/.zshrc
-|4,39,178,12,1525691502,"~/.zshrc"
--'  181  34  ~/.zshrc
-|4,39,181,34,1525691425,"~/.zshrc"
--'  182  34  ~/.zshrc
-|4,39,182,34,1525656172,"~/.zshrc"
--'  180  12  ~/.zshrc
-|4,39,180,12,1525656137,"~/.zshrc"
--'  181  12  ~/.zshrc
-|4,39,181,12,1525656137,"~/.zshrc"
--'  181  12  ~/.zshrc
-|4,39,181,12,1525655272,"~/.zshrc"
--'  183  41  ~/.zshrc
-|4,39,183,41,1525655241,"~/.zshrc"
--'  184  41  ~/.zshrc
-|4,39,184,41,1525655241,"~/.zshrc"
--'  182  41  ~/.zshrc
-|4,39,182,41,1525655241,"~/.zshrc"
--'  1  0  ~/.zsh
-|4,39,1,0,1525655238,"~/.zsh"
--'  1  0  ~/.zsh
-|4,39,1,0,1525655238,"~/.zsh"
--'  1  0  ~/.zsh
-|4,39,1,0,1525655238,"~/.zsh"
--'  1  0  ~/.zsh
-|4,39,1,0,1525655238,"~/.zsh"
--'  1  0  ~/.zsh
-|4,39,1,0,1525655238,"~/.zsh"
--'  1  0  ~/.zsh
-|4,39,1,0,1525655238,"~/.zsh"
--'  1  0  ~/.zsh
-|4,39,1,0,1525655238,"~/.zsh"
--'  1  0  ~/.zsh
-|4,39,1,0,1525655238,"~/.zsh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  24  0  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,24,0,1525432584,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  30  7  ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-|4,39,30,7,1525432240,"~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  3  0  ~/workspace/labs/D/g.sh
-|4,39,3,0,1525432221,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
--'  1  0  ~/workspace/labs/D/g.sh
-|4,39,1,0,1525432210,"~/workspace/labs/D/g.sh"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1525855362,"~/.autosshrc"
+-'  2  42  ~/.autosshrc
+|4,39,2,42,1525855302,"~/.autosshrc"
+-'  196  40  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,196,40,1525852438,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  196  40  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,196,40,1525852438,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  215  1  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,215,1,1525852423,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  215  1  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,215,1,1525852423,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
+|4,39,1,0,1525852320,"~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
+|4,39,1,0,1525852320,"~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
+|4,39,1,0,1525852320,"~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
+|4,39,1,0,1525852320,"~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG"
+-'  196  40  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,196,40,1525852273,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  196  40  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,196,40,1525852273,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  196  40  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,196,40,1525852273,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  196  40  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,196,40,1525852273,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  215  1  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,215,1,1525852269,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  215  1  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,215,1,1525852269,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  215  1  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,215,1,1525852269,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  215  1  ~/workspace/utry/qualityInspectionSystem/build.gradle
+|4,39,215,1,1525852269,"~/workspace/utry/qualityInspectionSystem/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  109  40  ~/workspace/utry/IVS/build.gradle
+|4,39,109,40,1525852243,"~/workspace/utry/IVS/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  134  40  ~/workspace/utry/translators/build.gradle
+|4,39,134,40,1525852176,"~/workspace/utry/translators/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1525851234,"~/workspace/utry/analyticSystem/build.gradle"
 
 # History of marks within files (newest to oldest):
+
+> ~/.autosshrc
+	*	1525855361	0
+	"	3	48
+	^	3	49
+	.	3	48
+	+	1	27
+	+	3	0
+	+	2	43
+	+	3	48
+
+> ~/workspace/utry/qualityInspectionSystem/build.gradle
+	*	1525852437	0
+	"	196	40
+	^	196	41
+	.	196	40
+	+	215	0
+	+	196	40
+
+> ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
+	*	1525852319	0
+	"	1	0
+
+> ~/workspace/utry/IVS/build.gradle
+	*	1525852241	0
+	"	109	40
+	^	109	41
+	.	109	40
+	+	109	40
+
+> ~/workspace/utry/translators/build.gradle
+	*	1525852175	0
+	"	134	40
+	^	134	41
+	.	134	40
+	+	134	40
+
+> ~/workspace/utry/analyticSystem/build.gradle
+	*	1525851233	0
+	"	87	40
+	^	87	41
+	.	87	40
+	+	87	40
+
+> ~/workspace/utry/DataProcessingSystem/build.gradle
+	*	1525850989	0
+	"	114	40
+	.	114	40
+	+	114	40
+
+> ~/workspace/utry/ivs-task/.gitignore
+	*	1525850852	0
+	"	4	0
+
+> ~/workspace/utry/ivs-task/build.gradle
+	*	1525850804	0
+	"	204	40
+	.	204	40
+	+	204	40
+
+> ~/workspace/utry/formEngine/build.gradle
+	*	1525850387	0
+	"	84	37
+	^	84	38
+	.	84	37
+	+	84	37
+
+> ~/workspace/utry/formEngine/.gitignore
+	*	1525847521	0
+	"	1	0
+
+> ~/workspace/utry/IasWeb/static/config/config.js
+	*	1525749773	0
+	"	1	0
 
 > ~/.zshrc
 	*	1525691498	0
@@ -673,15 +757,6 @@ $workspace\/labs
 	.	5	50
 	+	3	61
 	+	5	50
-
-> ~/.autosshrc
-	*	1524453573	0
-	"	2	42
-	^	2	43
-	.	2	42
-	+	1	27
-	+	3	0
-	+	2	42
 
 > ~/labs/dotfiles/dotfiles/.git/COMMIT_EDITMSG
 	*	1523542232	0
