@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/test
+~MSle0~/10.0.10.115
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,10 +20,12 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1525930660,,"wq"
 :q
-|2,0,1525929347,,"q"
+|2,0,1526294518,,"q"
+:wq
+|2,0,1526026848,,"wq"
+:q!
+|2,0,1526025696,,"q!"
 :p
 |2,0,1525429286,,"p"
 :w
@@ -40,20 +42,24 @@ $workspace\/labs
 |2,0,1524215504,,"%s/~labs/~workspace/labs/g"
 :.,.+19
 |2,0,1523352258,,".,.+19"
-:q!
-|2,0,1523352226,,"q!"
 :wq!
 |2,0,1523352217,,"wq!"
 :setnum onl
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/package
+|2,1,1526027359,47,"package"
+?/10.0.10.115
+|2,1,1526026813,47,"10.0.10.115"
+?/10.0
+|2,1,1526026236,47,"10.0"
+?/cloud-1.
+|2,1,1526026159,47,"cloud-1."
+?/cloud-1
+|2,1,1526026009,47,"cloud-1"
 ?/test
 |2,1,1525852420,47,"test"
-?/cloud-1
-|2,1,1525852269,47,"cloud-1"
-?/cloud-1.
-|2,1,1525851226,47,"cloud-1."
 ?/cloud
 |2,1,1525850986,47,"cloud"
 ?/cloud-1.0
@@ -102,35 +108,89 @@ $workspace\/labs
 	alias doc="cd /Users/notalk/workspace/labs/D"
 |3,0,0,1,1,0,1525691468,"alias doc=\"cd /Users/notalk/workspace/labs/D\""
 "1	LINE	0
-	alias dot="cd /Users/notalk/workspace/labs/D"
-|3,0,1,1,1,0,1525691490,"alias dot=\"cd /Users/notalk/workspace/labs/D\""
+	: 1523846042:0;ls
+|3,0,1,1,1,0,1526025686,": 1523846042:0;ls"
 "2	LINE	0
-	alias dev="cd /Users/notalk/workspace/labs/"
-|3,0,2,1,1,0,1525691456,"alias dev=\"cd /Users/notalk/workspace/labs/\""
+	: 1523846042:0;cd utry
+|3,0,2,1,1,0,1526025685,": 1523846042:0;cd utry"
 "3	LINE	0
-	echo "---------文件拷贝成功....开始进行git提交:^-^----------"
-|3,0,3,1,1,0,1525432577,"echo \"---------文件拷贝成功....开始进行git提交:^-^----------\""
+	: 1523846040:0;ls
+|3,0,3,1,1,0,1526025684,": 1523846040:0;ls"
 "4	LINE	0
-	git pull;
-|3,0,4,1,1,0,1525429775,"git pull;"
+	: 1523845891:0;gid branch -d develop_upgrade
+	: 1523845899:0;git branch -d develop_upgrade
+	: 1523845905:0;cd workspace
+	: 1523845906:0;ls
+	: 1523845907:0;cd utry
+	: 1523845908:0;ls
+	: 1523845913:0;cd ivs-common
+	: 1523845920:0;git checkout master
+	: 1523846038:0;ls
+	: 1523846039:0;cd workspace
+|3,0,4,1,10,0,1526025683,": 1523845891:0;gid branch -d develop_upgrade",": 1523845899:0;git branch -d develop_upgrade",": 1523845905:0;cd workspace",": 1523845906:0;ls",": 1523845907:0;cd utry",": 1523845908:0;ls",": 1523845913:0;cd ivs-common",": 1523845920:0;git checkout master",": 1523846038:0;ls",": 1523846039:0;cd workspace"
 "5	LINE	0
-	cd /Users/notalk/workspace/utry/translators;
-|3,0,5,1,1,0,1525429775,"cd /Users/notalk/workspace/utry/translators;"
+	: 1523842040:0;git checkout master
+	: 1523842045:0;git branch -d develop_upgrade
+	: 1523842053:0;cd ..
+	: 1523842055:0;ls
+	: 1523842081:0;cd DataProcessingSystem
+	: 1523842091:0;git checkout master
+	: 1523842104:0;git branch -d develop_upgrade
+	: 1523842357:0;cd ..
+	: 1523842358:0;ls
+	: 1523845879:0;cd DataProcessingSystem
+|3,0,5,1,10,0,1526025682,": 1523842040:0;git checkout master",": 1523842045:0;git branch -d develop_upgrade",": 1523842053:0;cd ..",": 1523842055:0;ls",": 1523842081:0;cd DataProcessingSystem",": 1523842091:0;git checkout master",": 1523842104:0;git branch -d develop_upgrade",": 1523842357:0;cd ..",": 1523842358:0;ls",": 1523845879:0;cd DataProcessingSystem"
 "6	LINE	0
-	echo "-----------------------hrm----synced------------------hack it!"
-|3,0,6,1,1,0,1525429773,"echo \"-----------------------hrm----synced------------------hack it!\""
+	: 1523613009:0;cd ../qualityInspectionSystem
+	: 1523613011:0;git checkout -b develop_upgrade
+	: 1523613018:0;exit
+	: 1523841519:0;cd workspace
+	: 1523841520:0;ls
+	: 1523841521:0;cd utry
+	: 1523841522:0;ls
+	: 1523841527:0;cd qualityInspectionSystem
+	: 1523841528:0;ls
+	: 1523841622:0;git branch -d develop_upgrade
+|3,0,6,1,10,0,1526025680,": 1523613009:0;cd ../qualityInspectionSystem",": 1523613011:0;git checkout -b develop_upgrade",": 1523613018:0;exit",": 1523841519:0;cd workspace",": 1523841520:0;ls",": 1523841521:0;cd utry",": 1523841522:0;ls",": 1523841527:0;cd qualityInspectionSystem",": 1523841528:0;ls",": 1523841622:0;git branch -d develop_upgrade"
 "7	LINE	0
-	git pull;
-|3,0,7,1,1,0,1525429772,"git pull;"
+	: 1523612964:0;cd ../translators
+	: 1523612966:0;git checkout -b develop_upgrade
+	: 1523612974:0;cd ../IVS
+	: 1523612977:0;git checkout -b develop_upgrade
+	: 1523612985:0;cd ../analyticSystem
+	: 1523612987:0;git checkout -b develop_upgrade
+	: 1523612992:0;cd ../formEngine
+	: 1523612994:0;git checkout -b develop_upgrade
+	: 1523613002:0;cd ../ivs-root
+	: 1523613003:0;git checkout -b develop_upgrade
+|3,0,7,1,10,0,1526025679,": 1523612964:0;cd ../translators",": 1523612966:0;git checkout -b develop_upgrade",": 1523612974:0;cd ../IVS",": 1523612977:0;git checkout -b develop_upgrade",": 1523612985:0;cd ../analyticSystem",": 1523612987:0;git checkout -b develop_upgrade",": 1523612992:0;cd ../formEngine",": 1523612994:0;git checkout -b develop_upgrade",": 1523613002:0;cd ../ivs-root",": 1523613003:0;git checkout -b develop_upgrade"
 "8	LINE	0
-	cd /Users/notalk/workspace/utry/hrm;
-|3,0,8,1,1,0,1525429771,"cd /Users/notalk/workspace/utry/hrm;"
+	: 1523612575:0;ls
+	: 1523612580:0;cd ivs-common
+	: 1523612582:0;git checkout -b develop_upgrade
+	: 1523612585:0;cd ..
+	: 1523612592:0;cd ivs-task
+	: 1523612594:0;git checkout -b develop_upgrade
+	: 1523612945:0;cd ..
+	: 1523612947:0;ls
+	: 1523612954:0;cd ivs-task
+	: 1523612958:0;git checkout -b develop_upgrade
+|3,0,8,1,10,0,1526025678,": 1523612575:0;ls",": 1523612580:0;cd ivs-common",": 1523612582:0;git checkout -b develop_upgrade",": 1523612585:0;cd ..",": 1523612592:0;cd ivs-task",": 1523612594:0;git checkout -b develop_upgrade",": 1523612945:0;cd ..",": 1523612947:0;ls",": 1523612954:0;cd ivs-task",": 1523612958:0;git checkout -b develop_upgrade"
 "9	LINE	0
-	echo "-----------------------ivs synced------------------hack it!"
-|3,0,9,1,1,0,1525429770,"echo \"-----------------------ivs synced------------------hack it!\""
+	: 1523612349:0;git checkout -b develop_upgrade
+	: 1523612353:0;ls
+	: 1523612366:0;cd ..
+	: 1523612367:0;ls
+	: 1523612477:0;cd IasWeb
+	: 1523612479:0;git checkout -b develop_upgrade
+	: 1523612483:0;cd ..
+	: 1523612486:0;cd easyreport-web
+	: 1523612488:0;git checkout -b develop_upgrade
+	: 1523612574:0;cd ..
+|3,0,9,1,10,0,1526025677,": 1523612349:0;git checkout -b develop_upgrade",": 1523612353:0;ls",": 1523612366:0;cd ..",": 1523612367:0;ls",": 1523612477:0;cd IasWeb",": 1523612479:0;git checkout -b develop_upgrade",": 1523612483:0;cd ..",": 1523612486:0;cd easyreport-web",": 1523612488:0;git checkout -b develop_upgrade",": 1523612574:0;cd .."
 ""-	CHAR	0
-	)
-|3,1,36,0,1,0,1525929376,")"
+	10.0.10.115
+|3,1,36,0,1,0,1526026815,"10.0.10.115"
 
 # global variables:
 !MAC	NUM	0
@@ -138,325 +198,236 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  17  9  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,48,17,9,1525930660,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'1  33  31  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,49,33,31,1525929383,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'2  33  31  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,50,33,31,1525929383,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'3  29  36  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,51,29,36,1525929347,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'4  29  36  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,52,29,36,1525929347,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'5  29  36  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,53,29,36,1525929347,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'6  29  36  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,54,29,36,1525929347,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'7  33  28  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,55,33,28,1525928908,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'8  33  28  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,56,33,28,1525928908,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
-'9  33  28  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,57,33,28,1525928908,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
+'0  158  0  ~/.zshrc
+|4,48,158,0,1526294518,"~/.zshrc"
+'1  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,49,87,40,1526027395,"~/workspace/utry/analyticSystem/build.gradle"
+'2  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,50,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
+'3  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,51,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+'4  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,52,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+'5  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,53,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+'6  12  3  ~/workspace/utry/formEngine/src/main/resources/config/bootstrap.yml
+|4,54,12,3,1526026711,"~/workspace/utry/formEngine/src/main/resources/config/bootstrap.yml"
+'7  17  22  ~/workspace/utry/analyticSystem/src/main/resources/config/bootstrap.yml
+|4,55,17,22,1526026445,"~/workspace/utry/analyticSystem/src/main/resources/config/bootstrap.yml"
+'8  30  38  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,56,30,38,1526026378,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+'9  25  38  ~/workspace/utry/DataProcessingSystem/src/main/resources/config/bootstrap.yml
+|4,57,25,38,1526026319,"~/workspace/utry/DataProcessingSystem/src/main/resources/config/bootstrap.yml"
 
 # Jumplist (newest first):
--'  17  9  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,17,9,1525930660,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  33  31  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,33,31,1525930651,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  33  31  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,33,31,1525929383,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  29  36  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,29,36,1525929349,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  29  36  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,29,36,1525929349,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  29  36  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,29,36,1525929347,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  33  28  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,33,28,1525928918,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  33  28  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,33,28,1525928908,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1525928898,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1525928898,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1525928898,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1525928898,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1776  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1776,0,1525914389,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  55  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,55,0,1525914386,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  1  0  ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-|4,39,1,0,1525914380,"~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1525855362,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1525855302,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1525855302,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1525855302,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1525855302,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1525855302,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1525855302,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1525855302,"~/.autosshrc"
--'  2  42  ~/.autosshrc
-|4,39,2,42,1525855302,"~/.autosshrc"
+-'  158  0  ~/.zshrc
+|4,39,158,0,1526294518,"~/.zshrc"
+-'  182  24  ~/.zshrc
+|4,39,182,24,1526294492,"~/.zshrc"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1526027395,"~/workspace/utry/analyticSystem/build.gradle"
+-'  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,39,87,40,1526027395,"~/workspace/utry/analyticSystem/build.gradle"
+-'  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,39,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
+-'  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,39,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
+-'  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,39,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
+-'  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,39,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
+-'  114  41  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,39,114,41,1526027343,"~/workspace/utry/DataProcessingSystem/build.gradle"
+-'  114  41  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,39,114,41,1526027343,"~/workspace/utry/DataProcessingSystem/build.gradle"
+-'  114  41  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,39,114,41,1526027343,"~/workspace/utry/DataProcessingSystem/build.gradle"
+-'  114  41  ~/workspace/utry/DataProcessingSystem/build.gradle
+|4,39,114,41,1526027343,"~/workspace/utry/DataProcessingSystem/build.gradle"
+-'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-	*	1525930658	0
-	"	17	9
-	^	17	10
-	.	17	9
-	+	33	28
-	+	29	38
-	+	33	31
-	+	17	9
-
-> ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-	*	1525914387	0
-	"	1776	0
-
-> ~/.autosshrc
-	*	1525855361	0
-	"	3	48
-	^	3	49
-	.	3	48
-	+	1	27
-	+	3	0
-	+	2	43
-	+	3	48
-
-> ~/workspace/utry/qualityInspectionSystem/build.gradle
-	*	1525852437	0
-	"	196	40
-	^	196	41
-	.	196	40
-	+	215	0
-	+	196	40
-
-> ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
-	*	1525852319	0
-	"	1	0
-
-> ~/workspace/utry/IVS/build.gradle
-	*	1525852241	0
-	"	109	40
-	^	109	41
-	.	109	40
-	+	109	40
-
-> ~/workspace/utry/translators/build.gradle
-	*	1525852175	0
-	"	134	40
-	^	134	41
-	.	134	40
-	+	134	40
-
-> ~/workspace/utry/analyticSystem/build.gradle
-	*	1525851233	0
-	"	87	40
-	^	87	41
-	.	87	40
-	+	87	40
-
-> ~/workspace/utry/DataProcessingSystem/build.gradle
-	*	1525850989	0
-	"	114	40
-	.	114	40
-	+	114	40
-
-> ~/workspace/utry/ivs-task/.gitignore
-	*	1525850852	0
-	"	4	0
-
-> ~/workspace/utry/ivs-task/build.gradle
-	*	1525850804	0
-	"	204	40
-	.	204	40
-	+	204	40
-
-> ~/workspace/utry/formEngine/build.gradle
-	*	1525850387	0
-	"	84	37
-	^	84	38
-	.	84	37
-	+	84	37
-
-> ~/workspace/utry/formEngine/.gitignore
-	*	1525847521	0
-	"	1	0
-
-> ~/workspace/utry/IasWeb/static/config/config.js
-	*	1525749773	0
-	"	1	0
-
 > ~/.zshrc
-	*	1525691498	0
-	"	178	12
-	^	178	13
-	.	178	13
-	+	142	9
+	*	1526294517	0
+	"	158	0
+	^	182	25
+	.	182	24
 	+	143	0
 	+	142	80
 	+	143	0
@@ -556,6 +527,162 @@ $workspace\/labs
 	+	177	0
 	+	178	8
 	+	178	13
+	+	182	24
+
+> ~/workspace/utry/analyticSystem/build.gradle
+	*	1526027391	0
+	"	87	40
+	^	87	41
+	.	87	40
+	+	87	40
+
+> ~/workspace/utry/DataProcessingSystem/build.gradle
+	*	1526027364	0
+	"	91	3
+	.	114	40
+	+	114	40
+
+> ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
+	*	1526026847	0
+	"	29	38
+	^	29	39
+	.	29	38
+	+	29	38
+
+> ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
+	*	1526026785	0
+	"	21	38
+	^	21	39
+	.	21	38
+	+	21	38
+
+> ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+	*	1526026757	0
+	"	25	38
+	^	25	39
+	.	25	38
+	+	17	22
+	+	25	38
+
+> ~/workspace/utry/formEngine/src/main/resources/config/bootstrap.yml
+	*	1526026709	0
+	"	12	3
+	^	12	4
+	.	12	4
+	+	20	38
+	+	12	4
+
+> ~/workspace/utry/analyticSystem/src/main/resources/config/bootstrap.yml
+	*	1526026444	0
+	"	17	22
+	^	17	23
+	.	17	23
+	+	26	38
+	+	17	23
+
+> ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+	*	1526026377	0
+	"	30	38
+	^	30	39
+	.	30	38
+	+	17	22
+	+	30	38
+
+> ~/workspace/utry/DataProcessingSystem/src/main/resources/config/bootstrap.yml
+	*	1526026318	0
+	"	25	38
+	^	25	39
+	.	25	38
+	+	25	38
+
+> ~/workspace/utry/formEngine/build.gradle
+	*	1526026013	0
+	"	84	37
+	^	84	38
+	.	84	37
+	+	84	37
+
+> ~/.zsh_history
+	*	1526025691	0
+	"	18	0
+	.	18	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	10	0
+	+	14	0
+	+	17	0
+	+	18	0
+
+> ~/workspace/utry/translators/build.gradle
+	*	1526024480	0
+	"	134	40
+	^	134	41
+	.	134	40
+	+	134	40
+
+> ~/workspace/utry/qualityInspectionSystem/build.gradle
+	*	1526024464	0
+	"	193	32
+	^	196	41
+	.	196	40
+	+	215	0
+	+	196	40
+
+> ~/workspace/utry/ivs-task/build.gradle
+	*	1526024447	0
+	"	204	40
+	.	204	40
+	+	204	40
+
+> ~/workspace/utry/IVS/build.gradle
+	*	1526024342	0
+	"	109	40
+	^	109	41
+	.	109	40
+	+	109	40
+
+> ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
+	*	1525930658	0
+	"	17	9
+	^	17	10
+	.	17	9
+	+	33	28
+	+	29	38
+	+	33	31
+	+	17	9
+
+> ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
+	*	1525914387	0
+	"	1776	0
+
+> ~/.autosshrc
+	*	1525855361	0
+	"	3	48
+	^	3	49
+	.	3	48
+	+	1	27
+	+	3	0
+	+	2	43
+	+	3	48
+
+> ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
+	*	1525852319	0
+	"	1	0
+
+> ~/workspace/utry/ivs-task/.gitignore
+	*	1525850852	0
+	"	4	0
+
+> ~/workspace/utry/formEngine/.gitignore
+	*	1525847521	0
+	"	1	0
+
+> ~/workspace/utry/IasWeb/static/config/config.js
+	*	1525749773	0
+	"	1	0
 
 > ~/.zsh
 	*	1525655236	0
