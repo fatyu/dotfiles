@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/10.0.10.115
+~MSle0~/cloud
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,16 +20,16 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1526294518,,"q"
 :wq
-|2,0,1526026848,,"wq"
+|2,0,1526386724,,"wq"
+:q
+|2,0,1526374337,,"q"
+:w
+|2,0,1526354989,,"w"
 :q!
 |2,0,1526025696,,"q!"
 :p
 |2,0,1525429286,,"p"
-:w
-|2,0,1524758226,,"w"
 :vzsh
 |2,0,1524711012,,"vzsh"
 :.,.+910+
@@ -48,6 +48,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/cloud
+|2,1,1526354860,47,"cloud"
 ?/package
 |2,1,1526027359,47,"package"
 ?/10.0.10.115
@@ -60,8 +62,6 @@ $workspace\/labs
 |2,1,1526026009,47,"cloud-1"
 ?/test
 |2,1,1525852420,47,"test"
-?/cloud
-|2,1,1525850986,47,"cloud"
 ?/cloud-1.0
 |2,1,1525850801,47,"cloud-1.0"
 ?/dotn
@@ -105,92 +105,180 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	alias doc="cd /Users/notalk/workspace/labs/D"
-|3,0,0,1,1,0,1525691468,"alias doc=\"cd /Users/notalk/workspace/labs/D\""
+			<h2>服务器相关</h2>
+			<ul>
+				<li></li>
+			</ul>
+|3,0,0,1,4,0,1526386638,"		<h2>服务器相关</h2>","		<ul>","			<li></li>","		</ul>"
 "1	LINE	0
-	: 1523846042:0;ls
-|3,0,1,1,1,0,1526025686,": 1523846042:0;ls"
+				<li><a href="http://www.productivelife.cn/">葡挞生活</a>
+|3,0,1,1,1,0,1526386612,"			<li><a href=\"http://www.productivelife.cn/\">葡挞生活</a>"
 "2	LINE	0
-	: 1523846042:0;cd utry
-|3,0,2,1,1,0,1526025685,": 1523846042:0;cd utry"
+				<li><a href="http://mindhacks.cn/">刘未鹏|MindHacks</a>
+|3,0,2,1,1,0,1526386611,"			<li><a href=\"http://mindhacks.cn/\">刘未鹏|MindHacks</a>"
 "3	LINE	0
-	: 1523846040:0;ls
-|3,0,3,1,1,0,1526025684,": 1523846040:0;ls"
+				<li><a href="http://www.read.org.cn/">战隼的学习探索</a>
+				<li><a href="http://insights.thoughtworkers.org/">ThoughtWorks洞见</a>
+				<li><a href="http://gigix.thoughtworkers.org/">透明思考</a>
+				<li><a href="http://www.tuzei8.com/">一只土贼</a>
+				<li><a href="http://www.apple4.cn/">惜墨</a>
+|3,0,3,1,5,0,1526386610,"			<li><a href=\"http://www.read.org.cn/\">战隼的学习探索</a>","			<li><a href=\"http://insights.thoughtworkers.org/\">ThoughtWorks洞见</a>","			<li><a href=\"http://gigix.thoughtworkers.org/\">透明思考</a>","			<li><a href=\"http://www.tuzei8.com/\">一只土贼</a>","			<li><a href=\"http://www.apple4.cn/\">惜墨</a>"
 "4	LINE	0
-	: 1523845891:0;gid branch -d develop_upgrade
-	: 1523845899:0;git branch -d develop_upgrade
-	: 1523845905:0;cd workspace
-	: 1523845906:0;ls
-	: 1523845907:0;cd utry
-	: 1523845908:0;ls
-	: 1523845913:0;cd ivs-common
-	: 1523845920:0;git checkout master
-	: 1523846038:0;ls
-	: 1523846039:0;cd workspace
-|3,0,4,1,10,0,1526025683,": 1523845891:0;gid branch -d develop_upgrade",": 1523845899:0;git branch -d develop_upgrade",": 1523845905:0;cd workspace",": 1523845906:0;ls",": 1523845907:0;cd utry",": 1523845908:0;ls",": 1523845913:0;cd ivs-common",": 1523845920:0;git checkout master",": 1523846038:0;ls",": 1523846039:0;cd workspace"
+			</ul>
+			<h2>博客</h2>
+			<ul>
+				<li><a href="https://www.byvoid.com/blog/list">BYVoid</a>
+				<li><a href="http://www.readermemo.com/">三分鐘熱度</a>
+				<li><a href="http://fz0512.com/">最好金龟换酒</a>
+				<li><a href="http://www.gtdlife.com/">小强的时间管理博客</a>
+				<li><a href="https://www.mifengtd.cn/">褪墨</a>
+				<li><a href="http://gtdstudy.com/">学无止境 </a>
+				<li><a href="http://www.zhantuo.com/">战拖</a>
+|3,0,4,1,10,0,1526386607,"		</ul>","		<h2>博客</h2>","		<ul>","			<li><a href=\"https://www.byvoid.com/blog/list\">BYVoid</a>","			<li><a href=\"http://www.readermemo.com/\">三分鐘熱度</a>","			<li><a href=\"http://fz0512.com/\">最好金龟换酒</a>","			<li><a href=\"http://www.gtdlife.com/\">小强的时间管理博客</a>","			<li><a href=\"https://www.mifengtd.cn/\">褪墨</a>","			<li><a href=\"http://gtdstudy.com/\">学无止境 </a>",>55
+|<"			<li><a href=\"http://www.zhantuo.com/\">战拖</a>"
 "5	LINE	0
-	: 1523842040:0;git checkout master
-	: 1523842045:0;git branch -d develop_upgrade
-	: 1523842053:0;cd ..
-	: 1523842055:0;ls
-	: 1523842081:0;cd DataProcessingSystem
-	: 1523842091:0;git checkout master
-	: 1523842104:0;git branch -d develop_upgrade
-	: 1523842357:0;cd ..
-	: 1523842358:0;ls
-	: 1523845879:0;cd DataProcessingSystem
-|3,0,5,1,10,0,1526025682,": 1523842040:0;git checkout master",": 1523842045:0;git branch -d develop_upgrade",": 1523842053:0;cd ..",": 1523842055:0;ls",": 1523842081:0;cd DataProcessingSystem",": 1523842091:0;git checkout master",": 1523842104:0;git branch -d develop_upgrade",": 1523842357:0;cd ..",": 1523842358:0;ls",": 1523845879:0;cd DataProcessingSystem"
+				<li><a
+					href="http://www.itfarmer.com.cn/pmdh/aboutpm/listpage.html">产品经理那些事</a>
+				<li><a href="http://iamsujie.com/">人人都是产品经理</a>
+				<li><a href="http://dingyu.me/blog/">丁宇</a>
+			</ul>
+			<h2>运营</h2>
+			<ul>
+				<li><a href="http://www.iyunying.org/">爱运营</a>
+				<li><a href="http://www.yunyingpai.com/">运营派</a>
+				<li><a href="http://www.grouplus.com/">孤鹿（Group+）</a>
+				<li><a href="https://www.axure.com.cn/">Axure 中文网</a>
+				<li></li>
+			</ul>
+			<ul>
+				<li><a href="https://www.exploit-db.com/">Exploits Database</a>
+				<li><a href="https://hellogithub.com/">HelloGitHub</a>
+				<li><a href="http://www.igeekbar.com/igeekbar/explore.htm">人人都是互联网创意
+						G客</a>
+				<li>
+				<li>
+|3,0,5,1,20,0,1526386606,"			<li><a","				href=\"http://www.itfarmer.com.cn/pmdh/aboutpm/listpage.html\">产品经理那些事</a>","			<li><a href=\"http://iamsujie.com/\">人人都是产品经理</a>","			<li><a href=\"http://dingyu.me/blog/\">丁宇</a>","		</ul>","		<h2>运营</h2>","		<ul>","			<li><a href=\"http://www.iyunying.org/\">爱运营</a>","			<li><a href=\"http://www.yunyingpai.com/\">运营派</a>",>68
+|<"			<li><a href=\"http://www.grouplus.com/\">孤鹿（Group+）</a>","			<li><a href=\"https://www.axure.com.cn/\">Axure 中文网</a>","			<li></li>","		</ul>","		<ul>","			<li><a href=\"https://www.exploit-db.com/\">Exploits Database</a>","			<li><a href=\"https://hellogithub.com/\">HelloGitHub</a>","			<li><a href=\"http://www.igeekbar.com/igeekbar/explore.htm\">人人都是互联网创意","					G客</a>","			<li>","			<li>"
 "6	LINE	0
-	: 1523613009:0;cd ../qualityInspectionSystem
-	: 1523613011:0;git checkout -b develop_upgrade
-	: 1523613018:0;exit
-	: 1523841519:0;cd workspace
-	: 1523841520:0;ls
-	: 1523841521:0;cd utry
-	: 1523841522:0;ls
-	: 1523841527:0;cd qualityInspectionSystem
-	: 1523841528:0;ls
-	: 1523841622:0;git branch -d develop_upgrade
-|3,0,6,1,10,0,1526025680,": 1523613009:0;cd ../qualityInspectionSystem",": 1523613011:0;git checkout -b develop_upgrade",": 1523613018:0;exit",": 1523841519:0;cd workspace",": 1523841520:0;ls",": 1523841521:0;cd utry",": 1523841522:0;ls",": 1523841527:0;cd qualityInspectionSystem",": 1523841528:0;ls",": 1523841622:0;git branch -d develop_upgrade"
+				<li><a href="http://nbkhic.cnblogs.com/">乙醇</a>
+				<li><a href="http://blog.csdn.net/superqa">Ricky Qiu测试笔记</a>
+				<li><a href="http://www.cnblogs.com/guanhe">关河</a>
+				<li><a
+					href="http://www.51testing.com/html/97/13997-type-blog.html">liangjz</a>
+				<li><a href="http://www.51testing.com/html/57/293557.html">架构师Jack列表</a>
+				<li><a href="http://www.taixiaomei.com/blog.php">taixiaomei</a>
+				<li><a href="http://www.cydtest.com/">陈永达的软件测试</a>
+				<li><a href="http://blog.csdn.net/kerryzhu">软件工程专栏</a>
+				<li><a href="http://www.cnblogs.com/xinz/">SoftwareTeacher</a>
+				<li><a href="https://testerhome.com/ycwdaaaa">ycwdaaaa</a>
+				<li><a href="http://www.cnblogs.com/wintersun/">PetterLiu</a>
+				<li><a href="http://www.testtao.cn/">测试之道</a>
+				<li><a href="https://testerhome.com/">TesterHome</a>
+				<li><a href="http://www.testclass.net/">测试教程网 </a>
+				<li><a href="https://www.testwo.com/">测试窝</a>
+			</ul>
+			<h2>AI</h2>
+			<ul>
+				<li><a href="http://www.tensorfly.cn/">TensorFlow中文社区</a>
+				<li><a href="http://www.hankcs.com/">码农场</a>
+				<li><a href="http://chongdata.com/articles/">虫数据</a>
+				<li>
+				<li>
+			</ul>
+			<h2>产品</h2>
+			<ul>
+				<li><a href="https://www.imspm.com/">超级产品经理</a>
+				<li><a href="http://www.jianshu.com/c/17c1f802a74e">K12在线教育产品实战
+				</a>
+|3,0,6,1,30,0,1526386603,"			<li><a href=\"http://nbkhic.cnblogs.com/\">乙醇</a>","			<li><a href=\"http://blog.csdn.net/superqa\">Ricky Qiu测试笔记</a>","			<li><a href=\"http://www.cnblogs.com/guanhe\">关河</a>","			<li><a","				href=\"http://www.51testing.com/html/97/13997-type-blog.html\">liangjz</a>","			<li><a href=\"http://www.51testing.com/html/57/293557.html\">架构师Jack列表</a>",>70
+|<"			<li><a href=\"http://www.taixiaomei.com/blog.php\">taixiaomei</a>","			<li><a href=\"http://www.cydtest.com/\">陈永达的软件测试</a>","			<li><a href=\"http://blog.csdn.net/kerryzhu\">软件工程专栏</a>","			<li><a href=\"http://www.cnblogs.com/xinz/\">SoftwareTeacher</a>","			<li><a href=\"https://testerhome.com/ycwdaaaa\">ycwdaaaa</a>","			<li><a href=\"http://www.cnblogs.com/wintersun/\">PetterLiu</a>","			<li><a href=\"http://www.testtao.cn/\">测试之道</a>",>59
+|<"			<li><a href=\"https://testerhome.com/\">TesterHome</a>","			<li><a href=\"http://www.testclass.net/\">测试教程网 </a>","			<li><a href=\"https://www.testwo.com/\">测试窝</a>","		</ul>","		<h2>AI</h2>","		<ul>","			<li><a href=\"http://www.tensorfly.cn/\">TensorFlow中文社区</a>","			<li><a href=\"http://www.hankcs.com/\">码农场</a>","			<li><a href=\"http://chongdata.com/articles/\">虫数据</a>","			<li>","			<li>","		</ul>","		<h2>产品</h2>","		<ul>",>66
+|<"			<li><a href=\"https://www.imspm.com/\">超级产品经理</a>","			<li><a href=\"http://www.jianshu.com/c/17c1f802a74e\">K12在线教育产品实战","			</a>"
 "7	LINE	0
-	: 1523612964:0;cd ../translators
-	: 1523612966:0;git checkout -b develop_upgrade
-	: 1523612974:0;cd ../IVS
-	: 1523612977:0;git checkout -b develop_upgrade
-	: 1523612985:0;cd ../analyticSystem
-	: 1523612987:0;git checkout -b develop_upgrade
-	: 1523612992:0;cd ../formEngine
-	: 1523612994:0;git checkout -b develop_upgrade
-	: 1523613002:0;cd ../ivs-root
-	: 1523613003:0;git checkout -b develop_upgrade
-|3,0,7,1,10,0,1526025679,": 1523612964:0;cd ../translators",": 1523612966:0;git checkout -b develop_upgrade",": 1523612974:0;cd ../IVS",": 1523612977:0;git checkout -b develop_upgrade",": 1523612985:0;cd ../analyticSystem",": 1523612987:0;git checkout -b develop_upgrade",": 1523612992:0;cd ../formEngine",": 1523612994:0;git checkout -b develop_upgrade",": 1523613002:0;cd ../ivs-root",": 1523613003:0;git checkout -b develop_upgrade"
+				<li><a href="http://nbkhic.cnblogs.com/">乙醇</a>
+				<li><a href="http://blog.csdn.net/superqa">Ricky Qiu测试笔记</a>
+				<li><a href="http://www.cnblogs.com/guanhe">关河</a>
+				<li><a
+					href="http://www.51testing.com/html/97/13997-type-blog.html">liangjz</a>
+				<li><a href="http://www.51testing.com/html/57/293557.html">架构师Jack列表</a>
+				<li><a href="http://www.taixiaomei.com/blog.php">taixiaomei</a>
+				<li><a href="http://www.cydtest.com/">陈永达的软件测试</a>
+				<li><a href="http://blog.csdn.net/kerryzhu">软件工程专栏</a>
+				<li><a href="http://www.cnblogs.com/xinz/">SoftwareTeacher</a>
+				<li><a href="https://testerhome.com/ycwdaaaa">ycwdaaaa</a>
+				<li><a href="http://www.cnblogs.com/wintersun/">PetterLiu</a>
+				<li><a href="http://www.testtao.cn/">测试之道</a>
+				<li><a href="https://testerhome.com/">TesterHome</a>
+				<li><a href="http://www.testclass.net/">测试教程网 </a>
+				<li><a href="https://www.testwo.com/">测试窝</a>
+			</ul>
+			<h2>AI</h2>
+			<ul>
+				<li><a href="http://www.tensorfly.cn/">TensorFlow中文社区</a>
+				<li><a href="http://www.hankcs.com/">码农场</a>
+				<li><a href="http://chongdata.com/articles/">虫数据</a>
+				<li>
+				<li>
+			</ul>
+			<h2>产品</h2>
+			<ul>
+				<li><a href="https://www.imspm.com/">超级产品经理</a>
+				<li><a href="http://www.jianshu.com/c/17c1f802a74e">K12在线教育产品实战
+				</a>
+				<li><a
+					href="http://www.itfarmer.com.cn/pmdh/aboutpm/listpage.html">产品经理那些事</a>
+				<li><a href="http://iamsujie.com/">人人都是产品经理</a>
+				<li><a href="http://dingyu.me/blog/">丁宇</a>
+			</ul>
+			<h2>运营</h2>
+			<ul>
+				<li><a href="http://www.iyunying.org/">爱运营</a>
+				<li><a href="http://www.yunyingpai.com/">运营派</a>
+				<li><a href="http://www.grouplus.com/">孤鹿（Group+）</a>
+				<li><a href="https://www.axure.com.cn/">Axure 中文网</a>
+				<li></li>
+			</ul>
+			<ul>
+				<li><a href="https://www.exploit-db.com/">Exploits Database</a>
+				<li><a href="https://hellogithub.com/">HelloGitHub</a>
+				<li><a href="http://www.igeekbar.com/igeekbar/explore.htm">人人都是互联网创意
+						G客</a>
+				<li>
+				<li>
+|3,0,7,1,50,0,1526386600,"			<li><a href=\"http://nbkhic.cnblogs.com/\">乙醇</a>","			<li><a href=\"http://blog.csdn.net/superqa\">Ricky Qiu测试笔记</a>","			<li><a href=\"http://www.cnblogs.com/guanhe\">关河</a>","			<li><a","				href=\"http://www.51testing.com/html/97/13997-type-blog.html\">liangjz</a>","			<li><a href=\"http://www.51testing.com/html/57/293557.html\">架构师Jack列表</a>",>70
+|<"			<li><a href=\"http://www.taixiaomei.com/blog.php\">taixiaomei</a>","			<li><a href=\"http://www.cydtest.com/\">陈永达的软件测试</a>","			<li><a href=\"http://blog.csdn.net/kerryzhu\">软件工程专栏</a>","			<li><a href=\"http://www.cnblogs.com/xinz/\">SoftwareTeacher</a>","			<li><a href=\"https://testerhome.com/ycwdaaaa\">ycwdaaaa</a>","			<li><a href=\"http://www.cnblogs.com/wintersun/\">PetterLiu</a>","			<li><a href=\"http://www.testtao.cn/\">测试之道</a>",>59
+|<"			<li><a href=\"https://testerhome.com/\">TesterHome</a>","			<li><a href=\"http://www.testclass.net/\">测试教程网 </a>","			<li><a href=\"https://www.testwo.com/\">测试窝</a>","		</ul>","		<h2>AI</h2>","		<ul>","			<li><a href=\"http://www.tensorfly.cn/\">TensorFlow中文社区</a>","			<li><a href=\"http://www.hankcs.com/\">码农场</a>","			<li><a href=\"http://chongdata.com/articles/\">虫数据</a>","			<li>","			<li>","		</ul>","		<h2>产品</h2>","		<ul>",>66
+|<"			<li><a href=\"https://www.imspm.com/\">超级产品经理</a>","			<li><a href=\"http://www.jianshu.com/c/17c1f802a74e\">K12在线教育产品实战","			</a>","			<li><a","				href=\"http://www.itfarmer.com.cn/pmdh/aboutpm/listpage.html\">产品经理那些事</a>","			<li><a href=\"http://iamsujie.com/\">人人都是产品经理</a>","			<li><a href=\"http://dingyu.me/blog/\">丁宇</a>","		</ul>","		<h2>运营</h2>","		<ul>",>59
+|<"			<li><a href=\"http://www.iyunying.org/\">爱运营</a>","			<li><a href=\"http://www.yunyingpai.com/\">运营派</a>","			<li><a href=\"http://www.grouplus.com/\">孤鹿（Group+）</a>","			<li><a href=\"https://www.axure.com.cn/\">Axure 中文网</a>","			<li></li>","		</ul>","		<ul>","			<li><a href=\"https://www.exploit-db.com/\">Exploits Database</a>","			<li><a href=\"https://hellogithub.com/\">HelloGitHub</a>",>93
+|<"			<li><a href=\"http://www.igeekbar.com/igeekbar/explore.htm\">人人都是互联网创意","					G客</a>","			<li>","			<li>"
 "8	LINE	0
-	: 1523612575:0;ls
-	: 1523612580:0;cd ivs-common
-	: 1523612582:0;git checkout -b develop_upgrade
-	: 1523612585:0;cd ..
-	: 1523612592:0;cd ivs-task
-	: 1523612594:0;git checkout -b develop_upgrade
-	: 1523612945:0;cd ..
-	: 1523612947:0;ls
-	: 1523612954:0;cd ivs-task
-	: 1523612958:0;git checkout -b develop_upgrade
-|3,0,8,1,10,0,1526025678,": 1523612575:0;ls",": 1523612580:0;cd ivs-common",": 1523612582:0;git checkout -b develop_upgrade",": 1523612585:0;cd ..",": 1523612592:0;cd ivs-task",": 1523612594:0;git checkout -b develop_upgrade",": 1523612945:0;cd ..",": 1523612947:0;ls",": 1523612954:0;cd ivs-task",": 1523612958:0;git checkout -b develop_upgrade"
+				<li><a href="http://www.hack80.com/">HACK80</a>
+				<li>
+			</ul>
+			<h2>QA</h2>
+			<ul>
+				<li><a href="http://my.csdn.net/KerryZhu">kerryzhu</a>
+				<li><a href="http://www.diggerplus.org/">DiggerPlus</a>
+				<li><a href="http://qa.blog.163.com/">网易杭州 QATeam</a>
+				<li><a href="https://testing.googleblog.com/">Google Testing</a>
+				<li><a href="http://www.cnblogs.com/fnng">虫师</a>
+|3,0,8,1,10,0,1526386598,"			<li><a href=\"http://www.hack80.com/\">HACK80</a>","			<li>","		</ul>","		<h2>QA</h2>","		<ul>","			<li><a href=\"http://my.csdn.net/KerryZhu\">kerryzhu</a>","			<li><a href=\"http://www.diggerplus.org/\">DiggerPlus</a>","			<li><a href=\"http://qa.blog.163.com/\">网易杭州 QATeam</a>","			<li><a href=\"https://testing.googleblog.com/\">Google Testing</a>","			<li><a href=\"http://www.cnblogs.com/fnng\">虫师</a>"
 "9	LINE	0
-	: 1523612349:0;git checkout -b develop_upgrade
-	: 1523612353:0;ls
-	: 1523612366:0;cd ..
-	: 1523612367:0;ls
-	: 1523612477:0;cd IasWeb
-	: 1523612479:0;git checkout -b develop_upgrade
-	: 1523612483:0;cd ..
-	: 1523612486:0;cd easyreport-web
-	: 1523612488:0;git checkout -b develop_upgrade
-	: 1523612574:0;cd ..
-|3,0,9,1,10,0,1526025677,": 1523612349:0;git checkout -b develop_upgrade",": 1523612353:0;ls",": 1523612366:0;cd ..",": 1523612367:0;ls",": 1523612477:0;cd IasWeb",": 1523612479:0;git checkout -b develop_upgrade",": 1523612483:0;cd ..",": 1523612486:0;cd easyreport-web",": 1523612488:0;git checkout -b develop_upgrade",": 1523612574:0;cd .."
+				<li><a href="http://www.pd521.com/">逆向未来</a>
+				<li><a href="https://silic.wiki/doku.php">习科小黑板</a>
+				<li><a href="http://blog.knownsec.com/">知道创宇</a>
+				<li><a href="http://bobao.360.cn/">安全客</a>
+				<li><a href="http://evilcos.me/">EVILCOS-余弦</a>
+				<li><a href="http://www.vuln.cn/">漏洞人生</a>
+				<li><a href="https://www.sec-wiki.com/skill/index?navisec">安全技能</a>
+				<li><a href="http://blog.sycsec.com/">Syclove</a>
+				<li><a href="http://www.freebuf.com/">FreeBuf</a>
+				<li><a href="http://www.pd521.com/">逆向未来</a>
+|3,0,9,1,10,0,1526386597,"			<li><a href=\"http://www.pd521.com/\">逆向未来</a>","			<li><a href=\"https://silic.wiki/doku.php\">习科小黑板</a>","			<li><a href=\"http://blog.knownsec.com/\">知道创宇</a>","			<li><a href=\"http://bobao.360.cn/\">安全客</a>","			<li><a href=\"http://evilcos.me/\">EVILCOS-余弦</a>","			<li><a href=\"http://www.vuln.cn/\">漏洞人生</a>",>82
+|<"			<li><a href=\"https://www.sec-wiki.com/skill/index?navisec\">安全技能</a>","			<li><a href=\"http://blog.sycsec.com/\">Syclove</a>","			<li><a href=\"http://www.freebuf.com/\">FreeBuf</a>","			<li><a href=\"http://www.pd521.com/\">逆向未来</a>"
 ""-	CHAR	0
-	10.0.10.115
-|3,1,36,0,1,0,1526026815,"10.0.10.115"
+	器
+|3,1,36,0,1,0,1526386711,"器"
 
 # global variables:
 !MAC	NUM	0
@@ -198,234 +286,293 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  158  0  ~/.zshrc
-|4,48,158,0,1526294518,"~/.zshrc"
-'1  87  40  ~/workspace/utry/analyticSystem/build.gradle
-|4,49,87,40,1526027395,"~/workspace/utry/analyticSystem/build.gradle"
-'2  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,50,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
-'3  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,51,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
-'4  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,52,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
-'5  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,53,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
-'6  12  3  ~/workspace/utry/formEngine/src/main/resources/config/bootstrap.yml
-|4,54,12,3,1526026711,"~/workspace/utry/formEngine/src/main/resources/config/bootstrap.yml"
-'7  17  22  ~/workspace/utry/analyticSystem/src/main/resources/config/bootstrap.yml
-|4,55,17,22,1526026445,"~/workspace/utry/analyticSystem/src/main/resources/config/bootstrap.yml"
-'8  30  38  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
-|4,56,30,38,1526026378,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
-'9  25  38  ~/workspace/utry/DataProcessingSystem/src/main/resources/config/bootstrap.yml
-|4,57,25,38,1526026319,"~/workspace/utry/DataProcessingSystem/src/main/resources/config/bootstrap.yml"
+'0  40  9  ~/workspace/labs/N/tech-stack.html
+|4,48,40,9,1526386724,"~/workspace/labs/N/tech-stack.html"
+'1  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+|4,49,25,38,1526374337,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+'2  16  2  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,50,16,2,1526365510,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+'3  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,51,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+'4  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,52,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+'5  163  0  ~/.zshrc
+|4,53,163,0,1526348023,"~/.zshrc"
+'6  3  48  ~/.autosshrc
+|4,54,3,48,1526295042,"~/.autosshrc"
+'7  158  0  ~/.zshrc
+|4,55,158,0,1526294518,"~/.zshrc"
+'8  158  0  ~/.zshrc
+|4,56,158,0,1526294518,"~/.zshrc"
+'9  87  40  ~/workspace/utry/analyticSystem/build.gradle
+|4,57,87,40,1526027395,"~/workspace/utry/analyticSystem/build.gradle"
 
 # Jumplist (newest first):
--'  158  0  ~/.zshrc
-|4,39,158,0,1526294518,"~/.zshrc"
--'  182  24  ~/.zshrc
-|4,39,182,24,1526294492,"~/.zshrc"
--'  87  40  ~/workspace/utry/analyticSystem/build.gradle
-|4,39,87,40,1526027395,"~/workspace/utry/analyticSystem/build.gradle"
--'  87  40  ~/workspace/utry/analyticSystem/build.gradle
-|4,39,87,40,1526027395,"~/workspace/utry/analyticSystem/build.gradle"
--'  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,39,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
--'  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,39,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
--'  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,39,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
--'  91  3  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,39,91,3,1526027365,"~/workspace/utry/DataProcessingSystem/build.gradle"
--'  114  41  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,39,114,41,1526027343,"~/workspace/utry/DataProcessingSystem/build.gradle"
--'  114  41  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,39,114,41,1526027343,"~/workspace/utry/DataProcessingSystem/build.gradle"
--'  114  41  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,39,114,41,1526027343,"~/workspace/utry/DataProcessingSystem/build.gradle"
--'  114  41  ~/workspace/utry/DataProcessingSystem/build.gradle
-|4,39,114,41,1526027343,"~/workspace/utry/DataProcessingSystem/build.gradle"
--'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  29  38  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,29,38,1526026848,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026813,"~/workspace/utry/translators/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  21  38  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,21,38,1526026786,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026776,"~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml"
+-'  40  9  ~/workspace/labs/N/tech-stack.html
+|4,39,40,9,1526386724,"~/workspace/labs/N/tech-stack.html"
+-'  41  2  ~/workspace/labs/N/tech-stack.html
+|4,39,41,2,1526386650,"~/workspace/labs/N/tech-stack.html"
+-'  25  2  ~/workspace/labs/N/tech-stack.html
+|4,39,25,2,1526386641,"~/workspace/labs/N/tech-stack.html"
+-'  26  2  ~/workspace/labs/N/tech-stack.html
+|4,39,26,2,1526386626,"~/workspace/labs/N/tech-stack.html"
+-'  24  2  ~/workspace/labs/N/tech-stack.html
+|4,39,24,2,1526386602,"~/workspace/labs/N/tech-stack.html"
+-'  3  20  ~/workspace/labs/N/tech-stack.html
+|4,39,3,20,1526386351,"~/workspace/labs/N/tech-stack.html"
+-'  1  0  ~/workspace/labs/N/tech-stack.html
+|4,39,1,0,1526386345,"~/workspace/labs/N/tech-stack.html"
 -'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+|4,39,25,38,1526374337,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
 -'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  25  38  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,25,38,1526026758,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1526026724,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+|4,39,25,38,1526374337,"~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml"
+-'  16  2  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,39,16,2,1526365510,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+-'  16  2  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,39,16,2,1526365510,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+-'  16  2  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,39,16,2,1526365510,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+-'  16  2  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,39,16,2,1526365510,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+-'  26  38  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,39,26,38,1526365485,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+-'  26  38  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,39,26,38,1526365485,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+-'  26  38  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,39,26,38,1526365485,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+-'  26  38  ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+|4,39,26,38,1526365485,"~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1526355169,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  93  36  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,93,36,1526355008,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  5  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,5,0,1526354860,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  1  0  ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+|4,39,1,0,1526354854,"~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
+-'  163  0  ~/.zshrc
+|4,39,163,0,1526348023,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
+> ~/workspace/labs/N/tech-stack.html
+	*	1526386723	0
+	"	40	9
+	^	40	12
+	.	40	9
+	+	4	37
+	+	16	15
+	+	19	0
+	+	20	0
+	+	21	0
+	+	24	18
+	+	16	12
+	+	18	18
+	+	48	0
+	+	26	0
+	+	27	0
+	+	25	0
+	+	40	0
+	+	41	0
+	+	36	0
+	+	32	0
+	+	28	0
+	+	16	15
+	+	28	9
+	+	32	9
+	+	36	9
+	+	40	9
+
+> ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
+	*	1526374334	0
+	"	25	38
+	^	25	39
+	.	25	38
+	+	17	22
+	+	25	38
+
+> ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
+	*	1526365509	0
+	"	16	2
+	^	26	39
+	.	16	0
+	+	16	22
+	+	26	38
+	+	16	0
+
+> ~/workspace/utry/ivs-root/.git/MERGE_MSG
+	*	1526355162	0
+	"	1	0
+
+> ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
+	*	1526355007	0
+	"	93	36
+	^	125	357
+	.	125	356
+	+	67	32
+	+	74	236
+	+	74	357
+	+	125	356
+
 > ~/.zshrc
-	*	1526294517	0
-	"	158	0
+	*	1526348021	0
+	"	163	0
 	^	182	25
 	.	182	24
 	+	143	0
@@ -529,6 +676,16 @@ $workspace\/labs
 	+	178	13
 	+	182	24
 
+> ~/.autosshrc
+	*	1526295003	0
+	"	3	48
+	^	3	49
+	.	3	48
+	+	1	27
+	+	3	0
+	+	2	43
+	+	3	48
+
 > ~/workspace/utry/analyticSystem/build.gradle
 	*	1526027391	0
 	"	87	40
@@ -556,14 +713,6 @@ $workspace\/labs
 	.	21	38
 	+	21	38
 
-> ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-	*	1526026757	0
-	"	25	38
-	^	25	39
-	.	25	38
-	+	17	22
-	+	25	38
-
 > ~/workspace/utry/formEngine/src/main/resources/config/bootstrap.yml
 	*	1526026709	0
 	"	12	3
@@ -579,14 +728,6 @@ $workspace\/labs
 	.	17	23
 	+	26	38
 	+	17	23
-
-> ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
-	*	1526026377	0
-	"	30	38
-	^	30	39
-	.	30	38
-	+	17	22
-	+	30	38
 
 > ~/workspace/utry/DataProcessingSystem/src/main/resources/config/bootstrap.yml
 	*	1526026318	0
@@ -657,16 +798,6 @@ $workspace\/labs
 > ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
 	*	1525914387	0
 	"	1776	0
-
-> ~/.autosshrc
-	*	1525855361	0
-	"	3	48
-	^	3	49
-	.	3	48
-	+	1	27
-	+	3	0
-	+	2	43
-	+	3	48
 
 > ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
 	*	1525852319	0
