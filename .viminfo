@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/autoju
+~MSle0~/easy
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,13 +21,13 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1526482228,,"wq"
+|2,0,1526636306,,"wq"
 :q
-|2,0,1526480199,,"q"
+|2,0,1526553377,,"q"
+:w
+|2,0,1526521096,,"w"
 :q:
 |2,0,1526467333,,"q:"
-:w
-|2,0,1526354989,,"w"
 :q!
 |2,0,1526025696,,"q!"
 :p
@@ -50,6 +50,12 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/sql
+|2,1,1526553369,47,"sql"
+?/easy
+|2,1,1526522502,47,"easy"
+?/alias
+|2,1,1526520963,47,"alias"
 ?/autoju
 |2,1,1526482218,47,"autoju"
 ?/color=auto
@@ -111,38 +117,67 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	alias utc='cd /Users/notalk/workspace/utry-cloud'
-|3,0,0,1,1,0,1526482137,"alias utc='cd /Users/notalk/workspace/utry-cloud'"
+	cd /Users/notalk/workspace/utry-test/DataProcessingSystem/src/main/resources/config
+	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
+	
+	
+	cd /Users/notalk/workspace/utry-test/analyticSystem/src/main/resources/config
+	
+	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
+	
+	cd /Users/notalk/workspace/utry-test/formEngine/src/main/resources/config
+	
+	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
+	
+	cd /Users/notalk/workspace/utry-test/translators/src/main/resources/config
+	
+	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
+	
+	cd /Users/notalk/workspace/utry-test/qualityInspectionSystem/src/main/resources/config
+	
+	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
+	
+	cd /Users/notalk/workspace/utry-test/IVS/src/main/resources/config
+	
+	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
+	cd /Users/notalk/workspace/utry-test/easyreport-web/src/main/resources/config
+	
+	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
+	cd /Users/notalk/workspace/utry-test/ivs-task/src/main/resources/config
+	
+|3,0,0,1,28,0,1526522244,"cd /Users/notalk/workspace/utry-test/DataProcessingSystem/src/main/resources/config","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","","","cd /Users/notalk/workspace/utry-test/analyticSystem/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","","cd /Users/notalk/workspace/utry-test/formEngine/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","",>76
+|<"cd /Users/notalk/workspace/utry-test/translators/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","","cd /Users/notalk/workspace/utry-test/qualityInspectionSystem/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","","cd /Users/notalk/workspace/utry-test/IVS/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml",>79
+|<"cd /Users/notalk/workspace/utry-test/easyreport-web/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","cd /Users/notalk/workspace/utry-test/ivs-task/src/main/resources/config",""
 ""1	LINE	0
-	alias odot="o /Users/notalk/workspace/labs/dotfiles/dotfiles"
-|3,1,1,1,1,0,1526482177,"alias odot=\"o /Users/notalk/workspace/labs/dotfiles/dotfiles\""
+	
+|3,1,1,1,1,0,1526522634,""
 "2	LINE	0
-	alias scphost="scp -r /Users/notalk/workspace/utry-cloud/cloud_host/build/libs/host.war root@10.0.10.115:/tmp/cloud"
-|3,0,2,1,1,0,1526482110,"alias scphost=\"scp -r /Users/notalk/workspace/utry-cloud/cloud_host/build/libs/host.war root@10.0.10.115:/tmp/cloud\""
+	
+|3,0,2,1,1,0,1526522634,""
 "3	LINE	0
-	alias scpdata="scp -r /Users/notalk/workspace/utry/DataProcessingSystem/build/libs/DataProcessingSystem.war root@10.0.10.115:/tmp/cloud"
-|3,0,3,1,1,0,1526482109,"alias scpdata=\"scp -r /Users/notalk/workspace/utry/DataProcessingSystem/build/libs/DataProcessingSystem.war root@10.0.10.115:/tmp/cloud\""
+	
+|3,0,3,1,1,0,1526522627,""
 "4	LINE	0
-	alias scptask="scp -r /Users/notalk/workspace/utry/ivs-task/build/libs/task.war root@10.0.10.115:/tmp/cloud"
-|3,0,4,1,1,0,1526482108,"alias scptask=\"scp -r /Users/notalk/workspace/utry/ivs-task/build/libs/task.war root@10.0.10.115:/tmp/cloud\""
+	
+|3,0,4,1,1,0,1526522623,""
 "5	LINE	0
-	alias scptran="scp -r /Users/notalk/workspace/utry/translators/build/libs/translators.war root@10.0.10.115:/tmp/cloud"
-|3,0,5,1,1,0,1526482107,"alias scptran=\"scp -r /Users/notalk/workspace/utry/translators/build/libs/translators.war root@10.0.10.115:/tmp/cloud\""
+	
+|3,0,5,1,1,0,1526522622,""
 "6	LINE	0
-	alias scpform="scp -r /Users/notalk/workspace/utry/formEngine/build/libs/formEngine.war root@10.0.10.115:/tmp/cloud"
-|3,0,6,1,1,0,1526482107,"alias scpform=\"scp -r /Users/notalk/workspace/utry/formEngine/build/libs/formEngine.war root@10.0.10.115:/tmp/cloud\""
+	
+|3,0,6,1,1,0,1526522621,""
 "7	LINE	0
-	alias scpa="scp -r /Users/notalk/workspace/utry/analyticSystem/build/libs/analyticSystem.war root@10.0.10.115:/tmp/cloud"
-|3,0,7,1,1,0,1526482106,"alias scpa=\"scp -r /Users/notalk/workspace/utry/analyticSystem/build/libs/analyticSystem.war root@10.0.10.115:/tmp/cloud\""
+	
+|3,0,7,1,1,0,1526522617,""
 "8	LINE	0
-	alias scpq="scp -r /Users/notalk/workspace/utry/qualityInspectionSystem/build/libs/qualityInspectionSystem.war root@10.0.10.115:/tmp/cloud"
-|3,0,8,1,1,0,1526482105,"alias scpq=\"scp -r /Users/notalk/workspace/utry/qualityInspectionSystem/build/libs/qualityInspectionSystem.war root@10.0.10.115:/tmp/cloud\""
+	
+|3,0,8,1,1,0,1526522612,""
 "9	LINE	0
-	alias ex='exit'
-|3,0,9,1,1,0,1526481979,"alias ex='exit'"
+	
+|3,0,9,1,1,0,1526522610,""
 "-	CHAR	0
-	cloud
-|3,0,36,0,1,0,1526482160,"cloud"
+	d
+|3,0,36,0,1,0,1526520981,"d"
 
 # global variables:
 !MAC	NUM	0
@@ -150,252 +185,257 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  65  14  ~/.zshrc
-|4,48,65,14,1526482228,"~/.zshrc"
-'1  192  0  ~/.zshrc
-|4,49,192,0,1526482195,"~/.zshrc"
-'2  192  0  ~/.zshrc
-|4,50,192,0,1526482195,"~/.zshrc"
-'3  1  0  ~/workspace/labs/D/sync.sh
-|4,51,1,0,1526480199,"~/workspace/labs/D/sync.sh"
-'4  67  55  ~/.zshrc
-|4,52,67,55,1526480157,"~/.zshrc"
-'5  66  55  ~/.zshrc
-|4,53,66,55,1526480157,"~/.zshrc"
-'6  67  55  ~/.zshrc
-|4,54,67,55,1526480157,"~/.zshrc"
-'7  66  55  ~/.zshrc
-|4,55,66,55,1526480157,"~/.zshrc"
-'8  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,56,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
-'9  124  19  ~/.zshrc
-|4,57,124,19,1526467336,"~/.zshrc"
+'0  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,48,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+'1  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,49,17,24,1526634363,"~/workspace/utry/IasWeb/src/utils/http.js"
+'2  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,50,17,24,1526634363,"~/workspace/utry/IasWeb/src/utils/http.js"
+'3  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,51,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
+'4  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,52,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
+'5  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,53,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
+'6  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,54,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
+'7  131  11  ~/.zshrc
+|4,55,131,11,1526553377,"~/.zshrc"
+'8  3  48  ~/.autosshrc
+|4,56,3,48,1526552503,"~/.autosshrc"
+'9  21  0  ~/workspace/regit-dev.sh
+|4,57,21,0,1526522662,"~/workspace/regit-dev.sh"
 
 # Jumplist (newest first):
--'  65  14  ~/.zshrc
-|4,39,65,14,1526482228,"~/.zshrc"
--'  192  0  ~/.zshrc
-|4,39,192,0,1526482218,"~/.zshrc"
--'  192  0  ~/.zshrc
-|4,39,192,0,1526482195,"~/.zshrc"
--'  172  43  ~/.zshrc
-|4,39,172,43,1526482149,"~/.zshrc"
--'  172  43  ~/.zshrc
-|4,39,172,43,1526482149,"~/.zshrc"
--'  144  15  ~/.zshrc
-|4,39,144,15,1526482029,"~/.zshrc"
--'  144  15  ~/.zshrc
-|4,39,144,15,1526482029,"~/.zshrc"
--'  67  55  ~/.zshrc
-|4,39,67,55,1526480908,"~/.zshrc"
--'  67  55  ~/.zshrc
-|4,39,67,55,1526480908,"~/.zshrc"
--'  1  0  ~/workspace/labs/D/sync.sh
-|4,39,1,0,1526480199,"~/workspace/labs/D/sync.sh"
--'  1  0  ~/workspace/labs/D/sync.sh
-|4,39,1,0,1526480199,"~/workspace/labs/D/sync.sh"
--'  1  0  ~/workspace/labs/D/sync.sh
-|4,39,1,0,1526480199,"~/workspace/labs/D/sync.sh"
--'  1  0  ~/workspace/labs/D/sync.sh
-|4,39,1,0,1526480199,"~/workspace/labs/D/sync.sh"
--'  66  55  ~/.zshrc
-|4,39,66,55,1526480157,"~/.zshrc"
--'  66  55  ~/.zshrc
-|4,39,66,55,1526480157,"~/.zshrc"
--'  66  55  ~/.zshrc
-|4,39,66,55,1526480157,"~/.zshrc"
--'  195  16  ~/.zshrc
-|4,39,195,16,1526480146,"~/.zshrc"
--'  195  16  ~/.zshrc
-|4,39,195,16,1526480146,"~/.zshrc"
--'  195  16  ~/.zshrc
-|4,39,195,16,1526480146,"~/.zshrc"
--'  124  19  ~/.zshrc
-|4,39,124,19,1526478485,"~/.zshrc"
--'  122  19  ~/.zshrc
-|4,39,122,19,1526478485,"~/.zshrc"
--'  124  19  ~/.zshrc
-|4,39,124,19,1526478485,"~/.zshrc"
--'  122  19  ~/.zshrc
-|4,39,122,19,1526478485,"~/.zshrc"
--'  122  19  ~/.zshrc
-|4,39,122,19,1526478485,"~/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  195  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,195,6,1526467375,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  127  6  ~/workspace/labs/dotfiles/dotfiles/.zshrc
-|4,39,127,6,1526467362,"~/workspace/labs/dotfiles/dotfiles/.zshrc"
--'  122  19  ~/.zshrc
-|4,39,122,19,1526467336,"~/.zshrc"
--'  122  19  ~/.zshrc
-|4,39,122,19,1526467336,"~/.zshrc"
--'  122  19  ~/.zshrc
-|4,39,122,19,1526467336,"~/.zshrc"
--'  122  19  ~/.zshrc
-|4,39,122,19,1526467336,"~/.zshrc"
--'  135  0  ~/.zshrc
-|4,39,135,0,1526467262,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467262,"~/.zshrc"
--'  135  0  ~/.zshrc
-|4,39,135,0,1526467262,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467262,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467262,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467262,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467262,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467262,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467262,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467197,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467197,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467197,"~/.zshrc"
--'  134  0  ~/.zshrc
-|4,39,134,0,1526467197,"~/.zshrc"
--'  134  8  ~/.zshrc
-|4,39,134,8,1526467139,"~/.zshrc"
--'  134  8  ~/.zshrc
-|4,39,134,8,1526467139,"~/.zshrc"
--'  134  8  ~/.zshrc
-|4,39,134,8,1526467139,"~/.zshrc"
--'  134  8  ~/.zshrc
-|4,39,134,8,1526467139,"~/.zshrc"
--'  134  7  ~/.zshrc
-|4,39,134,7,1526467113,"~/.zshrc"
--'  134  7  ~/.zshrc
-|4,39,134,7,1526467113,"~/.zshrc"
--'  134  7  ~/.zshrc
-|4,39,134,7,1526467113,"~/.zshrc"
--'  134  7  ~/.zshrc
-|4,39,134,7,1526467113,"~/.zshrc"
--'  134  24  ~/.zshrc
-|4,39,134,24,1526467088,"~/.zshrc"
--'  134  24  ~/.zshrc
-|4,39,134,24,1526467088,"~/.zshrc"
--'  134  24  ~/.zshrc
-|4,39,134,24,1526467088,"~/.zshrc"
--'  134  24  ~/.zshrc
-|4,39,134,24,1526467088,"~/.zshrc"
--'  166  0  ~/.zshrc
-|4,39,166,0,1526466911,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1526466911,"~/.zshrc"
--'  163  0  ~/.zshrc
-|4,39,163,0,1526466911,"~/.zshrc"
--'  164  0  ~/.zshrc
-|4,39,164,0,1526466911,"~/.zshrc"
--'  166  0  ~/.zshrc
-|4,39,166,0,1526466911,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1526466911,"~/.zshrc"
--'  163  0  ~/.zshrc
-|4,39,163,0,1526466911,"~/.zshrc"
--'  164  0  ~/.zshrc
-|4,39,164,0,1526466911,"~/.zshrc"
--'  163  0  ~/.zshrc
-|4,39,163,0,1526466911,"~/.zshrc"
--'  164  0  ~/.zshrc
-|4,39,164,0,1526466911,"~/.zshrc"
--'  163  0  ~/.zshrc
-|4,39,163,0,1526466911,"~/.zshrc"
--'  164  0  ~/.zshrc
-|4,39,164,0,1526466911,"~/.zshrc"
--'  164  0  ~/.zshrc
-|4,39,164,0,1526466911,"~/.zshrc"
--'  164  0  ~/.zshrc
-|4,39,164,0,1526466911,"~/.zshrc"
--'  163  0  ~/.zshrc
-|4,39,163,0,1526466911,"~/.zshrc"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,17,24,1526636285,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,17,24,1526634363,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,18,26,1526634356,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,18,26,1526634356,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,1,0,1526634139,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,1,0,1526634139,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,1,0,1526634139,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526553377,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526553377,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526553377,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526553377,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526553377,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526553377,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526553377,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526553377,"~/.zshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  3  48  ~/.autosshrc
+|4,39,3,48,1526552503,"~/.autosshrc"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  21  0  ~/workspace/regit-dev.sh
+|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  97  0  ~/workspace/regit-dev.sh
+|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
+-'  62  37  ~/workspace/regit-dev.sh
+|4,39,62,37,1526522503,"~/workspace/regit-dev.sh"
+-'  62  37  ~/workspace/regit-dev.sh
+|4,39,62,37,1526522503,"~/workspace/regit-dev.sh"
+-'  62  37  ~/workspace/regit-dev.sh
+|4,39,62,37,1526522503,"~/workspace/regit-dev.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/workspace/utry/IasWeb/src/utils/http.js
+	*	1526636304	0
+	"	16	19
+	^	18	27
+	.	18	26
+	+	18	26
+	+	17	24
+	+	18	26
+
 > ~/.zshrc
-	*	1526482227	0
-	"	65	14
-	^	65	15
-	.	65	14
-	+	132	50
-	+	134	50
-	+	135	50
-	+	136	50
-	+	132	82
-	+	134	61
-	+	135	54
-	+	136	103
+	*	1526553375	0
+	"	131	11
+	^	131	12
+	.	131	12
+	+	134	82
+	+	136	61
+	+	137	54
+	+	138	103
 	+	126	17
-	+	170	31
-	+	168	43
-	+	170	0
+	+	172	31
+	+	170	43
+	+	172	0
 	+	67	16
-	+	168	9
 	+	170	9
-	+	171	9
+	+	172	9
+	+	173	9
 	+	67	79
 	+	119	8
 	+	119	0
@@ -409,59 +449,59 @@ $workspace\/labs
 	+	117	23
 	+	118	7
 	+	119	0
-	+	180	62
-	+	168	0
-	+	168	82
-	+	168	0
+	+	182	62
+	+	170	0
+	+	170	82
+	+	170	0
 	+	67	0
 	+	65	92
 	+	113	15
-	+	154	13
-	+	162	31
-	+	159	8
-	+	158	8
-	+	168	8
+	+	156	13
+	+	164	31
+	+	161	8
+	+	160	8
+	+	170	8
+	+	165	0
+	+	164	10
+	+	165	32
 	+	163	0
-	+	162	10
-	+	163	32
-	+	161	0
-	+	161	25
+	+	163	25
 	+	65	86
 	+	65	79
 	+	120	0
 	+	122	0
 	+	123	0
-	+	161	0
-	+	168	0
-	+	179	0
-	+	183	0
-	+	186	0
+	+	163	0
+	+	170	0
+	+	181	0
+	+	185	0
+	+	188	0
 	+	126	0
 	+	127	14
 	+	130	18
-	+	133	7
-	+	134	18
-	+	164	32
-	+	175	41
-	+	168	0
-	+	168	6
+	+	135	7
+	+	136	18
+	+	166	32
+	+	177	41
+	+	170	0
 	+	170	6
-	+	171	6
-	+	168	12
+	+	172	6
+	+	173	6
 	+	170	12
-	+	171	61
-	+	173	34
-	+	168	0
-	+	168	8
-	+	168	13
-	+	174	24
-	+	168	46
-	+	168	0
-	+	165	0
-	+	161	0
-	+	156	0
-	+	154	7
-	+	135	0
+	+	172	12
+	+	173	61
+	+	175	34
+	+	170	0
+	+	170	8
+	+	170	13
+	+	176	24
+	+	170	46
+	+	170	0
+	+	167	0
+	+	163	0
+	+	158	0
+	+	156	7
+	+	137	0
 	+	65	6
 	+	11	0
 	+	19	0
@@ -472,14 +512,105 @@ $workspace\/labs
 	+	125	7
 	+	127	0
 	+	128	0
-	+	134	12
-	+	144	20
-	+	155	0
-	+	154	7
-	+	168	0
-	+	172	46
-	+	178	0
+	+	136	12
+	+	146	20
+	+	157	0
+	+	156	7
+	+	170	0
+	+	174	46
+	+	180	0
 	+	65	14
+	+	11	0
+	+	19	0
+	+	130	19
+	+	131	12
+
+> ~/.autosshrc
+	*	1526552502	0
+	"	3	48
+	^	3	49
+	.	3	48
+	+	1	27
+	+	3	0
+	+	2	43
+	+	3	48
+
+> ~/workspace/regit-dev.sh
+	*	1526522657	0
+	"	21	0
+	.	103	0
+	+	1	40
+	+	1	3
+	+	1	8
+	+	103	0
+	+	4	36
+	+	3	39
+	+	75	0
+	+	72	0
+	+	70	0
+	+	43	49
+	+	45	0
+	+	68	0
+	+	68	41
+	+	58	0
+	+	55	0
+	+	52	0
+	+	49	0
+	+	47	0
+	+	61	0
+	+	64	0
+	+	67	0
+	+	46	4
+	+	49	0
+	+	48	76
+	+	51	72
+	+	54	73
+	+	57	85
+	+	60	65
+	+	62	76
+	+	65	70
+	+	51	0
+	+	46	40
+	+	49	0
+	+	52	0
+	+	55	0
+	+	58	0
+	+	61	0
+	+	64	0
+	+	67	0
+	+	97	0
+	+	96	65
+	+	62	66
+	+	58	0
+	+	55	0
+	+	52	0
+	+	49	0
+	+	64	0
+	+	62	0
+	+	61	0
+	+	65	0
+	+	67	0
+	+	47	0
+	+	44	0
+	+	68	0
+	+	70	0
+	+	87	0
+	+	83	0
+	+	79	0
+	+	75	0
+	+	91	0
+	+	103	0
+
+> ~/workspace/utry-test/formEngine/src/main/resources/config/bootstrap.yml
+	*	1526522387	0
+	"	20	0
+
+> ~/workspace/utry-test/DataProcessingSystem/src/main/resources/config/bootstrap.yml
+	*	1526521909	0
+	"	35	11
+	^	35	12
+	.	35	11
+	+	35	11
 
 > ~/workspace/labs/D/sync.sh
 	*	1526480197	0
@@ -498,19 +629,6 @@ $workspace\/labs
 	+	170	0
 	+	172	60
 	+	152	24
-
-> ~/workspace/regit-dev.sh
-	*	1526466904	0
-	"	48	0
-	^	3	40
-	.	48	0
-	+	1	40
-	+	1	3
-	+	1	8
-	+	80	0
-	+	4	36
-	+	3	39
-	+	48	0
 
 > ~/workspace/utry/sync.sh
 	*	1526465780	0
@@ -572,16 +690,6 @@ $workspace\/labs
 	+	28	44
 	+	31	37
 	+	34	32
-
-> ~/.autosshrc
-	*	1526453280	0
-	"	3	48
-	^	3	49
-	.	3	48
-	+	1	27
-	+	3	0
-	+	2	43
-	+	3	48
 
 > ~/workspace/labs/N/tech-stack.html
 	*	1526386723	0
