@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1526636306,,"wq"
+|2,0,1526896074,,"wq"
 :q
-|2,0,1526553377,,"q"
+|2,0,1526891655,,"q"
 :w
 |2,0,1526521096,,"w"
 :q:
@@ -50,8 +50,12 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/history
+|2,1,1526893209,47,"history"
+?/Insert
+|2,1,1526891653,47,"Insert"
 ?/sql
-|2,1,1526553369,47,"sql"
+|2,1,1526881777,47,"sql"
 ?/easy
 |2,1,1526522502,47,"easy"
 ?/alias
@@ -117,67 +121,38 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	cd /Users/notalk/workspace/utry-test/DataProcessingSystem/src/main/resources/config
-	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
-	
-	
-	cd /Users/notalk/workspace/utry-test/analyticSystem/src/main/resources/config
-	
-	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
-	
-	cd /Users/notalk/workspace/utry-test/formEngine/src/main/resources/config
-	
-	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
-	
-	cd /Users/notalk/workspace/utry-test/translators/src/main/resources/config
-	
-	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
-	
-	cd /Users/notalk/workspace/utry-test/qualityInspectionSystem/src/main/resources/config
-	
-	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
-	
-	cd /Users/notalk/workspace/utry-test/IVS/src/main/resources/config
-	
-	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
-	cd /Users/notalk/workspace/utry-test/easyreport-web/src/main/resources/config
-	
-	sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml
-	cd /Users/notalk/workspace/utry-test/ivs-task/src/main/resources/config
-	
-|3,0,0,1,28,0,1526522244,"cd /Users/notalk/workspace/utry-test/DataProcessingSystem/src/main/resources/config","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","","","cd /Users/notalk/workspace/utry-test/analyticSystem/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","","cd /Users/notalk/workspace/utry-test/formEngine/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","",>76
-|<"cd /Users/notalk/workspace/utry-test/translators/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","","cd /Users/notalk/workspace/utry-test/qualityInspectionSystem/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","","cd /Users/notalk/workspace/utry-test/IVS/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml",>79
-|<"cd /Users/notalk/workspace/utry-test/easyreport-web/src/main/resources/config","","sed -i '' 's/10.0.10.115/114.55.84.115/g' bootstrap.yml","cd /Users/notalk/workspace/utry-test/ivs-task/src/main/resources/config",""
-""1	LINE	0
-	
-|3,1,1,1,1,0,1526522634,""
+	alias h='history'
+|3,0,0,1,1,0,1526893215,"alias h='history'"
+"1	LINE	0
+	alias hg='history |grep '
+|3,0,1,1,1,0,1526893248,"alias hg='history |grep '"
 "2	LINE	0
 	
 |3,0,2,1,1,0,1526522634,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1526522627,""
+|3,0,3,1,1,0,1526522634,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1526522623,""
+|3,0,4,1,1,0,1526522627,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1526522622,""
+|3,0,5,1,1,0,1526522623,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1526522621,""
+|3,0,6,1,1,0,1526522622,""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1526522617,""
+|3,0,7,1,1,0,1526522621,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1526522612,""
+|3,0,8,1,1,0,1526522617,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1526522610,""
-"-	CHAR	0
-	d
-|3,0,36,0,1,0,1526520981,"d"
+|3,0,9,1,1,0,1526522612,""
+""-	CHAR	0
+	autojump 
+|3,1,36,0,1,0,1526893275,"autojump "
 
 # global variables:
 !MAC	NUM	0
@@ -185,247 +160,236 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,48,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
-'1  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,49,17,24,1526634363,"~/workspace/utry/IasWeb/src/utils/http.js"
-'2  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,50,17,24,1526634363,"~/workspace/utry/IasWeb/src/utils/http.js"
-'3  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,51,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
-'4  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,52,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
-'5  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,53,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
-'6  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,54,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
-'7  131  11  ~/.zshrc
-|4,55,131,11,1526553377,"~/.zshrc"
-'8  3  48  ~/.autosshrc
-|4,56,3,48,1526552503,"~/.autosshrc"
-'9  21  0  ~/workspace/regit-dev.sh
-|4,57,21,0,1526522662,"~/workspace/regit-dev.sh"
+'0  65  14  ~/.zshrc
+|4,48,65,14,1526896074,"~/.zshrc"
+'1  65  6  ~/.zshrc
+|4,49,65,6,1526893276,"~/.zshrc"
+'2  127  0  ~/.zshrc
+|4,50,127,0,1526893250,"~/.zshrc"
+'3  127  0  ~/.zshrc
+|4,51,127,0,1526893250,"~/.zshrc"
+'4  127  0  ~/.zshrc
+|4,52,127,0,1526893250,"~/.zshrc"
+'5  127  0  ~/.zshrc
+|4,53,127,0,1526893250,"~/.zshrc"
+'6  127  23  ~/.zshrc
+|4,54,127,23,1526893227,"~/.zshrc"
+'7  127  23  ~/.zshrc
+|4,55,127,23,1526893227,"~/.zshrc"
+'8  127  23  ~/.zshrc
+|4,56,127,23,1526893227,"~/.zshrc"
+'9  127  23  ~/.zshrc
+|4,57,127,23,1526893227,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  65  14  ~/.zshrc
+|4,39,65,14,1526896074,"~/.zshrc"
+-'  65  6  ~/.zshrc
+|4,39,65,6,1526893276,"~/.zshrc"
+-'  127  0  ~/.zshrc
+|4,39,127,0,1526893261,"~/.zshrc"
+-'  127  0  ~/.zshrc
+|4,39,127,0,1526893261,"~/.zshrc"
+-'  127  0  ~/.zshrc
+|4,39,127,0,1526893250,"~/.zshrc"
+-'  127  23  ~/.zshrc
+|4,39,127,23,1526893227,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526893204,"~/.zshrc"
+-'  132  11  ~/.zshrc
+|4,39,132,11,1526893204,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526893204,"~/.zshrc"
+-'  132  11  ~/.zshrc
+|4,39,132,11,1526893204,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526893204,"~/.zshrc"
+-'  132  11  ~/.zshrc
+|4,39,132,11,1526893204,"~/.zshrc"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1526891655,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  130  11  ~/.zshrc
+|4,39,130,11,1526881778,"~/.zshrc"
+-'  130  11  ~/.zshrc
+|4,39,130,11,1526881778,"~/.zshrc"
+-'  130  11  ~/.zshrc
+|4,39,130,11,1526881778,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526881778,"~/.zshrc"
+-'  131  11  ~/.zshrc
+|4,39,131,11,1526881778,"~/.zshrc"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
 -'  16  19  ~/workspace/utry/IasWeb/src/utils/http.js
 |4,39,16,19,1526636306,"~/workspace/utry/IasWeb/src/utils/http.js"
 -'  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
 |4,39,17,24,1526636285,"~/workspace/utry/IasWeb/src/utils/http.js"
 -'  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,17,24,1526634363,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,26,1526634356,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,26,1526634356,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  26  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,26,1526634196,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  1  0  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,1,0,1526634139,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  1  0  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,1,0,1526634139,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  1  0  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,1,0,1526634139,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  131  11  ~/.zshrc
-|4,39,131,11,1526553377,"~/.zshrc"
--'  131  11  ~/.zshrc
-|4,39,131,11,1526553377,"~/.zshrc"
--'  131  11  ~/.zshrc
-|4,39,131,11,1526553377,"~/.zshrc"
--'  131  11  ~/.zshrc
-|4,39,131,11,1526553377,"~/.zshrc"
--'  131  11  ~/.zshrc
-|4,39,131,11,1526553377,"~/.zshrc"
--'  131  11  ~/.zshrc
-|4,39,131,11,1526553377,"~/.zshrc"
--'  131  11  ~/.zshrc
-|4,39,131,11,1526553377,"~/.zshrc"
--'  131  11  ~/.zshrc
-|4,39,131,11,1526553377,"~/.zshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  3  48  ~/.autosshrc
-|4,39,3,48,1526552503,"~/.autosshrc"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  21  0  ~/workspace/regit-dev.sh
-|4,39,21,0,1526522662,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  97  0  ~/workspace/regit-dev.sh
-|4,39,97,0,1526522521,"~/workspace/regit-dev.sh"
--'  62  37  ~/workspace/regit-dev.sh
-|4,39,62,37,1526522503,"~/workspace/regit-dev.sh"
--'  62  37  ~/workspace/regit-dev.sh
-|4,39,62,37,1526522503,"~/workspace/regit-dev.sh"
--'  62  37  ~/workspace/regit-dev.sh
-|4,39,62,37,1526522503,"~/workspace/regit-dev.sh"
+|4,39,17,24,1526636285,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  17  24  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,17,24,1526636285,"~/workspace/utry/IasWeb/src/utils/http.js"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/utry/IasWeb/src/utils/http.js
-	*	1526636304	0
-	"	16	19
-	^	18	27
-	.	18	26
-	+	18	26
-	+	17	24
-	+	18	26
-
 > ~/.zshrc
-	*	1526553375	0
-	"	131	11
-	^	131	12
-	.	131	12
-	+	134	82
-	+	136	61
+	*	1526896072	0
+	"	65	14
+	^	65	15
+	.	65	14
 	+	137	54
 	+	138	103
 	+	126	17
@@ -524,6 +488,21 @@ $workspace\/labs
 	+	19	0
 	+	130	19
 	+	131	12
+	+	127	0
+	+	65	14
+
+> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+	*	1526891653	0
+	"	1	0
+
+> ~/workspace/utry/IasWeb/src/utils/http.js
+	*	1526636304	0
+	"	16	19
+	^	18	27
+	.	18	26
+	+	18	26
+	+	17	24
+	+	18	26
 
 > ~/.autosshrc
 	*	1526552502	0
