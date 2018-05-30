@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1527342054,,"q"
 :wq
-|2,0,1527152212,,"wq"
+|2,0,1527668251,,"wq"
+:q
+|2,0,1527668234,,"q"
 :nnnn
 |2,0,1526953423,,"nnnn"
 :w
@@ -223,34 +223,118 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
-|4,48,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
-'1  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
-|4,49,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
-'2  196  0  ~/.zshrc
-|4,50,196,0,1527210377,"~/.zshrc"
-'3  3  32  ~/.autosshrc
-|4,51,3,32,1527152212,"~/.autosshrc"
-'4  135  9  ~/.zshrc
-|4,52,135,9,1527142820,"~/.zshrc"
-'5  135  9  ~/.zshrc
-|4,53,135,9,1527142820,"~/.zshrc"
-'6  3  23  ~/.autosshrc
-|4,54,3,23,1527133779,"~/.autosshrc"
-'7  2  0  ~/.autosshrc
-|4,55,2,0,1527070709,"~/.autosshrc"
-'8  2  0  ~/.autosshrc
-|4,56,2,0,1527070709,"~/.autosshrc"
-'9  2  0  ~/.autosshrc
-|4,57,2,0,1527070709,"~/.autosshrc"
+'0  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,48,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
+'1  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,49,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
+'2  3  32  ~/.autosshrc
+|4,50,3,32,1527647986,"~/.autosshrc"
+'3  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
+|4,51,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
+'4  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,52,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+'5  196  0  ~/.zshrc
+|4,53,196,0,1527210377,"~/.zshrc"
+'6  3  32  ~/.autosshrc
+|4,54,3,32,1527152212,"~/.autosshrc"
+'7  135  9  ~/.zshrc
+|4,55,135,9,1527142820,"~/.zshrc"
+'8  135  9  ~/.zshrc
+|4,56,135,9,1527142820,"~/.zshrc"
+'9  3  23  ~/.autosshrc
+|4,57,3,23,1527133779,"~/.autosshrc"
 
 # Jumplist (newest first):
+-'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
+|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
+-'  3  32  ~/.autosshrc
+|4,39,3,32,1527647986,"~/.autosshrc"
+-'  3  32  ~/.autosshrc
+|4,39,3,32,1527647986,"~/.autosshrc"
+-'  3  32  ~/.autosshrc
+|4,39,3,32,1527647986,"~/.autosshrc"
+-'  3  32  ~/.autosshrc
+|4,39,3,32,1527647986,"~/.autosshrc"
+-'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
+|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
+-'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
+|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
+-'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
+|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
+-'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
+|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
+-'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
+|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
+-'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
+|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
+-'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
+|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
 -'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
 |4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
 -'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
 |4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
 -'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
 |4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  41  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,41,0,1527342029,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
+-'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
+|4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
 -'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
 |4,39,1,0,1527342019,"~/workspace/labs/D/markdown/常用的快捷键：.md"
 -'  1  0  ~/workspace/labs/D/markdown/常用的快捷键：.md
@@ -263,6 +347,62 @@ $workspace\/labs
 |4,39,196,0,1527210377,"~/.zshrc"
 -'  196  0  ~/.zshrc
 |4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
+-'  196  0  ~/.zshrc
+|4,39,196,0,1527210377,"~/.zshrc"
 -'  98  0  ~/.zshrc
 |4,39,98,0,1527173089,"~/.zshrc"
 -'  98  0  ~/.zshrc
@@ -271,182 +411,65 @@ $workspace\/labs
 |4,39,98,0,1527173089,"~/.zshrc"
 -'  98  0  ~/.zshrc
 |4,39,98,0,1527173089,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527173035,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527173035,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527173035,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527173035,"~/.zshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527152212,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527152212,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527152212,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527152212,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527152212,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527152212,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527152212,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527152212,"~/.autosshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527142820,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527142820,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527142820,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527142820,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527142820,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527142820,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527142820,"~/.zshrc"
--'  135  9  ~/.zshrc
-|4,39,135,9,1527142820,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  170  0  ~/.zshrc
-|4,39,170,0,1527142792,"~/.zshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  3  23  ~/.autosshrc
-|4,39,3,23,1527133779,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527133699,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
--'  2  0  ~/.autosshrc
-|4,39,2,0,1527070709,"~/.autosshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
+-'  98  0  ~/.zshrc
+|4,39,98,0,1527173089,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/workspace/utry/IasWeb/src/utils/http.js
+	*	1527668251	0
+	"	18	29
+	^	18	30
+	.	18	30
+	+	18	26
+	+	17	24
+	+	18	30
+
+> ~/workspace/utry/IasWeb/src/global.js
+	*	1527668233	0
+	"	1	0
+
+> ~/.autosshrc
+	*	1527647985	0
+	"	3	32
+	^	3	33
+	.	3	32
+	+	1	27
+	+	3	0
+	+	2	43
+	+	3	32
 
 > ~/workspace/labs/D/markdown/前端添加查询参数.md
 	*	1527342053	0
@@ -561,29 +584,6 @@ $workspace\/labs
 	+	170	0
 	+	134	18
 	+	135	9
-
-> ~/.autosshrc
-	*	1527152211	0
-	"	3	32
-	^	3	33
-	.	3	32
-	+	1	27
-	+	3	0
-	+	2	43
-	+	3	32
-
-> ~/workspace/utry/IasWeb/src/utils/http.js
-	*	1527047776	0
-	"	18	28
-	^	18	27
-	.	18	28
-	+	18	26
-	+	17	24
-	+	18	28
-
-> ~/workspace/utry/IasWeb/src/global.js
-	*	1527047542	0
-	"	1	0
 
 > ~/workspace/utry-test/cloud_hrm/src/main/resources/config/bootstrap.yml
 	*	1527039760	0
