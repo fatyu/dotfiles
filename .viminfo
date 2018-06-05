@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/esredis
+~MSle0~/autoju
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1527771268,,"wq"
+|2,0,1528179028,,"wq"
 :w
 |2,0,1527771266,,"w"
 :q!
@@ -52,6 +52,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/autoju
+|2,1,1528090770,47,"autoju"
 ?/esredis
 |2,1,1527764916,47,"esredis"
 ?/redis服务器地址
@@ -72,8 +74,6 @@ $workspace\/labs
 |2,1,1526522502,47,"easy"
 ?/alias
 |2,1,1526520963,47,"alias"
-?/autoju
-|2,1,1526482218,47,"autoju"
 ?/color=auto
 |2,1,1526467262,47,"color=auto"
 ?/cloud
@@ -133,38 +133,38 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	utry-dev-115|10.0.10.115|root|utry2467|22|2
-|3,0,0,1,1,0,1527770583,"utry-dev-115|10.0.10.115|root|utry2467|22|2"
+	utry-dev-113|10.0.10.113|root|utry2356|22|2
+|3,0,0,1,1,0,1528178996,"utry-dev-113|10.0.10.113|root|utry2356|22|2"
 "1	LINE	0
-	utry-test-aliyun|114.55.84.115|root|Utry1234|22|3
-|3,0,1,1,1,0,1527070707,"utry-test-aliyun|114.55.84.115|root|Utry1234|22|3"
+				<li>
+|3,0,1,1,1,0,1527867519,"			<li>"
 "2	LINE	0
-	alias hg='history |grep '
-|3,0,2,1,1,0,1526893248,"alias hg='history |grep '"
+				<li>
+|3,0,2,1,1,0,1527867518,"			<li>"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1526522634,""
+				<li>
+|3,0,3,1,1,0,1527867517,"			<li>"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1526522634,""
+	utry-test-aliyun|114.55.84.115|root|Utry1234|22|3
+|3,0,4,1,1,0,1527070707,"utry-test-aliyun|114.55.84.115|root|Utry1234|22|3"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1526522627,""
+	alias hg='history |grep '
+|3,0,5,1,1,0,1526893248,"alias hg='history |grep '"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1526522623,""
+|3,0,6,1,1,0,1526522634,""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1526522622,""
+|3,0,7,1,1,0,1526522634,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1526522621,""
+|3,0,8,1,1,0,1526522627,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1526522617,""
+|3,0,9,1,1,0,1526522623,""
 ""-	CHAR	0
-	7
-|3,1,36,0,1,0,1527770644,"7"
+	2
+|3,1,36,0,1,0,1528179008,"2"
 
 # global variables:
 !MAC	NUM	0
@@ -172,287 +172,254 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  4  33  ~/.autosshrc
-|4,48,4,33,1527771268,"~/.autosshrc"
-'1  5  37  ~/.autosshrc
-|4,49,5,37,1527770653,"~/.autosshrc"
-'2  5  37  ~/.autosshrc
-|4,50,5,37,1527770653,"~/.autosshrc"
-'3  7779  282  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,51,7779,282,1527765078,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'4  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,52,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
-'5  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,53,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
-'6  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,54,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
-'7  6  32  ~/.autosshrc
-|4,55,6,32,1527647986,"~/.autosshrc"
-'8  3  32  ~/.autosshrc
-|4,56,3,32,1527647986,"~/.autosshrc"
-'9  6  32  ~/.autosshrc
-|4,57,6,32,1527647986,"~/.autosshrc"
+'0  6  37  ~/.autosshrc
+|4,48,6,37,1528179028,"~/.autosshrc"
+'1  65  13  ~/.zshrc
+|4,49,65,13,1528102314,"~/.zshrc"
+'2  66  0  ~/.zshrc
+|4,50,66,0,1528090775,"~/.zshrc"
+'3  66  0  ~/.zshrc
+|4,51,66,0,1528090775,"~/.zshrc"
+'4  186  0  ~/.zshrc
+|4,52,186,0,1528090756,"~/.zshrc"
+'5  186  0  ~/.zshrc
+|4,53,186,0,1528090756,"~/.zshrc"
+'6  186  0  ~/.zshrc
+|4,54,186,0,1528090756,"~/.zshrc"
+'7  186  0  ~/.zshrc
+|4,55,186,0,1528090756,"~/.zshrc"
+'8  186  11  ~/.zshrc
+|4,56,186,11,1528090736,"~/.zshrc"
+'9  186  11  ~/.zshrc
+|4,57,186,11,1528090736,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  6  37  ~/.autosshrc
+|4,39,6,37,1528179028,"~/.autosshrc"
 -'  4  33  ~/.autosshrc
-|4,39,4,33,1527771268,"~/.autosshrc"
--'  5  37  ~/.autosshrc
-|4,39,5,37,1527770905,"~/.autosshrc"
--'  5  37  ~/.autosshrc
-|4,39,5,37,1527770653,"~/.autosshrc"
--'  7  0  ~/.autosshrc
-|4,39,7,0,1527770581,"~/.autosshrc"
--'  7  0  ~/.autosshrc
-|4,39,7,0,1527770581,"~/.autosshrc"
--'  6  32  ~/.autosshrc
-|4,39,6,32,1527770572,"~/.autosshrc"
--'  6  32  ~/.autosshrc
-|4,39,6,32,1527770572,"~/.autosshrc"
--'  7779  282  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,282,1527765078,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  282  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,282,1527765078,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  282  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,282,1527765078,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  282  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,282,1527765078,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7127  185  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7127,185,1527764920,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7127  185  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7127,185,1527764920,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7127  185  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7127,185,1527764920,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7127  185  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7127,185,1527764920,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7749  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7749,0,1527764916,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7749  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7749,0,1527764916,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7749  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7749,0,1527764916,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7749  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7749,0,1527764916,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1527764876,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1527764876,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1527764876,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1527764876,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,39,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,39,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,39,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,39,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,39,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,39,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,39,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,39,1,0,1527749947,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  18  29  ~/workspace/utry/IasWeb/src/utils/http.js
-|4,39,18,29,1527668251,"~/workspace/utry/IasWeb/src/utils/http.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1527668234,"~/workspace/utry/IasWeb/src/global.js"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  3  32  ~/.autosshrc
-|4,39,3,32,1527647986,"~/.autosshrc"
--'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
-|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
--'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
-|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
--'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
-|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
--'  1  0  ~/workspace/labs/D/markdown/前端添加查询参数.md
-|4,39,1,0,1527342054,"~/workspace/labs/D/markdown/前端添加查询参数.md"
+|4,39,4,33,1528178991,"~/.autosshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  186  0  ~/.zshrc
+|4,39,186,0,1528090762,"~/.zshrc"
+-'  186  0  ~/.zshrc
+|4,39,186,0,1528090762,"~/.zshrc"
+-'  186  0  ~/.zshrc
+|4,39,186,0,1528090762,"~/.zshrc"
+-'  186  0  ~/.zshrc
+|4,39,186,0,1528090762,"~/.zshrc"
+-'  186  0  ~/.zshrc
+|4,39,186,0,1528090756,"~/.zshrc"
+-'  186  0  ~/.zshrc
+|4,39,186,0,1528090756,"~/.zshrc"
+-'  186  11  ~/.zshrc
+|4,39,186,11,1528090736,"~/.zshrc"
+-'  186  11  ~/.zshrc
+|4,39,186,11,1528090736,"~/.zshrc"
+-'  186  49  ~/.zshrc
+|4,39,186,49,1528090584,"~/.zshrc"
+-'  186  49  ~/.zshrc
+|4,39,186,49,1528090584,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  198  0  ~/.zshrc
+|4,39,198,0,1528090511,"~/.zshrc"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  22  2  ~/workspace/labs/N/resource.html
+|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
+-'  1  0  ~/workspace/labs/N/resource.html
+|4,39,1,0,1527867512,"~/workspace/labs/N/resource.html"
+-'  1  0  ~/workspace/labs/N/resource.html
+|4,39,1,0,1527867512,"~/workspace/labs/N/resource.html"
+-'  1  0  ~/workspace/labs/N/resource.html
+|4,39,1,0,1527867512,"~/workspace/labs/N/resource.html"
+-'  1  0  ~/workspace/labs/N/resource.html
+|4,39,1,0,1527867512,"~/workspace/labs/N/resource.html"
 
 # History of marks within files (newest to oldest):
 
 > ~/.autosshrc
-	*	1527771266	0
-	"	4	33
-	^	5	38
-	.	5	37
+	*	1528179027	0
+	"	6	37
+	^	6	38
+	.	6	37
 	+	1	27
-	+	6	0
-	+	2	43
-	+	6	32
 	+	7	0
+	+	2	43
+	+	7	32
+	+	8	0
 	+	3	0
 	+	4	0
 	+	5	0
 	+	3	37
 	+	4	37
 	+	5	37
-
-> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-	*	1527765076	0
-	"	7779	282
-	.	7779	0
-	+	12053	0
-	+	7779	0
-
-> ~/workspace/utry/ivs-root/.git/MERGE_MSG
-	*	1527749937	0
-	"	1	0
-
-> ~/workspace/utry/IasWeb/src/utils/http.js
-	*	1527668251	0
-	"	18	29
-	^	18	30
-	.	18	30
-	+	18	26
-	+	17	24
-	+	18	30
-
-> ~/workspace/utry/IasWeb/src/global.js
-	*	1527668233	0
-	"	1	0
-
-> ~/workspace/labs/D/markdown/前端添加查询参数.md
-	*	1527342053	0
-	"	1	0
-
-> ~/workspace/labs/D/markdown/常用的快捷键：.md
-	*	1527342027	0
-	"	41	0
+	+	6	37
 
 > ~/.zshrc
-	*	1527210375	0
-	"	196	0
-	^	135	21
-	.	135	9
-	+	174	31
-	+	172	43
+	*	1528102313	0
+	"	65	13
+	^	65	14
+	.	65	13
 	+	174	0
 	+	67	16
 	+	172	9
@@ -496,8 +463,8 @@ $workspace\/labs
 	+	165	0
 	+	172	0
 	+	183	0
-	+	187	0
-	+	190	0
+	+	189	0
+	+	192	0
 	+	126	0
 	+	127	14
 	+	130	18
@@ -551,6 +518,46 @@ $workspace\/labs
 	+	170	0
 	+	134	18
 	+	135	9
+	+	186	0
+	+	65	13
+
+> ~/workspace/labs/N/resource.html
+	*	1527867520	0
+	"	22	2
+	.	22	0
+	+	22	0
+
+> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+	*	1527765076	0
+	"	7779	282
+	.	7779	0
+	+	12053	0
+	+	7779	0
+
+> ~/workspace/utry/ivs-root/.git/MERGE_MSG
+	*	1527749937	0
+	"	1	0
+
+> ~/workspace/utry/IasWeb/src/utils/http.js
+	*	1527668251	0
+	"	18	29
+	^	18	30
+	.	18	30
+	+	18	26
+	+	17	24
+	+	18	30
+
+> ~/workspace/utry/IasWeb/src/global.js
+	*	1527668233	0
+	"	1	0
+
+> ~/workspace/labs/D/markdown/前端添加查询参数.md
+	*	1527342053	0
+	"	1	0
+
+> ~/workspace/labs/D/markdown/常用的快捷键：.md
+	*	1527342027	0
+	"	41	0
 
 > ~/workspace/utry-test/cloud_hrm/src/main/resources/config/bootstrap.yml
 	*	1527039760	0
