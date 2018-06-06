@@ -21,13 +21,13 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1528179028,,"wq"
+|2,0,1528295176,,"wq"
+:q
+|2,0,1528273579,,"q"
 :w
 |2,0,1527771266,,"w"
 :q!
 |2,0,1527765078,,"q!"
-:q
-|2,0,1527749947,,"q"
 :nnnn
 |2,0,1526953423,,"nnnn"
 :q:
@@ -133,8 +133,8 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	utry-dev-113|10.0.10.113|root|utry2356|22|2
-|3,0,0,1,1,0,1528178996,"utry-dev-113|10.0.10.113|root|utry2356|22|2"
+	utry-dev-118|10.0.10.118|root|utry1234|22|2
+|3,0,0,1,1,0,1528257472,"utry-dev-118|10.0.10.118|root|utry1234|22|2"
 "1	LINE	0
 				<li>
 |3,0,1,1,1,0,1527867519,"			<li>"
@@ -163,8 +163,8 @@ $workspace\/labs
 	
 |3,0,9,1,1,0,1526522623,""
 ""-	CHAR	0
-	2
-|3,1,36,0,1,0,1528179008,"2"
+	l
+|3,1,36,0,1,0,1528295173,"l"
 
 # global variables:
 !MAC	NUM	0
@@ -172,40 +172,170 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  6  37  ~/.autosshrc
-|4,48,6,37,1528179028,"~/.autosshrc"
-'1  65  13  ~/.zshrc
-|4,49,65,13,1528102314,"~/.zshrc"
-'2  66  0  ~/.zshrc
-|4,50,66,0,1528090775,"~/.zshrc"
-'3  66  0  ~/.zshrc
-|4,51,66,0,1528090775,"~/.zshrc"
-'4  186  0  ~/.zshrc
-|4,52,186,0,1528090756,"~/.zshrc"
-'5  186  0  ~/.zshrc
-|4,53,186,0,1528090756,"~/.zshrc"
-'6  186  0  ~/.zshrc
-|4,54,186,0,1528090756,"~/.zshrc"
-'7  186  0  ~/.zshrc
-|4,55,186,0,1528090756,"~/.zshrc"
-'8  186  11  ~/.zshrc
-|4,56,186,11,1528090736,"~/.zshrc"
-'9  186  11  ~/.zshrc
-|4,57,186,11,1528090736,"~/.zshrc"
+'0  165  7  ~/.zshrc
+|4,48,165,7,1528295176,"~/.zshrc"
+'1  7  37  ~/.autosshrc
+|4,49,7,37,1528273579,"~/.autosshrc"
+'2  7  37  ~/.autosshrc
+|4,50,7,37,1528271231,"~/.autosshrc"
+'3  7  37  ~/.autosshrc
+|4,51,7,37,1528257489,"~/.autosshrc"
+'4  7  37  ~/.autosshrc
+|4,52,7,37,1528257489,"~/.autosshrc"
+'5  6  37  ~/.autosshrc
+|4,53,6,37,1528179028,"~/.autosshrc"
+'6  6  37  ~/.autosshrc
+|4,54,6,37,1528179028,"~/.autosshrc"
+'7  6  37  ~/.autosshrc
+|4,55,6,37,1528179028,"~/.autosshrc"
+'8  6  37  ~/.autosshrc
+|4,56,6,37,1528179028,"~/.autosshrc"
+'9  6  37  ~/.autosshrc
+|4,57,6,37,1528179028,"~/.autosshrc"
 
 # Jumplist (newest first):
+-'  165  7  ~/.zshrc
+|4,39,165,7,1528295176,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528295145,"~/.zshrc"
+-'  7  37  ~/.autosshrc
+|4,39,7,37,1528273579,"~/.autosshrc"
+-'  7  37  ~/.autosshrc
+|4,39,7,37,1528273579,"~/.autosshrc"
+-'  7  37  ~/.autosshrc
+|4,39,7,37,1528271231,"~/.autosshrc"
+-'  7  37  ~/.autosshrc
+|4,39,7,37,1528271231,"~/.autosshrc"
+-'  7  37  ~/.autosshrc
+|4,39,7,37,1528257489,"~/.autosshrc"
+-'  7  37  ~/.autosshrc
+|4,39,7,37,1528257489,"~/.autosshrc"
+-'  6  37  ~/.autosshrc
+|4,39,6,37,1528257469,"~/.autosshrc"
+-'  6  37  ~/.autosshrc
+|4,39,6,37,1528257469,"~/.autosshrc"
+-'  6  37  ~/.autosshrc
+|4,39,6,37,1528257469,"~/.autosshrc"
+-'  6  37  ~/.autosshrc
+|4,39,6,37,1528257469,"~/.autosshrc"
+-'  6  37  ~/.autosshrc
+|4,39,6,37,1528257469,"~/.autosshrc"
+-'  6  37  ~/.autosshrc
+|4,39,6,37,1528257469,"~/.autosshrc"
 -'  6  37  ~/.autosshrc
 |4,39,6,37,1528179028,"~/.autosshrc"
+-'  6  37  ~/.autosshrc
+|4,39,6,37,1528179028,"~/.autosshrc"
+-'  4  33  ~/.autosshrc
+|4,39,4,33,1528178991,"~/.autosshrc"
+-'  4  33  ~/.autosshrc
+|4,39,4,33,1528178991,"~/.autosshrc"
+-'  4  33  ~/.autosshrc
+|4,39,4,33,1528178991,"~/.autosshrc"
+-'  4  33  ~/.autosshrc
+|4,39,4,33,1528178991,"~/.autosshrc"
+-'  4  33  ~/.autosshrc
+|4,39,4,33,1528178991,"~/.autosshrc"
+-'  4  33  ~/.autosshrc
+|4,39,4,33,1528178991,"~/.autosshrc"
+-'  4  33  ~/.autosshrc
+|4,39,4,33,1528178991,"~/.autosshrc"
 -'  4  33  ~/.autosshrc
 |4,39,4,33,1528178991,"~/.autosshrc"
 -'  65  13  ~/.zshrc
 |4,39,65,13,1528102314,"~/.zshrc"
 -'  65  13  ~/.zshrc
 |4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
+-'  65  13  ~/.zshrc
+|4,39,65,13,1528102314,"~/.zshrc"
 -'  66  0  ~/.zshrc
 |4,39,66,0,1528102304,"~/.zshrc"
 -'  66  0  ~/.zshrc
 |4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528102304,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
+-'  66  0  ~/.zshrc
+|4,39,66,0,1528090775,"~/.zshrc"
 -'  66  0  ~/.zshrc
 |4,39,66,0,1528090775,"~/.zshrc"
 -'  66  0  ~/.zshrc
@@ -218,213 +348,64 @@ $workspace\/labs
 |4,39,151,0,1528090770,"~/.zshrc"
 -'  151  0  ~/.zshrc
 |4,39,151,0,1528090770,"~/.zshrc"
--'  186  0  ~/.zshrc
-|4,39,186,0,1528090762,"~/.zshrc"
--'  186  0  ~/.zshrc
-|4,39,186,0,1528090762,"~/.zshrc"
--'  186  0  ~/.zshrc
-|4,39,186,0,1528090762,"~/.zshrc"
--'  186  0  ~/.zshrc
-|4,39,186,0,1528090762,"~/.zshrc"
--'  186  0  ~/.zshrc
-|4,39,186,0,1528090756,"~/.zshrc"
--'  186  0  ~/.zshrc
-|4,39,186,0,1528090756,"~/.zshrc"
--'  186  11  ~/.zshrc
-|4,39,186,11,1528090736,"~/.zshrc"
--'  186  11  ~/.zshrc
-|4,39,186,11,1528090736,"~/.zshrc"
--'  186  49  ~/.zshrc
-|4,39,186,49,1528090584,"~/.zshrc"
--'  186  49  ~/.zshrc
-|4,39,186,49,1528090584,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528090511,"~/.zshrc"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  22  2  ~/workspace/labs/N/resource.html
-|4,39,22,2,1527867520,"~/workspace/labs/N/resource.html"
--'  1  0  ~/workspace/labs/N/resource.html
-|4,39,1,0,1527867512,"~/workspace/labs/N/resource.html"
--'  1  0  ~/workspace/labs/N/resource.html
-|4,39,1,0,1527867512,"~/workspace/labs/N/resource.html"
--'  1  0  ~/workspace/labs/N/resource.html
-|4,39,1,0,1527867512,"~/workspace/labs/N/resource.html"
--'  1  0  ~/workspace/labs/N/resource.html
-|4,39,1,0,1527867512,"~/workspace/labs/N/resource.html"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1528090770,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/.autosshrc
-	*	1528179027	0
-	"	6	37
-	^	6	38
-	.	6	37
-	+	1	27
-	+	7	0
-	+	2	43
-	+	7	32
-	+	8	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	3	37
-	+	4	37
-	+	5	37
-	+	6	37
-
 > ~/.zshrc
-	*	1528102313	0
-	"	65	13
-	^	65	14
-	.	65	13
-	+	174	0
+	*	1528295174	0
+	"	165	7
+	^	165	8
+	.	165	7
 	+	67	16
-	+	172	9
-	+	174	9
+	+	173	9
 	+	175	9
+	+	176	9
 	+	67	79
 	+	119	8
 	+	119	0
@@ -438,56 +419,56 @@ $workspace\/labs
 	+	117	23
 	+	118	7
 	+	119	0
-	+	184	62
-	+	172	0
-	+	172	82
-	+	172	0
+	+	185	62
+	+	173	0
+	+	173	82
+	+	173	0
 	+	67	0
 	+	65	92
 	+	113	15
 	+	158	13
-	+	166	31
+	+	167	31
 	+	163	8
 	+	162	8
-	+	172	8
-	+	167	0
-	+	166	10
-	+	167	32
-	+	165	0
-	+	165	25
+	+	173	8
+	+	168	0
+	+	167	10
+	+	168	32
+	+	166	0
+	+	166	25
 	+	65	86
 	+	65	79
 	+	120	0
 	+	122	0
 	+	123	0
-	+	165	0
-	+	172	0
-	+	183	0
-	+	189	0
-	+	192	0
+	+	166	0
+	+	173	0
+	+	184	0
+	+	190	0
+	+	193	0
 	+	126	0
 	+	127	14
 	+	130	18
 	+	137	7
 	+	138	18
-	+	168	32
-	+	179	41
-	+	172	0
-	+	172	6
-	+	174	6
+	+	169	32
+	+	180	41
+	+	173	0
+	+	173	6
 	+	175	6
-	+	172	12
-	+	174	12
-	+	175	61
-	+	177	34
-	+	172	0
-	+	172	8
-	+	172	13
-	+	178	24
-	+	172	46
-	+	172	0
-	+	169	0
-	+	165	0
+	+	176	6
+	+	173	12
+	+	175	12
+	+	176	61
+	+	178	34
+	+	173	0
+	+	173	8
+	+	173	13
+	+	179	24
+	+	173	46
+	+	173	0
+	+	170	0
+	+	166	0
 	+	160	0
 	+	158	7
 	+	139	0
@@ -505,9 +486,9 @@ $workspace\/labs
 	+	148	20
 	+	159	0
 	+	158	7
-	+	172	0
-	+	176	46
-	+	182	0
+	+	173	0
+	+	177	46
+	+	183	0
 	+	65	14
 	+	11	0
 	+	19	0
@@ -515,11 +496,31 @@ $workspace\/labs
 	+	131	12
 	+	127	0
 	+	65	14
-	+	170	0
+	+	171	0
 	+	134	18
 	+	135	9
-	+	186	0
+	+	187	0
 	+	65	13
+	+	165	7
+
+> ~/.autosshrc
+	*	1528273579	0
+	"	7	37
+	^	7	38
+	.	7	37
+	+	1	27
+	+	8	0
+	+	2	43
+	+	8	32
+	+	9	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	3	37
+	+	4	37
+	+	5	37
+	+	6	37
+	+	7	37
 
 > ~/workspace/labs/N/resource.html
 	*	1527867520	0
