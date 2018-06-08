@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/autoju
+~MSle0~/tfc
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1528336942,,"wq"
+|2,0,1528439885,,"wq"
 :q
-|2,0,1528273579,,"q"
+|2,0,1528435516,,"q"
 :w
 |2,0,1527771266,,"w"
 :q!
@@ -52,6 +52,12 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/tfc
+|2,1,1528429619,47,"tfc"
+? \<cd\>
+|2,1,1528429532,,"\\<cd\\>"
+?/tom
+|2,1,1528428987,47,"tom"
 ?/autoju
 |2,1,1528336893,47,"autoju"
 ?/jump
@@ -135,8 +141,8 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	alias utt='cd /Users/notalk/workspace/utry-test'
-|3,0,0,1,1,0,1528335229,"alias utt='cd /Users/notalk/workspace/utry-test'"
+	alias tfc="tailf logs/catalina.out"
+|3,0,0,1,1,0,1528429059,"alias tfc=\"tailf logs/catalina.out\""
 "1	LINE	0
 	
 |3,0,1,1,1,0,1528335307,""
@@ -216,8 +222,8 @@ $workspace\/labs
 				<li>
 |3,0,9,1,1,0,1527867518,"			<li>"
 ""-	CHAR	0
-	autojump 
-|3,1,36,0,1,0,1528336895,"autojump "
+	s
+|3,1,36,0,1,0,1528430451,"s"
 
 # global variables:
 !MAC	NUM	0
@@ -225,244 +231,247 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  145  0  ~/.zshrc
-|4,48,145,0,1528336942,"~/.zshrc"
-'1  124  0  ~/.zshrc
-|4,49,124,0,1528336642,"~/.zshrc"
-'2  124  0  ~/.zshrc
-|4,50,124,0,1528336642,"~/.zshrc"
-'3  198  0  ~/.zshrc
-|4,51,198,0,1528336488,"~/.zshrc"
-'4  198  0  ~/.zshrc
-|4,52,198,0,1528336488,"~/.zshrc"
-'5  198  0  ~/.zshrc
-|4,53,198,0,1528336488,"~/.zshrc"
-'6  198  0  ~/.zshrc
-|4,54,198,0,1528336488,"~/.zshrc"
-'7  65  8  ~/.zshrc
-|4,55,65,8,1528335422,"~/.zshrc"
-'8  65  8  ~/.zshrc
-|4,56,65,8,1528335422,"~/.zshrc"
-'9  65  8  ~/.zshrc
-|4,57,65,8,1528335422,"~/.zshrc"
+'0  29  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,48,29,15,1528439885,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+'1  204  0  ~/.zshrc
+|4,49,204,0,1528435516,"~/.zshrc"
+'2  204  0  ~/.zshrc
+|4,50,204,0,1528435465,"~/.zshrc"
+'3  182  6  ~/.zshrc
+|4,51,182,6,1528430458,"~/.zshrc"
+'4  182  6  ~/.zshrc
+|4,52,182,6,1528430458,"~/.zshrc"
+'5  182  6  ~/.zshrc
+|4,53,182,6,1528430458,"~/.zshrc"
+'6  182  6  ~/.zshrc
+|4,54,182,6,1528430458,"~/.zshrc"
+'7  181  25  ~/.zshrc
+|4,55,181,25,1528430414,"~/.zshrc"
+'8  181  25  ~/.zshrc
+|4,56,181,25,1528430414,"~/.zshrc"
+'9  181  25  ~/.zshrc
+|4,57,181,25,1528430414,"~/.zshrc"
 
 # Jumplist (newest first):
--'  145  0  ~/.zshrc
-|4,39,145,0,1528336942,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1528336893,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1528336642,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528336616,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528336616,"~/.zshrc"
--'  198  0  ~/.zshrc
-|4,39,198,0,1528336488,"~/.zshrc"
--'  65  8  ~/.zshrc
-|4,39,65,8,1528336463,"~/.zshrc"
--'  65  8  ~/.zshrc
-|4,39,65,8,1528336463,"~/.zshrc"
--'  65  8  ~/.zshrc
-|4,39,65,8,1528336463,"~/.zshrc"
--'  65  8  ~/.zshrc
-|4,39,65,8,1528335422,"~/.zshrc"
--'  67  0  ~/.zshrc
-|4,39,67,0,1528335381,"~/.zshrc"
--'  67  0  ~/.zshrc
-|4,39,67,0,1528335381,"~/.zshrc"
--'  67  0  ~/.zshrc
-|4,39,67,0,1528335381,"~/.zshrc"
--'  67  0  ~/.zshrc
-|4,39,67,0,1528335381,"~/.zshrc"
--'  67  0  ~/.zshrc
-|4,39,67,0,1528335343,"~/.zshrc"
--'  112  0  ~/.zshrc
-|4,39,112,0,1528335324,"~/.zshrc"
--'  112  0  ~/.zshrc
-|4,39,112,0,1528335324,"~/.zshrc"
--'  112  0  ~/.zshrc
-|4,39,112,0,1528335324,"~/.zshrc"
--'  112  0  ~/.zshrc
-|4,39,112,0,1528335324,"~/.zshrc"
--'  112  0  ~/.zshrc
-|4,39,112,0,1528335324,"~/.zshrc"
--'  110  0  ~/.zshrc
-|4,39,110,0,1528335318,"~/.zshrc"
--'  110  0  ~/.zshrc
-|4,39,110,0,1528335318,"~/.zshrc"
--'  110  0  ~/.zshrc
-|4,39,110,0,1528335318,"~/.zshrc"
--'  110  0  ~/.zshrc
-|4,39,110,0,1528335318,"~/.zshrc"
--'  110  0  ~/.zshrc
-|4,39,110,0,1528335318,"~/.zshrc"
--'  110  0  ~/.zshrc
-|4,39,110,0,1528335313,"~/.zshrc"
--'  164  7  ~/.zshrc
-|4,39,164,7,1528335177,"~/.zshrc"
--'  164  7  ~/.zshrc
-|4,39,164,7,1528335177,"~/.zshrc"
--'  164  7  ~/.zshrc
-|4,39,164,7,1528335177,"~/.zshrc"
--'  164  7  ~/.zshrc
-|4,39,164,7,1528335177,"~/.zshrc"
--'  164  7  ~/.zshrc
-|4,39,164,7,1528335177,"~/.zshrc"
--'  164  7  ~/.zshrc
-|4,39,164,7,1528335177,"~/.zshrc"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  69  23  ~/workspace/utry/webapp/conf/server.xml
-|4,39,69,23,1528335136,"~/workspace/utry/webapp/conf/server.xml"
--'  1  0  ~/workspace/utry/webapp/conf/server.xml
-|4,39,1,0,1528335121,"~/workspace/utry/webapp/conf/server.xml"
--'  1  0  ~/workspace/utry/webapp/conf/server.xml
-|4,39,1,0,1528335121,"~/workspace/utry/webapp/conf/server.xml"
--'  1  0  ~/workspace/utry/webapp/conf/server.xml
-|4,39,1,0,1528335121,"~/workspace/utry/webapp/conf/server.xml"
--'  1  0  ~/workspace/utry/webapp/conf/server.xml
-|4,39,1,0,1528335121,"~/workspace/utry/webapp/conf/server.xml"
+-'  29  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,29,15,1528439885,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  140  0  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,140,0,1528439867,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  139  0  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,139,0,1528439865,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  204  0  ~/.zshrc
+|4,39,204,0,1528435516,"~/.zshrc"
+-'  204  0  ~/.zshrc
+|4,39,204,0,1528435516,"~/.zshrc"
+-'  204  0  ~/.zshrc
+|4,39,204,0,1528435465,"~/.zshrc"
+-'  204  0  ~/.zshrc
+|4,39,204,0,1528435465,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528435461,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528435461,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528435461,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528435461,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528430458,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528430458,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430446,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430446,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430446,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430446,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430446,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430446,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430414,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430414,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430405,"~/.zshrc"
+-'  181  25  ~/.zshrc
+|4,39,181,25,1528430405,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528430335,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528430335,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528430335,"~/.zshrc"
+-'  182  6  ~/.zshrc
+|4,39,182,6,1528430335,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  180  6  ~/.zshrc
+|4,39,180,6,1528429625,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  181  20  ~/.zshrc
+|4,39,181,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  183  20  ~/.zshrc
+|4,39,183,20,1528429619,"~/.zshrc"
+-'  181  20  ~/.zshrc
+|4,39,181,20,1528429619,"~/.zshrc"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
+-'  20  3  ~/workspace/utry/dev.sh
+|4,39,20,3,1528429561,"~/workspace/utry/dev.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+	*	1528439883	0
+	"	29	15
+	^	110	0
+	.	29	15
+	+	1	5
+	+	109	40
+	+	44	36
+	+	27	0
+	+	29	15
+
 > ~/.zshrc
-	*	1528336941	0
-	"	145	0
-	^	67	1
-	.	67	0
-	+	117	7
-	+	118	0
-	+	184	62
-	+	173	0
-	+	173	82
-	+	173	0
-	+	67	0
-	+	65	92
+	*	1528435515	0
+	"	204	0
+	^	182	7
+	.	182	7
 	+	112	15
 	+	157	13
 	+	166	31
@@ -481,16 +490,16 @@ $workspace\/labs
 	+	122	0
 	+	165	0
 	+	173	0
-	+	183	0
 	+	189	0
-	+	192	0
+	+	195	0
+	+	198	0
 	+	125	0
 	+	126	14
 	+	129	18
 	+	136	7
 	+	137	18
 	+	168	32
-	+	180	41
+	+	186	41
 	+	173	0
 	+	173	6
 	+	174	6
@@ -498,11 +507,11 @@ $workspace\/labs
 	+	173	12
 	+	174	12
 	+	175	61
-	+	178	34
+	+	180	34
 	+	173	0
 	+	173	8
 	+	173	13
-	+	179	24
+	+	185	24
 	+	173	46
 	+	173	0
 	+	170	0
@@ -526,7 +535,7 @@ $workspace\/labs
 	+	157	7
 	+	173	0
 	+	176	46
-	+	182	0
+	+	188	0
 	+	65	14
 	+	11	0
 	+	19	0
@@ -537,7 +546,7 @@ $workspace\/labs
 	+	171	0
 	+	133	18
 	+	134	9
-	+	186	0
+	+	192	0
 	+	65	13
 	+	164	7
 	+	169	32
@@ -545,8 +554,8 @@ $workspace\/labs
 	+	172	0
 	+	173	0
 	+	177	50
-	+	184	9
-	+	182	0
+	+	190	9
+	+	188	0
 	+	110	0
 	+	65	6
 	+	67	0
@@ -555,26 +564,26 @@ $workspace\/labs
 	+	124	0
 	+	65	1
 	+	67	0
+	+	179	28
+	+	180	76
+	+	182	33
+	+	183	20
+	+	177	61
+	+	181	7
+	+	183	7
+	+	182	7
 
-> ~/workspace/utry/webapp/conf/server.xml
-	*	1528335136	0
-	"	69	23
-	^	69	24
-	.	69	23
-	+	69	23
-
-> ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-	*	1528334596	0
-	"	27	0
-	^	110	0
-	.	27	0
-	+	1	5
-	+	109	40
-	+	44	36
-	+	27	0
+> ~/workspace/utry/dev.sh
+	*	1528429559	0
+	"	20	3
+	^	19	0
+	.	10	0
+	+	8	0
+	+	9	0
+	+	10	0
 
 > ~/.autosshrc
-	*	1528273579	0
+	*	1528356028	0
 	"	7	37
 	^	7	38
 	.	7	37
@@ -591,6 +600,46 @@ $workspace\/labs
 	+	5	37
 	+	6	37
 	+	7	37
+
+> ~/workspace/utry/webapp/conf/server.xml
+	*	1528340035	0
+	"	167	8
+	^	22	15
+	.	116	21
+	+	69	24
+	+	22	14
+	+	116	21
+
+> ~/workspace/test.sh
+	*	1528339334	0
+	"	93	76
+	^	93	77
+	.	93	76
+	+	93	76
+
+> ~/workspace/u.sh
+	*	1528338874	0
+	"	86	0
+	^	86	1
+	.	86	0
+	+	6	0
+	+	13	0
+	+	14	0
+	+	17	0
+	+	18	0
+	+	21	0
+	+	22	0
+	+	32	0
+	+	31	0
+	+	55	0
+	+	56	0
+	+	84	0
+	+	85	0
+	+	86	0
+
+> ~/workspace/cloud.sh
+	*	1528338489	0
+	"	35	5
 
 > ~/workspace/labs/N/resource.html
 	*	1527867520	0
