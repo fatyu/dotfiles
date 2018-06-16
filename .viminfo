@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1528860231,,"q"
+|2,0,1529024722,,"q"
 :wq
 |2,0,1528855008,,"wq"
 :w
@@ -238,36 +238,50 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  102  2  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,48,102,2,1528860231,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
-'1  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
-|4,49,1,0,1528855543,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
-'2  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,50,31,15,1528855008,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+'0  1  0  /private/tmp/.login.sh
+|4,48,1,0,1529024722,"/private/tmp/.login.sh"
+'1  102  2  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,49,102,2,1528860231,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+'2  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,50,1,0,1528855543,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
 '3  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 |4,51,31,15,1528855008,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
-'4  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
-|4,52,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
-'5  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,53,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
-'6  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,54,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
-'7  1  0  ~/workspace/labs/kaldi/egs/thchs30/README.txt
-|4,55,1,0,1528785637,"~/workspace/labs/kaldi/egs/thchs30/README.txt"
-'8  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,56,1,0,1528768865,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
-'9  376  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,57,376,0,1528767819,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
+'4  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,52,31,15,1528855008,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+'5  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,53,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+'6  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,54,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+'7  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
+|4,55,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
+'8  1  0  ~/workspace/labs/kaldi/egs/thchs30/README.txt
+|4,56,1,0,1528785637,"~/workspace/labs/kaldi/egs/thchs30/README.txt"
+'9  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
+|4,57,1,0,1528768865,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
 
 # Jumplist (newest first):
+-'  1  0  /private/tmp/.login.sh
+|4,39,1,0,1529024722,"/private/tmp/.login.sh"
 -'  102  2  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 |4,39,102,2,1528860231,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  102  2  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,102,2,1528860231,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,31,15,1528858848,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
 -'  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 |4,39,31,15,1528858848,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
 -'  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
 |4,39,1,0,1528855543,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
 -'  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
 |4,39,1,0,1528855543,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1528855543,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1528855543,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,31,15,1528855008,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,31,15,1528855008,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
 -'  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 |4,39,31,15,1528855008,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
 -'  31  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
@@ -278,6 +292,18 @@ $workspace\/labs
 |4,39,89,15,1528854998,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
 -'  89  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 |4,39,89,15,1528854998,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  89  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,89,15,1528854998,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  89  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,89,15,1528854998,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  89  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,89,15,1528854998,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  141  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,141,15,1528854990,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  141  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,141,15,1528854990,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  141  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,141,15,1528854990,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
 -'  141  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 |4,39,141,15,1528854990,"~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
 -'  141  15  ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
@@ -300,6 +326,38 @@ $workspace\/labs
 |4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
 -'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
 |4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  26  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,26,0,1528786844,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
 -'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
 |4,39,1,0,1528786810,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
 -'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
@@ -348,6 +406,38 @@ $workspace\/labs
 |4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
 -'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
 |4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
+-'  21  21  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
+|4,39,21,21,1528786786,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
 -'  14  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
 |4,39,14,0,1528786713,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
 -'  14  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
@@ -370,98 +460,12 @@ $workspace\/labs
 |4,39,14,0,1528786713,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
 -'  14  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
 |4,39,14,0,1528786713,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  14  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,14,0,1528786713,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  14  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,14,0,1528786713,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  14  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,14,0,1528786713,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  14  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,14,0,1528786713,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  14  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,14,0,1528786713,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-|4,39,1,0,1528786675,"~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
--'  11  6  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,39,11,6,1528786647,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
 
 # History of marks within files (newest to oldest):
+
+> /private/tmp/.login.sh
+	*	1529024721	0
+	"	1	0
 
 > ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 	*	1528860228	0
