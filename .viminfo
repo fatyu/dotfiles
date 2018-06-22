@@ -21,11 +21,11 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1529562951,,"q"
+|2,0,1529650054,,"q"
+:wq
+|2,0,1529639746,,"wq"
 :Q
 |2,0,1529559260,,"Q"
-:wq
-|2,0,1529476634,,"wq"
 :w
 |2,0,1527771266,,"w"
 :q!
@@ -142,6 +142,8 @@ $workspace\/labs
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@.
+|2,3,1529648001,,"."
 @..q
 |2,3,1529559120,,"..q"
 @-s
@@ -241,230 +243,277 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  67  18  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,48,67,18,1529562951,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
-'1  1  0  ~/workspace/labs/kaldi/egs/aishell/s5/run.sh
-|4,49,1,0,1529562949,"~/workspace/labs/kaldi/egs/aishell/s5/run.sh"
-'2  19  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto
-|4,50,19,0,1529559263,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto"
-'3  142  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,51,142,0,1529559221,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
-'4  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,52,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
-'5  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,53,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
-'6  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,54,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
-'7  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,55,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
-'8  9  0  ~/workspace/labs/ali/kaldi/egs/librispeech/README.txt
-|4,56,9,0,1529550180,"~/workspace/labs/ali/kaldi/egs/librispeech/README.txt"
-'9  1  0  ~/workspace/labs/kaldi/egs/yesno/s5/run.sh
-|4,57,1,0,1529550148,"~/workspace/labs/kaldi/egs/yesno/s5/run.sh"
+'0  9  0  ~/workspace/labs/speech-to-text/README.md
+|4,48,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
+'1  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
+|4,49,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
+'2  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
+|4,50,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
+'3  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,51,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+'4  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,52,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+'5  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,53,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+'6  11  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+|4,54,11,0,1529637916,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
+'7  35  0  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
+|4,55,35,0,1529630696,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
+'8  1  0  ~/workspace/labs/ali/kaldi/egs/yesno/s5/local/prepare_lm.sh
+|4,56,1,0,1529630419,"~/workspace/labs/ali/kaldi/egs/yesno/s5/local/prepare_lm.sh"
+'9  67  18  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
+|4,57,67,18,1529562951,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
 
 # Jumplist (newest first):
--'  67  18  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,67,18,1529562951,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/aishell/s5/run.sh
-|4,39,1,0,1529562949,"~/workspace/labs/kaldi/egs/aishell/s5/run.sh"
--'  19  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto
-|4,39,19,0,1529559263,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto"
--'  19  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto
-|4,39,19,0,1529559263,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto
-|4,39,1,0,1529559229,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto
-|4,39,1,0,1529559229,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto"
--'  142  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,39,142,0,1529559221,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
--'  142  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,39,142,0,1529559221,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
--'  142  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,39,142,0,1529559221,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
--'  142  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,39,142,0,1529559221,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,39,1,0,1529559184,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,39,1,0,1529559184,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,39,1,0,1529559184,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-|4,39,1,0,1529559184,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559161,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559153,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559153,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559153,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559153,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559153,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559153,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559153,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559153,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  1  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,1,0,1529559122,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559111,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559111,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559111,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559111,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559111,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559111,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559111,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  386  0  ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-|4,39,386,0,1529559111,"~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  9  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,9,0,1529559092,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
--'  112  0  ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-|4,39,112,0,1529559071,"~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh"
+-'  9  0  ~/workspace/labs/speech-to-text/README.md
+|4,39,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
+-'  1  0  ~/workspace/labs/speech-to-text/README.md
+|4,39,1,0,1529650038,"~/workspace/labs/speech-to-text/README.md"
+-'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
+|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
+-'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
+|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
+-'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
+|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
+-'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
+|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
+-'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
+|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
+-'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
+|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
+-'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+-'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+-'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+-'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
+-'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,1,0,1529639699,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,1,0,1529639699,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,1,0,1529639699,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,1,0,1529639699,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,1,0,1529639699,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,1,0,1529639699,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,1,0,1529639699,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+|4,39,1,0,1529639699,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  683  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,683,0,1529639642,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  631  105  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,631,105,1529639641,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  248  109  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,248,109,1529639550,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  255  126  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,255,126,1529639523,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  255  126  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,255,126,1529639523,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  255  126  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,255,126,1529639523,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
+-'  255  126  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+|4,39,255,126,1529639523,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
 
 # History of marks within files (newest to oldest):
+
+> ~/workspace/labs/speech-to-text/README.md
+	*	1529650052	0
+	"	9	0
+
+> ~/workspace/labs/speech-to-text/sample_data_folder/README.md
+	*	1529648004	0
+	"	1	0
+
+> ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
+	*	1529639744	0
+	"	15	35
+	.	15	35
+	+	14	34
+	+	15	35
+
+> ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
+	*	1529639706	0
+	"	6	0
+
+> ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
+	*	1529639652	0
+	"	673	0
+	^	248	110
+	.	248	0
+	+	255	0
+	+	248	0
+
+> ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
+	*	1529638136	0
+	"	60	0
+
+> ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
+	*	1529637915	0
+	"	11	0
+
+> ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
+	*	1529630695	0
+	"	35	0
+	^	11	7
+	.	8	2
+	+	11	6
+	+	8	2
+
+> ~/workspace/labs/ali/kaldi/egs/yesno/s5/local/prepare_lm.sh
+	*	1529630418	0
+	"	1	0
 
 > ~/workspace/labs/kaldi/egs/aishell/s5/run.sh
 	*	1529562331	0
@@ -677,10 +726,6 @@ $workspace\/labs
 	.	22	0
 	+	22	0
 
-> ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-	*	1529471250	0
-	"	235	0
-
 > ~/.autosshrc
 	*	1529466802	0
 	"	8	10
@@ -721,10 +766,6 @@ $workspace\/labs
 	*	1528855542	0
 	"	1	0
 
-> ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
-	*	1528786842	0
-	"	26	0
-
 > ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
 	*	1528786785	0
 	"	21	21
@@ -742,13 +783,6 @@ $workspace\/labs
 	+	21	0
 	+	20	24
 	+	21	21
-
-> ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-	*	1528786641	0
-	"	11	6
-	^	11	7
-	.	11	6
-	+	11	6
 
 > ~/workspace/labs/kaldi/egs/thchs30/README.txt
 	*	1528785636	0
@@ -1305,39 +1339,3 @@ $workspace\/labs
 	^	1	19
 	.	1	18
 	+	1	18
-
-> /private/tmp/crontab.OkcuOxp9pQ
-	*	1524481908	0
-	"	1	0
-
-> /private/tmp/crontab.IqbcTot69J
-	*	1524481875	0
-	"	1	79
-	^	1	80
-	.	1	79
-	+	1	79
-
-> ~/workspace/labs/log/gradle best practice.md
-	*	1524462282	0
-	"	1	0
-
-> /private/tmp/crontab.eJI4qnT4Kq
-	*	1524458816	0
-	"	1	79
-	^	1	80
-	.	1	61
-	+	1	61
-
-> /private/tmp/crontab.uh1ZanWIIV
-	*	1524458633	0
-	"	1	15
-	.	1	15
-	+	1	15
-
-> ~/workspace/labs/dotfiles/dotfiles/README.md
-	*	1524456158	0
-	"	5	50
-	^	5	51
-	.	5	50
-	+	3	61
-	+	5	50
