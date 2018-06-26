@@ -21,11 +21,11 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1529931030,,"wq"
+|2,0,1529976430,,"wq"
+:q
+|2,0,1529975441,,"q"
 :w
 |2,0,1529676837,,"w"
-:q
-|2,0,1529650054,,"q"
 :Q
 |2,0,1529559260,,"Q"
 :q!
@@ -152,39 +152,36 @@ $workspace\/labs
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	alias jc7="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jconsole &"
 	alias jc8="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/jconsole &"
 	alias jc9="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &"
 	alias jc10="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &"
-|3,1,0,1,4,0,1529930844,"alias jc7=\"/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jconsole &\"","alias jc8=\"/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/jconsole &\"","alias jc9=\"/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &\"","alias jc10=\"/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &\""
-"1	LINE	0
-				<li></li>
-|3,0,1,1,1,0,1529676831,"			<li></li>"
+|3,0,0,1,4,0,1529930844,"alias jc7=\"/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jconsole &\"","alias jc8=\"/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/jconsole &\"","alias jc9=\"/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &\"","alias jc10=\"/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &\""
 "2	LINE	0
-	                <li><a href="http://preshing.com/".ME</a>
-|3,0,2,1,1,0,1529676679,"                <li><a href=\"http://preshing.com/\".ME</a>"
+				<li></li>
+|3,0,2,1,1,0,1529676831,"			<li></li>"
 "3	LINE	0
-				http://preshing.com/
-|3,0,3,1,1,0,1529676656,"			http://preshing.com/"
+	                <li><a href="http://preshing.com/".ME</a>
+|3,0,3,1,1,0,1529676679,"                <li><a href=\"http://preshing.com/\".ME</a>"
 "4	LINE	0
-				<li>
-|3,0,4,1,1,0,1529676519,"			<li>"
+				http://preshing.com/
+|3,0,4,1,1,0,1529676656,"			http://preshing.com/"
 "5	LINE	0
-				<li><a href="https://hellogithub.com/">HelloGitHub</a>
-|3,0,5,1,1,0,1529471738,"			<li><a href=\"https://hellogithub.com/\">HelloGitHub</a>"
+				<li>
+|3,0,5,1,1,0,1529676519,"			<li>"
 "6	LINE	0
-	export mkgraph_cmd="queue.pl --mem 8G"
-|3,0,6,1,1,0,1528786762,"export mkgraph_cmd=\"queue.pl --mem 8G\""
+				<li><a href="https://hellogithub.com/">HelloGitHub</a>
+|3,0,6,1,1,0,1529471738,"			<li><a href=\"https://hellogithub.com/\">HelloGitHub</a>"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1528335307,""
+	export mkgraph_cmd="queue.pl --mem 8G"
+|3,0,7,1,1,0,1528786762,"export mkgraph_cmd=\"queue.pl --mem 8G\""
 "8	LINE	0
-	alias odoc="o /Users/notalk/workspace/labs/D"
-|3,0,8,1,1,0,1528335284,"alias odoc=\"o /Users/notalk/workspace/labs/D\""
-"9	LINE	0
 	
-|3,0,9,1,1,0,1528335225,""
+|3,0,8,1,1,0,1528335307,""
+"9	LINE	0
+	alias odoc="o /Users/notalk/workspace/labs/D"
+|3,0,9,1,1,0,1528335284,"alias odoc=\"o /Users/notalk/workspace/labs/D\""
 "-	CHAR	0
 	1
 |3,0,36,0,1,0,1529930820,"1"
@@ -195,230 +192,251 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  195  87  ~/.zshrc
-|4,48,195,87,1529931030,"~/.zshrc"
-'1  116  3  ~/workspace/labs/N/tech-blog.html
-|4,49,116,3,1529677153,"~/workspace/labs/N/tech-blog.html"
-'2  9  0  ~/workspace/labs/speech-to-text/README.md
-|4,50,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
-'3  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,51,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
-'4  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,52,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
-'5  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,53,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
-'6  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,54,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
-'7  673  0  ~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS
-|4,55,673,0,1529639653,"~/workspace/labs/kaldi/egs/librispeech/s5/RESULTS"
-'8  11  0  ~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh
-|4,56,11,0,1529637916,"~/workspace/labs/kaldi/egs/thchs30/s5/local/thchs-30_data_prep.sh"
-'9  35  0  ~/workspace/labs/kaldi/egs/thchs30/s5/run.sh
-|4,57,35,0,1529630696,"~/workspace/labs/kaldi/egs/thchs30/s5/run.sh"
+'0  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,48,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+'1  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,49,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+'2  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,50,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+'3  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,51,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+'4  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,52,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+'5  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,53,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+'6  195  87  ~/.zshrc
+|4,54,195,87,1529931030,"~/.zshrc"
+'7  116  3  ~/workspace/labs/N/tech-blog.html
+|4,55,116,3,1529677153,"~/workspace/labs/N/tech-blog.html"
+'8  9  0  ~/workspace/labs/speech-to-text/README.md
+|4,56,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
+'9  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
+|4,57,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
 
 # Jumplist (newest first):
+-'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,39,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+-'  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,39,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+-'  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,39,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+-'  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,39,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+-'  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,39,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+-'  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,39,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+-'  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,39,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+-'  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,39,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  1  0  ~/workspace/labs/ARTS/sync.sh
+|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1529931030,"~/.zshrc"
 -'  195  87  ~/.zshrc
 |4,39,195,87,1529931030,"~/.zshrc"
 -'  191  0  ~/.zshrc
 |4,39,191,0,1529930827,"~/.zshrc"
--'  164  0  ~/.zshrc
-|4,39,164,0,1529930361,"~/.zshrc"
--'  192  90  ~/.zshrc
-|4,39,192,90,1529930357,"~/.zshrc"
--'  122  16  ~/.zshrc
-|4,39,122,16,1529930277,"~/.zshrc"
--'  116  3  ~/workspace/labs/N/tech-blog.html
-|4,39,116,3,1529677153,"~/workspace/labs/N/tech-blog.html"
--'  116  3  ~/workspace/labs/N/tech-blog.html
-|4,39,116,3,1529677153,"~/workspace/labs/N/tech-blog.html"
--'  92  16  ~/workspace/labs/N/tech-blog.html
-|4,39,92,16,1529676681,"~/workspace/labs/N/tech-blog.html"
--'  92  16  ~/workspace/labs/N/tech-blog.html
-|4,39,92,16,1529676681,"~/workspace/labs/N/tech-blog.html"
--'  1  0  ~/workspace/labs/N/tech-blog.html
-|4,39,1,0,1529676321,"~/workspace/labs/N/tech-blog.html"
--'  1  0  ~/workspace/labs/N/tech-blog.html
-|4,39,1,0,1529676321,"~/workspace/labs/N/tech-blog.html"
--'  9  0  ~/workspace/labs/speech-to-text/README.md
-|4,39,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
--'  9  0  ~/workspace/labs/speech-to-text/README.md
-|4,39,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
--'  9  0  ~/workspace/labs/speech-to-text/README.md
-|4,39,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
--'  9  0  ~/workspace/labs/speech-to-text/README.md
-|4,39,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/README.md
-|4,39,1,0,1529650038,"~/workspace/labs/speech-to-text/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/README.md
-|4,39,1,0,1529650038,"~/workspace/labs/speech-to-text/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/README.md
-|4,39,1,0,1529650038,"~/workspace/labs/speech-to-text/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/README.md
-|4,39,1,0,1529650038,"~/workspace/labs/speech-to-text/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
--'  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,39,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  60  0  ~/workspace/labs/kaldi/egs/librispeech/s5/run.sh
-|4,39,60,0,1529644287,"~/workspace/labs/kaldi/egs/librispeech/s5/run.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  15  35  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,15,35,1529639746,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  1  0  ~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh
-|4,39,1,0,1529639725,"~/workspace/labs/kaldi/egs/librispeech/s5/cmd.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
--'  6  0  ~/workspace/labs/kaldi/egs/librispeech/s5/path.sh
-|4,39,6,0,1529639715,"~/workspace/labs/kaldi/egs/librispeech/s5/path.sh"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
+-'  191  0  ~/.zshrc
+|4,39,191,0,1529930827,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+	*	1529977347	0
+	"	13377	0
+	.	7779	0
+	+	12053	0
+	+	7779	0
+
+> ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+	*	1529976429	0
+	"	1	365447
+	^	1	365448
+	.	1	365447
+	+	1	365447
+
+> ~/workspace/labs/ARTS/sync.sh
+	*	1529938683	0
+	"	4	43
+	^	4	44
+	.	4	44
+	+	4	44
 
 > ~/.zshrc
 	*	1529931029	0
@@ -829,13 +847,6 @@ $workspace\/labs
 > ~/workspace/cloud.sh
 	*	1528338489	0
 	"	35	5
-
-> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-	*	1527765076	0
-	"	7779	282
-	.	7779	0
-	+	12053	0
-	+	7779	0
 
 > ~/workspace/utry/ivs-root/.git/MERGE_MSG
 	*	1527749937	0
@@ -1297,11 +1308,3 @@ $workspace\/labs
 	^	2	9
 	.	2	8
 	+	2	8
-
-> ~/workspace/labs/dotfiles/dotfiles/alias
-	*	1524652855	0
-	"	1	0
-
-> ~/workspace/labs/java-infinity/.gitignore
-	*	1524637636	0
-	"	8	0
