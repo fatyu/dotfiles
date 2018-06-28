@@ -20,12 +20,12 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1529976430,,"wq"
 :q
-|2,0,1529975441,,"q"
+|2,0,1530070841,,"q"
+:wq
+|2,0,1530064049,,"wq"
 :w
-|2,0,1529676837,,"w"
+|2,0,1530063356,,"w"
 :Q
 |2,0,1529559260,,"Q"
 :q!
@@ -54,6 +54,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/ignore
+|2,1,1530063865,47,"ignore"
 ?/grep
 |2,1,1529471323,47,"grep"
 ?/expo
@@ -158,30 +160,33 @@ $workspace\/labs
 	alias jc9="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &"
 	alias jc10="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &"
 |3,0,0,1,4,0,1529930844,"alias jc7=\"/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jconsole &\"","alias jc8=\"/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/jconsole &\"","alias jc9=\"/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &\"","alias jc10=\"/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &\""
+""1	LINE	0
+	ignoreAuthUrl: /analyticSystem/servlet/receive.do
+|3,1,1,1,1,0,1530063352,"ignoreAuthUrl: /analyticSystem/servlet/receive.do"
 "2	LINE	0
 				<li></li>
 |3,0,2,1,1,0,1529676831,"			<li></li>"
 "3	LINE	0
-	                <li><a href="http://preshing.com/".ME</a>
-|3,0,3,1,1,0,1529676679,"                <li><a href=\"http://preshing.com/\".ME</a>"
+				<li></li>
+|3,0,3,1,1,0,1529676831,"			<li></li>"
 "4	LINE	0
-				http://preshing.com/
-|3,0,4,1,1,0,1529676656,"			http://preshing.com/"
+	                <li><a href="http://preshing.com/".ME</a>
+|3,0,4,1,1,0,1529676679,"                <li><a href=\"http://preshing.com/\".ME</a>"
 "5	LINE	0
-				<li>
-|3,0,5,1,1,0,1529676519,"			<li>"
+				http://preshing.com/
+|3,0,5,1,1,0,1529676656,"			http://preshing.com/"
 "6	LINE	0
-				<li><a href="https://hellogithub.com/">HelloGitHub</a>
-|3,0,6,1,1,0,1529471738,"			<li><a href=\"https://hellogithub.com/\">HelloGitHub</a>"
+				<li>
+|3,0,6,1,1,0,1529676519,"			<li>"
 "7	LINE	0
-	export mkgraph_cmd="queue.pl --mem 8G"
-|3,0,7,1,1,0,1528786762,"export mkgraph_cmd=\"queue.pl --mem 8G\""
+				<li><a href="https://hellogithub.com/">HelloGitHub</a>
+|3,0,7,1,1,0,1529471738,"			<li><a href=\"https://hellogithub.com/\">HelloGitHub</a>"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1528335307,""
+	export mkgraph_cmd="queue.pl --mem 8G"
+|3,0,8,1,1,0,1528786762,"export mkgraph_cmd=\"queue.pl --mem 8G\""
 "9	LINE	0
-	alias odoc="o /Users/notalk/workspace/labs/D"
-|3,0,9,1,1,0,1528335284,"alias odoc=\"o /Users/notalk/workspace/labs/D\""
+	
+|3,0,9,1,1,0,1528335307,""
 "-	CHAR	0
 	1
 |3,0,36,0,1,0,1529930820,"1"
@@ -192,38 +197,152 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,48,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'1  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,49,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'2  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,50,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'3  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,51,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
-'4  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,52,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
-'5  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,53,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
-'6  195  87  ~/.zshrc
-|4,54,195,87,1529931030,"~/.zshrc"
-'7  116  3  ~/workspace/labs/N/tech-blog.html
-|4,55,116,3,1529677153,"~/workspace/labs/N/tech-blog.html"
-'8  9  0  ~/workspace/labs/speech-to-text/README.md
-|4,56,9,0,1529650054,"~/workspace/labs/speech-to-text/README.md"
-'9  1  0  ~/workspace/labs/speech-to-text/sample_data_folder/README.md
-|4,57,1,0,1529648007,"~/workspace/labs/speech-to-text/sample_data_folder/README.md"
+'0  211  0  ~/.zshrc
+|4,48,211,0,1530070841,"~/.zshrc"
+'1  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,49,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+'2  27  95  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,50,27,95,1530063912,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+'3  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,51,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+'4  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,52,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+'5  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,53,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+'6  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,54,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+'7  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+|4,55,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
+'8  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,56,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
+'9  195  87  ~/.zshrc
+|4,57,195,87,1529931030,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530070841,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  27  95  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,27,95,1530063912,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  27  95  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,27,95,1530063912,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  58  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,58,2,1530063868,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  58  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,58,2,1530063868,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  59  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,59,2,1530063867,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  59  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,59,2,1530063867,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  18  0  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,18,0,1530063865,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  18  0  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,18,0,1530063865,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  99  5  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,99,5,1530063853,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  99  5  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,99,5,1530063853,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  145  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,145,2,1530063811,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1530063811,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  145  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,145,2,1530063811,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1530063811,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
+-'  94  8  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,94,8,1530063279,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  94  8  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,94,8,1530063279,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1530063169,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,1,0,1530063169,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
@@ -232,6 +351,46 @@ $workspace\/labs
 |4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
@@ -240,207 +399,32 @@ $workspace\/labs
 |4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,39,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
--'  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,39,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
--'  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,39,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
--'  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,39,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
--'  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,39,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
--'  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,39,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
--'  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,39,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
--'  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,39,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  1  0  ~/workspace/labs/ARTS/sync.sh
-|4,39,1,0,1529938631,"~/workspace/labs/ARTS/sync.sh"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  195  87  ~/.zshrc
-|4,39,195,87,1529931030,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
--'  191  0  ~/.zshrc
-|4,39,191,0,1529930827,"~/.zshrc"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-	*	1529977347	0
-	"	13377	0
-	.	7779	0
-	+	12053	0
-	+	7779	0
-
-> ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-	*	1529976429	0
-	"	1	365447
-	^	1	365448
-	.	1	365447
-	+	1	365447
-
-> ~/workspace/labs/ARTS/sync.sh
-	*	1529938683	0
-	"	4	43
-	^	4	44
-	.	4	44
-	+	4	44
-
 > ~/.zshrc
-	*	1529931029	0
-	"	195	87
+	*	1530070839	0
+	"	211	0
 	^	195	88
 	.	195	87
 	+	189	0
@@ -543,6 +527,52 @@ $workspace\/labs
 	+	197	85
 	+	196	88
 	+	195	87
+
+> ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+	*	1530064048	0
+	"	97	0
+	.	12	0
+	+	97	22
+	+	95	5
+	+	96	7
+	+	97	7
+	+	12	0
+	+	11	91
+	+	11	3
+	+	12	0
+
+> ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
+	*	1530063912	0
+	"	27	95
+	^	27	96
+	.	28	0
+	+	99	22
+	+	97	3
+	+	98	5
+	+	99	5
+	+	27	96
+	+	28	0
+
+> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+	*	1529977347	0
+	"	13377	0
+	.	7779	0
+	+	12053	0
+	+	7779	0
+
+> ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
+	*	1529976429	0
+	"	1	365447
+	^	1	365448
+	.	1	365447
+	+	1	365447
+
+> ~/workspace/labs/ARTS/sync.sh
+	*	1529938683	0
+	"	4	43
+	^	4	44
+	.	4	44
+	+	4	44
 
 > ~/workspace/labs/N/tech-blog.html
 	*	1529677152	0
@@ -752,10 +782,6 @@ $workspace\/labs
 	+	27	0
 	+	29	15
 	+	31	15
-
-> ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
-	*	1528855542	0
-	"	1	0
 
 > ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
 	*	1528786785	0
@@ -1301,10 +1327,3 @@ $workspace\/labs
 > ~/workspace/labs/D/.git/MERGE_MSG
 	*	1524749569	0
 	"	1	0
-
-> ~/workspace/labs/D/.gitignore
-	*	1524748983	0
-	"	2	8
-	^	2	9
-	.	2	8
-	+	2	8
