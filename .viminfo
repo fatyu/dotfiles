@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/grep
+~MSle0~/git
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1530070841,,"q"
 :wq
-|2,0,1530064049,,"wq"
+|2,0,1530589320,,"wq"
+:q
+|2,0,1530509236,,"q"
 :w
 |2,0,1530063356,,"w"
 :Q
@@ -54,6 +54,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/git
+|2,1,1530509228,47,"git"
 ?/ignore
 |2,1,1530063865,47,"ignore"
 ?/grep
@@ -197,237 +199,245 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  211  0  ~/.zshrc
-|4,48,211,0,1530070841,"~/.zshrc"
-'1  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
-|4,49,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
-'2  27  95  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,50,27,95,1530063912,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
-'3  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,51,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'4  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,52,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'5  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,53,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'6  1  365447  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,54,1,365447,1529976430,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
-'7  1  0  ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
-|4,55,1,0,1529975441,"~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json"
-'8  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,56,4,43,1529938684,"~/workspace/labs/ARTS/sync.sh"
-'9  195  87  ~/.zshrc
-|4,57,195,87,1529931030,"~/.zshrc"
+'0  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,48,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+'1  162  20  ~/.zshrc
+|4,49,162,20,1530516889,"~/.zshrc"
+'2  162  46  ~/.zshrc
+|4,50,162,46,1530516863,"~/.zshrc"
+'3  150  2  ~/.zshrc
+|4,51,150,2,1530509236,"~/.zshrc"
+'4  150  2  ~/.zshrc
+|4,52,150,2,1530509236,"~/.zshrc"
+'5  150  2  ~/.zshrc
+|4,53,150,2,1530509236,"~/.zshrc"
+'6  150  2  ~/.zshrc
+|4,54,150,2,1530509236,"~/.zshrc"
+'7  144  0  ~/workspace/RD/utrycore/README.md
+|4,55,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+'8  211  0  ~/.zshrc
+|4,56,211,0,1530070841,"~/.zshrc"
+'9  211  0  ~/.zshrc
+|4,57,211,0,1530070841,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  162  20  ~/.zshrc
+|4,39,162,20,1530516889,"~/.zshrc"
+-'  162  20  ~/.zshrc
+|4,39,162,20,1530516889,"~/.zshrc"
+-'  162  46  ~/.zshrc
+|4,39,162,46,1530516863,"~/.zshrc"
+-'  162  46  ~/.zshrc
+|4,39,162,46,1530516863,"~/.zshrc"
+-'  150  2  ~/.zshrc
+|4,39,150,2,1530516769,"~/.zshrc"
+-'  150  2  ~/.zshrc
+|4,39,150,2,1530516769,"~/.zshrc"
+-'  150  2  ~/.zshrc
+|4,39,150,2,1530516769,"~/.zshrc"
+-'  150  2  ~/.zshrc
+|4,39,150,2,1530516769,"~/.zshrc"
+-'  150  2  ~/.zshrc
+|4,39,150,2,1530509236,"~/.zshrc"
+-'  150  2  ~/.zshrc
+|4,39,150,2,1530509236,"~/.zshrc"
+-'  65  1  ~/.zshrc
+|4,39,65,1,1530509229,"~/.zshrc"
+-'  62  33  ~/.zshrc
+|4,39,62,33,1530509229,"~/.zshrc"
+-'  65  1  ~/.zshrc
+|4,39,65,1,1530509229,"~/.zshrc"
+-'  62  33  ~/.zshrc
+|4,39,62,33,1530509229,"~/.zshrc"
+-'  65  1  ~/.zshrc
+|4,39,65,1,1530509229,"~/.zshrc"
+-'  62  33  ~/.zshrc
+|4,39,62,33,1530509229,"~/.zshrc"
+-'  65  1  ~/.zshrc
+|4,39,65,1,1530509229,"~/.zshrc"
+-'  62  33  ~/.zshrc
+|4,39,62,33,1530509229,"~/.zshrc"
+-'  65  1  ~/.zshrc
+|4,39,65,1,1530509229,"~/.zshrc"
+-'  62  33  ~/.zshrc
+|4,39,62,33,1530509229,"~/.zshrc"
+-'  65  1  ~/.zshrc
+|4,39,65,1,1530509229,"~/.zshrc"
+-'  62  33  ~/.zshrc
+|4,39,62,33,1530509229,"~/.zshrc"
+-'  9  14  ~/.zshrc
+|4,39,9,14,1530509228,"~/.zshrc"
+-'  185  0  ~/.zshrc
+|4,39,185,0,1530509228,"~/.zshrc"
+-'  9  14  ~/.zshrc
+|4,39,9,14,1530509228,"~/.zshrc"
+-'  185  0  ~/.zshrc
+|4,39,185,0,1530509228,"~/.zshrc"
+-'  9  14  ~/.zshrc
+|4,39,9,14,1530509228,"~/.zshrc"
+-'  185  0  ~/.zshrc
+|4,39,185,0,1530509228,"~/.zshrc"
+-'  9  14  ~/.zshrc
+|4,39,9,14,1530509228,"~/.zshrc"
+-'  185  0  ~/.zshrc
+|4,39,185,0,1530509228,"~/.zshrc"
+-'  9  14  ~/.zshrc
+|4,39,9,14,1530509228,"~/.zshrc"
+-'  185  0  ~/.zshrc
+|4,39,185,0,1530509228,"~/.zshrc"
+-'  9  14  ~/.zshrc
+|4,39,9,14,1530509228,"~/.zshrc"
+-'  185  0  ~/.zshrc
+|4,39,185,0,1530509228,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530509214,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530509214,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530509214,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530509214,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530509214,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530509214,"~/.zshrc"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  144  0  ~/workspace/RD/utrycore/README.md
+|4,39,144,0,1530164718,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
+-'  1  0  ~/workspace/RD/utrycore/README.md
+|4,39,1,0,1530164679,"~/workspace/RD/utrycore/README.md"
 -'  211  0  ~/.zshrc
 |4,39,211,0,1530070841,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530070841,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530070841,"~/.zshrc"
+-'  211  0  ~/.zshrc
+|4,39,211,0,1530070841,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
+-'  195  87  ~/.zshrc
+|4,39,195,87,1530070831,"~/.zshrc"
 -'  195  87  ~/.zshrc
 |4,39,195,87,1530070831,"~/.zshrc"
 -'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
 |4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
 -'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
 |4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
--'  27  95  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,27,95,1530063912,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  27  95  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,27,95,1530063912,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  58  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,58,2,1530063868,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  58  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,58,2,1530063868,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  59  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,59,2,1530063867,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  59  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,59,2,1530063867,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  18  0  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,18,0,1530063865,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  18  0  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,18,0,1530063865,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  99  5  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,99,5,1530063853,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  99  5  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,99,5,1530063853,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  145  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,145,2,1530063811,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1530063811,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  145  2  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,145,2,1530063811,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1530063811,"~/workspace/utry-cloud/cloud_host/src/main/resources/config/bootstrap.yml"
--'  94  8  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
-|4,39,94,8,1530063279,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
--'  94  8  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
-|4,39,94,8,1530063279,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1530063169,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
--'  1  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
-|4,39,1,0,1530063169,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1529977347,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977311,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13382  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13382,0,1529977290,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,1,0,1529976881,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13371  3  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13371,3,1529976861,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13388  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13388,0,1529976790,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7780  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7780,0,1529976788,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  7779  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,7779,0,1529976786,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
+-'  97  0  ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
+|4,39,97,0,1530064049,"~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml"
 
 # History of marks within files (newest to oldest):
 
+> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+	*	1530589318	0
+	"	13356	0
+	^	13391	3
+	.	13391	2
+	+	12053	0
+	+	7779	0
+	+	13391	2
+
 > ~/.zshrc
-	*	1530070839	0
-	"	211	0
-	^	195	88
-	.	195	87
-	+	189	0
+	*	1530516888	0
+	"	162	20
+	^	162	21
+	.	162	20
 	+	202	0
 	+	205	0
 	+	125	0
@@ -527,6 +537,11 @@ $workspace\/labs
 	+	197	85
 	+	196	88
 	+	195	87
+	+	162	20
+
+> ~/workspace/RD/utrycore/README.md
+	*	1530164716	0
+	"	144	0
 
 > ~/workspace/utry-cloud/cloud_gateway/UtryGateWay/src/main/resources/config/bootstrap.yml
 	*	1530064048	0
@@ -552,13 +567,6 @@ $workspace\/labs
 	+	99	5
 	+	27	96
 	+	28	0
-
-> ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-	*	1529977347	0
-	"	13377	0
-	.	7779	0
-	+	12053	0
-	+	7779	0
 
 > ~/workspace/labs/leetcode/leetcode/src/main/java/leetcode/leetcode.json
 	*	1529976429	0
@@ -1322,8 +1330,4 @@ $workspace\/labs
 
 > ~/.Trash/data/ivs_tuniu.voice_config.sql
 	*	1525316556	0
-	"	1	0
-
-> ~/workspace/labs/D/.git/MERGE_MSG
-	*	1524749569	0
 	"	1	0
