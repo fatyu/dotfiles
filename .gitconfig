@@ -6,4 +6,11 @@
     quotepath = false
 [user]
 	name = 张羽
-	email = zhangyu@utry.cn
+    email = zhangyu@utry.cn
+[alias]
+    st = status
+    cm = commit
+    br = branch
+    co = checkout
+    df = diff
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
