@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1530863192,,"wq"
+|2,0,1530863245,,"wq"
 :q
 |2,0,1530771152,,"q"
 :A
@@ -164,9 +164,9 @@ $workspace\/labs
 	alias jc9="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &"
 	alias jc10="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &"
 |3,0,0,1,4,0,1529930844,"alias jc7=\"/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jconsole &\"","alias jc8=\"/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/jconsole &\"","alias jc9=\"/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &\"","alias jc10=\"/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &\""
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1530863175,""
+|3,0,1,1,1,0,1530863175,""
 "2	LINE	0
 	alias j="ps -ef|grep java"
 |3,0,2,1,1,0,1530863171,"alias j=\"ps -ef|grep java\""
@@ -191,9 +191,9 @@ $workspace\/labs
 "9	LINE	0
 	#scp  alias
 |3,0,9,1,1,0,1530863077,"#scp  alias"
-"-	CHAR	0
-	1
-|3,0,36,0,1,0,1529930820,"1"
+""-	CHAR	0
+	;
+|3,1,36,0,1,0,1530863243,";"
 
 # global variables:
 !MAC	NUM	0
@@ -201,36 +201,50 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  104  0  ~/.zshrc
-|4,48,104,0,1530863192,"~/.zshrc"
-'1  7  10  ~/.autosshrc
-|4,49,7,10,1530771152,"~/.autosshrc"
-'2  16  1  ~/.gitconfig
-|4,50,16,1,1530698382,"~/.gitconfig"
-'3  12  10  ~/.gitconfig
-|4,51,12,10,1530696226,"~/.gitconfig"
-'4  12  10  ~/.gitconfig
-|4,52,12,10,1530696226,"~/.gitconfig"
-'5  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,53,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'6  165  20  ~/.zshrc
-|4,54,165,20,1530516889,"~/.zshrc"
-'7  162  20  ~/.zshrc
-|4,55,162,20,1530516889,"~/.zshrc"
-'8  165  46  ~/.zshrc
-|4,56,165,46,1530516863,"~/.zshrc"
-'9  162  46  ~/.zshrc
-|4,57,162,46,1530516863,"~/.zshrc"
+'0  168  22  ~/.zshrc
+|4,48,168,22,1530863245,"~/.zshrc"
+'1  104  0  ~/.zshrc
+|4,49,104,0,1530863192,"~/.zshrc"
+'2  104  0  ~/.zshrc
+|4,50,104,0,1530863192,"~/.zshrc"
+'3  7  10  ~/.autosshrc
+|4,51,7,10,1530771152,"~/.autosshrc"
+'4  16  1  ~/.gitconfig
+|4,52,16,1,1530698382,"~/.gitconfig"
+'5  12  10  ~/.gitconfig
+|4,53,12,10,1530696226,"~/.gitconfig"
+'6  12  10  ~/.gitconfig
+|4,54,12,10,1530696226,"~/.gitconfig"
+'7  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,55,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+'8  165  20  ~/.zshrc
+|4,56,165,20,1530516889,"~/.zshrc"
+'9  162  20  ~/.zshrc
+|4,57,162,20,1530516889,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  168  22  ~/.zshrc
+|4,39,168,22,1530863245,"~/.zshrc"
+-'  104  0  ~/.zshrc
+|4,39,104,0,1530863212,"~/.zshrc"
 -'  104  0  ~/.zshrc
 |4,39,104,0,1530863192,"~/.zshrc"
+-'  165  20  ~/.zshrc
+|4,39,165,20,1530863070,"~/.zshrc"
 -'  165  20  ~/.zshrc
 |4,39,165,20,1530863070,"~/.zshrc"
 -'  7  10  ~/.autosshrc
 |4,39,7,10,1530771152,"~/.autosshrc"
 -'  7  10  ~/.autosshrc
 |4,39,7,10,1530771152,"~/.autosshrc"
+-'  7  10  ~/.autosshrc
+|4,39,7,10,1530771152,"~/.autosshrc"
+-'  7  10  ~/.autosshrc
+|4,39,7,10,1530771152,"~/.autosshrc"
+-'  8  10  ~/.autosshrc
+|4,39,8,10,1530771147,"~/.autosshrc"
+-'  8  10  ~/.autosshrc
+|4,39,8,10,1530771147,"~/.autosshrc"
 -'  8  10  ~/.autosshrc
 |4,39,8,10,1530771147,"~/.autosshrc"
 -'  8  10  ~/.autosshrc
@@ -243,6 +257,14 @@ $workspace\/labs
 |4,39,16,1,1530698382,"~/.gitconfig"
 -'  16  1  ~/.gitconfig
 |4,39,16,1,1530698382,"~/.gitconfig"
+-'  16  1  ~/.gitconfig
+|4,39,16,1,1530698382,"~/.gitconfig"
+-'  16  1  ~/.gitconfig
+|4,39,16,1,1530698382,"~/.gitconfig"
+-'  16  1  ~/.gitconfig
+|4,39,16,1,1530698382,"~/.gitconfig"
+-'  16  1  ~/.gitconfig
+|4,39,16,1,1530698382,"~/.gitconfig"
 -'  12  10  ~/.gitconfig
 |4,39,12,10,1530698376,"~/.gitconfig"
 -'  12  10  ~/.gitconfig
@@ -251,6 +273,22 @@ $workspace\/labs
 |4,39,12,10,1530698376,"~/.gitconfig"
 -'  12  10  ~/.gitconfig
 |4,39,12,10,1530698376,"~/.gitconfig"
+-'  12  10  ~/.gitconfig
+|4,39,12,10,1530698376,"~/.gitconfig"
+-'  12  10  ~/.gitconfig
+|4,39,12,10,1530698376,"~/.gitconfig"
+-'  12  10  ~/.gitconfig
+|4,39,12,10,1530698376,"~/.gitconfig"
+-'  12  10  ~/.gitconfig
+|4,39,12,10,1530698376,"~/.gitconfig"
+-'  12  10  ~/.gitconfig
+|4,39,12,10,1530696226,"~/.gitconfig"
+-'  12  10  ~/.gitconfig
+|4,39,12,10,1530696226,"~/.gitconfig"
+-'  12  10  ~/.gitconfig
+|4,39,12,10,1530696226,"~/.gitconfig"
+-'  12  10  ~/.gitconfig
+|4,39,12,10,1530696226,"~/.gitconfig"
 -'  12  10  ~/.gitconfig
 |4,39,12,10,1530696226,"~/.gitconfig"
 -'  12  10  ~/.gitconfig
@@ -275,6 +313,38 @@ $workspace\/labs
 |4,39,9,1,1530696076,"~/.gitconfig"
 -'  9  1  ~/.gitconfig
 |4,39,9,1,1530696076,"~/.gitconfig"
+-'  9  1  ~/.gitconfig
+|4,39,9,1,1530696076,"~/.gitconfig"
+-'  9  1  ~/.gitconfig
+|4,39,9,1,1530696076,"~/.gitconfig"
+-'  9  1  ~/.gitconfig
+|4,39,9,1,1530696076,"~/.gitconfig"
+-'  9  1  ~/.gitconfig
+|4,39,9,1,1530696076,"~/.gitconfig"
+-'  9  1  ~/.gitconfig
+|4,39,9,1,1530696076,"~/.gitconfig"
+-'  9  1  ~/.gitconfig
+|4,39,9,1,1530696076,"~/.gitconfig"
+-'  9  1  ~/.gitconfig
+|4,39,9,1,1530696076,"~/.gitconfig"
+-'  9  1  ~/.gitconfig
+|4,39,9,1,1530696076,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1530696067,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1530696067,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1530696067,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1530696067,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1530696067,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1530696067,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1530696067,"~/.gitconfig"
+-'  6  20  ~/.gitconfig
+|4,39,6,20,1530696067,"~/.gitconfig"
 -'  6  20  ~/.gitconfig
 |4,39,6,20,1530696067,"~/.gitconfig"
 -'  6  20  ~/.gitconfig
@@ -323,124 +393,54 @@ $workspace\/labs
 |4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 -'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
 |4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13377  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13377,0,1530589278,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  20  ~/.zshrc
-|4,39,162,20,1530516889,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  162  46  ~/.zshrc
-|4,39,162,46,1530516863,"~/.zshrc"
--'  150  2  ~/.zshrc
-|4,39,150,2,1530516769,"~/.zshrc"
--'  150  2  ~/.zshrc
-|4,39,150,2,1530516769,"~/.zshrc"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
+|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1530863190	0
-	"	104	0
-	.	185	0
-	+	169	12
-	+	170	12
-	+	171	61
-	+	173	34
-	+	169	0
-	+	169	8
-	+	169	13
-	+	178	24
-	+	169	46
-	+	169	0
-	+	168	0
+	*	1530863244	0
+	"	168	22
+	^	168	24
+	.	168	22
+	+	172	12
+	+	173	61
+	+	175	34
+	+	171	0
+	+	171	8
+	+	171	13
+	+	180	24
+	+	171	46
+	+	171	0
+	+	170	0
 	+	167	0
 	+	161	0
 	+	159	7
@@ -459,9 +459,9 @@ $workspace\/labs
 	+	147	20
 	+	160	0
 	+	159	7
-	+	169	0
-	+	171	46
-	+	181	0
+	+	171	0
+	+	173	46
+	+	183	0
 	+	65	14
 	+	11	0
 	+	19	0
@@ -469,18 +469,18 @@ $workspace\/labs
 	+	130	12
 	+	126	0
 	+	65	14
-	+	168	0
+	+	170	0
 	+	133	18
 	+	134	9
-	+	195	0
+	+	197	0
 	+	65	13
 	+	166	7
-	+	168	32
-	+	168	0
-	+	169	0
-	+	171	50
-	+	183	9
-	+	181	0
+	+	170	32
+	+	170	0
+	+	171	0
+	+	173	50
+	+	185	9
+	+	183	0
 	+	110	0
 	+	65	6
 	+	67	0
@@ -489,46 +489,48 @@ $workspace\/labs
 	+	124	0
 	+	65	1
 	+	67	0
-	+	172	28
-	+	173	76
-	+	175	33
-	+	176	20
-	+	171	61
-	+	174	7
+	+	174	28
+	+	175	76
+	+	177	33
+	+	178	20
+	+	173	61
 	+	176	7
-	+	175	7
+	+	178	7
+	+	177	7
 	+	122	16
-	+	185	89
-	+	187	0
-	+	188	0
+	+	187	89
 	+	189	0
-	+	185	8
-	+	187	8
-	+	188	8
-	+	189	52
-	+	188	53
-	+	185	55
-	+	190	7
-	+	192	7
-	+	193	7
-	+	194	83
-	+	193	85
-	+	192	88
-	+	190	87
-	+	165	20
-	+	168	0
-	+	171	0
-	+	172	0
-	+	183	0
-	+	185	0
 	+	190	0
+	+	191	0
+	+	187	8
+	+	189	8
+	+	190	8
+	+	191	52
+	+	190	53
+	+	187	55
+	+	192	7
+	+	194	7
+	+	195	7
+	+	196	83
+	+	195	85
+	+	194	88
+	+	192	87
+	+	165	20
+	+	170	0
+	+	173	0
+	+	174	0
+	+	185	0
+	+	187	0
+	+	192	0
 	+	154	0
 	+	157	0
 	+	161	0
 	+	165	0
 	+	166	0
-	+	182	0
-	+	185	0
+	+	184	0
+	+	187	0
+	+	167	0
+	+	168	22
 
 > ~/.autosshrc
 	*	1530771150	0
