@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/git
+~MSle0~/od
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1530863245,,"wq"
+|2,0,1531192186,,"wq"
 :q
-|2,0,1530771152,,"q"
+|2,0,1531141785,,"q"
 :A
 |2,0,1530696070,,"A"
 :w
@@ -56,6 +56,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/od
+|2,1,1531192165,47,"od"
 ?/git
 |2,1,1530509228,47,"git"
 ?/ignore
@@ -159,41 +161,38 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	alias jc7="/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jconsole &"
-	alias jc8="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/jconsole &"
-	alias jc9="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &"
-	alias jc10="/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &"
-|3,0,0,1,4,0,1529930844,"alias jc7=\"/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jconsole &\"","alias jc8=\"/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/jconsole &\"","alias jc9=\"/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/jconsole &\"","alias jc10=\"/Library/Java/JavaVirtualMachines/jdk-10.jdk/Contents/Home/bin/jconsole &\""
+	alias od="o /Users/notalk/Downloads"
+|3,0,0,1,1,0,1531192167,"alias od=\"o /Users/notalk/Downloads\""
 "1	LINE	0
-	
-|3,0,1,1,1,0,1530863175,""
+	alias od="o ~/Downloads"
+|3,0,1,1,1,0,1531186566,"alias od=\"o ~/Downloads\""
 "2	LINE	0
-	alias j="ps -ef|grep java"
-|3,0,2,1,1,0,1530863171,"alias j=\"ps -ef|grep java\""
+	global.baseUrl = 'http://10.0.10.115'
+|3,0,2,1,1,0,1531141995,"global.baseUrl = 'http://10.0.10.115'"
 "3	LINE	0
-	alias arts="cd /Users/notalk/workspace/labs/ARTS"
-|3,0,3,1,1,0,1530863161,"alias arts=\"cd /Users/notalk/workspace/labs/ARTS\""
+	alias o.=""
+|3,0,3,1,1,0,1530865605,"alias o.=\"\""
 "4	LINE	0
-	alias aliass="alias |grep "
-|3,0,4,1,1,0,1530863154,"alias aliass=\"alias |grep \""
+	
+|3,0,4,1,1,0,1530863175,""
 "5	LINE	0
-	alias uhost='cd /Users/notalk/workspace/utry/webapp'
-|3,0,5,1,1,0,1530863090,"alias uhost='cd /Users/notalk/workspace/utry/webapp'"
+	alias j="ps -ef|grep java"
+|3,0,5,1,1,0,1530863171,"alias j=\"ps -ef|grep java\""
 "6	LINE	0
-	alias utc='cd /Users/notalk/workspace/utry-cloud'
-|3,0,6,1,1,0,1530863086,"alias utc='cd /Users/notalk/workspace/utry-cloud'"
+	alias arts="cd /Users/notalk/workspace/labs/ARTS"
+|3,0,6,1,1,0,1530863161,"alias arts=\"cd /Users/notalk/workspace/labs/ARTS\""
 "7	LINE	0
-	alias utt='cd /Users/notalk/workspace/utry-test'
-|3,0,7,1,1,0,1530863084,"alias utt='cd /Users/notalk/workspace/utry-test'"
+	alias aliass="alias |grep "
+|3,0,7,1,1,0,1530863154,"alias aliass=\"alias |grep \""
 "8	LINE	0
-	#alias scphrm="scp -r /Users/notalk/workspace/utry-cloud/cloud_hrm/build/libs/hrm.war root@10.0.10.115:/tmp/cloud"
-|3,0,8,1,1,0,1530863080,"#alias scphrm=\"scp -r /Users/notalk/workspace/utry-cloud/cloud_hrm/build/libs/hrm.war root@10.0.10.115:/tmp/cloud\""
+	alias uhost='cd /Users/notalk/workspace/utry/webapp'
+|3,0,8,1,1,0,1530863090,"alias uhost='cd /Users/notalk/workspace/utry/webapp'"
 "9	LINE	0
-	#scp  alias
-|3,0,9,1,1,0,1530863077,"#scp  alias"
+	alias utc='cd /Users/notalk/workspace/utry-cloud'
+|3,0,9,1,1,0,1530863086,"alias utc='cd /Users/notalk/workspace/utry-cloud'"
 ""-	CHAR	0
-	;
-|3,1,36,0,1,0,1530863243,";"
+	Downloads
+|3,1,36,0,1,0,1531192183,"Downloads"
 
 # global variables:
 !MAC	NUM	0
@@ -201,243 +200,236 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  168  22  ~/.zshrc
-|4,48,168,22,1530863245,"~/.zshrc"
-'1  104  0  ~/.zshrc
-|4,49,104,0,1530863192,"~/.zshrc"
-'2  104  0  ~/.zshrc
-|4,50,104,0,1530863192,"~/.zshrc"
-'3  7  10  ~/.autosshrc
-|4,51,7,10,1530771152,"~/.autosshrc"
-'4  16  1  ~/.gitconfig
-|4,52,16,1,1530698382,"~/.gitconfig"
-'5  12  10  ~/.gitconfig
-|4,53,12,10,1530696226,"~/.gitconfig"
-'6  12  10  ~/.gitconfig
-|4,54,12,10,1530696226,"~/.gitconfig"
-'7  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,55,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
-'8  165  20  ~/.zshrc
-|4,56,165,20,1530516889,"~/.zshrc"
-'9  162  20  ~/.zshrc
-|4,57,162,20,1530516889,"~/.zshrc"
+'0  184  31  ~/.zshrc
+|4,48,184,31,1531192186,"~/.zshrc"
+'1  185  34  ~/.zshrc
+|4,49,185,34,1531186581,"~/.zshrc"
+'2  184  34  ~/.zshrc
+|4,50,184,34,1531186581,"~/.zshrc"
+'3  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,51,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+'4  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,52,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
+'5  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,53,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+'6  4  1  ~/workspace/utry/IasWeb/src/global.js
+|4,54,4,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+'7  4  1  ~/workspace/utry/IasWeb/src/global.js
+|4,55,4,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+'8  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,56,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+'9  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,57,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
 
 # Jumplist (newest first):
--'  168  22  ~/.zshrc
-|4,39,168,22,1530863245,"~/.zshrc"
--'  104  0  ~/.zshrc
-|4,39,104,0,1530863212,"~/.zshrc"
--'  104  0  ~/.zshrc
-|4,39,104,0,1530863192,"~/.zshrc"
--'  165  20  ~/.zshrc
-|4,39,165,20,1530863070,"~/.zshrc"
--'  165  20  ~/.zshrc
-|4,39,165,20,1530863070,"~/.zshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1530771152,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1530771152,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1530771152,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1530771152,"~/.autosshrc"
--'  8  10  ~/.autosshrc
-|4,39,8,10,1530771147,"~/.autosshrc"
--'  8  10  ~/.autosshrc
-|4,39,8,10,1530771147,"~/.autosshrc"
--'  8  10  ~/.autosshrc
-|4,39,8,10,1530771147,"~/.autosshrc"
--'  8  10  ~/.autosshrc
-|4,39,8,10,1530771147,"~/.autosshrc"
--'  16  1  ~/.gitconfig
-|4,39,16,1,1530698382,"~/.gitconfig"
--'  16  1  ~/.gitconfig
-|4,39,16,1,1530698382,"~/.gitconfig"
--'  16  1  ~/.gitconfig
-|4,39,16,1,1530698382,"~/.gitconfig"
--'  16  1  ~/.gitconfig
-|4,39,16,1,1530698382,"~/.gitconfig"
--'  16  1  ~/.gitconfig
-|4,39,16,1,1530698382,"~/.gitconfig"
--'  16  1  ~/.gitconfig
-|4,39,16,1,1530698382,"~/.gitconfig"
--'  16  1  ~/.gitconfig
-|4,39,16,1,1530698382,"~/.gitconfig"
--'  16  1  ~/.gitconfig
-|4,39,16,1,1530698382,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530698376,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530698376,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530698376,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530698376,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530698376,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530698376,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530698376,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530698376,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530696226,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530696226,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530696226,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530696226,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530696226,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530696226,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530696226,"~/.gitconfig"
--'  12  10  ~/.gitconfig
-|4,39,12,10,1530696226,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  9  1  ~/.gitconfig
-|4,39,9,1,1530696076,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  6  20  ~/.gitconfig
-|4,39,6,20,1530696067,"~/.gitconfig"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
--'  13356  0  ~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql
-|4,39,13356,0,1530589320,"~/workspace/utry/ivs-root/db/SAAS版本初始/utry.sql"
+-'  184  31  ~/.zshrc
+|4,39,184,31,1531192186,"~/.zshrc"
+-'  185  34  ~/.zshrc
+|4,39,185,34,1531192165,"~/.zshrc"
+-'  184  34  ~/.zshrc
+|4,39,184,34,1531186581,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141908,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141908,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141908,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141908,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+-'  5  1  ~/workspace/utry/IasWeb/src/global.js
+|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1530863244	0
-	"	168	22
-	^	168	24
-	.	168	22
-	+	172	12
-	+	173	61
-	+	175	34
-	+	171	0
-	+	171	8
-	+	171	13
-	+	180	24
+	*	1531192185	0
+	"	184	31
+	^	184	32
+	.	184	31
 	+	171	46
 	+	171	0
 	+	170	0
@@ -472,14 +464,14 @@ $workspace\/labs
 	+	170	0
 	+	133	18
 	+	134	9
-	+	197	0
+	+	199	0
 	+	65	13
 	+	166	7
 	+	170	32
 	+	170	0
 	+	171	0
 	+	173	50
-	+	185	9
+	+	187	9
 	+	183	0
 	+	110	0
 	+	65	6
@@ -498,39 +490,63 @@ $workspace\/labs
 	+	178	7
 	+	177	7
 	+	122	16
-	+	187	89
-	+	189	0
-	+	190	0
+	+	189	89
 	+	191	0
-	+	187	8
+	+	192	0
+	+	193	0
 	+	189	8
-	+	190	8
-	+	191	52
-	+	190	53
-	+	187	55
-	+	192	7
+	+	191	8
+	+	192	8
+	+	193	52
+	+	192	53
+	+	189	55
 	+	194	7
-	+	195	7
-	+	196	83
-	+	195	85
-	+	194	88
-	+	192	87
+	+	196	7
+	+	197	7
+	+	198	83
+	+	197	85
+	+	196	88
+	+	194	87
 	+	165	20
 	+	170	0
 	+	173	0
 	+	174	0
-	+	185	0
 	+	187	0
-	+	192	0
+	+	189	0
+	+	194	0
 	+	154	0
 	+	157	0
 	+	161	0
 	+	165	0
 	+	166	0
-	+	184	0
-	+	187	0
+	+	186	0
+	+	189	0
 	+	167	0
-	+	168	22
+	+	168	23
+	+	169	10
+	+	170	0
+	+	169	22
+	+	185	0
+	+	169	0
+	+	185	34
+	+	184	31
+
+> ~/workspace/utry/IasWeb/src/global.js
+	*	1531141998	0
+	"	4	0
+	^	4	2
+	.	4	0
+	+	4	0
+	+	4	1
+	+	4	0
+
+> ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
+	*	1531141699	0
+	"	1	0
+
+> ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+	*	1531119982	0
+	"	1	0
 
 > ~/.autosshrc
 	*	1530771150	0
@@ -909,10 +925,6 @@ $workspace\/labs
 	+	18	26
 	+	17	24
 	+	18	30
-
-> ~/workspace/utry/IasWeb/src/global.js
-	*	1527668233	0
-	"	1	0
 
 > ~/workspace/labs/D/markdown/前端添加查询参数.md
 	*	1527342053	0
@@ -1329,11 +1341,3 @@ $workspace\/labs
 	^	2	47
 	.	2	47
 	+	2	47
-
-> ~/.Trash/data/ivs_tuniu.voice_config-schema.sql
-	*	1525316572	0
-	"	1	0
-
-> ~/.Trash/data/ivs_tuniu.voice_config.sql
-	*	1525316556	0
-	"	1	0
