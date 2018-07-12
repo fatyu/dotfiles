@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1531192186,,"wq"
+|2,0,1531411811,,"wq"
 :q
-|2,0,1531141785,,"q"
+|2,0,1531411446,,"q"
 :A
 |2,0,1530696070,,"A"
 :w
@@ -163,36 +163,36 @@ $workspace\/labs
 "0	LINE	0
 	alias od="o /Users/notalk/Downloads"
 |3,0,0,1,1,0,1531192167,"alias od=\"o /Users/notalk/Downloads\""
-"1	LINE	0
-	alias od="o ~/Downloads"
-|3,0,1,1,1,0,1531186566,"alias od=\"o ~/Downloads\""
+""1	LINE	0
+	antigen theme robbyrussell
+|3,1,1,1,1,0,1531411561,"antigen theme robbyrussell"
 "2	LINE	0
-	global.baseUrl = 'http://10.0.10.115'
-|3,0,2,1,1,0,1531141995,"global.baseUrl = 'http://10.0.10.115'"
+	alias od="o ~/Downloads"
+|3,0,2,1,1,0,1531186566,"alias od=\"o ~/Downloads\""
 "3	LINE	0
-	alias o.=""
-|3,0,3,1,1,0,1530865605,"alias o.=\"\""
+	global.baseUrl = 'http://10.0.10.115'
+|3,0,3,1,1,0,1531141995,"global.baseUrl = 'http://10.0.10.115'"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1530863175,""
+	alias o.=""
+|3,0,4,1,1,0,1530865605,"alias o.=\"\""
 "5	LINE	0
-	alias j="ps -ef|grep java"
-|3,0,5,1,1,0,1530863171,"alias j=\"ps -ef|grep java\""
+	
+|3,0,5,1,1,0,1530863175,""
 "6	LINE	0
-	alias arts="cd /Users/notalk/workspace/labs/ARTS"
-|3,0,6,1,1,0,1530863161,"alias arts=\"cd /Users/notalk/workspace/labs/ARTS\""
+	alias j="ps -ef|grep java"
+|3,0,6,1,1,0,1530863171,"alias j=\"ps -ef|grep java\""
 "7	LINE	0
-	alias aliass="alias |grep "
-|3,0,7,1,1,0,1530863154,"alias aliass=\"alias |grep \""
+	alias arts="cd /Users/notalk/workspace/labs/ARTS"
+|3,0,7,1,1,0,1530863161,"alias arts=\"cd /Users/notalk/workspace/labs/ARTS\""
 "8	LINE	0
-	alias uhost='cd /Users/notalk/workspace/utry/webapp'
-|3,0,8,1,1,0,1530863090,"alias uhost='cd /Users/notalk/workspace/utry/webapp'"
+	alias aliass="alias |grep "
+|3,0,8,1,1,0,1530863154,"alias aliass=\"alias |grep \""
 "9	LINE	0
-	alias utc='cd /Users/notalk/workspace/utry-cloud'
-|3,0,9,1,1,0,1530863086,"alias utc='cd /Users/notalk/workspace/utry-cloud'"
-""-	CHAR	0
+	alias uhost='cd /Users/notalk/workspace/utry/webapp'
+|3,0,9,1,1,0,1530863090,"alias uhost='cd /Users/notalk/workspace/utry/webapp'"
+"-	CHAR	0
 	Downloads
-|3,1,36,0,1,0,1531192183,"Downloads"
+|3,0,36,0,1,0,1531192183,"Downloads"
 
 # global variables:
 !MAC	NUM	0
@@ -200,38 +200,208 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  184  31  ~/.zshrc
-|4,48,184,31,1531192186,"~/.zshrc"
-'1  185  34  ~/.zshrc
-|4,49,185,34,1531186581,"~/.zshrc"
-'2  184  34  ~/.zshrc
-|4,50,184,34,1531186581,"~/.zshrc"
-'3  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,51,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
-'4  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,52,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
-'5  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,53,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
-'6  4  1  ~/workspace/utry/IasWeb/src/global.js
-|4,54,4,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
-'7  4  1  ~/workspace/utry/IasWeb/src/global.js
-|4,55,4,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
-'8  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,56,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
-'9  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,57,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
+'0  242  0  ~/.zshrc
+|4,48,242,0,1531411811,"~/.zshrc"
+'1  240  84  ~/.zshrc
+|4,49,240,84,1531411566,"~/.zshrc"
+'2  240  84  ~/.zshrc
+|4,50,240,84,1531411566,"~/.zshrc"
+'3  2057  0  ~/antigen.zsh
+|4,51,2057,0,1531411446,"~/antigen.zsh"
+'4  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,52,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+'5  184  31  ~/.zshrc
+|4,53,184,31,1531192186,"~/.zshrc"
+'6  184  31  ~/.zshrc
+|4,54,184,31,1531192186,"~/.zshrc"
+'7  184  31  ~/.zshrc
+|4,55,184,31,1531192186,"~/.zshrc"
+'8  184  31  ~/.zshrc
+|4,56,184,31,1531192186,"~/.zshrc"
+'9  185  34  ~/.zshrc
+|4,57,185,34,1531186581,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  242  0  ~/.zshrc
+|4,39,242,0,1531411811,"~/.zshrc"
+-'  224  16  ~/.zshrc
+|4,39,224,16,1531411794,"~/.zshrc"
+-'  240  84  ~/.zshrc
+|4,39,240,84,1531411783,"~/.zshrc"
+-'  240  84  ~/.zshrc
+|4,39,240,84,1531411566,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1531411505,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1531411505,"~/.zshrc"
+-'  205  13  ~/.zshrc
+|4,39,205,13,1531411500,"~/.zshrc"
+-'  205  13  ~/.zshrc
+|4,39,205,13,1531411500,"~/.zshrc"
+-'  2057  0  ~/antigen.zsh
+|4,39,2057,0,1531411446,"~/antigen.zsh"
+-'  2057  0  ~/antigen.zsh
+|4,39,2057,0,1531411446,"~/antigen.zsh"
+-'  1  0  ~/antigen.zsh
+|4,39,1,0,1531411443,"~/antigen.zsh"
+-'  1  0  ~/antigen.zsh
+|4,39,1,0,1531411443,"~/antigen.zsh"
+-'  114  18  ~/.zshrc
+|4,39,114,18,1531411059,"~/.zshrc"
+-'  114  18  ~/.zshrc
+|4,39,114,18,1531411059,"~/.zshrc"
+-'  184  31  ~/.zshrc
+|4,39,184,31,1531411048,"~/.zshrc"
+-'  184  31  ~/.zshrc
+|4,39,184,31,1531411048,"~/.zshrc"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  184  31  ~/.zshrc
+|4,39,184,31,1531192186,"~/.zshrc"
+-'  184  31  ~/.zshrc
+|4,39,184,31,1531192186,"~/.zshrc"
+-'  184  31  ~/.zshrc
+|4,39,184,31,1531192186,"~/.zshrc"
 -'  184  31  ~/.zshrc
 |4,39,184,31,1531192186,"~/.zshrc"
 -'  185  34  ~/.zshrc
 |4,39,185,34,1531192165,"~/.zshrc"
+-'  185  34  ~/.zshrc
+|4,39,185,34,1531192165,"~/.zshrc"
+-'  185  34  ~/.zshrc
+|4,39,185,34,1531192165,"~/.zshrc"
+-'  185  34  ~/.zshrc
+|4,39,185,34,1531192165,"~/.zshrc"
+-'  185  34  ~/.zshrc
+|4,39,185,34,1531192165,"~/.zshrc"
+-'  185  34  ~/.zshrc
+|4,39,185,34,1531192165,"~/.zshrc"
+-'  184  34  ~/.zshrc
+|4,39,184,34,1531186581,"~/.zshrc"
+-'  184  34  ~/.zshrc
+|4,39,184,34,1531186581,"~/.zshrc"
+-'  184  34  ~/.zshrc
+|4,39,184,34,1531186581,"~/.zshrc"
 -'  184  34  ~/.zshrc
 |4,39,184,34,1531186581,"~/.zshrc"
 -'  169  22  ~/.zshrc
 |4,39,169,22,1531186554,"~/.zshrc"
 -'  169  22  ~/.zshrc
 |4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
 -'  4  0  ~/workspace/utry/IasWeb/src/global.js
 |4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
 -'  4  0  ~/workspace/utry/IasWeb/src/global.js
@@ -248,204 +418,18 @@ $workspace\/labs
 |4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
 -'  4  0  ~/workspace/utry/IasWeb/src/global.js
 |4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141908,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141908,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141908,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141908,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  1  0  ~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log
-|4,39,1,0,1531141785,"~/.npm/_logs/2018-07-09T13_08_06_278Z-debug.log"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
--'  5  1  ~/workspace/utry/IasWeb/src/global.js
-|4,39,5,1,1531141556,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,1,0,1531141547,"~/workspace/utry/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,1,0,1531119983,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
+-'  4  0  ~/workspace/utry/IasWeb/src/global.js
+|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1531192185	0
-	"	184	31
-	^	184	32
-	.	184	31
-	+	171	46
-	+	171	0
-	+	170	0
-	+	167	0
-	+	161	0
-	+	159	7
-	+	138	0
-	+	65	6
-	+	11	0
-	+	19	0
-	+	23	1
-	+	22	19
-	+	33	23
-	+	120	8
-	+	124	7
-	+	126	0
+	*	1531411810	0
+	"	242	0
+	^	242	1
+	.	242	0
 	+	127	0
 	+	137	12
 	+	147	20
@@ -530,6 +514,30 @@ $workspace\/labs
 	+	169	0
 	+	185	34
 	+	184	31
+	+	206	0
+	+	202	24
+	+	205	13
+	+	242	12
+	+	224	7
+	+	227	0
+	+	230	0
+	+	231	0
+	+	232	0
+	+	233	0
+	+	234	0
+	+	240	84
+	+	224	0
+	+	237	0
+	+	240	0
+	+	242	0
+
+> ~/antigen.zsh
+	*	1531411443	0
+	"	2057	0
+
+> ~/workspace/utry/IasWeb/.git/MERGE_MSG
+	*	1531382099	0
+	"	1	0
 
 > ~/workspace/utry/IasWeb/src/global.js
 	*	1531141998	0
@@ -1330,14 +1338,3 @@ $workspace\/labs
 > /usr/share/vim/vim80/doc/help.txt
 	*	1525428939	0
 	"	1	0
-
-> ~/workspace/labs/D/md/git ops.md
-	*	1525328623	0
-	"	68	0
-
-> ~/workspace/labs/D/sync-data-github.sh
-	*	1525328485	0
-	"	2	46
-	^	2	47
-	.	2	47
-	+	2	47
