@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1531807008,,"q"
 :wq
 |2,0,1531411811,,"wq"
-:q
-|2,0,1531411446,,"q"
 :A
 |2,0,1530696070,,"A"
 :w
@@ -56,6 +56,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/ghu
+|2,1,1531807006,47,"ghu"
 ?/od
 |2,1,1531192165,47,"od"
 ?/git
@@ -130,8 +132,6 @@ $workspace\/labs
 |2,1,1524667709,47,"alia"
 ?/plugi
 |2,1,1524652870,47,"plugi"
-?/ghu
-|2,1,1524585960,47,"ghu"
 ?/notalk
 |2,1,1524496256,47,"notalk"
 ?/java
@@ -201,31 +201,37 @@ $workspace\/labs
 
 # File marks:
 '0  242  0  ~/.zshrc
-|4,48,242,0,1531411811,"~/.zshrc"
-'1  240  84  ~/.zshrc
-|4,49,240,84,1531411566,"~/.zshrc"
+|4,48,242,0,1531807008,"~/.zshrc"
+'1  242  0  ~/.zshrc
+|4,49,242,0,1531411811,"~/.zshrc"
 '2  240  84  ~/.zshrc
 |4,50,240,84,1531411566,"~/.zshrc"
-'3  2057  0  ~/antigen.zsh
-|4,51,2057,0,1531411446,"~/antigen.zsh"
-'4  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
-|4,52,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
-'5  184  31  ~/.zshrc
-|4,53,184,31,1531192186,"~/.zshrc"
-'6  184  31  ~/.zshrc
-|4,54,184,31,1531192186,"~/.zshrc"
-'7  184  31  ~/.zshrc
-|4,55,184,31,1531192186,"~/.zshrc"
+'3  240  84  ~/.zshrc
+|4,51,240,84,1531411566,"~/.zshrc"
+'4  240  84  ~/.zshrc
+|4,52,240,84,1531411566,"~/.zshrc"
+'5  240  84  ~/.zshrc
+|4,53,240,84,1531411566,"~/.zshrc"
+'6  2057  0  ~/antigen.zsh
+|4,54,2057,0,1531411446,"~/antigen.zsh"
+'7  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,55,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
 '8  184  31  ~/.zshrc
 |4,56,184,31,1531192186,"~/.zshrc"
-'9  185  34  ~/.zshrc
-|4,57,185,34,1531186581,"~/.zshrc"
+'9  184  31  ~/.zshrc
+|4,57,184,31,1531192186,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  242  0  ~/.zshrc
+|4,39,242,0,1531807008,"~/.zshrc"
 -'  242  0  ~/.zshrc
 |4,39,242,0,1531411811,"~/.zshrc"
 -'  224  16  ~/.zshrc
 |4,39,224,16,1531411794,"~/.zshrc"
+-'  224  16  ~/.zshrc
+|4,39,224,16,1531411794,"~/.zshrc"
+-'  240  84  ~/.zshrc
+|4,39,240,84,1531411783,"~/.zshrc"
 -'  240  84  ~/.zshrc
 |4,39,240,84,1531411783,"~/.zshrc"
 -'  240  84  ~/.zshrc
@@ -234,6 +240,10 @@ $workspace\/labs
 |4,39,38,0,1531411505,"~/.zshrc"
 -'  38  0  ~/.zshrc
 |4,39,38,0,1531411505,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1531411505,"~/.zshrc"
+-'  205  13  ~/.zshrc
+|4,39,205,13,1531411500,"~/.zshrc"
 -'  205  13  ~/.zshrc
 |4,39,205,13,1531411500,"~/.zshrc"
 -'  205  13  ~/.zshrc
@@ -242,6 +252,14 @@ $workspace\/labs
 |4,39,2057,0,1531411446,"~/antigen.zsh"
 -'  2057  0  ~/antigen.zsh
 |4,39,2057,0,1531411446,"~/antigen.zsh"
+-'  2057  0  ~/antigen.zsh
+|4,39,2057,0,1531411446,"~/antigen.zsh"
+-'  2057  0  ~/antigen.zsh
+|4,39,2057,0,1531411446,"~/antigen.zsh"
+-'  1  0  ~/antigen.zsh
+|4,39,1,0,1531411443,"~/antigen.zsh"
+-'  1  0  ~/antigen.zsh
+|4,39,1,0,1531411443,"~/antigen.zsh"
 -'  1  0  ~/antigen.zsh
 |4,39,1,0,1531411443,"~/antigen.zsh"
 -'  1  0  ~/antigen.zsh
@@ -250,10 +268,26 @@ $workspace\/labs
 |4,39,114,18,1531411059,"~/.zshrc"
 -'  114  18  ~/.zshrc
 |4,39,114,18,1531411059,"~/.zshrc"
+-'  114  18  ~/.zshrc
+|4,39,114,18,1531411059,"~/.zshrc"
 -'  184  31  ~/.zshrc
 |4,39,184,31,1531411048,"~/.zshrc"
 -'  184  31  ~/.zshrc
 |4,39,184,31,1531411048,"~/.zshrc"
+-'  184  31  ~/.zshrc
+|4,39,184,31,1531411048,"~/.zshrc"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
 |4,39,1,0,1531382100,"~/workspace/utry/IasWeb/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/IasWeb/.git/MERGE_MSG
@@ -274,6 +308,8 @@ $workspace\/labs
 |4,39,184,31,1531192186,"~/.zshrc"
 -'  184  31  ~/.zshrc
 |4,39,184,31,1531192186,"~/.zshrc"
+-'  185  34  ~/.zshrc
+|4,39,185,34,1531192165,"~/.zshrc"
 -'  185  34  ~/.zshrc
 |4,39,185,34,1531192165,"~/.zshrc"
 -'  185  34  ~/.zshrc
@@ -314,6 +350,8 @@ $workspace\/labs
 |4,39,169,22,1531186554,"~/.zshrc"
 -'  169  22  ~/.zshrc
 |4,39,169,22,1531186554,"~/.zshrc"
+-'  169  22  ~/.zshrc
+|4,39,169,22,1531186554,"~/.zshrc"
 -'  4  0  ~/workspace/utry/IasWeb/src/global.js
 |4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
 -'  4  0  ~/workspace/utry/IasWeb/src/global.js
@@ -384,49 +422,11 @@ $workspace\/labs
 |4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
 -'  4  0  ~/workspace/utry/IasWeb/src/global.js
 |4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141999,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
--'  4  0  ~/workspace/utry/IasWeb/src/global.js
-|4,39,4,0,1531141914,"~/workspace/utry/IasWeb/src/global.js"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1531411810	0
+	*	1531807006	0
 	"	242	0
 	^	242	1
 	.	242	0
