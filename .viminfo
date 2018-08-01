@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1532513342,,"wq"
+|2,0,1533088452,,"wq"
 :q
 |2,0,1532511415,,"q"
 :A
@@ -161,8 +161,8 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	utry-dev-116|10.0.10.116|root|utry6924|22|2
-|3,0,0,1,1,0,1532499695,"utry-dev-116|10.0.10.116|root|utry6924|22|2"
+	alias ut='cd /Users/notalk/workspace/utry'
+|3,0,0,1,1,0,1533088386,"alias ut='cd /Users/notalk/workspace/utry'"
 "1	LINE	0
 	antigen theme robbyrussell
 |3,0,1,1,1,0,1531411561,"antigen theme robbyrussell"
@@ -191,8 +191,8 @@ $workspace\/labs
 	alias uhost='cd /Users/notalk/workspace/utry/webapp'
 |3,0,9,1,1,0,1530863090,"alias uhost='cd /Users/notalk/workspace/utry/webapp'"
 ""-	CHAR	0
-	6
-|3,1,36,0,1,0,1532499701,"6"
+	t
+|3,1,36,0,1,0,1533088394,"t"
 
 # global variables:
 !MAC	NUM	0
@@ -200,36 +200,132 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,48,436,90,1532513342,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
-'1  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
-|4,49,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
-'2  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,50,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
-'3  181  0  ~/.zshrc
-|4,51,181,0,1532504119,"~/.zshrc"
-'4  8  36  ~/.autosshrc
-|4,52,8,36,1532499730,"~/.autosshrc"
-'5  242  0  ~/.zshrc
-|4,53,242,0,1531807008,"~/.zshrc"
-'6  242  0  ~/.zshrc
-|4,54,242,0,1531807008,"~/.zshrc"
-'7  242  0  ~/.zshrc
-|4,55,242,0,1531411811,"~/.zshrc"
-'8  242  0  ~/.zshrc
-|4,56,242,0,1531411811,"~/.zshrc"
-'9  240  84  ~/.zshrc
-|4,57,240,84,1531411566,"~/.zshrc"
+'0  126  13  ~/.zshrc
+|4,48,126,13,1533088452,"~/.zshrc"
+'1  9  11  ~/.autosshrc
+|4,49,9,11,1533001982,"~/.autosshrc"
+'2  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,50,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+'3  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,51,436,90,1532513342,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+'4  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,52,436,90,1532513342,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+'5  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,53,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+'6  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,54,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+'7  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,55,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+'8  183  0  ~/.zshrc
+|4,56,183,0,1532504119,"~/.zshrc"
+'9  181  0  ~/.zshrc
+|4,57,181,0,1532504119,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  126  13  ~/.zshrc
+|4,39,126,13,1533088452,"~/.zshrc"
+-'  183  44  ~/.zshrc
+|4,39,183,44,1533088304,"~/.zshrc"
+-'  9  11  ~/.autosshrc
+|4,39,9,11,1533001982,"~/.autosshrc"
+-'  9  11  ~/.autosshrc
+|4,39,9,11,1533001982,"~/.autosshrc"
+-'  8  36  ~/.autosshrc
+|4,39,8,36,1533001962,"~/.autosshrc"
+-'  8  36  ~/.autosshrc
+|4,39,8,36,1533001962,"~/.autosshrc"
+-'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  468  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,468,0,1532944244,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  468  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,468,0,1532944244,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  468  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,468,0,1532944244,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  468  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,468,0,1532944244,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532944241,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532944241,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532944241,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532944241,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
 -'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
 |4,39,436,90,1532513342,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532513342,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532513342,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532513342,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  445  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,445,0,1532513328,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  445  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,445,0,1532513328,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  445  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,445,0,1532513328,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  445  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,445,0,1532513328,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  445  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,445,0,1532513328,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  445  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,445,0,1532513328,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  445  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,445,0,1532513328,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
 -'  445  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
 |4,39,445,0,1532513328,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
 -'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
 |4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
 |4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/ivs-root/.git/MERGE_MSG
+|4,39,1,0,1532511415,"~/workspace/utry/ivs-root/.git/MERGE_MSG"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
 -'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
 |4,39,436,90,1532511362,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
 -'  436  90  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
@@ -240,6 +336,32 @@ $workspace\/labs
 |4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
 -'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
 |4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+|4,39,1,0,1532511351,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
 -'  181  0  ~/.zshrc
 |4,39,181,0,1532504119,"~/.zshrc"
 -'  181  0  ~/.zshrc
@@ -256,219 +378,71 @@ $workspace\/labs
 |4,39,181,0,1532504119,"~/.zshrc"
 -'  181  0  ~/.zshrc
 |4,39,181,0,1532504119,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1532504106,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1532504106,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1532504106,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1532504106,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1532504106,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1532504106,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1532504106,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1532504106,"~/.zshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1532499730,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  7  10  ~/.autosshrc
-|4,39,7,10,1532499692,"~/.autosshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531807008,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  242  0  ~/.zshrc
-|4,39,242,0,1531411811,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
--'  224  16  ~/.zshrc
-|4,39,224,16,1531411794,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1532504119,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-	*	1532513337	0
-	"	436	90
-	^	436	91
-	.	436	90
-	+	437	26
-	+	436	90
-
-> ~/workspace/utry/ivs-root/.git/MERGE_MSG
-	*	1532511412	0
-	"	1	0
-
 > ~/.zshrc
-	*	1532504117	0
-	"	181	0
-	^	242	1
-	.	242	0
-	+	127	0
-	+	137	12
-	+	147	20
-	+	160	0
-	+	159	7
-	+	171	0
-	+	173	46
-	+	183	0
-	+	65	14
-	+	11	0
-	+	19	0
-	+	129	19
-	+	130	12
-	+	126	0
+	*	1533088451	0
+	"	126	13
+	^	174	49
+	.	174	48
 	+	65	14
 	+	170	0
 	+	133	18
 	+	134	9
-	+	199	0
+	+	201	0
 	+	65	13
 	+	166	7
 	+	170	32
 	+	170	0
 	+	171	0
-	+	173	50
-	+	187	9
-	+	183	0
+	+	175	50
+	+	189	9
+	+	185	0
 	+	110	0
 	+	65	6
 	+	67	0
@@ -477,82 +451,96 @@ $workspace\/labs
 	+	124	0
 	+	65	1
 	+	67	0
-	+	174	28
-	+	175	76
-	+	177	33
-	+	178	20
-	+	173	61
-	+	176	7
+	+	176	28
+	+	177	76
+	+	179	33
+	+	180	20
+	+	175	61
 	+	178	7
-	+	177	7
+	+	180	7
+	+	179	7
 	+	122	16
-	+	189	89
-	+	191	0
-	+	192	0
+	+	191	89
 	+	193	0
-	+	189	8
+	+	194	0
+	+	195	0
 	+	191	8
-	+	192	8
-	+	193	52
-	+	192	53
-	+	189	55
-	+	194	7
+	+	193	8
+	+	194	8
+	+	195	52
+	+	194	53
+	+	191	55
 	+	196	7
-	+	197	7
-	+	198	83
-	+	197	85
-	+	196	88
-	+	194	87
+	+	198	7
+	+	199	7
+	+	200	83
+	+	199	85
+	+	198	88
+	+	196	87
 	+	165	20
 	+	170	0
-	+	173	0
-	+	174	0
-	+	187	0
+	+	175	0
+	+	176	0
 	+	189	0
-	+	194	0
+	+	191	0
+	+	196	0
 	+	154	0
 	+	157	0
 	+	161	0
 	+	165	0
 	+	166	0
-	+	186	0
-	+	189	0
+	+	188	0
+	+	191	0
 	+	167	0
 	+	168	23
 	+	169	10
 	+	170	0
 	+	169	22
-	+	185	0
+	+	187	0
 	+	169	0
-	+	185	34
-	+	184	31
-	+	206	0
-	+	202	24
-	+	205	13
-	+	242	12
-	+	224	7
-	+	227	0
-	+	230	0
-	+	231	0
+	+	187	34
+	+	186	31
+	+	208	0
+	+	204	24
+	+	207	13
+	+	244	12
+	+	226	7
+	+	229	0
 	+	232	0
 	+	233	0
 	+	234	0
-	+	240	84
-	+	224	0
-	+	237	0
-	+	240	0
+	+	235	0
+	+	236	0
+	+	242	84
+	+	226	0
+	+	239	0
 	+	242	0
+	+	244	0
+	+	183	0
+	+	176	0
+	+	178	0
+	+	179	0
+	+	178	0
+	+	179	0
+	+	180	0
+	+	173	0
+	+	174	0
+	+	173	8
+	+	174	7
+	+	172	7
+	+	173	49
+	+	174	48
 
 > ~/.autosshrc
-	*	1532499730	0
-	"	8	36
-	^	8	37
-	.	8	36
+	*	1533001981	0
+	"	9	11
+	^	9	12
+	.	9	11
 	+	1	27
-	+	10	0
-	+	2	43
-	+	10	32
 	+	11	0
+	+	2	43
+	+	11	32
+	+	12	0
 	+	3	0
 	+	4	0
 	+	5	0
@@ -561,8 +549,23 @@ $workspace\/labs
 	+	5	37
 	+	6	37
 	+	7	37
-	+	9	11
+	+	10	11
 	+	8	36
+	+	9	11
+
+> ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
+	*	1532944264	0
+	"	471	74
+	^	471	77
+	.	471	74
+	+	437	26
+	+	436	90
+	+	472	0
+	+	471	74
+
+> ~/workspace/utry/ivs-root/.git/MERGE_MSG
+	*	1532511412	0
+	"	1	0
 
 > ~/antigen.zsh
 	*	1531411443	0
