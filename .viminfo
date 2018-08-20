@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1534311480,,"wq"
 :q
-|2,0,1534311388,,"q"
+|2,0,1534499460,,"q"
+:wq
+|2,0,1534478778,,"wq"
 :w
 |2,0,1534311363,,"w"
 ::q
@@ -202,40 +202,156 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  229  0  ~/.zshrc
-|4,48,229,0,1534311480,"~/.zshrc"
-'1  12  22  ~/.zshrc
-|4,49,12,22,1534311388,"~/.zshrc"
-'2  12  22  ~/.zshrc
-|4,50,12,22,1534311388,"~/.zshrc"
-'3  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,51,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
-'4  9  11  ~/.autosshrc
-|4,52,9,11,1534125047,"~/.autosshrc"
-'5  9  11  ~/.autosshrc
-|4,53,9,11,1533792000,"~/.autosshrc"
-'6  127  13  ~/.zshrc
-|4,54,127,13,1533088452,"~/.zshrc"
-'7  126  13  ~/.zshrc
-|4,55,126,13,1533088452,"~/.zshrc"
-'8  127  13  ~/.zshrc
-|4,56,127,13,1533088452,"~/.zshrc"
-'9  126  13  ~/.zshrc
-|4,57,126,13,1533088452,"~/.zshrc"
+'0  193  0  ~/.zshrc
+|4,48,193,0,1534499460,"~/.zshrc"
+'1  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,49,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+'2  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,50,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+'3  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,51,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+'4  229  0  ~/.zshrc
+|4,52,229,0,1534311480,"~/.zshrc"
+'5  229  0  ~/.zshrc
+|4,53,229,0,1534311480,"~/.zshrc"
+'6  12  22  ~/.zshrc
+|4,54,12,22,1534311388,"~/.zshrc"
+'7  12  22  ~/.zshrc
+|4,55,12,22,1534311388,"~/.zshrc"
+'8  12  22  ~/.zshrc
+|4,56,12,22,1534311388,"~/.zshrc"
+'9  12  22  ~/.zshrc
+|4,57,12,22,1534311388,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  193  0  ~/.zshrc
+|4,39,193,0,1534499460,"~/.zshrc"
+-'  245  0  ~/.zshrc
+|4,39,245,0,1534499452,"~/.zshrc"
+-'  229  0  ~/.zshrc
+|4,39,229,0,1534499450,"~/.zshrc"
+-'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  229  0  ~/.zshrc
+|4,39,229,0,1534311480,"~/.zshrc"
+-'  229  0  ~/.zshrc
+|4,39,229,0,1534311480,"~/.zshrc"
+-'  229  0  ~/.zshrc
+|4,39,229,0,1534311480,"~/.zshrc"
 -'  229  0  ~/.zshrc
 |4,39,229,0,1534311480,"~/.zshrc"
 -'  172  0  ~/.zshrc
 |4,39,172,0,1534311466,"~/.zshrc"
+-'  172  0  ~/.zshrc
+|4,39,172,0,1534311466,"~/.zshrc"
+-'  172  0  ~/.zshrc
+|4,39,172,0,1534311466,"~/.zshrc"
+-'  172  0  ~/.zshrc
+|4,39,172,0,1534311466,"~/.zshrc"
+-'  172  0  ~/.zshrc
+|4,39,172,0,1534311466,"~/.zshrc"
 -'  12  22  ~/.zshrc
 |4,39,12,22,1534311425,"~/.zshrc"
+-'  12  22  ~/.zshrc
+|4,39,12,22,1534311425,"~/.zshrc"
+-'  12  22  ~/.zshrc
+|4,39,12,22,1534311425,"~/.zshrc"
+-'  12  22  ~/.zshrc
+|4,39,12,22,1534311425,"~/.zshrc"
+-'  12  22  ~/.zshrc
+|4,39,12,22,1534311425,"~/.zshrc"
+-'  12  22  ~/.zshrc
+|4,39,12,22,1534311388,"~/.zshrc"
+-'  12  22  ~/.zshrc
+|4,39,12,22,1534311388,"~/.zshrc"
+-'  12  22  ~/.zshrc
+|4,39,12,22,1534311388,"~/.zshrc"
 -'  12  22  ~/.zshrc
 |4,39,12,22,1534311388,"~/.zshrc"
 -'  127  13  ~/.zshrc
 |4,39,127,13,1534311335,"~/.zshrc"
 -'  127  13  ~/.zshrc
 |4,39,127,13,1534311335,"~/.zshrc"
+-'  127  13  ~/.zshrc
+|4,39,127,13,1534311335,"~/.zshrc"
+-'  127  13  ~/.zshrc
+|4,39,127,13,1534311335,"~/.zshrc"
+-'  127  13  ~/.zshrc
+|4,39,127,13,1534311335,"~/.zshrc"
+-'  127  13  ~/.zshrc
+|4,39,127,13,1534311335,"~/.zshrc"
+-'  127  13  ~/.zshrc
+|4,39,127,13,1534311335,"~/.zshrc"
+-'  127  13  ~/.zshrc
+|4,39,127,13,1534311335,"~/.zshrc"
+-'  127  13  ~/.zshrc
+|4,39,127,13,1534311335,"~/.zshrc"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
 |4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
@@ -261,175 +377,59 @@ $workspace\/labs
 -'  9  11  ~/.autosshrc
 |4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533792000,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533792000,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533792000,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533792000,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533792000,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533792000,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533792000,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533792000,"~/.autosshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  126  13  ~/.zshrc
-|4,39,126,13,1533088452,"~/.zshrc"
--'  184  44  ~/.zshrc
-|4,39,184,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
--'  184  44  ~/.zshrc
-|4,39,184,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
--'  183  44  ~/.zshrc
-|4,39,183,44,1533088304,"~/.zshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
+|4,39,9,11,1534125047,"~/.autosshrc"
 -'  9  11  ~/.autosshrc
-|4,39,9,11,1533001982,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  8  36  ~/.autosshrc
-|4,39,8,36,1533001962,"~/.autosshrc"
--'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
--'  471  74  ~/workspace/utry/ivs-root/db/1807版本增量/utry.sql
-|4,39,471,74,1532944265,"~/workspace/utry/ivs-root/db/1807版本增量/utry.sql"
+|4,39,9,11,1534125047,"~/.autosshrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1534311474	0
-	"	229	0
+	*	1534499459	0
+	"	193	0
 	^	12	1
 	.	12	0
 	+	202	0
@@ -532,6 +532,13 @@ $workspace\/labs
 	+	12	22
 	+	11	0
 	+	12	0
+
+> ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+	*	1534478778	0
+	"	14	48
+	^	14	49
+	.	14	48
+	+	14	48
 
 > ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
 	*	1534216940	0
@@ -1327,24 +1334,3 @@ $workspace\/labs
 	^	3	0
 	.	2	9
 	+	2	9
-
-> ~/workspace/utry-cloud/sync.sh
-	*	1525430943	0
-	"	11	43
-	^	13	39
-	.	11	43
-	+	14	0
-	+	2	46
-	+	5	41
-	+	8	40
-	+	11	36
-	+	8	36
-	+	5	36
-	+	4	39
-	+	7	40
-	+	10	38
-	+	13	38
-	+	2	43
-	+	5	43
-	+	8	43
-	+	11	43
