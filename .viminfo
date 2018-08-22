@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1534499460,,"q"
+|2,0,1534814779,,"q"
 :wq
 |2,0,1534478778,,"wq"
 :w
@@ -202,42 +202,62 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  193  0  ~/.zshrc
-|4,48,193,0,1534499460,"~/.zshrc"
-'1  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,49,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
-'2  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,50,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
-'3  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,51,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
-'4  229  0  ~/.zshrc
-|4,52,229,0,1534311480,"~/.zshrc"
-'5  229  0  ~/.zshrc
-|4,53,229,0,1534311480,"~/.zshrc"
-'6  12  22  ~/.zshrc
-|4,54,12,22,1534311388,"~/.zshrc"
-'7  12  22  ~/.zshrc
-|4,55,12,22,1534311388,"~/.zshrc"
-'8  12  22  ~/.zshrc
-|4,56,12,22,1534311388,"~/.zshrc"
-'9  12  22  ~/.zshrc
-|4,57,12,22,1534311388,"~/.zshrc"
+'0  1  0  ~/.zshrc
+|4,48,1,0,1534814779,"~/.zshrc"
+'1  193  0  ~/.zshrc
+|4,49,193,0,1534499460,"~/.zshrc"
+'2  193  0  ~/.zshrc
+|4,50,193,0,1534499460,"~/.zshrc"
+'3  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,51,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+'4  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,52,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+'5  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,53,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+'6  229  0  ~/.zshrc
+|4,54,229,0,1534311480,"~/.zshrc"
+'7  229  0  ~/.zshrc
+|4,55,229,0,1534311480,"~/.zshrc"
+'8  229  0  ~/.zshrc
+|4,56,229,0,1534311480,"~/.zshrc"
+'9  229  0  ~/.zshrc
+|4,57,229,0,1534311480,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  1  0  ~/.zshrc
+|4,39,1,0,1534814779,"~/.zshrc"
+-'  193  0  ~/.zshrc
+|4,39,193,0,1534814755,"~/.zshrc"
 -'  193  0  ~/.zshrc
 |4,39,193,0,1534499460,"~/.zshrc"
 -'  245  0  ~/.zshrc
 |4,39,245,0,1534499452,"~/.zshrc"
+-'  245  0  ~/.zshrc
+|4,39,245,0,1534499452,"~/.zshrc"
+-'  229  0  ~/.zshrc
+|4,39,229,0,1534499450,"~/.zshrc"
 -'  229  0  ~/.zshrc
 |4,39,229,0,1534499450,"~/.zshrc"
 -'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
 |4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
 -'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
 |4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
 -'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
 |4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
 -'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
 |4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
+-'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
+|4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
 -'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
 |4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
 -'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
@@ -260,6 +280,10 @@ $workspace\/labs
 |4,39,172,0,1534311466,"~/.zshrc"
 -'  172  0  ~/.zshrc
 |4,39,172,0,1534311466,"~/.zshrc"
+-'  172  0  ~/.zshrc
+|4,39,172,0,1534311466,"~/.zshrc"
+-'  12  22  ~/.zshrc
+|4,39,12,22,1534311425,"~/.zshrc"
 -'  12  22  ~/.zshrc
 |4,39,12,22,1534311425,"~/.zshrc"
 -'  12  22  ~/.zshrc
@@ -296,6 +320,8 @@ $workspace\/labs
 |4,39,127,13,1534311335,"~/.zshrc"
 -'  127  13  ~/.zshrc
 |4,39,127,13,1534311335,"~/.zshrc"
+-'  127  13  ~/.zshrc
+|4,39,127,13,1534311335,"~/.zshrc"
 -'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
 |4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
@@ -360,76 +386,50 @@ $workspace\/labs
 |4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
 |4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
--'  9  11  ~/.autosshrc
-|4,39,9,11,1534125047,"~/.autosshrc"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
+|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1534499459	0
-	"	193	0
+	*	1534814778	0
+	"	1	0
 	^	12	1
 	.	12	0
 	+	202	0
