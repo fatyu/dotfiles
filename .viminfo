@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1535099846,,"q"
 :wq
 |2,0,1535075367,,"wq"
-:q
-|2,0,1534933680,,"q"
 :w
 |2,0,1534311363,,"w"
 ::q
@@ -210,28 +210,32 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  129  7  ~/.zshrc
-|4,48,129,7,1535075367,"~/.zshrc"
-'1  66  85  ~/.zshrc
-|4,49,66,85,1535075230,"~/.zshrc"
-'2  66  85  ~/.zshrc
-|4,50,66,85,1535075230,"~/.zshrc"
-'3  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,51,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
-'4  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,52,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
-'5  225  0  ~/.zshrc
-|4,53,225,0,1534928339,"~/.zshrc"
-'6  225  0  ~/.zshrc
-|4,54,225,0,1534928339,"~/.zshrc"
-'7  224  0  ~/.zshrc
-|4,55,224,0,1534928339,"~/.zshrc"
-'8  224  0  ~/.zshrc
-|4,56,224,0,1534928339,"~/.zshrc"
-'9  139  0  ~/antigen.zsh
-|4,57,139,0,1534928298,"~/antigen.zsh"
+'0  225  0  ~/.zshrc
+|4,48,225,0,1535099846,"~/.zshrc"
+'1  129  7  ~/.zshrc
+|4,49,129,7,1535075367,"~/.zshrc"
+'2  129  7  ~/.zshrc
+|4,50,129,7,1535075367,"~/.zshrc"
+'3  66  85  ~/.zshrc
+|4,51,66,85,1535075230,"~/.zshrc"
+'4  66  85  ~/.zshrc
+|4,52,66,85,1535075230,"~/.zshrc"
+'5  66  85  ~/.zshrc
+|4,53,66,85,1535075230,"~/.zshrc"
+'6  66  85  ~/.zshrc
+|4,54,66,85,1535075230,"~/.zshrc"
+'7  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,55,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+'8  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,56,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+'9  225  0  ~/.zshrc
+|4,57,225,0,1534928339,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  225  0  ~/.zshrc
+|4,39,225,0,1535099846,"~/.zshrc"
+-'  129  7  ~/.zshrc
+|4,39,129,7,1535099842,"~/.zshrc"
 -'  129  7  ~/.zshrc
 |4,39,129,7,1535075367,"~/.zshrc"
 -'  147  0  ~/.zshrc
@@ -240,6 +244,14 @@ $workspace\/labs
 |4,39,146,0,1535075341,"~/.zshrc"
 -'  145  0  ~/.zshrc
 |4,39,145,0,1535075341,"~/.zshrc"
+-'  147  0  ~/.zshrc
+|4,39,147,0,1535075341,"~/.zshrc"
+-'  146  0  ~/.zshrc
+|4,39,146,0,1535075341,"~/.zshrc"
+-'  145  0  ~/.zshrc
+|4,39,145,0,1535075341,"~/.zshrc"
+-'  144  0  ~/.zshrc
+|4,39,144,0,1535075340,"~/.zshrc"
 -'  144  0  ~/.zshrc
 |4,39,144,0,1535075340,"~/.zshrc"
 -'  143  0  ~/.zshrc
@@ -250,6 +262,38 @@ $workspace\/labs
 |4,39,141,6,1535075339,"~/.zshrc"
 -'  140  43  ~/.zshrc
 |4,39,140,43,1535075339,"~/.zshrc"
+-'  143  0  ~/.zshrc
+|4,39,143,0,1535075339,"~/.zshrc"
+-'  142  0  ~/.zshrc
+|4,39,142,0,1535075339,"~/.zshrc"
+-'  141  6  ~/.zshrc
+|4,39,141,6,1535075339,"~/.zshrc"
+-'  140  43  ~/.zshrc
+|4,39,140,43,1535075339,"~/.zshrc"
+-'  139  0  ~/.zshrc
+|4,39,139,0,1535075338,"~/.zshrc"
+-'  138  0  ~/.zshrc
+|4,39,138,0,1535075338,"~/.zshrc"
+-'  136  0  ~/.zshrc
+|4,39,136,0,1535075338,"~/.zshrc"
+-'  135  0  ~/.zshrc
+|4,39,135,0,1535075338,"~/.zshrc"
+-'  134  11  ~/.zshrc
+|4,39,134,11,1535075338,"~/.zshrc"
+-'  132  0  ~/.zshrc
+|4,39,132,0,1535075338,"~/.zshrc"
+-'  131  0  ~/.zshrc
+|4,39,131,0,1535075338,"~/.zshrc"
+-'  130  0  ~/.zshrc
+|4,39,130,0,1535075338,"~/.zshrc"
+-'  128  0  ~/.zshrc
+|4,39,128,0,1535075338,"~/.zshrc"
+-'  127  0  ~/.zshrc
+|4,39,127,0,1535075338,"~/.zshrc"
+-'  126  0  ~/.zshrc
+|4,39,126,0,1535075338,"~/.zshrc"
+-'  125  1  ~/.zshrc
+|4,39,125,1,1535075338,"~/.zshrc"
 -'  139  0  ~/.zshrc
 |4,39,139,0,1535075338,"~/.zshrc"
 -'  138  0  ~/.zshrc
@@ -298,6 +342,40 @@ $workspace\/labs
 |4,39,114,0,1535075337,"~/.zshrc"
 -'  113  0  ~/.zshrc
 |4,39,113,0,1535075337,"~/.zshrc"
+-'  124  1  ~/.zshrc
+|4,39,124,1,1535075337,"~/.zshrc"
+-'  123  0  ~/.zshrc
+|4,39,123,0,1535075337,"~/.zshrc"
+-'  122  12  ~/.zshrc
+|4,39,122,12,1535075337,"~/.zshrc"
+-'  121  0  ~/.zshrc
+|4,39,121,0,1535075337,"~/.zshrc"
+-'  120  0  ~/.zshrc
+|4,39,120,0,1535075337,"~/.zshrc"
+-'  119  20  ~/.zshrc
+|4,39,119,20,1535075337,"~/.zshrc"
+-'  118  0  ~/.zshrc
+|4,39,118,0,1535075337,"~/.zshrc"
+-'  117  0  ~/.zshrc
+|4,39,117,0,1535075337,"~/.zshrc"
+-'  116  0  ~/.zshrc
+|4,39,116,0,1535075337,"~/.zshrc"
+-'  115  0  ~/.zshrc
+|4,39,115,0,1535075337,"~/.zshrc"
+-'  114  0  ~/.zshrc
+|4,39,114,0,1535075337,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1535075337,"~/.zshrc"
+-'  112  0  ~/.zshrc
+|4,39,112,0,1535075336,"~/.zshrc"
+-'  111  13  ~/.zshrc
+|4,39,111,13,1535075336,"~/.zshrc"
+-'  110  42  ~/.zshrc
+|4,39,110,42,1535075336,"~/.zshrc"
+-'  107  4  ~/.zshrc
+|4,39,107,4,1535075336,"~/.zshrc"
+-'  98  2  ~/.zshrc
+|4,39,98,2,1535075336,"~/.zshrc"
 -'  112  0  ~/.zshrc
 |4,39,112,0,1535075336,"~/.zshrc"
 -'  111  13  ~/.zshrc
@@ -314,12 +392,26 @@ $workspace\/labs
 |4,39,96,10,1535075335,"~/.zshrc"
 -'  94  42  ~/.zshrc
 |4,39,94,42,1535075335,"~/.zshrc"
+-'  97  2  ~/.zshrc
+|4,39,97,2,1535075335,"~/.zshrc"
+-'  96  10  ~/.zshrc
+|4,39,96,10,1535075335,"~/.zshrc"
+-'  94  42  ~/.zshrc
+|4,39,94,42,1535075335,"~/.zshrc"
 -'  93  33  ~/.zshrc
 |4,39,93,33,1535075334,"~/.zshrc"
 -'  92  23  ~/.zshrc
 |4,39,92,23,1535075334,"~/.zshrc"
 -'  91  15  ~/.zshrc
 |4,39,91,15,1535075334,"~/.zshrc"
+-'  93  33  ~/.zshrc
+|4,39,93,33,1535075334,"~/.zshrc"
+-'  92  23  ~/.zshrc
+|4,39,92,23,1535075334,"~/.zshrc"
+-'  91  15  ~/.zshrc
+|4,39,91,15,1535075334,"~/.zshrc"
+-'  66  85  ~/.zshrc
+|4,39,66,85,1535075333,"~/.zshrc"
 -'  66  85  ~/.zshrc
 |4,39,66,85,1535075333,"~/.zshrc"
 -'  66  85  ~/.zshrc
@@ -332,112 +424,20 @@ $workspace\/labs
 |4,39,64,26,1535075208,"~/.zshrc"
 -'  63  18  ~/.zshrc
 |4,39,63,18,1535075208,"~/.zshrc"
+-'  64  26  ~/.zshrc
+|4,39,64,26,1535075208,"~/.zshrc"
+-'  63  18  ~/.zshrc
+|4,39,63,18,1535075208,"~/.zshrc"
 -'  62  53  ~/.zshrc
 |4,39,62,53,1535075207,"~/.zshrc"
 -'  62  53  ~/.zshrc
 |4,39,62,53,1535075207,"~/.zshrc"
--'  61  78  ~/.zshrc
-|4,39,61,78,1535075206,"~/.zshrc"
--'  61  78  ~/.zshrc
-|4,39,61,78,1535075206,"~/.zshrc"
--'  225  0  ~/.zshrc
-|4,39,225,0,1535075204,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1535075204,"~/.zshrc"
--'  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  980  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,980,19,1534934388,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  980  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,980,19,1534934388,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  980  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,980,19,1534934388,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  980  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,980,19,1534934388,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  917  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,917,19,1534934385,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  917  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,917,19,1534934385,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  917  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,917,19,1534934385,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  917  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,917,19,1534934385,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  895  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,895,19,1534934384,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  895  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,895,19,1534934384,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  895  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,895,19,1534934384,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  895  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,895,19,1534934384,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  884  23  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,884,23,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  850  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,850,19,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  884  23  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,884,23,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  850  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,850,19,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  884  23  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,884,23,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  850  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,850,19,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  884  23  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,884,23,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  850  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,850,19,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  1  0  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,1,0,1534934381,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  1  0  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,1,0,1534934381,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  1  0  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,1,0,1534934381,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  1  0  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
-|4,39,1,0,1534934381,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
--'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
--'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
--'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
--'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
--'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
--'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
--'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
--'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
--'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
-|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1535075367	0
-	"	129	7
+	*	1535099845	0
+	"	225	0
 	^	129	8
 	.	129	7
 	+	168	7
