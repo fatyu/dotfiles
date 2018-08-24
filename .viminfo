@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/od
+~MSle0~/ali
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1534814779,,"q"
 :wq
-|2,0,1534478778,,"wq"
+|2,0,1535075367,,"wq"
+:q
+|2,0,1534933680,,"q"
 :w
 |2,0,1534311363,,"w"
 ::q
@@ -58,6 +58,14 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/ali
+|2,1,1535075333,47,"ali"
+?/plugin
+|2,1,1535075204,47,"plugin"
+?/14px
+|2,1,1534934381,47,"14px"
+?/14pxnnnnnn
+|2,1,1534934377,47,"14pxnnnnnn"
 ?/ghu
 |2,1,1531807006,47,"ghu"
 ?/od
@@ -162,39 +170,39 @@ $workspace\/labs
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	#ZSH_THEME="agnoster"
-|3,0,0,1,1,0,1534311343,"#ZSH_THEME=\"agnoster\""
+""0	LINE	0
+	alias o='open'
+|3,1,0,1,1,0,1535075345,"alias o='open'"
 "1	LINE	0
-	antigen theme robbyrussell
-|3,0,1,1,1,0,1531411561,"antigen theme robbyrussell"
-"2	LINE	0
-	alias od="o ~/Downloads"
-|3,0,2,1,1,0,1531186566,"alias od=\"o ~/Downloads\""
-"3	LINE	0
-	global.baseUrl = 'http://10.0.10.115'
-|3,0,3,1,1,0,1531141995,"global.baseUrl = 'http://10.0.10.115'"
-"4	LINE	0
-	alias o.=""
-|3,0,4,1,1,0,1530865605,"alias o.=\"\""
-"5	LINE	0
 	
-|3,0,5,1,1,0,1530863175,""
+|3,0,1,1,1,0,1534928330,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1534928329,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1534928328,""
+"4	LINE	0
+	
+|3,0,4,1,1,0,1534928328,""
+"5	LINE	0
+	#antigen apply
+|3,0,5,1,1,0,1534928327,"#antigen apply"
 "6	LINE	0
-	alias j="ps -ef|grep java"
-|3,0,6,1,1,0,1530863171,"alias j=\"ps -ef|grep java\""
+	# Tell Antigen that you're done.
+|3,0,6,1,1,0,1534928327,"# Tell Antigen that you're done."
 "7	LINE	0
-	alias arts="cd /Users/notalk/workspace/labs/ARTS"
-|3,0,7,1,1,0,1530863161,"alias arts=\"cd /Users/notalk/workspace/labs/ARTS\""
+	#antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train
+|3,0,7,1,1,0,1534928326,"#antigen theme https://github.com/caiogondim/bullet-train-oh-my-zsh-theme bullet-train"
 "8	LINE	0
-	alias aliass="alias |grep "
-|3,0,8,1,1,0,1530863154,"alias aliass=\"alias |grep \""
+	# Load the theme.
+|3,0,8,1,1,0,1534928326,"# Load the theme."
 "9	LINE	0
-	alias uhost='cd /Users/notalk/workspace/utry/webapp'
-|3,0,9,1,1,0,1530863090,"alias uhost='cd /Users/notalk/workspace/utry/webapp'"
-""-	CHAR	0
+	
+|3,0,9,1,1,0,1534928325,""
+"-	CHAR	0
 	#
-|3,1,36,0,1,0,1534311436,"#"
+|3,0,36,0,1,0,1534311436,"#"
 
 # global variables:
 !MAC	NUM	0
@@ -202,245 +210,243 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  1  0  ~/.zshrc
-|4,48,1,0,1534814779,"~/.zshrc"
-'1  193  0  ~/.zshrc
-|4,49,193,0,1534499460,"~/.zshrc"
-'2  193  0  ~/.zshrc
-|4,50,193,0,1534499460,"~/.zshrc"
-'3  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,51,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
-'4  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,52,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
-'5  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,53,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
-'6  229  0  ~/.zshrc
-|4,54,229,0,1534311480,"~/.zshrc"
-'7  229  0  ~/.zshrc
-|4,55,229,0,1534311480,"~/.zshrc"
-'8  229  0  ~/.zshrc
-|4,56,229,0,1534311480,"~/.zshrc"
-'9  229  0  ~/.zshrc
-|4,57,229,0,1534311480,"~/.zshrc"
+'0  129  7  ~/.zshrc
+|4,48,129,7,1535075367,"~/.zshrc"
+'1  66  85  ~/.zshrc
+|4,49,66,85,1535075230,"~/.zshrc"
+'2  66  85  ~/.zshrc
+|4,50,66,85,1535075230,"~/.zshrc"
+'3  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,51,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+'4  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,52,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+'5  225  0  ~/.zshrc
+|4,53,225,0,1534928339,"~/.zshrc"
+'6  225  0  ~/.zshrc
+|4,54,225,0,1534928339,"~/.zshrc"
+'7  224  0  ~/.zshrc
+|4,55,224,0,1534928339,"~/.zshrc"
+'8  224  0  ~/.zshrc
+|4,56,224,0,1534928339,"~/.zshrc"
+'9  139  0  ~/antigen.zsh
+|4,57,139,0,1534928298,"~/antigen.zsh"
 
 # Jumplist (newest first):
--'  1  0  ~/.zshrc
-|4,39,1,0,1534814779,"~/.zshrc"
--'  193  0  ~/.zshrc
-|4,39,193,0,1534814755,"~/.zshrc"
--'  193  0  ~/.zshrc
-|4,39,193,0,1534499460,"~/.zshrc"
--'  245  0  ~/.zshrc
-|4,39,245,0,1534499452,"~/.zshrc"
--'  245  0  ~/.zshrc
-|4,39,245,0,1534499452,"~/.zshrc"
--'  229  0  ~/.zshrc
-|4,39,229,0,1534499450,"~/.zshrc"
--'  229  0  ~/.zshrc
-|4,39,229,0,1534499450,"~/.zshrc"
--'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  14  48  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,14,48,1534478778,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,1,0,1534478763,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  1  0  ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
-|4,39,1,0,1534478757,"~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf"
--'  229  0  ~/.zshrc
-|4,39,229,0,1534311480,"~/.zshrc"
--'  229  0  ~/.zshrc
-|4,39,229,0,1534311480,"~/.zshrc"
--'  229  0  ~/.zshrc
-|4,39,229,0,1534311480,"~/.zshrc"
--'  229  0  ~/.zshrc
-|4,39,229,0,1534311480,"~/.zshrc"
--'  172  0  ~/.zshrc
-|4,39,172,0,1534311466,"~/.zshrc"
--'  172  0  ~/.zshrc
-|4,39,172,0,1534311466,"~/.zshrc"
--'  172  0  ~/.zshrc
-|4,39,172,0,1534311466,"~/.zshrc"
--'  172  0  ~/.zshrc
-|4,39,172,0,1534311466,"~/.zshrc"
--'  172  0  ~/.zshrc
-|4,39,172,0,1534311466,"~/.zshrc"
--'  172  0  ~/.zshrc
-|4,39,172,0,1534311466,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311425,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311425,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311425,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311425,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311425,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311425,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311388,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311388,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311388,"~/.zshrc"
--'  12  22  ~/.zshrc
-|4,39,12,22,1534311388,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  127  13  ~/.zshrc
-|4,39,127,13,1534311335,"~/.zshrc"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/analyticSystem/.git/MERGE_MSG
-|4,39,1,0,1534216943,"~/workspace/utry/project/analyticSystem/.git/MERGE_MSG"
+-'  129  7  ~/.zshrc
+|4,39,129,7,1535075367,"~/.zshrc"
+-'  147  0  ~/.zshrc
+|4,39,147,0,1535075341,"~/.zshrc"
+-'  146  0  ~/.zshrc
+|4,39,146,0,1535075341,"~/.zshrc"
+-'  145  0  ~/.zshrc
+|4,39,145,0,1535075341,"~/.zshrc"
+-'  144  0  ~/.zshrc
+|4,39,144,0,1535075340,"~/.zshrc"
+-'  143  0  ~/.zshrc
+|4,39,143,0,1535075339,"~/.zshrc"
+-'  142  0  ~/.zshrc
+|4,39,142,0,1535075339,"~/.zshrc"
+-'  141  6  ~/.zshrc
+|4,39,141,6,1535075339,"~/.zshrc"
+-'  140  43  ~/.zshrc
+|4,39,140,43,1535075339,"~/.zshrc"
+-'  139  0  ~/.zshrc
+|4,39,139,0,1535075338,"~/.zshrc"
+-'  138  0  ~/.zshrc
+|4,39,138,0,1535075338,"~/.zshrc"
+-'  136  0  ~/.zshrc
+|4,39,136,0,1535075338,"~/.zshrc"
+-'  135  0  ~/.zshrc
+|4,39,135,0,1535075338,"~/.zshrc"
+-'  134  11  ~/.zshrc
+|4,39,134,11,1535075338,"~/.zshrc"
+-'  132  0  ~/.zshrc
+|4,39,132,0,1535075338,"~/.zshrc"
+-'  131  0  ~/.zshrc
+|4,39,131,0,1535075338,"~/.zshrc"
+-'  130  0  ~/.zshrc
+|4,39,130,0,1535075338,"~/.zshrc"
+-'  128  0  ~/.zshrc
+|4,39,128,0,1535075338,"~/.zshrc"
+-'  127  0  ~/.zshrc
+|4,39,127,0,1535075338,"~/.zshrc"
+-'  126  0  ~/.zshrc
+|4,39,126,0,1535075338,"~/.zshrc"
+-'  125  1  ~/.zshrc
+|4,39,125,1,1535075338,"~/.zshrc"
+-'  124  1  ~/.zshrc
+|4,39,124,1,1535075337,"~/.zshrc"
+-'  123  0  ~/.zshrc
+|4,39,123,0,1535075337,"~/.zshrc"
+-'  122  12  ~/.zshrc
+|4,39,122,12,1535075337,"~/.zshrc"
+-'  121  0  ~/.zshrc
+|4,39,121,0,1535075337,"~/.zshrc"
+-'  120  0  ~/.zshrc
+|4,39,120,0,1535075337,"~/.zshrc"
+-'  119  20  ~/.zshrc
+|4,39,119,20,1535075337,"~/.zshrc"
+-'  118  0  ~/.zshrc
+|4,39,118,0,1535075337,"~/.zshrc"
+-'  117  0  ~/.zshrc
+|4,39,117,0,1535075337,"~/.zshrc"
+-'  116  0  ~/.zshrc
+|4,39,116,0,1535075337,"~/.zshrc"
+-'  115  0  ~/.zshrc
+|4,39,115,0,1535075337,"~/.zshrc"
+-'  114  0  ~/.zshrc
+|4,39,114,0,1535075337,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1535075337,"~/.zshrc"
+-'  112  0  ~/.zshrc
+|4,39,112,0,1535075336,"~/.zshrc"
+-'  111  13  ~/.zshrc
+|4,39,111,13,1535075336,"~/.zshrc"
+-'  110  42  ~/.zshrc
+|4,39,110,42,1535075336,"~/.zshrc"
+-'  107  4  ~/.zshrc
+|4,39,107,4,1535075336,"~/.zshrc"
+-'  98  2  ~/.zshrc
+|4,39,98,2,1535075336,"~/.zshrc"
+-'  97  2  ~/.zshrc
+|4,39,97,2,1535075335,"~/.zshrc"
+-'  96  10  ~/.zshrc
+|4,39,96,10,1535075335,"~/.zshrc"
+-'  94  42  ~/.zshrc
+|4,39,94,42,1535075335,"~/.zshrc"
+-'  93  33  ~/.zshrc
+|4,39,93,33,1535075334,"~/.zshrc"
+-'  92  23  ~/.zshrc
+|4,39,92,23,1535075334,"~/.zshrc"
+-'  91  15  ~/.zshrc
+|4,39,91,15,1535075334,"~/.zshrc"
+-'  66  85  ~/.zshrc
+|4,39,66,85,1535075333,"~/.zshrc"
+-'  66  85  ~/.zshrc
+|4,39,66,85,1535075230,"~/.zshrc"
+-'  64  26  ~/.zshrc
+|4,39,64,26,1535075208,"~/.zshrc"
+-'  63  18  ~/.zshrc
+|4,39,63,18,1535075208,"~/.zshrc"
+-'  64  26  ~/.zshrc
+|4,39,64,26,1535075208,"~/.zshrc"
+-'  63  18  ~/.zshrc
+|4,39,63,18,1535075208,"~/.zshrc"
+-'  62  53  ~/.zshrc
+|4,39,62,53,1535075207,"~/.zshrc"
+-'  62  53  ~/.zshrc
+|4,39,62,53,1535075207,"~/.zshrc"
+-'  61  78  ~/.zshrc
+|4,39,61,78,1535075206,"~/.zshrc"
+-'  61  78  ~/.zshrc
+|4,39,61,78,1535075206,"~/.zshrc"
+-'  225  0  ~/.zshrc
+|4,39,225,0,1535075204,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1535075204,"~/.zshrc"
+-'  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  1008  15  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,1008,15,1534934393,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  980  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,980,19,1534934388,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  980  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,980,19,1534934388,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  980  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,980,19,1534934388,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  980  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,980,19,1534934388,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  917  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,917,19,1534934385,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  917  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,917,19,1534934385,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  917  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,917,19,1534934385,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  917  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,917,19,1534934385,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  895  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,895,19,1534934384,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  895  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,895,19,1534934384,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  895  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,895,19,1534934384,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  895  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,895,19,1534934384,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  884  23  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,884,23,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  850  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,850,19,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  884  23  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,884,23,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  850  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,850,19,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  884  23  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,884,23,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  850  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,850,19,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  884  23  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,884,23,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  850  19  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,850,19,1534934382,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,1,0,1534934381,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,1,0,1534934381,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,1,0,1534934381,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+|4,39,1,0,1534934381,"~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue"
+-'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  8  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,8,0,1534933680,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
+-'  1  0  ~/workspace/utry/project/IasWeb/src/global.js
+|4,39,1,0,1534933482,"~/workspace/utry/project/IasWeb/src/global.js"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1534814778	0
-	"	1	0
-	^	12	1
-	.	12	0
-	+	202	0
-	+	66	13
-	+	167	7
-	+	171	32
-	+	171	0
+	*	1535075367	0
+	"	129	7
+	^	129	8
+	.	129	7
+	+	168	7
+	+	172	32
 	+	172	0
-	+	176	50
-	+	190	9
-	+	186	0
+	+	173	0
+	+	177	50
+	+	191	9
+	+	187	0
 	+	111	0
 	+	66	6
 	+	68	0
@@ -449,89 +455,100 @@ $workspace\/labs
 	+	125	0
 	+	66	1
 	+	68	0
-	+	177	28
-	+	178	76
-	+	180	33
-	+	181	20
-	+	176	61
-	+	179	7
-	+	181	7
+	+	178	28
+	+	179	76
+	+	181	33
+	+	182	20
+	+	177	61
 	+	180	7
+	+	182	7
+	+	181	7
 	+	123	16
-	+	192	89
-	+	194	0
+	+	193	89
 	+	195	0
 	+	196	0
-	+	192	8
-	+	194	8
-	+	195	8
-	+	196	52
-	+	195	53
-	+	192	55
-	+	197	7
-	+	199	7
-	+	200	7
-	+	201	83
-	+	200	85
-	+	199	88
-	+	197	87
-	+	166	20
-	+	171	0
-	+	176	0
-	+	177	0
-	+	190	0
-	+	192	0
 	+	197	0
-	+	155	0
-	+	158	0
-	+	162	0
-	+	166	0
-	+	167	0
-	+	189	0
-	+	192	0
-	+	168	0
-	+	169	23
-	+	170	10
-	+	171	0
-	+	170	22
-	+	188	0
-	+	170	0
-	+	188	34
-	+	187	31
-	+	209	0
-	+	205	24
-	+	208	13
-	+	245	12
-	+	227	7
-	+	230	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	243	84
-	+	227	0
-	+	240	0
-	+	243	0
-	+	245	0
-	+	184	0
+	+	193	8
+	+	195	8
+	+	196	8
+	+	197	52
+	+	196	53
+	+	193	55
+	+	198	7
+	+	200	7
+	+	201	7
+	+	202	83
+	+	201	85
+	+	200	88
+	+	198	87
+	+	167	20
+	+	172	0
 	+	177	0
-	+	179	0
-	+	180	0
-	+	179	0
+	+	178	0
+	+	191	0
+	+	193	0
+	+	198	0
+	+	156	0
+	+	159	0
+	+	163	0
+	+	167	0
+	+	168	0
+	+	190	0
+	+	193	0
+	+	169	0
+	+	170	23
+	+	171	10
+	+	172	0
+	+	171	22
+	+	189	0
+	+	171	0
+	+	189	34
+	+	188	31
+	+	210	0
+	+	206	24
+	+	209	13
+	+	226	12
+	+	226	7
+	+	226	0
+	+	226	84
+	+	226	0
+	+	185	0
+	+	178	0
 	+	180	0
 	+	181	0
-	+	174	0
+	+	180	0
+	+	181	0
+	+	182	0
 	+	175	0
-	+	174	8
-	+	175	7
-	+	173	7
-	+	174	49
-	+	175	48
+	+	176	0
+	+	175	8
+	+	176	7
+	+	174	7
+	+	175	49
+	+	176	48
 	+	11	0
 	+	12	22
 	+	11	0
 	+	12	0
+	+	226	0
+	+	225	0
+	+	66	85
+	+	129	7
+
+> ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
+	*	1534934391	0
+	"	1008	15
+	.	1008	15
+	+	1008	15
+
+> ~/workspace/utry/project/IasWeb/src/global.js
+	*	1534933679	0
+	"	8	0
+
+> ~/antigen.zsh
+	*	1534928297	0
+	"	139	0
+	^	2057	18
 
 > ~/workspace/utry/platform/filemanager/core/out/production/resources/config/fdfs_client.conf
 	*	1534478778	0
@@ -579,10 +596,6 @@ $workspace\/labs
 > ~/workspace/utry/ivs-root/.git/MERGE_MSG
 	*	1532511412	0
 	"	1	0
-
-> ~/antigen.zsh
-	*	1531411443	0
-	"	2057	0
 
 > ~/workspace/utry/IasWeb/.git/MERGE_MSG
 	*	1531382099	0
@@ -1313,24 +1326,3 @@ $workspace\/labs
 > ~/.zsh
 	*	1525655236	0
 	"	1	0
-
-> ~/workspace/labs/dotfiles/dotfiles/sync-data-github.sh
-	*	1525432583	0
-	"	24	0
-	.	27	0
-	+	2	0
-	+	27	24
-	+	22	0
-	+	30	7
-	+	24	71
-	+	22	51
-	+	27	0
-	+	29	38
-	+	27	0
-
-> ~/workspace/labs/D/g.sh
-	*	1525432220	0
-	"	3	0
-	^	3	0
-	.	2	9
-	+	2	9
