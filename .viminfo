@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ali
+~MSle0~/INFO
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,22 +20,22 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1536740293,,"wq"
 :q
-|2,0,1535532935,,"q"
+|2,0,1537854957,,"q"
+:wq
+|2,0,1537850520,,"wq"
+:A
+|2,0,1537848065,,"A"
+:q!
+|2,0,1537848018,,"q!"
+:w
+|2,0,1537847912,,"w"
 :q:
 |2,0,1535531605,,"q:"
-:w
-|2,0,1534311363,,"w"
 ::q
 |2,0,1534216943,,":q"
-:A
-|2,0,1530696070,,"A"
 :Q
 |2,0,1529559260,,"Q"
-:q!
-|2,0,1527765078,,"q!"
 :nnnn
 |2,0,1526953423,,"nnnn"
 :p
@@ -58,10 +58,12 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/INFO
+|2,1,1537855256,47,"INFO"
+?/plugin
+|2,1,1537850501,47,"plugin"
 ?/ali
 |2,1,1535075333,47,"ali"
-?/plugin
-|2,1,1535075204,47,"plugin"
 ?/14px
 |2,1,1534934381,47,"14px"
 ?/14pxnnnnnn
@@ -173,36 +175,43 @@ $workspace\/labs
 "0	LINE	0
 	utry-dev-116|10.0.10.116|root|utry6924|22|2
 |3,0,0,1,1,0,1536740221,"utry-dev-116|10.0.10.116|root|utry6924|22|2"
-"1	LINE	0
-	utry-dev-113|10.0.10.113|root|utry2356|22|2
-|3,0,1,1,1,0,1536740219,"utry-dev-113|10.0.10.113|root|utry2356|22|2"
+""1	LINE	0
+	260
+<[2018-09-25 05:25:09,279][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 9.3gb[5.5%], replicas will not be assigned to this node
+|3,1,1,1,1,0,1537855335,"[2018-09-25 05:25:09,279][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 9.3gb[5.5%], replicas will not be assigned to this node"
 "2	LINE	0
-	utry-dev-112|10.0.10.112|root|utry0978|22|2
-|3,0,2,1,1,0,1536740216,"utry-dev-112|10.0.10.112|root|utry0978|22|2"
+	261
+<[2018-09-25 05:23:43,387][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 11.5gb[6.8%], replicas will not be assigned to this node
+|3,0,2,1,1,0,1537855332,"[2018-09-25 05:23:43,387][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 11.5gb[6.8%], replicas will not be assigned to this node"
 "3	LINE	0
-	utry-dev-111|10.0.10.111|root|utry1017|22|2
-|3,0,3,1,1,0,1536740216,"utry-dev-111|10.0.10.111|root|utry1017|22|2"
+	261
+<[2018-09-25 05:22:16,613][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 16.4gb[9.7%], replicas will not be assigned to this node
+|3,0,3,1,1,0,1537855331,"[2018-09-25 05:22:16,613][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 16.4gb[9.7%], replicas will not be assigned to this node"
 "4	LINE	0
-	utry-dev-115|10.0.10.115|root|utry2467|22|2
-|3,0,4,1,1,0,1536740213,"utry-dev-115|10.0.10.115|root|utry2467|22|2"
+	261
+<[2018-09-25 12:51:04,716][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 16.5gb[9.8%], replicas will not be assigned to this node
+|3,0,4,1,1,0,1537855330,"[2018-09-25 12:51:04,716][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 16.5gb[9.8%], replicas will not be assigned to this node"
 "5	LINE	0
-	utry-aliyun-qa|114.55.84.115|root|aliyuntest|22|3
-|3,0,5,1,1,0,1536740208,"utry-aliyun-qa|114.55.84.115|root|aliyuntest|22|3"
+	[2018-09-25 07:31:23,786][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 10gb[5.9%], replicas will not be assigned to this node
+|3,0,5,1,1,0,1537855329,"[2018-09-25 07:31:23,786][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 10gb[5.9%], replicas will not be assigned to this node"
 "6	LINE	0
-	utry-asr|10.0.12.113|root|utry1234|22|2
-|3,0,6,1,1,0,1536740207,"utry-asr|10.0.12.113|root|utry1234|22|2"
+	261
+<[2018-09-25 07:29:50,629][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 12.5gb[7.5%], replicas will not be assigned to this node
+|3,0,6,1,1,0,1537855328,"[2018-09-25 07:29:50,629][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 12.5gb[7.5%], replicas will not be assigned to this node"
 "7	LINE	0
-	utry-dev-194|10.0.2.194|root|utry1234|22|2
-|3,0,7,1,1,0,1536740202,"utry-dev-194|10.0.2.194|root|utry1234|22|2"
+	261
+<[2018-09-25 07:28:18,097][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 15.3gb[9.1%], replicas will not be assigned to this node
+|3,0,7,1,1,0,1537855327,"[2018-09-25 07:28:18,097][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 15.3gb[9.1%], replicas will not be assigned to this node"
 "8	LINE	0
-	utry-dev-121|10.0.2.121|root|utry1234|22|2
-|3,0,8,1,1,0,1536740201,"utry-dev-121|10.0.2.121|root|utry1234|22|2"
+	[2018-09-25 07:19:08,218][INFO ][cluster.routing.allocation.decider] [10.40.190.29] rerouting shards: [one or more nodes has gone under the high or low watermark]
+|3,0,8,1,1,0,1537855326,"[2018-09-25 07:19:08,218][INFO ][cluster.routing.allocation.decider] [10.40.190.29] rerouting shards: [one or more nodes has gone under the high or low watermark]"
 "9	LINE	0
-	utry-dev-130|10.0.2.130|root|utry1234|22|2
-|3,0,9,1,1,0,1536740200,"utry-dev-130|10.0.2.130|root|utry1234|22|2"
-""-	CHAR	0
-	1
-|3,1,36,0,1,0,1536740288,"1"
+	261
+<[2018-09-25 07:14:46,561][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 10.2gb[6.1%], replicas will not be assigned to this node
+|3,0,9,1,1,0,1537855324,"[2018-09-25 07:14:46,561][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 10.2gb[6.1%], replicas will not be assigned to this node"
+"-	CHAR	0
+	#
+|3,0,36,0,1,0,1537850401,"#"
 
 # global variables:
 !MAC	NUM	0
@@ -210,230 +219,418 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  3  13  ~/.autosshrc
-|4,48,3,13,1536740293,"~/.autosshrc"
-'1  4  4  ~/.autosshrc
-|4,49,4,4,1536740272,"~/.autosshrc"
-'2  4  4  ~/.autosshrc
-|4,50,4,4,1536740272,"~/.autosshrc"
-'3  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,51,1,0,1535532935,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
-'4  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,52,1,0,1535531606,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
-'5  11  22  ~/.autosshrc
-|4,53,11,22,1535528230,"~/.autosshrc"
-'6  11  22  ~/.autosshrc
-|4,54,11,22,1535528230,"~/.autosshrc"
-'7  177  57  ~/.zshrc
-|4,55,177,57,1535525303,"~/.zshrc"
-'8  177  57  ~/.zshrc
-|4,56,177,57,1535525296,"~/.zshrc"
-'9  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,57,1,0,1535522792,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+'0  158  0  ~/Downloads/utry-test.log
+|4,48,158,0,1537870986,"~/Downloads/utry-test.log"
+'1  8  0  ~/Downloads/utry-test.log
+|4,49,8,0,1537859022,"~/Downloads/utry-test.log"
+'2  8  0  ~/Downloads/utry-test.log
+|4,50,8,0,1537859022,"~/Downloads/utry-test.log"
+'3  269  0  ~/.zshrc
+|4,51,269,0,1537854957,"~/.zshrc"
+'4  66  87  ~/.zshrc
+|4,52,66,87,1537850520,"~/.zshrc"
+'5  66  87  ~/.zshrc
+|4,53,66,87,1537850520,"~/.zshrc"
+'6  231  0  ~/.zshrc
+|4,54,231,0,1537850445,"~/.zshrc"
+'7  231  0  ~/.zshrc
+|4,55,231,0,1537850445,"~/.zshrc"
+'8  231  0  ~/.zshrc
+|4,56,231,0,1537850445,"~/.zshrc"
+'9  231  0  ~/.zshrc
+|4,57,231,0,1537850445,"~/.zshrc"
 
 # Jumplist (newest first):
--'  3  13  ~/.autosshrc
-|4,39,3,13,1536740293,"~/.autosshrc"
--'  4  4  ~/.autosshrc
-|4,39,4,4,1536740285,"~/.autosshrc"
--'  4  4  ~/.autosshrc
-|4,39,4,4,1536740272,"~/.autosshrc"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1535532935,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1535532935,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1535532935,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1535532935,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1535531606,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1535531606,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1535531606,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1535531606,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  11  22  ~/.autosshrc
-|4,39,11,22,1535528230,"~/.autosshrc"
--'  11  22  ~/.autosshrc
-|4,39,11,22,1535528230,"~/.autosshrc"
--'  11  22  ~/.autosshrc
-|4,39,11,22,1535528230,"~/.autosshrc"
--'  11  22  ~/.autosshrc
-|4,39,11,22,1535528230,"~/.autosshrc"
--'  11  22  ~/.autosshrc
-|4,39,11,22,1535528230,"~/.autosshrc"
--'  5  38  ~/.autosshrc
-|4,39,5,38,1535528216,"~/.autosshrc"
--'  12  38  ~/.autosshrc
-|4,39,12,38,1535528216,"~/.autosshrc"
--'  5  38  ~/.autosshrc
-|4,39,5,38,1535528216,"~/.autosshrc"
--'  12  38  ~/.autosshrc
-|4,39,12,38,1535528216,"~/.autosshrc"
--'  12  38  ~/.autosshrc
-|4,39,12,38,1535528216,"~/.autosshrc"
--'  12  38  ~/.autosshrc
-|4,39,12,38,1535528216,"~/.autosshrc"
--'  12  38  ~/.autosshrc
-|4,39,12,38,1535528216,"~/.autosshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525303,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  177  57  ~/.zshrc
-|4,39,177,57,1535525296,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
--'  226  0  ~/.zshrc
-|4,39,226,0,1535525208,"~/.zshrc"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  121  26  ~/Downloads/utry-test.log
+|4,39,121,26,1537855333,"~/Downloads/utry-test.log"
+-'  120  0  ~/Downloads/utry-test.log
+|4,39,120,0,1537855333,"~/Downloads/utry-test.log"
+-'  121  26  ~/Downloads/utry-test.log
+|4,39,121,26,1537855333,"~/Downloads/utry-test.log"
+-'  120  0  ~/Downloads/utry-test.log
+|4,39,120,0,1537855333,"~/Downloads/utry-test.log"
+-'  118  0  ~/Downloads/utry-test.log
+|4,39,118,0,1537855332,"~/Downloads/utry-test.log"
+-'  118  0  ~/Downloads/utry-test.log
+|4,39,118,0,1537855332,"~/Downloads/utry-test.log"
+-'  331  0  ~/Downloads/utry-test.log
+|4,39,331,0,1537855330,"~/Downloads/utry-test.log"
+-'  331  0  ~/Downloads/utry-test.log
+|4,39,331,0,1537855330,"~/Downloads/utry-test.log"
+-'  203  0  ~/Downloads/utry-test.log
+|4,39,203,0,1537855329,"~/Downloads/utry-test.log"
+-'  203  0  ~/Downloads/utry-test.log
+|4,39,203,0,1537855329,"~/Downloads/utry-test.log"
+-'  202  0  ~/Downloads/utry-test.log
+|4,39,202,0,1537855328,"~/Downloads/utry-test.log"
+-'  202  0  ~/Downloads/utry-test.log
+|4,39,202,0,1537855328,"~/Downloads/utry-test.log"
+-'  201  0  ~/Downloads/utry-test.log
+|4,39,201,0,1537855327,"~/Downloads/utry-test.log"
+-'  201  0  ~/Downloads/utry-test.log
+|4,39,201,0,1537855327,"~/Downloads/utry-test.log"
+-'  194  0  ~/Downloads/utry-test.log
+|4,39,194,0,1537855326,"~/Downloads/utry-test.log"
+-'  194  0  ~/Downloads/utry-test.log
+|4,39,194,0,1537855326,"~/Downloads/utry-test.log"
+-'  188  0  ~/Downloads/utry-test.log
+|4,39,188,0,1537855325,"~/Downloads/utry-test.log"
+-'  188  0  ~/Downloads/utry-test.log
+|4,39,188,0,1537855325,"~/Downloads/utry-test.log"
+-'  184  0  ~/Downloads/utry-test.log
+|4,39,184,0,1537855324,"~/Downloads/utry-test.log"
+-'  184  0  ~/Downloads/utry-test.log
+|4,39,184,0,1537855324,"~/Downloads/utry-test.log"
+-'  183  0  ~/Downloads/utry-test.log
+|4,39,183,0,1537855323,"~/Downloads/utry-test.log"
+-'  183  0  ~/Downloads/utry-test.log
+|4,39,183,0,1537855323,"~/Downloads/utry-test.log"
+-'  180  0  ~/Downloads/utry-test.log
+|4,39,180,0,1537855322,"~/Downloads/utry-test.log"
+-'  180  0  ~/Downloads/utry-test.log
+|4,39,180,0,1537855322,"~/Downloads/utry-test.log"
+-'  154  0  ~/Downloads/utry-test.log
+|4,39,154,0,1537855321,"~/Downloads/utry-test.log"
+-'  154  0  ~/Downloads/utry-test.log
+|4,39,154,0,1537855321,"~/Downloads/utry-test.log"
+-'  153  0  ~/Downloads/utry-test.log
+|4,39,153,0,1537855320,"~/Downloads/utry-test.log"
+-'  153  0  ~/Downloads/utry-test.log
+|4,39,153,0,1537855320,"~/Downloads/utry-test.log"
+-'  152  0  ~/Downloads/utry-test.log
+|4,39,152,0,1537855319,"~/Downloads/utry-test.log"
+-'  152  0  ~/Downloads/utry-test.log
+|4,39,152,0,1537855319,"~/Downloads/utry-test.log"
+-'  151  0  ~/Downloads/utry-test.log
+|4,39,151,0,1537855318,"~/Downloads/utry-test.log"
+-'  151  0  ~/Downloads/utry-test.log
+|4,39,151,0,1537855318,"~/Downloads/utry-test.log"
+-'  142  0  ~/Downloads/utry-test.log
+|4,39,142,0,1537855317,"~/Downloads/utry-test.log"
+-'  142  0  ~/Downloads/utry-test.log
+|4,39,142,0,1537855317,"~/Downloads/utry-test.log"
+-'  139  0  ~/Downloads/utry-test.log
+|4,39,139,0,1537855316,"~/Downloads/utry-test.log"
+-'  139  0  ~/Downloads/utry-test.log
+|4,39,139,0,1537855316,"~/Downloads/utry-test.log"
+-'  122  0  ~/Downloads/utry-test.log
+|4,39,122,0,1537855315,"~/Downloads/utry-test.log"
+-'  122  0  ~/Downloads/utry-test.log
+|4,39,122,0,1537855315,"~/Downloads/utry-test.log"
+-'  329  0  ~/Downloads/utry-test.log
+|4,39,329,0,1537855312,"~/Downloads/utry-test.log"
+-'  329  0  ~/Downloads/utry-test.log
+|4,39,329,0,1537855312,"~/Downloads/utry-test.log"
+-'  328  0  ~/Downloads/utry-test.log
+|4,39,328,0,1537855305,"~/Downloads/utry-test.log"
+-'  328  0  ~/Downloads/utry-test.log
+|4,39,328,0,1537855305,"~/Downloads/utry-test.log"
+-'  319  0  ~/Downloads/utry-test.log
+|4,39,319,0,1537855304,"~/Downloads/utry-test.log"
+-'  319  0  ~/Downloads/utry-test.log
+|4,39,319,0,1537855304,"~/Downloads/utry-test.log"
+-'  316  0  ~/Downloads/utry-test.log
+|4,39,316,0,1537855303,"~/Downloads/utry-test.log"
+-'  316  0  ~/Downloads/utry-test.log
+|4,39,316,0,1537855303,"~/Downloads/utry-test.log"
+-'  305  0  ~/Downloads/utry-test.log
+|4,39,305,0,1537855302,"~/Downloads/utry-test.log"
+-'  305  0  ~/Downloads/utry-test.log
+|4,39,305,0,1537855302,"~/Downloads/utry-test.log"
+-'  302  0  ~/Downloads/utry-test.log
+|4,39,302,0,1537855301,"~/Downloads/utry-test.log"
+-'  302  0  ~/Downloads/utry-test.log
+|4,39,302,0,1537855301,"~/Downloads/utry-test.log"
+-'  293  0  ~/Downloads/utry-test.log
+|4,39,293,0,1537855300,"~/Downloads/utry-test.log"
+-'  293  0  ~/Downloads/utry-test.log
+|4,39,293,0,1537855300,"~/Downloads/utry-test.log"
+-'  291  0  ~/Downloads/utry-test.log
+|4,39,291,0,1537855299,"~/Downloads/utry-test.log"
+-'  291  0  ~/Downloads/utry-test.log
+|4,39,291,0,1537855299,"~/Downloads/utry-test.log"
+-'  285  0  ~/Downloads/utry-test.log
+|4,39,285,0,1537855298,"~/Downloads/utry-test.log"
+-'  285  0  ~/Downloads/utry-test.log
+|4,39,285,0,1537855298,"~/Downloads/utry-test.log"
+-'  283  0  ~/Downloads/utry-test.log
+|4,39,283,0,1537855297,"~/Downloads/utry-test.log"
+-'  283  0  ~/Downloads/utry-test.log
+|4,39,283,0,1537855297,"~/Downloads/utry-test.log"
+-'  234  0  ~/Downloads/utry-test.log
+|4,39,234,0,1537855295,"~/Downloads/utry-test.log"
+-'  234  0  ~/Downloads/utry-test.log
+|4,39,234,0,1537855295,"~/Downloads/utry-test.log"
+-'  232  0  ~/Downloads/utry-test.log
+|4,39,232,0,1537855294,"~/Downloads/utry-test.log"
+-'  232  0  ~/Downloads/utry-test.log
+|4,39,232,0,1537855294,"~/Downloads/utry-test.log"
+-'  230  0  ~/Downloads/utry-test.log
+|4,39,230,0,1537855293,"~/Downloads/utry-test.log"
+-'  228  0  ~/Downloads/utry-test.log
+|4,39,228,0,1537855293,"~/Downloads/utry-test.log"
+-'  230  0  ~/Downloads/utry-test.log
+|4,39,230,0,1537855293,"~/Downloads/utry-test.log"
+-'  228  0  ~/Downloads/utry-test.log
+|4,39,228,0,1537855293,"~/Downloads/utry-test.log"
+-'  215  0  ~/Downloads/utry-test.log
+|4,39,215,0,1537855291,"~/Downloads/utry-test.log"
+-'  214  0  ~/Downloads/utry-test.log
+|4,39,214,0,1537855291,"~/Downloads/utry-test.log"
+-'  215  0  ~/Downloads/utry-test.log
+|4,39,215,0,1537855291,"~/Downloads/utry-test.log"
+-'  214  0  ~/Downloads/utry-test.log
+|4,39,214,0,1537855291,"~/Downloads/utry-test.log"
+-'  211  0  ~/Downloads/utry-test.log
+|4,39,211,0,1537855290,"~/Downloads/utry-test.log"
+-'  211  0  ~/Downloads/utry-test.log
+|4,39,211,0,1537855290,"~/Downloads/utry-test.log"
+-'  204  0  ~/Downloads/utry-test.log
+|4,39,204,0,1537855289,"~/Downloads/utry-test.log"
+-'  204  0  ~/Downloads/utry-test.log
+|4,39,204,0,1537855289,"~/Downloads/utry-test.log"
+-'  272  0  ~/Downloads/utry-test.log
+|4,39,272,0,1537855283,"~/Downloads/utry-test.log"
+-'  272  0  ~/Downloads/utry-test.log
+|4,39,272,0,1537855283,"~/Downloads/utry-test.log"
+-'  270  0  ~/Downloads/utry-test.log
+|4,39,270,0,1537855282,"~/Downloads/utry-test.log"
+-'  270  0  ~/Downloads/utry-test.log
+|4,39,270,0,1537855282,"~/Downloads/utry-test.log"
+-'  267  0  ~/Downloads/utry-test.log
+|4,39,267,0,1537855280,"~/Downloads/utry-test.log"
+-'  267  0  ~/Downloads/utry-test.log
+|4,39,267,0,1537855280,"~/Downloads/utry-test.log"
+-'  265  0  ~/Downloads/utry-test.log
+|4,39,265,0,1537855279,"~/Downloads/utry-test.log"
+-'  265  0  ~/Downloads/utry-test.log
+|4,39,265,0,1537855279,"~/Downloads/utry-test.log"
+-'  256  0  ~/Downloads/utry-test.log
+|4,39,256,0,1537855278,"~/Downloads/utry-test.log"
+-'  256  0  ~/Downloads/utry-test.log
+|4,39,256,0,1537855278,"~/Downloads/utry-test.log"
+-'  254  0  ~/Downloads/utry-test.log
+|4,39,254,0,1537855277,"~/Downloads/utry-test.log"
+-'  254  0  ~/Downloads/utry-test.log
+|4,39,254,0,1537855277,"~/Downloads/utry-test.log"
+-'  252  0  ~/Downloads/utry-test.log
+|4,39,252,0,1537855275,"~/Downloads/utry-test.log"
+-'  252  0  ~/Downloads/utry-test.log
+|4,39,252,0,1537855275,"~/Downloads/utry-test.log"
+-'  249  0  ~/Downloads/utry-test.log
+|4,39,249,0,1537855273,"~/Downloads/utry-test.log"
+-'  249  0  ~/Downloads/utry-test.log
+|4,39,249,0,1537855273,"~/Downloads/utry-test.log"
+-'  247  0  ~/Downloads/utry-test.log
+|4,39,247,0,1537855272,"~/Downloads/utry-test.log"
+-'  247  0  ~/Downloads/utry-test.log
+|4,39,247,0,1537855272,"~/Downloads/utry-test.log"
+-'  245  0  ~/Downloads/utry-test.log
+|4,39,245,0,1537855269,"~/Downloads/utry-test.log"
+-'  245  0  ~/Downloads/utry-test.log
+|4,39,245,0,1537855269,"~/Downloads/utry-test.log"
+-'  238  0  ~/Downloads/utry-test.log
+|4,39,238,0,1537855263,"~/Downloads/utry-test.log"
 
 # History of marks within files (newest to oldest):
+
+> ~/Downloads/utry-test.log
+	*	1537870515	0
+	"	158	0
+	.	121	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	19	0
+	+	20	0
+	+	28	0
+	+	29	0
+	+	36	0
+	+	37	0
+	+	39	0
+	+	40	0
+	+	48	0
+	+	50	0
+	+	51	0
+	+	54	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	73	0
+	+	71	0
+	+	76	0
+	+	82	0
+	+	84	0
+	+	88	0
+	+	238	0
+	+	245	0
+	+	247	0
+	+	249	0
+	+	252	0
+	+	254	0
+	+	256	0
+	+	265	0
+	+	267	0
+	+	270	0
+	+	272	0
+	+	204	0
+	+	211	0
+	+	214	0
+	+	215	0
+	+	228	0
+	+	230	0
+	+	232	0
+	+	234	0
+	+	283	0
+	+	285	0
+	+	291	0
+	+	293	0
+	+	302	0
+	+	305	0
+	+	316	0
+	+	319	0
+	+	328	0
+	+	329	0
+	+	122	0
+	+	139	0
+	+	142	0
+	+	151	0
+	+	152	0
+	+	153	0
+	+	154	0
+	+	180	0
+	+	183	0
+	+	184	0
+	+	188	0
+	+	194	0
+	+	201	0
+	+	202	0
+	+	203	0
+	+	331	0
+	+	118	0
+	+	120	0
+	+	121	0
+
+> ~/.zshrc
+	*	1537854955	0
+	"	269	0
+	^	66	88
+	.	66	87
+	+	231	0
+	+	231	84
+	+	231	0
+	+	186	0
+	+	179	0
+	+	181	0
+	+	182	0
+	+	181	0
+	+	182	0
+	+	183	0
+	+	175	0
+	+	176	0
+	+	175	8
+	+	176	7
+	+	174	7
+	+	175	49
+	+	176	48
+	+	11	0
+	+	12	22
+	+	11	0
+	+	12	0
+	+	231	0
+	+	226	0
+	+	66	85
+	+	129	7
+	+	177	57
+	+	211	0
+	+	66	0
+	+	268	7
+	+	225	74
+	+	269	71
+	+	231	37
+	+	231	0
+	+	66	112
+	+	226	21
+	+	229	29
+	+	226	0
+	+	227	0
+	+	228	0
+	+	229	0
+	+	230	0
+	+	231	0
+	+	232	0
+	+	233	0
+	+	234	0
+	+	235	0
+	+	236	0
+	+	237	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	246	0
+	+	247	0
+	+	248	0
+	+	249	0
+	+	251	0
+	+	252	0
+	+	253	0
+	+	254	0
+	+	255	0
+	+	257	0
+	+	258	0
+	+	259	0
+	+	260	0
+	+	261	0
+	+	263	0
+	+	264	0
+	+	265	0
+	+	266	0
+	+	267	0
+	+	268	0
+	+	226	0
+	+	227	0
+	+	228	0
+	+	229	0
+	+	230	0
+	+	231	0
+	+	232	0
+	+	231	0
+	+	230	0
+	+	229	0
+	+	228	0
+	+	227	0
+	+	226	0
+	+	227	0
+	+	228	0
+	+	229	0
+	+	230	0
+	+	231	0
+	+	226	0
+	+	227	0
+	+	228	0
+	+	229	0
+	+	230	0
+	+	231	0
+	+	66	87
+	n	61	8
 
 > ~/.autosshrc
 	*	1536740291	0
@@ -465,107 +662,6 @@ $workspace\/labs
 > ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
 	*	1535532933	0
 	"	1	0
-
-> ~/.zshrc
-	*	1535525302	0
-	"	177	57
-	^	177	58
-	.	177	57
-	+	168	7
-	+	172	32
-	+	172	0
-	+	173	0
-	+	178	50
-	+	192	9
-	+	188	0
-	+	111	0
-	+	66	6
-	+	68	0
-	+	66	8
-	+	124	0
-	+	125	0
-	+	66	1
-	+	68	0
-	+	179	28
-	+	180	76
-	+	182	33
-	+	183	20
-	+	178	61
-	+	181	7
-	+	183	7
-	+	182	7
-	+	123	16
-	+	194	89
-	+	196	0
-	+	197	0
-	+	198	0
-	+	194	8
-	+	196	8
-	+	197	8
-	+	198	52
-	+	197	53
-	+	194	55
-	+	199	7
-	+	201	7
-	+	202	7
-	+	203	83
-	+	202	85
-	+	201	88
-	+	199	87
-	+	167	20
-	+	172	0
-	+	178	0
-	+	179	0
-	+	192	0
-	+	194	0
-	+	199	0
-	+	156	0
-	+	159	0
-	+	163	0
-	+	167	0
-	+	168	0
-	+	191	0
-	+	194	0
-	+	169	0
-	+	170	23
-	+	171	10
-	+	172	0
-	+	171	22
-	+	190	0
-	+	171	0
-	+	190	34
-	+	189	31
-	+	211	0
-	+	207	24
-	+	210	13
-	+	227	12
-	+	227	7
-	+	227	0
-	+	227	84
-	+	227	0
-	+	186	0
-	+	179	0
-	+	181	0
-	+	182	0
-	+	181	0
-	+	182	0
-	+	183	0
-	+	175	0
-	+	176	0
-	+	175	8
-	+	176	7
-	+	174	7
-	+	175	49
-	+	176	48
-	+	11	0
-	+	12	22
-	+	11	0
-	+	12	0
-	+	227	0
-	+	226	0
-	+	66	85
-	+	129	7
-	+	177	57
 
 > ~/workspace/utry/project/IasWeb/src/global.js
 	*	1535520098	0
@@ -1331,8 +1427,4 @@ $workspace\/labs
 
 > ~/workspace/utry/formEngine/.gitignore
 	*	1525847521	0
-	"	1	0
-
-> ~/workspace/utry/IasWeb/static/config/config.js
-	*	1525749773	0
 	"	1	0
