@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1537854957,,"q"
 :wq
-|2,0,1537850520,,"wq"
+|2,0,1540272494,,"wq"
+:q
+|2,0,1539135699,,"q"
 :A
 |2,0,1537848065,,"A"
 :q!
@@ -219,38 +219,216 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  158  0  ~/Downloads/utry-test.log
-|4,48,158,0,1537870986,"~/Downloads/utry-test.log"
-'1  8  0  ~/Downloads/utry-test.log
-|4,49,8,0,1537859022,"~/Downloads/utry-test.log"
-'2  8  0  ~/Downloads/utry-test.log
-|4,50,8,0,1537859022,"~/Downloads/utry-test.log"
+'0  2626  7  ~/hrm.pdm
+|4,48,2626,7,1540272494,"~/hrm.pdm"
+'1  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,49,1,0,1539135699,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+'2  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,50,1,0,1539077039,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
 '3  269  0  ~/.zshrc
-|4,51,269,0,1537854957,"~/.zshrc"
-'4  66  87  ~/.zshrc
-|4,52,66,87,1537850520,"~/.zshrc"
-'5  66  87  ~/.zshrc
-|4,53,66,87,1537850520,"~/.zshrc"
-'6  231  0  ~/.zshrc
-|4,54,231,0,1537850445,"~/.zshrc"
-'7  231  0  ~/.zshrc
-|4,55,231,0,1537850445,"~/.zshrc"
-'8  231  0  ~/.zshrc
-|4,56,231,0,1537850445,"~/.zshrc"
-'9  231  0  ~/.zshrc
-|4,57,231,0,1537850445,"~/.zshrc"
+|4,51,269,0,1538112270,"~/.zshrc"
+'4  158  0  ~/Downloads/utry-test.log
+|4,52,158,0,1537870986,"~/Downloads/utry-test.log"
+'5  8  0  ~/Downloads/utry-test.log
+|4,53,8,0,1537859022,"~/Downloads/utry-test.log"
+'6  8  0  ~/Downloads/utry-test.log
+|4,54,8,0,1537859022,"~/Downloads/utry-test.log"
+'7  269  0  ~/.zshrc
+|4,55,269,0,1537854957,"~/.zshrc"
+'8  66  87  ~/.zshrc
+|4,56,66,87,1537850520,"~/.zshrc"
+'9  66  87  ~/.zshrc
+|4,57,66,87,1537850520,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  2626  7  ~/hrm.pdm
+|4,39,2626,7,1540272494,"~/hrm.pdm"
+-'  1  0  ~/hrm.pdm
+|4,39,1,0,1540272472,"~/hrm.pdm"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1539135699,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1539135699,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1539077039,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1539077039,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  269  0  ~/.zshrc
+|4,39,269,0,1538112270,"~/.zshrc"
+-'  269  0  ~/.zshrc
+|4,39,269,0,1538112270,"~/.zshrc"
+-'  269  0  ~/.zshrc
+|4,39,269,0,1538112270,"~/.zshrc"
+-'  269  0  ~/.zshrc
+|4,39,269,0,1538112270,"~/.zshrc"
+-'  269  0  ~/.zshrc
+|4,39,269,0,1538112270,"~/.zshrc"
+-'  269  0  ~/.zshrc
+|4,39,269,0,1538112270,"~/.zshrc"
+-'  269  0  ~/.zshrc
+|4,39,269,0,1538112270,"~/.zshrc"
+-'  269  0  ~/.zshrc
+|4,39,269,0,1538112270,"~/.zshrc"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
+-'  158  0  ~/Downloads/utry-test.log
+|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
 -'  158  0  ~/Downloads/utry-test.log
 |4,39,158,0,1537870986,"~/Downloads/utry-test.log"
 -'  8  0  ~/Downloads/utry-test.log
 |4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
+-'  8  0  ~/Downloads/utry-test.log
+|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
 -'  8  0  ~/Downloads/utry-test.log
 |4,39,8,0,1537859022,"~/Downloads/utry-test.log"
 -'  115  0  ~/Downloads/utry-test.log
 |4,39,115,0,1537855343,"~/Downloads/utry-test.log"
 -'  115  0  ~/Downloads/utry-test.log
 |4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
+-'  115  0  ~/Downloads/utry-test.log
+|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
 -'  121  26  ~/Downloads/utry-test.log
 |4,39,121,26,1537855333,"~/Downloads/utry-test.log"
 -'  120  0  ~/Downloads/utry-test.log
@@ -259,274 +437,26 @@ $workspace\/labs
 |4,39,121,26,1537855333,"~/Downloads/utry-test.log"
 -'  120  0  ~/Downloads/utry-test.log
 |4,39,120,0,1537855333,"~/Downloads/utry-test.log"
--'  118  0  ~/Downloads/utry-test.log
-|4,39,118,0,1537855332,"~/Downloads/utry-test.log"
--'  118  0  ~/Downloads/utry-test.log
-|4,39,118,0,1537855332,"~/Downloads/utry-test.log"
--'  331  0  ~/Downloads/utry-test.log
-|4,39,331,0,1537855330,"~/Downloads/utry-test.log"
--'  331  0  ~/Downloads/utry-test.log
-|4,39,331,0,1537855330,"~/Downloads/utry-test.log"
--'  203  0  ~/Downloads/utry-test.log
-|4,39,203,0,1537855329,"~/Downloads/utry-test.log"
--'  203  0  ~/Downloads/utry-test.log
-|4,39,203,0,1537855329,"~/Downloads/utry-test.log"
--'  202  0  ~/Downloads/utry-test.log
-|4,39,202,0,1537855328,"~/Downloads/utry-test.log"
--'  202  0  ~/Downloads/utry-test.log
-|4,39,202,0,1537855328,"~/Downloads/utry-test.log"
--'  201  0  ~/Downloads/utry-test.log
-|4,39,201,0,1537855327,"~/Downloads/utry-test.log"
--'  201  0  ~/Downloads/utry-test.log
-|4,39,201,0,1537855327,"~/Downloads/utry-test.log"
--'  194  0  ~/Downloads/utry-test.log
-|4,39,194,0,1537855326,"~/Downloads/utry-test.log"
--'  194  0  ~/Downloads/utry-test.log
-|4,39,194,0,1537855326,"~/Downloads/utry-test.log"
--'  188  0  ~/Downloads/utry-test.log
-|4,39,188,0,1537855325,"~/Downloads/utry-test.log"
--'  188  0  ~/Downloads/utry-test.log
-|4,39,188,0,1537855325,"~/Downloads/utry-test.log"
--'  184  0  ~/Downloads/utry-test.log
-|4,39,184,0,1537855324,"~/Downloads/utry-test.log"
--'  184  0  ~/Downloads/utry-test.log
-|4,39,184,0,1537855324,"~/Downloads/utry-test.log"
--'  183  0  ~/Downloads/utry-test.log
-|4,39,183,0,1537855323,"~/Downloads/utry-test.log"
--'  183  0  ~/Downloads/utry-test.log
-|4,39,183,0,1537855323,"~/Downloads/utry-test.log"
--'  180  0  ~/Downloads/utry-test.log
-|4,39,180,0,1537855322,"~/Downloads/utry-test.log"
--'  180  0  ~/Downloads/utry-test.log
-|4,39,180,0,1537855322,"~/Downloads/utry-test.log"
--'  154  0  ~/Downloads/utry-test.log
-|4,39,154,0,1537855321,"~/Downloads/utry-test.log"
--'  154  0  ~/Downloads/utry-test.log
-|4,39,154,0,1537855321,"~/Downloads/utry-test.log"
--'  153  0  ~/Downloads/utry-test.log
-|4,39,153,0,1537855320,"~/Downloads/utry-test.log"
--'  153  0  ~/Downloads/utry-test.log
-|4,39,153,0,1537855320,"~/Downloads/utry-test.log"
--'  152  0  ~/Downloads/utry-test.log
-|4,39,152,0,1537855319,"~/Downloads/utry-test.log"
--'  152  0  ~/Downloads/utry-test.log
-|4,39,152,0,1537855319,"~/Downloads/utry-test.log"
--'  151  0  ~/Downloads/utry-test.log
-|4,39,151,0,1537855318,"~/Downloads/utry-test.log"
--'  151  0  ~/Downloads/utry-test.log
-|4,39,151,0,1537855318,"~/Downloads/utry-test.log"
--'  142  0  ~/Downloads/utry-test.log
-|4,39,142,0,1537855317,"~/Downloads/utry-test.log"
--'  142  0  ~/Downloads/utry-test.log
-|4,39,142,0,1537855317,"~/Downloads/utry-test.log"
--'  139  0  ~/Downloads/utry-test.log
-|4,39,139,0,1537855316,"~/Downloads/utry-test.log"
--'  139  0  ~/Downloads/utry-test.log
-|4,39,139,0,1537855316,"~/Downloads/utry-test.log"
--'  122  0  ~/Downloads/utry-test.log
-|4,39,122,0,1537855315,"~/Downloads/utry-test.log"
--'  122  0  ~/Downloads/utry-test.log
-|4,39,122,0,1537855315,"~/Downloads/utry-test.log"
--'  329  0  ~/Downloads/utry-test.log
-|4,39,329,0,1537855312,"~/Downloads/utry-test.log"
--'  329  0  ~/Downloads/utry-test.log
-|4,39,329,0,1537855312,"~/Downloads/utry-test.log"
--'  328  0  ~/Downloads/utry-test.log
-|4,39,328,0,1537855305,"~/Downloads/utry-test.log"
--'  328  0  ~/Downloads/utry-test.log
-|4,39,328,0,1537855305,"~/Downloads/utry-test.log"
--'  319  0  ~/Downloads/utry-test.log
-|4,39,319,0,1537855304,"~/Downloads/utry-test.log"
--'  319  0  ~/Downloads/utry-test.log
-|4,39,319,0,1537855304,"~/Downloads/utry-test.log"
--'  316  0  ~/Downloads/utry-test.log
-|4,39,316,0,1537855303,"~/Downloads/utry-test.log"
--'  316  0  ~/Downloads/utry-test.log
-|4,39,316,0,1537855303,"~/Downloads/utry-test.log"
--'  305  0  ~/Downloads/utry-test.log
-|4,39,305,0,1537855302,"~/Downloads/utry-test.log"
--'  305  0  ~/Downloads/utry-test.log
-|4,39,305,0,1537855302,"~/Downloads/utry-test.log"
--'  302  0  ~/Downloads/utry-test.log
-|4,39,302,0,1537855301,"~/Downloads/utry-test.log"
--'  302  0  ~/Downloads/utry-test.log
-|4,39,302,0,1537855301,"~/Downloads/utry-test.log"
--'  293  0  ~/Downloads/utry-test.log
-|4,39,293,0,1537855300,"~/Downloads/utry-test.log"
--'  293  0  ~/Downloads/utry-test.log
-|4,39,293,0,1537855300,"~/Downloads/utry-test.log"
--'  291  0  ~/Downloads/utry-test.log
-|4,39,291,0,1537855299,"~/Downloads/utry-test.log"
--'  291  0  ~/Downloads/utry-test.log
-|4,39,291,0,1537855299,"~/Downloads/utry-test.log"
--'  285  0  ~/Downloads/utry-test.log
-|4,39,285,0,1537855298,"~/Downloads/utry-test.log"
--'  285  0  ~/Downloads/utry-test.log
-|4,39,285,0,1537855298,"~/Downloads/utry-test.log"
--'  283  0  ~/Downloads/utry-test.log
-|4,39,283,0,1537855297,"~/Downloads/utry-test.log"
--'  283  0  ~/Downloads/utry-test.log
-|4,39,283,0,1537855297,"~/Downloads/utry-test.log"
--'  234  0  ~/Downloads/utry-test.log
-|4,39,234,0,1537855295,"~/Downloads/utry-test.log"
--'  234  0  ~/Downloads/utry-test.log
-|4,39,234,0,1537855295,"~/Downloads/utry-test.log"
--'  232  0  ~/Downloads/utry-test.log
-|4,39,232,0,1537855294,"~/Downloads/utry-test.log"
--'  232  0  ~/Downloads/utry-test.log
-|4,39,232,0,1537855294,"~/Downloads/utry-test.log"
--'  230  0  ~/Downloads/utry-test.log
-|4,39,230,0,1537855293,"~/Downloads/utry-test.log"
--'  228  0  ~/Downloads/utry-test.log
-|4,39,228,0,1537855293,"~/Downloads/utry-test.log"
--'  230  0  ~/Downloads/utry-test.log
-|4,39,230,0,1537855293,"~/Downloads/utry-test.log"
--'  228  0  ~/Downloads/utry-test.log
-|4,39,228,0,1537855293,"~/Downloads/utry-test.log"
--'  215  0  ~/Downloads/utry-test.log
-|4,39,215,0,1537855291,"~/Downloads/utry-test.log"
--'  214  0  ~/Downloads/utry-test.log
-|4,39,214,0,1537855291,"~/Downloads/utry-test.log"
--'  215  0  ~/Downloads/utry-test.log
-|4,39,215,0,1537855291,"~/Downloads/utry-test.log"
--'  214  0  ~/Downloads/utry-test.log
-|4,39,214,0,1537855291,"~/Downloads/utry-test.log"
--'  211  0  ~/Downloads/utry-test.log
-|4,39,211,0,1537855290,"~/Downloads/utry-test.log"
--'  211  0  ~/Downloads/utry-test.log
-|4,39,211,0,1537855290,"~/Downloads/utry-test.log"
--'  204  0  ~/Downloads/utry-test.log
-|4,39,204,0,1537855289,"~/Downloads/utry-test.log"
--'  204  0  ~/Downloads/utry-test.log
-|4,39,204,0,1537855289,"~/Downloads/utry-test.log"
--'  272  0  ~/Downloads/utry-test.log
-|4,39,272,0,1537855283,"~/Downloads/utry-test.log"
--'  272  0  ~/Downloads/utry-test.log
-|4,39,272,0,1537855283,"~/Downloads/utry-test.log"
--'  270  0  ~/Downloads/utry-test.log
-|4,39,270,0,1537855282,"~/Downloads/utry-test.log"
--'  270  0  ~/Downloads/utry-test.log
-|4,39,270,0,1537855282,"~/Downloads/utry-test.log"
--'  267  0  ~/Downloads/utry-test.log
-|4,39,267,0,1537855280,"~/Downloads/utry-test.log"
--'  267  0  ~/Downloads/utry-test.log
-|4,39,267,0,1537855280,"~/Downloads/utry-test.log"
--'  265  0  ~/Downloads/utry-test.log
-|4,39,265,0,1537855279,"~/Downloads/utry-test.log"
--'  265  0  ~/Downloads/utry-test.log
-|4,39,265,0,1537855279,"~/Downloads/utry-test.log"
--'  256  0  ~/Downloads/utry-test.log
-|4,39,256,0,1537855278,"~/Downloads/utry-test.log"
--'  256  0  ~/Downloads/utry-test.log
-|4,39,256,0,1537855278,"~/Downloads/utry-test.log"
--'  254  0  ~/Downloads/utry-test.log
-|4,39,254,0,1537855277,"~/Downloads/utry-test.log"
--'  254  0  ~/Downloads/utry-test.log
-|4,39,254,0,1537855277,"~/Downloads/utry-test.log"
--'  252  0  ~/Downloads/utry-test.log
-|4,39,252,0,1537855275,"~/Downloads/utry-test.log"
--'  252  0  ~/Downloads/utry-test.log
-|4,39,252,0,1537855275,"~/Downloads/utry-test.log"
--'  249  0  ~/Downloads/utry-test.log
-|4,39,249,0,1537855273,"~/Downloads/utry-test.log"
--'  249  0  ~/Downloads/utry-test.log
-|4,39,249,0,1537855273,"~/Downloads/utry-test.log"
--'  247  0  ~/Downloads/utry-test.log
-|4,39,247,0,1537855272,"~/Downloads/utry-test.log"
--'  247  0  ~/Downloads/utry-test.log
-|4,39,247,0,1537855272,"~/Downloads/utry-test.log"
--'  245  0  ~/Downloads/utry-test.log
-|4,39,245,0,1537855269,"~/Downloads/utry-test.log"
--'  245  0  ~/Downloads/utry-test.log
-|4,39,245,0,1537855269,"~/Downloads/utry-test.log"
--'  238  0  ~/Downloads/utry-test.log
-|4,39,238,0,1537855263,"~/Downloads/utry-test.log"
+-'  121  26  ~/Downloads/utry-test.log
+|4,39,121,26,1537855333,"~/Downloads/utry-test.log"
+-'  120  0  ~/Downloads/utry-test.log
+|4,39,120,0,1537855333,"~/Downloads/utry-test.log"
 
 # History of marks within files (newest to oldest):
 
-> ~/Downloads/utry-test.log
-	*	1537870515	0
-	"	158	0
-	.	121	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	19	0
-	+	20	0
-	+	28	0
-	+	29	0
-	+	36	0
-	+	37	0
-	+	39	0
-	+	40	0
-	+	48	0
-	+	50	0
-	+	51	0
-	+	54	0
-	+	56	0
-	+	57	0
-	+	58	0
-	+	66	0
-	+	67	0
-	+	68	0
-	+	73	0
-	+	71	0
-	+	76	0
-	+	82	0
-	+	84	0
-	+	88	0
-	+	238	0
-	+	245	0
-	+	247	0
-	+	249	0
-	+	252	0
-	+	254	0
-	+	256	0
-	+	265	0
-	+	267	0
-	+	270	0
-	+	272	0
-	+	204	0
-	+	211	0
-	+	214	0
-	+	215	0
-	+	228	0
-	+	230	0
-	+	232	0
-	+	234	0
-	+	283	0
-	+	285	0
-	+	291	0
-	+	293	0
-	+	302	0
-	+	305	0
-	+	316	0
-	+	319	0
-	+	328	0
-	+	329	0
-	+	122	0
-	+	139	0
-	+	142	0
-	+	151	0
-	+	152	0
-	+	153	0
-	+	154	0
-	+	180	0
-	+	183	0
-	+	184	0
-	+	188	0
-	+	194	0
-	+	201	0
-	+	202	0
-	+	203	0
-	+	331	0
-	+	118	0
-	+	120	0
-	+	121	0
+> ~/hrm.pdm
+	*	1540272492	0
+	"	2626	7
+	^	2626	8
+	.	2626	7
+	+	2626	7
+
+> ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+	*	1539135696	0
+	"	1	0
 
 > ~/.zshrc
-	*	1537854955	0
+	*	1538112269	0
 	"	269	0
 	^	66	88
 	.	66	87
@@ -632,6 +562,87 @@ $workspace\/labs
 	+	66	87
 	n	61	8
 
+> ~/Downloads/utry-test.log
+	*	1537870515	0
+	"	158	0
+	.	121	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	19	0
+	+	20	0
+	+	28	0
+	+	29	0
+	+	36	0
+	+	37	0
+	+	39	0
+	+	40	0
+	+	48	0
+	+	50	0
+	+	51	0
+	+	54	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	73	0
+	+	71	0
+	+	76	0
+	+	82	0
+	+	84	0
+	+	88	0
+	+	238	0
+	+	245	0
+	+	247	0
+	+	249	0
+	+	252	0
+	+	254	0
+	+	256	0
+	+	265	0
+	+	267	0
+	+	270	0
+	+	272	0
+	+	204	0
+	+	211	0
+	+	214	0
+	+	215	0
+	+	228	0
+	+	230	0
+	+	232	0
+	+	234	0
+	+	283	0
+	+	285	0
+	+	291	0
+	+	293	0
+	+	302	0
+	+	305	0
+	+	316	0
+	+	319	0
+	+	328	0
+	+	329	0
+	+	122	0
+	+	139	0
+	+	142	0
+	+	151	0
+	+	152	0
+	+	153	0
+	+	154	0
+	+	180	0
+	+	183	0
+	+	184	0
+	+	188	0
+	+	194	0
+	+	201	0
+	+	202	0
+	+	203	0
+	+	331	0
+	+	118	0
+	+	120	0
+	+	121	0
+
 > ~/.autosshrc
 	*	1536740291	0
 	"	3	13
@@ -658,10 +669,6 @@ $workspace\/labs
 	+	3	5
 	+	4	5
 	+	3	13
-
-> ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-	*	1535532933	0
-	"	1	0
 
 > ~/workspace/utry/project/IasWeb/src/global.js
 	*	1535520098	0
@@ -1424,7 +1431,3 @@ $workspace\/labs
 > ~/workspace/utry/ivs-task/.gitignore
 	*	1525850852	0
 	"	4	0
-
-> ~/workspace/utry/formEngine/.gitignore
-	*	1525847521	0
-	"	1	0
