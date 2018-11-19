@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/INFO
+~MSle0~/v
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,19 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1540272494,,"wq"
+|2,0,1542615647,,"wq"
 :q
-|2,0,1539135699,,"q"
+|2,0,1542331218,,"q"
+:qq
+|2,0,1542331215,,"qq"
+:.,.+222
+|2,0,1541750862,,".,.+222"
+:.,.+99
+|2,0,1541750501,,".,.+99"
+:.,.+63
+|2,0,1541750491,,".,.+63"
+:.,.+32kkkkkkkkkkkkkk
+|2,0,1541498394,,".,.+32kkkkkkkkkkkkkk"
 :A
 |2,0,1537848065,,"A"
 :q!
@@ -58,6 +68,10 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/v
+|2,1,1541750614,47,"v"
+?/:33
+|2,1,1541498382,47,":33"
 ?/INFO
 |2,1,1537855256,47,"INFO"
 ?/plugin
@@ -173,45 +187,38 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	utry-dev-116|10.0.10.116|root|utry6924|22|2
-|3,0,0,1,1,0,1536740221,"utry-dev-116|10.0.10.116|root|utry6924|22|2"
+	utry-116|10.0.10.116|root|utry6924|22|2
+|3,0,0,1,1,0,1541484342,"utry-116|10.0.10.116|root|utry6924|22|2"
 ""1	LINE	0
-	260
-<[2018-09-25 05:25:09,279][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 9.3gb[5.5%], replicas will not be assigned to this node
-|3,1,1,1,1,0,1537855335,"[2018-09-25 05:25:09,279][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 9.3gb[5.5%], replicas will not be assigned to this node"
+	
+|3,1,1,1,1,0,1542615645,""
 "2	LINE	0
-	261
-<[2018-09-25 05:23:43,387][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 11.5gb[6.8%], replicas will not be assigned to this node
-|3,0,2,1,1,0,1537855332,"[2018-09-25 05:23:43,387][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 11.5gb[6.8%], replicas will not be assigned to this node"
+	
+|3,0,2,1,1,0,1542615637,""
 "3	LINE	0
-	261
-<[2018-09-25 05:22:16,613][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 16.4gb[9.7%], replicas will not be assigned to this node
-|3,0,3,1,1,0,1537855331,"[2018-09-25 05:22:16,613][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 16.4gb[9.7%], replicas will not be assigned to this node"
+	
+|3,0,3,1,1,0,1542615636,""
 "4	LINE	0
-	261
-<[2018-09-25 12:51:04,716][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 16.5gb[9.8%], replicas will not be assigned to this node
-|3,0,4,1,1,0,1537855330,"[2018-09-25 12:51:04,716][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 16.5gb[9.8%], replicas will not be assigned to this node"
+	
+|3,0,4,1,1,0,1542615630,""
 "5	LINE	0
-	[2018-09-25 07:31:23,786][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 10gb[5.9%], replicas will not be assigned to this node
-|3,0,5,1,1,0,1537855329,"[2018-09-25 07:31:23,786][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 10gb[5.9%], replicas will not be assigned to this node"
+	
+|3,0,5,1,1,0,1542093355,""
 "6	LINE	0
-	261
-<[2018-09-25 07:29:50,629][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 12.5gb[7.5%], replicas will not be assigned to this node
-|3,0,6,1,1,0,1537855328,"[2018-09-25 07:29:50,629][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 12.5gb[7.5%], replicas will not be assigned to this node"
+	#    brokerUrl: tcp://10.0.2.121:61616
+|3,0,6,1,1,0,1542093355,"#    brokerUrl: tcp://10.0.2.121:61616"
 "7	LINE	0
-	261
-<[2018-09-25 07:28:18,097][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 15.3gb[9.1%], replicas will not be assigned to this node
-|3,0,7,1,1,0,1537855327,"[2018-09-25 07:28:18,097][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 15.3gb[9.1%], replicas will not be assigned to this node"
+	#  jms:
+|3,0,7,1,1,0,1542093354,"#  jms:"
 "8	LINE	0
-	[2018-09-25 07:19:08,218][INFO ][cluster.routing.allocation.decider] [10.40.190.29] rerouting shards: [one or more nodes has gone under the high or low watermark]
-|3,0,8,1,1,0,1537855326,"[2018-09-25 07:19:08,218][INFO ][cluster.routing.allocation.decider] [10.40.190.29] rerouting shards: [one or more nodes has gone under the high or low watermark]"
+	    name: lzw,libin,fjh
+|3,0,8,1,1,0,1542093352,"    name: lzw,libin,fjh"
 "9	LINE	0
-	261
-<[2018-09-25 07:14:46,561][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 10.2gb[6.1%], replicas will not be assigned to this node
-|3,0,9,1,1,0,1537855324,"[2018-09-25 07:14:46,561][INFO ][cluster.routing.allocation.decider] [10.40.190.29] low disk watermark [90%] exceeded on [nmXxf-G-ToKG_1i4C3Q4LA][10.40.188.122][/opt/tuniu/data/utry-test/nodes/0] free: 10.2gb[6.1%], replicas will not be assigned to this node"
+	    code: 11111,222222,333333
+|3,0,9,1,1,0,1542093352,"    code: 11111,222222,333333"
 "-	CHAR	0
-	#
-|3,0,36,0,1,0,1537850401,"#"
+	6
+|3,0,36,0,1,0,1542093332,"6"
 
 # global variables:
 !MAC	NUM	0
@@ -219,283 +226,362 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  2626  7  ~/hrm.pdm
-|4,48,2626,7,1540272494,"~/hrm.pdm"
+'0  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,48,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
 '1  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,49,1,0,1539135699,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+|4,49,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
 '2  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,50,1,0,1539077039,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
-'3  269  0  ~/.zshrc
-|4,51,269,0,1538112270,"~/.zshrc"
-'4  158  0  ~/Downloads/utry-test.log
-|4,52,158,0,1537870986,"~/Downloads/utry-test.log"
-'5  8  0  ~/Downloads/utry-test.log
-|4,53,8,0,1537859022,"~/Downloads/utry-test.log"
-'6  8  0  ~/Downloads/utry-test.log
-|4,54,8,0,1537859022,"~/Downloads/utry-test.log"
-'7  269  0  ~/.zshrc
-|4,55,269,0,1537854957,"~/.zshrc"
-'8  66  87  ~/.zshrc
-|4,56,66,87,1537850520,"~/.zshrc"
-'9  66  87  ~/.zshrc
-|4,57,66,87,1537850520,"~/.zshrc"
+|4,50,1,0,1542273011,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+'3  10  2  /private/etc/hosts
+|4,51,10,2,1542110837,"/private/etc/hosts"
+'4  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,52,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+'5  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,53,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+'6  27  0  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,54,27,0,1542093003,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+'7  27  0  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,55,27,0,1542093003,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+'8  38  0  ~/Downloads/tomcat-gateway/conf/server.xml
+|4,56,38,0,1542092944,"~/Downloads/tomcat-gateway/conf/server.xml"
+'9  1  0  /private/etc/hosts
+|4,57,1,0,1542022652,"/private/etc/hosts"
 
 # Jumplist (newest first):
--'  2626  7  ~/hrm.pdm
-|4,39,2626,7,1540272494,"~/hrm.pdm"
--'  1  0  ~/hrm.pdm
-|4,39,1,0,1540272472,"~/hrm.pdm"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
 -'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1539135699,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1539135699,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1539077039,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+|4,39,1,0,1542273011,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1539077039,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  269  0  ~/.zshrc
-|4,39,269,0,1538112270,"~/.zshrc"
--'  269  0  ~/.zshrc
-|4,39,269,0,1538112270,"~/.zshrc"
--'  269  0  ~/.zshrc
-|4,39,269,0,1538112270,"~/.zshrc"
--'  269  0  ~/.zshrc
-|4,39,269,0,1538112270,"~/.zshrc"
--'  269  0  ~/.zshrc
-|4,39,269,0,1538112270,"~/.zshrc"
--'  269  0  ~/.zshrc
-|4,39,269,0,1538112270,"~/.zshrc"
--'  269  0  ~/.zshrc
-|4,39,269,0,1538112270,"~/.zshrc"
--'  269  0  ~/.zshrc
-|4,39,269,0,1538112270,"~/.zshrc"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  158  0  ~/Downloads/utry-test.log
-|4,39,158,0,1537870986,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537870318,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  8  0  ~/Downloads/utry-test.log
-|4,39,8,0,1537859022,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  115  0  ~/Downloads/utry-test.log
-|4,39,115,0,1537855343,"~/Downloads/utry-test.log"
--'  121  26  ~/Downloads/utry-test.log
-|4,39,121,26,1537855333,"~/Downloads/utry-test.log"
--'  120  0  ~/Downloads/utry-test.log
-|4,39,120,0,1537855333,"~/Downloads/utry-test.log"
--'  121  26  ~/Downloads/utry-test.log
-|4,39,121,26,1537855333,"~/Downloads/utry-test.log"
--'  120  0  ~/Downloads/utry-test.log
-|4,39,120,0,1537855333,"~/Downloads/utry-test.log"
--'  121  26  ~/Downloads/utry-test.log
-|4,39,121,26,1537855333,"~/Downloads/utry-test.log"
--'  120  0  ~/Downloads/utry-test.log
-|4,39,120,0,1537855333,"~/Downloads/utry-test.log"
+|4,39,1,0,1542273011,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542110837,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542110837,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542110837,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542110837,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542110837,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542110837,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542110837,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542110837,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1542110828,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1542110828,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1542110828,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1542110828,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1542110828,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1542110828,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1542110828,"/private/etc/hosts"
+-'  1  0  /private/etc/hosts
+|4,39,1,0,1542110828,"/private/etc/hosts"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
 
 # History of marks within files (newest to oldest):
 
-> ~/hrm.pdm
-	*	1540272492	0
-	"	2626	7
-	^	2626	8
-	.	2626	7
-	+	2626	7
+> ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+	*	1542615646	0
+	"	5	0
+	.	5	0
+	+	1	0
+	+	2	30
+	+	1	0
+	+	20	18
+	+	6	0
+	+	14	0
+	+	16	0
+	+	5	0
 
 > ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-	*	1539135696	0
+	*	1542331217	0
 	"	1	0
 
-> ~/.zshrc
-	*	1538112269	0
-	"	269	0
-	^	66	88
-	.	66	87
-	+	231	0
-	+	231	84
-	+	231	0
-	+	186	0
-	+	179	0
-	+	181	0
-	+	182	0
-	+	181	0
-	+	182	0
-	+	183	0
-	+	175	0
-	+	176	0
-	+	175	8
-	+	176	7
-	+	174	7
-	+	175	49
-	+	176	48
-	+	11	0
-	+	12	22
-	+	11	0
+> /private/etc/hosts
+	*	1542110836	0
+	"	10	2
+
+> ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+	*	1542093366	0
+	"	122	4
+	^	11	29
+	.	17	0
+	+	11	29
 	+	12	0
+	+	17	0
+
+> ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+	*	1542093219	0
+	"	34	34
+	^	34	35
+	.	34	34
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	36
+	+	27	0
+	+	34	34
+
+> ~/Downloads/tomcat-gateway/conf/server.xml
+	*	1542092943	0
+	"	38	0
+
+> ~/.autosshrc
+	*	1542015739	0
+	"	10	42
+	^	10	43
+	.	10	42
+	+	1	27
+	+	3	38
+	+	2	43
+	+	3	70
+	+	3	38
+	+	2	0
+	+	2	37
+	+	3	49
+	+	3	36
+	+	3	11
+	+	3	22
+	+	2	0
+	+	3	0
+	+	3	38
+	+	2	0
+	+	2	40
+	+	3	41
+	+	2	5
+	+	3	5
+	+	2	13
+	+	3	38
+	+	4	0
+	+	5	0
+	+	6	0
+	+	8	0
+	+	4	7
+	+	5	7
+	+	6	7
+	+	8	19
+	+	6	19
+	+	5	19
+	+	4	38
+	+	5	38
+	+	6	38
+	+	8	33
+	+	6	33
+	+	5	33
+	+	7	38
+	+	8	38
+	+	4	0
+	+	9	38
+	+	8	38
+	+	7	38
+	+	6	38
+	+	5	38
+	+	4	38
+	+	3	37
+	+	2	1
+	+	3	0
+	+	2	1
+	+	9	39
+	+	10	42
+
+> ~/.zshrc
+	*	1541750922	0
+	"	225	0
+	^	225	0
+	.	224	0
 	+	231	0
-	+	226	0
-	+	66	85
-	+	129	7
-	+	177	57
-	+	211	0
-	+	66	0
-	+	268	7
-	+	225	74
-	+	269	71
-	+	231	37
+	+	232	0
+	+	233	0
+	+	232	0
 	+	231	0
-	+	66	112
-	+	226	21
-	+	229	29
+	+	230	0
+	+	229	0
+	+	228	0
+	+	227	0
+	+	228	0
+	+	229	0
+	+	230	0
+	+	231	0
+	+	232	0
+	+	227	0
+	+	228	0
+	+	229	0
+	+	230	0
+	+	231	0
+	+	232	0
+	+	66	87
+	+	114	0
 	+	226	0
 	+	227	0
 	+	228	0
@@ -508,59 +594,43 @@ $workspace\/labs
 	+	235	0
 	+	236	0
 	+	237	0
+	+	238	0
 	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	247	0
-	+	248	0
-	+	249	0
-	+	251	0
-	+	252	0
-	+	253	0
-	+	254	0
-	+	255	0
-	+	257	0
-	+	258	0
-	+	259	0
-	+	260	0
-	+	261	0
-	+	263	0
-	+	264	0
-	+	265	0
-	+	266	0
-	+	267	0
-	+	268	0
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	230	0
-	+	231	0
-	+	232	0
-	+	231	0
-	+	230	0
-	+	229	0
-	+	228	0
-	+	227	0
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	230	0
-	+	231	0
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	230	0
-	+	231	0
-	+	66	87
+	+	239	30
+	+	239	0
+	+	169	0
+	+	239	0
+	+	235	33
+	+	228	16
+	+	232	37
+	+	235	44
+	+	239	0
+	+	226	29
+	+	239	26
+	+	224	0
 	n	61	8
+
+> ~/workspace/utry/platform/ut-platform-vue/node_modules/utvue/package.json
+	*	1541585078	0
+	"	1	0
+
+> ~/workspace/utry/platform/ut-platform-vue/.git/MERGE_MSG
+	*	1541580549	0
+	"	1	0
+
+> ~/workspace/utry/platform/ut-platform-vue/src/views/operationsMgt/operatLog.vue
+	*	1541498421	0
+	"	50	50
+	^	50	51
+	.	50	50
+	+	50	50
+
+> ~/hrm.pdm
+	*	1540272492	0
+	"	2626	7
+	^	2626	8
+	.	2626	7
+	+	2626	7
 
 > ~/Downloads/utry-test.log
 	*	1537870515	0
@@ -642,33 +712,6 @@ $workspace\/labs
 	+	118	0
 	+	120	0
 	+	121	0
-
-> ~/.autosshrc
-	*	1536740291	0
-	"	3	13
-	^	4	5
-	.	3	13
-	+	1	27
-	+	5	0
-	+	2	43
-	+	5	32
-	+	5	0
-	+	2	0
-	+	2	37
-	+	5	11
-	+	4	36
-	+	4	11
-	+	4	22
-	+	2	0
-	+	4	0
-	+	5	0
-	+	2	0
-	+	3	40
-	+	4	41
-	+	2	5
-	+	3	5
-	+	4	5
-	+	3	13
 
 > ~/workspace/utry/project/IasWeb/src/global.js
 	*	1535520098	0
@@ -1381,53 +1424,3 @@ $workspace\/labs
 	+	14	0
 	+	17	0
 	+	18	0
-
-> ~/workspace/utry/translators/build.gradle
-	*	1526024480	0
-	"	134	40
-	^	134	41
-	.	134	40
-	+	134	40
-
-> ~/workspace/utry/qualityInspectionSystem/build.gradle
-	*	1526024464	0
-	"	193	32
-	^	196	41
-	.	196	40
-	+	215	0
-	+	196	40
-
-> ~/workspace/utry/ivs-task/build.gradle
-	*	1526024447	0
-	"	204	40
-	.	204	40
-	+	204	40
-
-> ~/workspace/utry/IVS/build.gradle
-	*	1526024342	0
-	"	109	40
-	^	109	41
-	.	109	40
-	+	109	40
-
-> ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/utry.sql
-	*	1525930658	0
-	"	17	9
-	^	17	10
-	.	17	9
-	+	33	28
-	+	29	38
-	+	33	31
-	+	17	9
-
-> ~/workspace/utry/ivsroot/ivs-root/db/SAAS版本初始/oam_db.sql
-	*	1525914387	0
-	"	1776	0
-
-> ~/workspace/utry/qualityInspectionSystem/.git/MERGE_MSG
-	*	1525852319	0
-	"	1	0
-
-> ~/workspace/utry/ivs-task/.gitignore
-	*	1525850852	0
-	"	4	0
