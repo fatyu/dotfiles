@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1542615647,,"wq"
 :q
-|2,0,1542331218,,"q"
+|2,0,1542694193,,"q"
+:wq
+|2,0,1542683328,,"wq"
 :qq
 |2,0,1542331215,,"qq"
 :.,.+222
@@ -186,36 +186,36 @@ $workspace\/labs
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	utry-116|10.0.10.116|root|utry6924|22|2
-|3,0,0,1,1,0,1541484342,"utry-116|10.0.10.116|root|utry6924|22|2"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1542615645,""
+""0	LINE	0
+	alias l='ls -alh'
+|3,1,0,1,1,0,1542683314,"alias l='ls -alh'"
+"1	LINE	0
+	alias od="o /Users/notalk/Downloads"
+|3,0,1,1,1,0,1542683259,"alias od=\"o /Users/notalk/Downloads\""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1542615637,""
+	alias od="o /Users/notalk/Downloads"
+|3,0,2,1,1,0,1542683255,"alias od=\"o /Users/notalk/Downloads\""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1542615636,""
+	alias apps="o /Users/notalk/apps"
+|3,0,3,1,1,0,1542683251,"alias apps=\"o /Users/notalk/apps\""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1542615630,""
+	alias ow="o /Users/notalk/workspace"
+|3,0,4,1,1,0,1542683248,"alias ow=\"o /Users/notalk/workspace\""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1542093355,""
+|3,0,5,1,1,0,1542615645,""
 "6	LINE	0
-	#    brokerUrl: tcp://10.0.2.121:61616
-|3,0,6,1,1,0,1542093355,"#    brokerUrl: tcp://10.0.2.121:61616"
+	
+|3,0,6,1,1,0,1542615637,""
 "7	LINE	0
-	#  jms:
-|3,0,7,1,1,0,1542093354,"#  jms:"
+	
+|3,0,7,1,1,0,1542615636,""
 "8	LINE	0
-	    name: lzw,libin,fjh
-|3,0,8,1,1,0,1542093352,"    name: lzw,libin,fjh"
+	
+|3,0,8,1,1,0,1542615630,""
 "9	LINE	0
-	    code: 11111,222222,333333
-|3,0,9,1,1,0,1542093352,"    code: 11111,222222,333333"
+	
+|3,0,9,1,1,0,1542093355,""
 "-	CHAR	0
 	6
 |3,0,36,0,1,0,1542093332,"6"
@@ -226,32 +226,164 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,48,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
-'1  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,49,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
-'2  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,50,1,0,1542273011,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
-'3  10  2  /private/etc/hosts
-|4,51,10,2,1542110837,"/private/etc/hosts"
-'4  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,52,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
-'5  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,53,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
-'6  27  0  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,54,27,0,1542093003,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
-'7  27  0  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,55,27,0,1542093003,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
-'8  38  0  ~/Downloads/tomcat-gateway/conf/server.xml
-|4,56,38,0,1542092944,"~/Downloads/tomcat-gateway/conf/server.xml"
-'9  1  0  /private/etc/hosts
-|4,57,1,0,1542022652,"/private/etc/hosts"
+'0  10  42  ~/.autosshrc
+|4,48,10,42,1542694193,"~/.autosshrc"
+'1  10  2  /private/etc/hosts
+|4,49,10,2,1542690192,"/private/etc/hosts"
+'2  10  2  /private/etc/hosts
+|4,50,10,2,1542685969,"/private/etc/hosts"
+'3  119  7  ~/.zshrc
+|4,51,119,7,1542683328,"~/.zshrc"
+'4  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,52,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+'5  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,53,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+'6  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,54,1,0,1542273011,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+'7  10  2  /private/etc/hosts
+|4,55,10,2,1542110837,"/private/etc/hosts"
+'8  10  2  /private/etc/hosts
+|4,56,10,2,1542110837,"/private/etc/hosts"
+'9  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,57,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
 
 # Jumplist (newest first):
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542690192,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542690192,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542685969,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542685969,"/private/etc/hosts"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542683328,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542683328,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542683328,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542683328,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542683328,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542683328,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542683328,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542683328,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1542683216,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1542683216,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1542683216,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1542683216,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1542683216,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1542683216,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1542683216,"~/.zshrc"
+-'  224  0  ~/.zshrc
+|4,39,224,0,1542683216,"~/.zshrc"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
 -'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
 |4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
 -'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
 |4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
+-'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
 -'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
 |4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
 -'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
@@ -259,246 +391,68 @@ $workspace\/labs
 -'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
 |4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542273011,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542273011,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  10  2  /private/etc/hosts
-|4,39,10,2,1542110837,"/private/etc/hosts"
--'  10  2  /private/etc/hosts
-|4,39,10,2,1542110837,"/private/etc/hosts"
--'  10  2  /private/etc/hosts
-|4,39,10,2,1542110837,"/private/etc/hosts"
--'  10  2  /private/etc/hosts
-|4,39,10,2,1542110837,"/private/etc/hosts"
--'  10  2  /private/etc/hosts
-|4,39,10,2,1542110837,"/private/etc/hosts"
--'  10  2  /private/etc/hosts
-|4,39,10,2,1542110837,"/private/etc/hosts"
--'  10  2  /private/etc/hosts
-|4,39,10,2,1542110837,"/private/etc/hosts"
--'  10  2  /private/etc/hosts
-|4,39,10,2,1542110837,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1542110828,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1542110828,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1542110828,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1542110828,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1542110828,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1542110828,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1542110828,"/private/etc/hosts"
--'  1  0  /private/etc/hosts
-|4,39,1,0,1542110828,"/private/etc/hosts"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  75  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,75,0,1542093365,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,1,0,1542093321,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
--'  34  34  ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,39,34,34,1542093220,"~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-	*	1542615646	0
-	"	5	0
-	.	5	0
-	+	1	0
-	+	2	30
-	+	1	0
-	+	20	18
-	+	6	0
-	+	14	0
-	+	16	0
-	+	5	0
-
-> ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-	*	1542331217	0
-	"	1	0
-
-> /private/etc/hosts
-	*	1542110836	0
-	"	10	2
-
-> ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-	*	1542093366	0
-	"	122	4
-	^	11	29
-	.	17	0
-	+	11	29
-	+	12	0
-	+	17	0
-
-> ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-	*	1542093219	0
-	"	34	34
-	^	34	35
-	.	34	34
-	+	31	0
-	+	32	0
-	+	33	0
-	+	34	36
-	+	27	0
-	+	34	34
-
-> ~/Downloads/tomcat-gateway/conf/server.xml
-	*	1542092943	0
-	"	38	0
-
 > ~/.autosshrc
-	*	1542015739	0
+	*	1542694192	0
 	"	10	42
 	^	10	43
 	.	10	42
@@ -555,33 +509,38 @@ $workspace\/labs
 	+	9	39
 	+	10	42
 
+> /private/etc/hosts
+	*	1542690192	0
+	"	10	2
+
 > ~/.zshrc
-	*	1541750922	0
-	"	225	0
-	^	225	0
-	.	224	0
+	*	1542683327	0
+	"	119	7
+	^	124	8
+	.	124	7
+	+	230	0
 	+	231	0
-	+	232	0
-	+	233	0
 	+	232	0
 	+	231	0
 	+	230	0
 	+	229	0
 	+	228	0
 	+	227	0
-	+	228	0
-	+	229	0
-	+	230	0
-	+	231	0
-	+	232	0
+	+	226	0
 	+	227	0
 	+	228	0
 	+	229	0
 	+	230	0
 	+	231	0
-	+	232	0
+	+	226	0
+	+	227	0
+	+	228	0
+	+	229	0
+	+	230	0
+	+	231	0
 	+	66	87
 	+	114	0
+	+	225	0
 	+	226	0
 	+	227	0
 	+	228	0
@@ -595,20 +554,65 @@ $workspace\/labs
 	+	236	0
 	+	237	0
 	+	238	0
-	+	239	0
-	+	239	30
-	+	239	0
-	+	169	0
-	+	239	0
-	+	235	33
-	+	228	16
-	+	232	37
-	+	235	44
-	+	239	0
-	+	226	29
-	+	239	26
-	+	224	0
+	+	238	30
+	+	238	0
+	+	170	0
+	+	238	0
+	+	234	33
+	+	227	16
+	+	231	37
+	+	234	44
+	+	238	0
+	+	225	29
+	+	238	26
+	+	223	0
+	+	188	0
+	+	186	0
+	+	184	0
+	+	124	7
 	n	61	8
+
+> ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
+	*	1542615646	0
+	"	5	0
+	.	5	0
+	+	1	0
+	+	2	30
+	+	1	0
+	+	20	18
+	+	6	0
+	+	14	0
+	+	16	0
+	+	5	0
+
+> ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
+	*	1542331217	0
+	"	1	0
+
+> ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+	*	1542093366	0
+	"	122	4
+	^	11	29
+	.	17	0
+	+	11	29
+	+	12	0
+	+	17	0
+
+> ~/Downloads/tomcat-gateway/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+	*	1542093219	0
+	"	34	34
+	^	34	35
+	.	34	34
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	36
+	+	27	0
+	+	34	34
+
+> ~/Downloads/tomcat-gateway/conf/server.xml
+	*	1542092943	0
+	"	38	0
 
 > ~/workspace/utry/platform/ut-platform-vue/node_modules/utvue/package.json
 	*	1541585078	0
