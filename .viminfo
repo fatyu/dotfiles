@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/v
+~MSle0~/brew
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1542779522,,"wq"
 :q
 |2,0,1542694193,,"q"
-:wq
-|2,0,1542683328,,"wq"
 :qq
 |2,0,1542331215,,"qq"
 :.,.+222
@@ -68,6 +68,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/brew
+|2,1,1542779394,47,"brew"
 ?/v
 |2,1,1541750614,47,"v"
 ?/:33
@@ -186,39 +188,39 @@ $workspace\/labs
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	alias l='ls -alh'
-|3,1,0,1,1,0,1542683314,"alias l='ls -alh'"
-"1	LINE	0
-	alias od="o /Users/notalk/Downloads"
-|3,0,1,1,1,0,1542683259,"alias od=\"o /Users/notalk/Downloads\""
+"0	LINE	0
+	alias bsstart='brew services start '
+|3,0,0,1,1,0,1542779425,"alias bsstart='brew services start '"
+""1	LINE	0
+	ft_min_word_len = 2
+|3,1,1,1,1,0,1542779520,"ft_min_word_len = 2"
 "2	LINE	0
-	alias od="o /Users/notalk/Downloads"
-|3,0,2,1,1,0,1542683255,"alias od=\"o /Users/notalk/Downloads\""
+	[client]
+|3,0,2,1,1,0,1542779520,"[client]"
 "3	LINE	0
-	alias apps="o /Users/notalk/apps"
-|3,0,3,1,1,0,1542683251,"alias apps=\"o /Users/notalk/apps\""
+	alias od="o /Users/notalk/Downloads"
+|3,0,3,1,1,0,1542683259,"alias od=\"o /Users/notalk/Downloads\""
 "4	LINE	0
-	alias ow="o /Users/notalk/workspace"
-|3,0,4,1,1,0,1542683248,"alias ow=\"o /Users/notalk/workspace\""
+	alias od="o /Users/notalk/Downloads"
+|3,0,4,1,1,0,1542683255,"alias od=\"o /Users/notalk/Downloads\""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1542615645,""
+	alias apps="o /Users/notalk/apps"
+|3,0,5,1,1,0,1542683251,"alias apps=\"o /Users/notalk/apps\""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1542615637,""
+	alias ow="o /Users/notalk/workspace"
+|3,0,6,1,1,0,1542683248,"alias ow=\"o /Users/notalk/workspace\""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1542615636,""
+|3,0,7,1,1,0,1542615645,""
 "8	LINE	0
 	
-|3,0,8,1,1,0,1542615630,""
+|3,0,8,1,1,0,1542615637,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1542093355,""
+|3,0,9,1,1,0,1542615636,""
 "-	CHAR	0
-	6
-|3,0,36,0,1,0,1542093332,"6"
+	t
+|3,0,36,0,1,0,1542779431,"t"
 
 # global variables:
 !MAC	NUM	0
@@ -226,28 +228,210 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  10  42  ~/.autosshrc
-|4,48,10,42,1542694193,"~/.autosshrc"
-'1  10  2  /private/etc/hosts
-|4,49,10,2,1542690192,"/private/etc/hosts"
-'2  10  2  /private/etc/hosts
-|4,50,10,2,1542685969,"/private/etc/hosts"
-'3  119  7  ~/.zshrc
-|4,51,119,7,1542683328,"~/.zshrc"
-'4  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,52,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
-'5  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,53,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
-'6  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,54,1,0,1542273011,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+'0  8  0  /usr/local/etc/my.cnf
+|4,48,8,0,1542779522,"/usr/local/etc/my.cnf"
+'1  152  34  ~/.zshrc
+|4,49,152,34,1542779451,"~/.zshrc"
+'2  9  18  /usr/local/etc/my.cnf
+|4,50,9,18,1542779335,"/usr/local/etc/my.cnf"
+'3  214  0  ~/.zshrc
+|4,51,214,0,1542776768,"~/.zshrc"
+'4  208  0  ~/.zshrc
+|4,52,208,0,1542776768,"~/.zshrc"
+'5  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,53,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+'6  10  42  ~/.autosshrc
+|4,54,10,42,1542694193,"~/.autosshrc"
 '7  10  2  /private/etc/hosts
-|4,55,10,2,1542110837,"/private/etc/hosts"
+|4,55,10,2,1542690192,"/private/etc/hosts"
 '8  10  2  /private/etc/hosts
-|4,56,10,2,1542110837,"/private/etc/hosts"
-'9  122  4  ~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,57,122,4,1542093367,"~/Downloads/tomcat-oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+|4,56,10,2,1542685969,"/private/etc/hosts"
+'9  119  7  ~/.zshrc
+|4,57,119,7,1542683328,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  8  0  /usr/local/etc/my.cnf
+|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
+-'  152  34  ~/.zshrc
+|4,39,152,34,1542779451,"~/.zshrc"
+-'  152  34  ~/.zshrc
+|4,39,152,34,1542779451,"~/.zshrc"
+-'  216  0  ~/.zshrc
+|4,39,216,0,1542779394,"~/.zshrc"
+-'  216  0  ~/.zshrc
+|4,39,216,0,1542779394,"~/.zshrc"
+-'  214  0  ~/.zshrc
+|4,39,214,0,1542779389,"~/.zshrc"
+-'  214  0  ~/.zshrc
+|4,39,214,0,1542779389,"~/.zshrc"
+-'  9  18  /usr/local/etc/my.cnf
+|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
+-'  9  18  /usr/local/etc/my.cnf
+|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
+-'  1  0  /usr/local/etc/my.cnf
+|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
+-'  1  0  /usr/local/etc/my.cnf
+|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
+-'  1  0  /usr/local/etc/my.cnf
+|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
+-'  208  0  ~/.zshrc
+|4,39,208,0,1542776768,"~/.zshrc"
+-'  208  0  ~/.zshrc
+|4,39,208,0,1542776768,"~/.zshrc"
+-'  208  0  ~/.zshrc
+|4,39,208,0,1542776768,"~/.zshrc"
+-'  208  0  ~/.zshrc
+|4,39,208,0,1542776768,"~/.zshrc"
+-'  244  0  ~/.zshrc
+|4,39,244,0,1542776652,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542776652,"~/.zshrc"
+-'  238  0  ~/.zshrc
+|4,39,238,0,1542776652,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542776652,"~/.zshrc"
+-'  238  0  ~/.zshrc
+|4,39,238,0,1542776652,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542776652,"~/.zshrc"
+-'  244  0  ~/.zshrc
+|4,39,244,0,1542776652,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542776652,"~/.zshrc"
+-'  238  0  ~/.zshrc
+|4,39,238,0,1542776652,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542776652,"~/.zshrc"
+-'  238  0  ~/.zshrc
+|4,39,238,0,1542776652,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1542776652,"~/.zshrc"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  1  0  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+|4,39,1,0,1542764914,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
+-'  10  42  ~/.autosshrc
+|4,39,10,42,1542694193,"~/.autosshrc"
 -'  10  42  ~/.autosshrc
 |4,39,10,42,1542694193,"~/.autosshrc"
 -'  10  2  /private/etc/hosts
@@ -255,201 +439,104 @@ $workspace\/labs
 -'  10  2  /private/etc/hosts
 |4,39,10,2,1542690192,"/private/etc/hosts"
 -'  10  2  /private/etc/hosts
-|4,39,10,2,1542685969,"/private/etc/hosts"
+|4,39,10,2,1542690192,"/private/etc/hosts"
 -'  10  2  /private/etc/hosts
-|4,39,10,2,1542685969,"/private/etc/hosts"
--'  119  7  ~/.zshrc
-|4,39,119,7,1542683328,"~/.zshrc"
--'  119  7  ~/.zshrc
-|4,39,119,7,1542683328,"~/.zshrc"
--'  119  7  ~/.zshrc
-|4,39,119,7,1542683328,"~/.zshrc"
--'  119  7  ~/.zshrc
-|4,39,119,7,1542683328,"~/.zshrc"
--'  119  7  ~/.zshrc
-|4,39,119,7,1542683328,"~/.zshrc"
--'  119  7  ~/.zshrc
-|4,39,119,7,1542683328,"~/.zshrc"
--'  119  7  ~/.zshrc
-|4,39,119,7,1542683328,"~/.zshrc"
--'  119  7  ~/.zshrc
-|4,39,119,7,1542683328,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1542683216,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1542683216,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1542683216,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1542683216,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1542683216,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1542683216,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1542683216,"~/.zshrc"
--'  224  0  ~/.zshrc
-|4,39,224,0,1542683216,"~/.zshrc"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  5  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,5,0,1542615647,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  2  30  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,2,30,1542614978,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
-|4,39,1,0,1542614947,"~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
--'  1  0  ~/workspace/utry/project/IasWeb/.git/MERGE_MSG
-|4,39,1,0,1542331218,"~/workspace/utry/project/IasWeb/.git/MERGE_MSG"
+|4,39,10,2,1542690192,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542690192,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542690192,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542690192,"/private/etc/hosts"
+-'  10  2  /private/etc/hosts
+|4,39,10,2,1542690192,"/private/etc/hosts"
 
 # History of marks within files (newest to oldest):
+
+> /usr/local/etc/my.cnf
+	*	1542779521	0
+	"	8	0
+	.	8	0
+	+	4	24
+	+	6	20
+	+	8	8
+	+	8	0
+
+> ~/.zshrc
+	*	1542779449	0
+	"	152	34
+	^	152	35
+	.	153	31
+	+	236	0
+	+	237	0
+	+	238	0
+	+	237	0
+	+	236	0
+	+	235	0
+	+	234	0
+	+	233	0
+	+	232	0
+	+	233	0
+	+	234	0
+	+	235	0
+	+	236	0
+	+	237	0
+	+	232	0
+	+	233	0
+	+	234	0
+	+	235	0
+	+	236	0
+	+	237	0
+	+	66	87
+	+	114	0
+	+	231	0
+	+	232	0
+	+	233	0
+	+	234	0
+	+	235	0
+	+	236	0
+	+	237	0
+	+	238	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	244	30
+	+	244	0
+	+	176	0
+	+	244	0
+	+	240	33
+	+	233	16
+	+	237	37
+	+	240	44
+	+	244	0
+	+	231	29
+	+	244	26
+	+	229	0
+	+	194	0
+	+	192	0
+	+	190	0
+	+	124	7
+	+	152	36
+	+	153	0
+	+	154	0
+	+	155	0
+	+	153	11
+	+	154	11
+	+	155	32
+	+	154	31
+	+	153	31
+	n	61	8
+
+> ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
+	*	1542765063	0
+	"	44	51
+	^	44	52
+	.	44	51
+	+	22	36
+	+	44	51
 
 > ~/.autosshrc
 	*	1542694192	0
@@ -512,65 +599,6 @@ $workspace\/labs
 > /private/etc/hosts
 	*	1542690192	0
 	"	10	2
-
-> ~/.zshrc
-	*	1542683327	0
-	"	119	7
-	^	124	8
-	.	124	7
-	+	230	0
-	+	231	0
-	+	232	0
-	+	231	0
-	+	230	0
-	+	229	0
-	+	228	0
-	+	227	0
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	230	0
-	+	231	0
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	230	0
-	+	231	0
-	+	66	87
-	+	114	0
-	+	225	0
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	230	0
-	+	231	0
-	+	232	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	238	0
-	+	238	30
-	+	238	0
-	+	170	0
-	+	238	0
-	+	234	33
-	+	227	16
-	+	231	37
-	+	234	44
-	+	238	0
-	+	225	29
-	+	238	26
-	+	223	0
-	+	188	0
-	+	186	0
-	+	184	0
-	+	124	7
-	n	61	8
 
 > ~/workspace/utry/project/ivs-root/db/1811版本增量/utry.sql
 	*	1542615646	0
@@ -1407,24 +1435,3 @@ $workspace\/labs
 	^	25	39
 	.	25	38
 	+	25	38
-
-> ~/workspace/utry/formEngine/build.gradle
-	*	1526026013	0
-	"	84	37
-	^	84	38
-	.	84	37
-	+	84	37
-
-> ~/.zsh_history
-	*	1526025691	0
-	"	18	0
-	.	18	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	5	0
-	+	6	0
-	+	10	0
-	+	14	0
-	+	17	0
-	+	18	0
