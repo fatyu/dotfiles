@@ -21,9 +21,19 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1542949803,,"q"
+|2,0,1544078661,,"q"
 :wq
-|2,0,1542779522,,"wq"
+|2,0,1544075370,,"wq"
+:q!
+|2,0,1544073529,,"q!"
+:Q
+|2,0,1544073242,,"Q"
+:WQ
+|2,0,1544073241,,"WQ"
+:p
+|2,0,1543227684,,"p"
+:wq!
+|2,0,1543227262,,"wq!"
 :qq
 |2,0,1542331215,,"qq"
 :.,.+222
@@ -36,20 +46,14 @@ $workspace\/labs
 |2,0,1541498394,,".,.+32kkkkkkkkkkkkkk"
 :A
 |2,0,1537848065,,"A"
-:q!
-|2,0,1537848018,,"q!"
 :w
 |2,0,1537847912,,"w"
 :q:
 |2,0,1535531605,,"q:"
 ::q
 |2,0,1534216943,,":q"
-:Q
-|2,0,1529559260,,"Q"
 :nnnn
 |2,0,1526953423,,"nnnn"
-:p
-|2,0,1525429286,,"p"
 :vzsh
 |2,0,1524711012,,"vzsh"
 :.,.+910+
@@ -62,12 +66,12 @@ $workspace\/labs
 |2,0,1524215504,,"%s/~labs/~workspace/labs/g"
 :.,.+19
 |2,0,1523352258,,".,.+19"
-:wq!
-|2,0,1523352217,,"wq!"
 :setnum onl
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/10.0.12.112
+|2,1,1544075386,47,"10.0.12.112"
 ?/brew
 |2,1,1542779394,47,"brew"
 ?/v
@@ -189,38 +193,39 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	alias bsstart='brew services start '
-|3,0,0,1,1,0,1542779425,"alias bsstart='brew services start '"
+	    <string>--datadir=/usr/local/var/mysql</string>
+|3,0,0,1,1,0,1543227686,"    <string>--datadir=/usr/local/var/mysql</string>"
 ""1	LINE	0
-	ft_min_word_len = 2
-|3,1,1,1,1,0,1542779520,"ft_min_word_len = 2"
+	395
+<10.0.12.112 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyn62g/PQFWw5re1Tnou9dBpCZuHCHhsglAOGGR3wlI9BlT1yoLw8gt/FlpRPNz1GLiviuZZlM8iQrSpYOf/fU77fQdJjVtL9nzrhEOVQgpsvy07zTIGWxN3XdATGKdptvBBCuz+6OTP15MjbA5HBdOilfeGpf8WH03wBIE9zvu2GwsUxvTchEew4di/Izpi9rboMbdth9td94ytvXAmkEHbV6bnl5MATd53DbBtSfvmak5l0bRCsw/vPEB9pIvemEYuxSgBwOOmbEp1G+nMj9T3KPXQUyoisJ048GwtZRJ2LdwLpe/xphXellQ/uGoFCOGdYqbQWC5Iu5QHiYHiOSQ==
+|3,1,1,1,1,0,1544075368,"10.0.12.112 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyn62g/PQFWw5re1Tnou9dBpCZuHCHhsglAOGGR3wlI9BlT1yoLw8gt/FlpRPNz1GLiviuZZlM8iQrSpYOf/fU77fQdJjVtL9nzrhEOVQgpsvy07zTIGWxN3XdATGKdptvBBCuz+6OTP15MjbA5HBdOilfeGpf8WH03wBIE9zvu2GwsUxvTchEew4di/Izpi9rboMbdth9td94ytvXAmkEHbV6bnl5MATd53DbBtSfvmak5l0bRCsw/vPEB9pIvemEYuxSgBwOOmbEp1G+nMj9T3KPXQUyoisJ048GwtZRJ2LdwLpe/xphXellQ/uGoFCOGdYqbQWC5Iu5QHiYHiOSQ=="
 "2	LINE	0
-	[client]
-|3,0,2,1,1,0,1542779520,"[client]"
+	utry-qa-es|10.0.33.150|root|Utry0754|22|10
+|3,0,2,1,1,0,1543303881,"utry-qa-es|10.0.33.150|root|Utry0754|22|10"
 "3	LINE	0
-	alias od="o /Users/notalk/Downloads"
-|3,0,3,1,1,0,1542683259,"alias od=\"o /Users/notalk/Downloads\""
+	utry-135|10.0.10.135|root|utry1234|22|8
+|3,0,3,1,1,0,1543301873,"utry-135|10.0.10.135|root|utry1234|22|8"
 "4	LINE	0
-	alias od="o /Users/notalk/Downloads"
-|3,0,4,1,1,0,1542683255,"alias od=\"o /Users/notalk/Downloads\""
+	
+|3,0,4,1,1,0,1543227257,""
 "5	LINE	0
-	alias apps="o /Users/notalk/apps"
-|3,0,5,1,1,0,1542683251,"alias apps=\"o /Users/notalk/apps\""
+	bind-address=0.0.0.0
+|3,0,5,1,1,0,1543227256,"bind-address=0.0.0.0"
 "6	LINE	0
-	alias ow="o /Users/notalk/workspace"
-|3,0,6,1,1,0,1542683248,"alias ow=\"o /Users/notalk/workspace\""
+	utry-116|10.0.10.116|root|utry6924|22|9
+|3,0,6,1,1,0,1543215535,"utry-116|10.0.10.116|root|utry6924|22|9"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1542615645,""
+	utry-116|10.0.10.116|root|utry6924|22|9
+|3,0,7,1,1,0,1543215534,"utry-116|10.0.10.116|root|utry6924|22|9"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1542615637,""
+	utry-116|10.0.10.116|root|utry6924|22|9
+|3,0,8,1,1,0,1543215534,"utry-116|10.0.10.116|root|utry6924|22|9"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1542615636,""
+	ft_min_word_len = 2
+|3,0,9,1,1,0,1542779520,"ft_min_word_len = 2"
 "-	CHAR	0
-	t
-|3,0,36,0,1,0,1542779431,"t"
+	 
+|3,0,36,0,1,0,1544073253," "
 
 # global variables:
 !MAC	NUM	0
@@ -228,301 +233,378 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  1  0  ~/workspace/labs/N/.git/MERGE_MSG
-|4,48,1,0,1542949803,"~/workspace/labs/N/.git/MERGE_MSG"
-'1  10  42  ~/.autosshrc
-|4,49,10,42,1542874072,"~/.autosshrc"
-'2  10  42  ~/.autosshrc
-|4,50,10,42,1542857181,"~/.autosshrc"
-'3  8  0  /usr/local/etc/my.cnf
-|4,51,8,0,1542779522,"/usr/local/etc/my.cnf"
-'4  152  34  ~/.zshrc
-|4,52,152,34,1542779451,"~/.zshrc"
-'5  9  18  /usr/local/etc/my.cnf
-|4,53,9,18,1542779335,"/usr/local/etc/my.cnf"
-'6  214  0  ~/.zshrc
-|4,54,214,0,1542776768,"~/.zshrc"
-'7  208  0  ~/.zshrc
-|4,55,208,0,1542776768,"~/.zshrc"
-'8  44  51  ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,56,44,51,1542765064,"~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
-'9  10  42  ~/.autosshrc
-|4,57,10,42,1542694193,"~/.autosshrc"
+'0  16  0  ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
+|4,48,16,0,1544078661,"~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx"
+'1  5  0  ~/.ssh/known_hosts2
+|4,49,5,0,1544075387,"~/.ssh/known_hosts2"
+'2  25  0  ~/.ssh/known_hosts
+|4,50,25,0,1544075370,"~/.ssh/known_hosts"
+'3  1  0  ~/.ssh/id_rsa
+|4,51,1,0,1544075359,"~/.ssh/id_rsa"
+'4  18  41  ~/.autosshrc
+|4,52,18,41,1544075318,"~/.autosshrc"
+'5  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,53,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+'6  2  21  ~/Downloads/elasticsearch-2.3.1/config/logging.yml
+|4,54,2,21,1544073246,"~/Downloads/elasticsearch-2.3.1/config/logging.yml"
+'7  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,55,83,0,1544072403,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+'8  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,56,83,0,1544072403,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+'9  18  41  ~/.autosshrc
+|4,57,18,41,1544063277,"~/.autosshrc"
 
 # Jumplist (newest first):
--'  1  0  ~/workspace/labs/N/.git/MERGE_MSG
-|4,39,1,0,1542949803,"~/workspace/labs/N/.git/MERGE_MSG"
--'  10  42  ~/.autosshrc
-|4,39,10,42,1542874072,"~/.autosshrc"
--'  10  42  ~/.autosshrc
-|4,39,10,42,1542874072,"~/.autosshrc"
--'  10  42  ~/.autosshrc
-|4,39,10,42,1542857181,"~/.autosshrc"
--'  10  42  ~/.autosshrc
-|4,39,10,42,1542857181,"~/.autosshrc"
--'  8  0  /usr/local/etc/my.cnf
-|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
--'  8  0  /usr/local/etc/my.cnf
-|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
--'  8  0  /usr/local/etc/my.cnf
-|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
--'  8  0  /usr/local/etc/my.cnf
-|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
--'  8  0  /usr/local/etc/my.cnf
-|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
--'  8  0  /usr/local/etc/my.cnf
-|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
--'  8  0  /usr/local/etc/my.cnf
-|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
--'  8  0  /usr/local/etc/my.cnf
-|4,39,8,0,1542779522,"/usr/local/etc/my.cnf"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  152  34  ~/.zshrc
-|4,39,152,34,1542779451,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  216  0  ~/.zshrc
-|4,39,216,0,1542779394,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  214  0  ~/.zshrc
-|4,39,214,0,1542779389,"~/.zshrc"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  9  18  /usr/local/etc/my.cnf
-|4,39,9,18,1542779335,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
--'  1  0  /usr/local/etc/my.cnf
-|4,39,1,0,1542778931,"/usr/local/etc/my.cnf"
+-'  16  0  ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
+|4,39,16,0,1544078661,"~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx"
+-'  5  0  ~/.ssh/known_hosts2
+|4,39,5,0,1544075387,"~/.ssh/known_hosts2"
+-'  5  0  ~/.ssh/known_hosts2
+|4,39,5,0,1544075387,"~/.ssh/known_hosts2"
+-'  1  0  ~/.ssh/known_hosts2
+|4,39,1,0,1544075377,"~/.ssh/known_hosts2"
+-'  1  0  ~/.ssh/known_hosts2
+|4,39,1,0,1544075377,"~/.ssh/known_hosts2"
+-'  25  0  ~/.ssh/known_hosts
+|4,39,25,0,1544075370,"~/.ssh/known_hosts"
+-'  25  0  ~/.ssh/known_hosts
+|4,39,25,0,1544075370,"~/.ssh/known_hosts"
+-'  25  0  ~/.ssh/known_hosts
+|4,39,25,0,1544075370,"~/.ssh/known_hosts"
+-'  25  0  ~/.ssh/known_hosts
+|4,39,25,0,1544075370,"~/.ssh/known_hosts"
+-'  12  0  ~/.ssh/known_hosts
+|4,39,12,0,1544075363,"~/.ssh/known_hosts"
+-'  12  0  ~/.ssh/known_hosts
+|4,39,12,0,1544075363,"~/.ssh/known_hosts"
+-'  12  0  ~/.ssh/known_hosts
+|4,39,12,0,1544075363,"~/.ssh/known_hosts"
+-'  12  0  ~/.ssh/known_hosts
+|4,39,12,0,1544075363,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  18  41  ~/.autosshrc
+|4,39,18,41,1544075318,"~/.autosshrc"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
+	*	1544078659	0
+	"	16	0
+	.	1	0
+	+	1	0
+
+> ~/.ssh/known_hosts2
+	*	1544075386	0
+	"	5	0
+
+> ~/.ssh/known_hosts
+	*	1544075369	0
+	"	25	0
+	.	25	0
+	+	25	0
+
+> ~/.ssh/id_rsa
+	*	1544075358	0
+	"	1	0
+
+> ~/.autosshrc
+	*	1544075317	0
+	"	18	41
+	^	18	42
+	.	16	41
+	+	1	27
+	+	4	38
+	+	2	43
+	+	4	70
+	+	4	38
+	+	2	0
+	+	2	37
+	+	4	49
+	+	4	36
+	+	4	11
+	+	4	22
+	+	2	0
+	+	4	0
+	+	4	38
+	+	2	0
+	+	2	40
+	+	4	41
+	+	2	5
+	+	4	5
+	+	2	13
+	+	4	38
+	+	5	0
+	+	7	0
+	+	8	0
+	+	10	39
+	+	5	7
+	+	7	7
+	+	8	7
+	+	10	58
+	+	8	19
+	+	7	19
+	+	5	38
+	+	7	38
+	+	8	38
+	+	10	72
+	+	8	33
+	+	7	33
+	+	9	38
+	+	10	77
+	+	5	0
+	+	10	77
+	+	9	38
+	+	8	38
+	+	7	38
+	+	5	38
+	+	4	37
+	+	2	1
+	+	4	0
+	+	2	1
+	+	10	78
+	+	16	42
+	+	13	39
+	+	14	0
+	+	16	0
+	+	13	39
+	+	16	0
+	+	14	9
+	+	14	36
+	+	14	41
+	+	14	23
+	+	16	0
+	+	18	42
+	+	2	0
+	+	5	0
+	+	9	0
+	+	10	39
+	+	16	0
+	+	14	0
+	+	11	0
+	+	12	0
+	+	11	0
+	+	14	0
+	+	16	39
+	+	11	40
+	+	15	42
+	+	16	41
+
+> ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
+	*	1544073265	0
+	"	53	0
+	^	84	1
+	.	83	1
+	+	83	1
+
+> ~/Downloads/elasticsearch-2.3.1/config/logging.yml
+	*	1544073242	0
+	"	2	21
+	^	2	22
+	.	2	21
+	+	2	21
+
+> /usr/local/etc/my.cnf
+	*	1543281715	0
+	"	4	0
+	^	4	1
+	.	4	0
+	+	4	24
+	+	6	20
+	+	7	8
+	+	7	19
+	+	4	23
+	+	7	0
+	+	4	0
+
+> /usr/local/Cellar/mysql/8.0.12/homebrew.mxcl.mysql.plist
+	*	1543227714	0
+	"	13	33
+	^	13	34
+	.	13	33
+	+	13	33
+
+> ~/workspace/utry/project/IasWeb/src/global.js
+	*	1543227212	0
+	"	6	32
+	^	6	39
+	.	6	38
+	+	7	0
+	+	6	38
 
 > ~/workspace/labs/N/.git/MERGE_MSG
 	*	1542949802	0
 	"	1	0
-
-> ~/.autosshrc
-	*	1542869620	0
-	"	10	42
-	^	10	43
-	.	10	42
-	+	1	27
-	+	3	38
-	+	2	43
-	+	3	70
-	+	3	38
-	+	2	0
-	+	2	37
-	+	3	49
-	+	3	36
-	+	3	11
-	+	3	22
-	+	2	0
-	+	3	0
-	+	3	38
-	+	2	0
-	+	2	40
-	+	3	41
-	+	2	5
-	+	3	5
-	+	2	13
-	+	3	38
-	+	4	0
-	+	5	0
-	+	6	0
-	+	8	0
-	+	4	7
-	+	5	7
-	+	6	7
-	+	8	19
-	+	6	19
-	+	5	19
-	+	4	38
-	+	5	38
-	+	6	38
-	+	8	33
-	+	6	33
-	+	5	33
-	+	7	38
-	+	8	38
-	+	4	0
-	+	9	38
-	+	8	38
-	+	7	38
-	+	6	38
-	+	5	38
-	+	4	38
-	+	3	37
-	+	2	1
-	+	3	0
-	+	2	1
-	+	9	39
-	+	10	42
-
-> /usr/local/etc/my.cnf
-	*	1542779521	0
-	"	8	0
-	.	8	0
-	+	4	24
-	+	6	20
-	+	8	8
-	+	8	0
 
 > ~/.zshrc
 	*	1542779449	0
@@ -748,14 +830,6 @@ $workspace\/labs
 	+	118	0
 	+	120	0
 	+	121	0
-
-> ~/workspace/utry/project/IasWeb/src/global.js
-	*	1535520098	0
-	"	6	38
-	^	6	39
-	.	6	38
-	+	7	0
-	+	6	38
 
 > ~/workspace/utry/project/IasWeb/src/components/page/quickInquiry/Quick.vue
 	*	1534934391	0
@@ -1379,56 +1453,3 @@ $workspace\/labs
 	+	16	22
 	+	26	38
 	+	16	0
-
-> ~/workspace/utry-cloud/cloud_oam/oam-web/src/main/webapp/db/100001-mysql.sql
-	*	1526355007	0
-	"	93	36
-	^	125	357
-	.	125	356
-	+	67	32
-	+	74	236
-	+	74	357
-	+	125	356
-
-> ~/workspace/utry/analyticSystem/build.gradle
-	*	1526027391	0
-	"	87	40
-	^	87	41
-	.	87	40
-	+	87	40
-
-> ~/workspace/utry/DataProcessingSystem/build.gradle
-	*	1526027364	0
-	"	91	3
-	.	114	40
-	+	114	40
-
-> ~/workspace/utry/translators/src/main/resources/config/bootstrap.yml
-	*	1526026847	0
-	"	29	38
-	^	29	39
-	.	29	38
-	+	29	38
-
-> ~/workspace/utry/qualityInspectionSystem/src/main/resources/config/bootstrap.yml
-	*	1526026785	0
-	"	21	38
-	^	21	39
-	.	21	38
-	+	21	38
-
-> ~/workspace/utry/formEngine/src/main/resources/config/bootstrap.yml
-	*	1526026709	0
-	"	12	3
-	^	12	4
-	.	12	4
-	+	20	38
-	+	12	4
-
-> ~/workspace/utry/analyticSystem/src/main/resources/config/bootstrap.yml
-	*	1526026444	0
-	"	17	22
-	^	17	23
-	.	17	23
-	+	26	38
-	+	17	23
