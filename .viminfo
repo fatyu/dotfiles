@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/brew
+~MSle0~/webrun
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1544078661,,"q"
 :wq
-|2,0,1544075370,,"wq"
+|2,0,1544680579,,"wq"
+:q
+|2,0,1544679851,,"q"
 :q!
 |2,0,1544073529,,"q!"
 :Q
@@ -70,6 +70,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/webrun
+|2,1,1544577875,47,"webrun"
 ?/10.0.12.112
 |2,1,1544075386,47,"10.0.12.112"
 ?/brew
@@ -193,39 +195,39 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	    <string>--datadir=/usr/local/var/mysql</string>
-|3,0,0,1,1,0,1543227686,"    <string>--datadir=/usr/local/var/mysql</string>"
-""1	LINE	0
+	alias webrun="cd /Users/notalk/workspace/utry/project/IasWeb; npm run dev;"
+|3,0,0,1,1,0,1544405976,"alias webrun=\"cd /Users/notalk/workspace/utry/project/IasWeb; npm run dev;\""
+"1	LINE	0
+	212.64.83.57 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCZKwFEaeB0EqWVVc+V/SQqvYnjuYklglWMvR8nMpuQDEz1+3eyzLeVgpTtvV0ptok8s8kuIplM7anGcNTeFpPA=
+|3,0,1,1,1,0,1544586487,"212.64.83.57 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCZKwFEaeB0EqWVVc+V/SQqvYnjuYklglWMvR8nMpuQDEz1+3eyzLeVgpTtvV0ptok8s8kuIplM7anGcNTeFpPA="
+"2	LINE	0
 	395
 <10.0.12.112 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyn62g/PQFWw5re1Tnou9dBpCZuHCHhsglAOGGR3wlI9BlT1yoLw8gt/FlpRPNz1GLiviuZZlM8iQrSpYOf/fU77fQdJjVtL9nzrhEOVQgpsvy07zTIGWxN3XdATGKdptvBBCuz+6OTP15MjbA5HBdOilfeGpf8WH03wBIE9zvu2GwsUxvTchEew4di/Izpi9rboMbdth9td94ytvXAmkEHbV6bnl5MATd53DbBtSfvmak5l0bRCsw/vPEB9pIvemEYuxSgBwOOmbEp1G+nMj9T3KPXQUyoisJ048GwtZRJ2LdwLpe/xphXellQ/uGoFCOGdYqbQWC5Iu5QHiYHiOSQ==
-|3,1,1,1,1,0,1544075368,"10.0.12.112 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyn62g/PQFWw5re1Tnou9dBpCZuHCHhsglAOGGR3wlI9BlT1yoLw8gt/FlpRPNz1GLiviuZZlM8iQrSpYOf/fU77fQdJjVtL9nzrhEOVQgpsvy07zTIGWxN3XdATGKdptvBBCuz+6OTP15MjbA5HBdOilfeGpf8WH03wBIE9zvu2GwsUxvTchEew4di/Izpi9rboMbdth9td94ytvXAmkEHbV6bnl5MATd53DbBtSfvmak5l0bRCsw/vPEB9pIvemEYuxSgBwOOmbEp1G+nMj9T3KPXQUyoisJ048GwtZRJ2LdwLpe/xphXellQ/uGoFCOGdYqbQWC5Iu5QHiYHiOSQ=="
-"2	LINE	0
-	utry-qa-es|10.0.33.150|root|Utry0754|22|10
-|3,0,2,1,1,0,1543303881,"utry-qa-es|10.0.33.150|root|Utry0754|22|10"
+|3,0,2,1,1,0,1544075368,"10.0.12.112 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyn62g/PQFWw5re1Tnou9dBpCZuHCHhsglAOGGR3wlI9BlT1yoLw8gt/FlpRPNz1GLiviuZZlM8iQrSpYOf/fU77fQdJjVtL9nzrhEOVQgpsvy07zTIGWxN3XdATGKdptvBBCuz+6OTP15MjbA5HBdOilfeGpf8WH03wBIE9zvu2GwsUxvTchEew4di/Izpi9rboMbdth9td94ytvXAmkEHbV6bnl5MATd53DbBtSfvmak5l0bRCsw/vPEB9pIvemEYuxSgBwOOmbEp1G+nMj9T3KPXQUyoisJ048GwtZRJ2LdwLpe/xphXellQ/uGoFCOGdYqbQWC5Iu5QHiYHiOSQ=="
 "3	LINE	0
-	utry-135|10.0.10.135|root|utry1234|22|8
-|3,0,3,1,1,0,1543301873,"utry-135|10.0.10.135|root|utry1234|22|8"
+	utry-qa-es|10.0.33.150|root|Utry0754|22|10
+|3,0,3,1,1,0,1543303881,"utry-qa-es|10.0.33.150|root|Utry0754|22|10"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1543227257,""
+	utry-135|10.0.10.135|root|utry1234|22|8
+|3,0,4,1,1,0,1543301873,"utry-135|10.0.10.135|root|utry1234|22|8"
 "5	LINE	0
-	bind-address=0.0.0.0
-|3,0,5,1,1,0,1543227256,"bind-address=0.0.0.0"
+	
+|3,0,5,1,1,0,1543227257,""
 "6	LINE	0
-	utry-116|10.0.10.116|root|utry6924|22|9
-|3,0,6,1,1,0,1543215535,"utry-116|10.0.10.116|root|utry6924|22|9"
+	bind-address=0.0.0.0
+|3,0,6,1,1,0,1543227256,"bind-address=0.0.0.0"
 "7	LINE	0
 	utry-116|10.0.10.116|root|utry6924|22|9
-|3,0,7,1,1,0,1543215534,"utry-116|10.0.10.116|root|utry6924|22|9"
+|3,0,7,1,1,0,1543215535,"utry-116|10.0.10.116|root|utry6924|22|9"
 "8	LINE	0
 	utry-116|10.0.10.116|root|utry6924|22|9
 |3,0,8,1,1,0,1543215534,"utry-116|10.0.10.116|root|utry6924|22|9"
 "9	LINE	0
-	ft_min_word_len = 2
-|3,0,9,1,1,0,1542779520,"ft_min_word_len = 2"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1544073253," "
+	utry-116|10.0.10.116|root|utry6924|22|9
+|3,0,9,1,1,0,1543215534,"utry-116|10.0.10.116|root|utry6924|22|9"
+""-	CHAR	0
+	拟
+|3,1,36,0,1,0,1544669598,"拟"
 
 # global variables:
 !MAC	NUM	0
@@ -233,281 +235,244 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  16  0  ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
-|4,48,16,0,1544078661,"~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx"
-'1  5  0  ~/.ssh/known_hosts2
-|4,49,5,0,1544075387,"~/.ssh/known_hosts2"
-'2  25  0  ~/.ssh/known_hosts
-|4,50,25,0,1544075370,"~/.ssh/known_hosts"
-'3  1  0  ~/.ssh/id_rsa
-|4,51,1,0,1544075359,"~/.ssh/id_rsa"
-'4  18  41  ~/.autosshrc
-|4,52,18,41,1544075318,"~/.autosshrc"
-'5  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,53,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
-'6  2  21  ~/Downloads/elasticsearch-2.3.1/config/logging.yml
-|4,54,2,21,1544073246,"~/Downloads/elasticsearch-2.3.1/config/logging.yml"
-'7  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,55,83,0,1544072403,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
-'8  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,56,83,0,1544072403,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
-'9  18  41  ~/.autosshrc
-|4,57,18,41,1544063277,"~/.autosshrc"
+'0  2  0  ~/workspace/utry/project/poweranalysisUI/src/global.js
+|4,48,2,0,1544680579,"~/workspace/utry/project/poweranalysisUI/src/global.js"
+'1  25  9  ~/.autosshrc
+|4,49,25,9,1544679851,"~/.autosshrc"
+'2  25  9  ~/.autosshrc
+|4,50,25,9,1544669642,"~/.autosshrc"
+'3  31  13  ~/.autosshrc
+|4,51,31,13,1544669573,"~/.autosshrc"
+'4  31  13  ~/.autosshrc
+|4,52,31,13,1544669573,"~/.autosshrc"
+'5  31  13  ~/.autosshrc
+|4,53,31,13,1544669573,"~/.autosshrc"
+'6  31  13  ~/.autosshrc
+|4,54,31,13,1544669573,"~/.autosshrc"
+'7  23  7  ~/.autosshrc
+|4,55,23,7,1544669530,"~/.autosshrc"
+'8  23  7  ~/.autosshrc
+|4,56,23,7,1544669530,"~/.autosshrc"
+'9  23  7  ~/.autosshrc
+|4,57,23,7,1544669530,"~/.autosshrc"
 
 # Jumplist (newest first):
--'  16  0  ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
-|4,39,16,0,1544078661,"~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx"
--'  5  0  ~/.ssh/known_hosts2
-|4,39,5,0,1544075387,"~/.ssh/known_hosts2"
--'  5  0  ~/.ssh/known_hosts2
-|4,39,5,0,1544075387,"~/.ssh/known_hosts2"
--'  1  0  ~/.ssh/known_hosts2
-|4,39,1,0,1544075377,"~/.ssh/known_hosts2"
--'  1  0  ~/.ssh/known_hosts2
-|4,39,1,0,1544075377,"~/.ssh/known_hosts2"
--'  25  0  ~/.ssh/known_hosts
-|4,39,25,0,1544075370,"~/.ssh/known_hosts"
--'  25  0  ~/.ssh/known_hosts
-|4,39,25,0,1544075370,"~/.ssh/known_hosts"
--'  25  0  ~/.ssh/known_hosts
-|4,39,25,0,1544075370,"~/.ssh/known_hosts"
--'  25  0  ~/.ssh/known_hosts
-|4,39,25,0,1544075370,"~/.ssh/known_hosts"
--'  12  0  ~/.ssh/known_hosts
-|4,39,12,0,1544075363,"~/.ssh/known_hosts"
--'  12  0  ~/.ssh/known_hosts
-|4,39,12,0,1544075363,"~/.ssh/known_hosts"
--'  12  0  ~/.ssh/known_hosts
-|4,39,12,0,1544075363,"~/.ssh/known_hosts"
--'  12  0  ~/.ssh/known_hosts
-|4,39,12,0,1544075363,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/id_rsa
-|4,39,1,0,1544075359,"~/.ssh/id_rsa"
--'  1  0  ~/.ssh/id_rsa
-|4,39,1,0,1544075359,"~/.ssh/id_rsa"
--'  1  0  ~/.ssh/id_rsa
-|4,39,1,0,1544075359,"~/.ssh/id_rsa"
--'  1  0  ~/.ssh/id_rsa
-|4,39,1,0,1544075359,"~/.ssh/id_rsa"
--'  1  0  ~/.ssh/id_rsa
-|4,39,1,0,1544075359,"~/.ssh/id_rsa"
--'  1  0  ~/.ssh/id_rsa
-|4,39,1,0,1544075359,"~/.ssh/id_rsa"
--'  1  0  ~/.ssh/id_rsa
-|4,39,1,0,1544075359,"~/.ssh/id_rsa"
--'  1  0  ~/.ssh/id_rsa
-|4,39,1,0,1544075359,"~/.ssh/id_rsa"
+-'  2  0  ~/workspace/utry/project/poweranalysisUI/src/global.js
+|4,39,2,0,1544680579,"~/workspace/utry/project/poweranalysisUI/src/global.js"
+-'  1  0  ~/workspace/utry/project/poweranalysisUI/src/global.js
+|4,39,1,0,1544680567,"~/workspace/utry/project/poweranalysisUI/src/global.js"
+-'  25  9  ~/.autosshrc
+|4,39,25,9,1544679851,"~/.autosshrc"
+-'  25  9  ~/.autosshrc
+|4,39,25,9,1544679851,"~/.autosshrc"
+-'  25  9  ~/.autosshrc
+|4,39,25,9,1544669642,"~/.autosshrc"
+-'  25  9  ~/.autosshrc
+|4,39,25,9,1544669642,"~/.autosshrc"
+-'  31  13  ~/.autosshrc
+|4,39,31,13,1544669594,"~/.autosshrc"
+-'  31  13  ~/.autosshrc
+|4,39,31,13,1544669594,"~/.autosshrc"
+-'  31  13  ~/.autosshrc
+|4,39,31,13,1544669594,"~/.autosshrc"
+-'  31  13  ~/.autosshrc
+|4,39,31,13,1544669594,"~/.autosshrc"
+-'  31  13  ~/.autosshrc
+|4,39,31,13,1544669573,"~/.autosshrc"
+-'  31  13  ~/.autosshrc
+|4,39,31,13,1544669573,"~/.autosshrc"
+-'  23  7  ~/.autosshrc
+|4,39,23,7,1544669546,"~/.autosshrc"
+-'  23  7  ~/.autosshrc
+|4,39,23,7,1544669546,"~/.autosshrc"
+-'  23  7  ~/.autosshrc
+|4,39,23,7,1544669546,"~/.autosshrc"
+-'  23  7  ~/.autosshrc
+|4,39,23,7,1544669546,"~/.autosshrc"
+-'  23  7  ~/.autosshrc
+|4,39,23,7,1544669546,"~/.autosshrc"
+-'  23  7  ~/.autosshrc
+|4,39,23,7,1544669546,"~/.autosshrc"
+-'  23  7  ~/.autosshrc
+|4,39,23,7,1544669530,"~/.autosshrc"
+-'  23  7  ~/.autosshrc
+|4,39,23,7,1544669530,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669492,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669492,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669492,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669492,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669492,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669492,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669492,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669492,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669458,"~/.autosshrc"
+-'  27  18  ~/.autosshrc
+|4,39,27,18,1544669458,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669418,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669395,"~/.autosshrc"
+-'  30  20  ~/.autosshrc
+|4,39,30,20,1544669395,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669333,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669312,"~/.autosshrc"
+-'  28  39  ~/.autosshrc
+|4,39,28,39,1544669312,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
+|4,39,18,41,1544669279,"~/.autosshrc"
 -'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544075318,"~/.autosshrc"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  53  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,53,0,1544073529,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  83  0  ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,83,0,1544073253,"~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml"
+|4,39,18,41,1544669279,"~/.autosshrc"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  27  0  ~/.ssh/known_hosts
+|4,39,27,0,1544586488,"~/.ssh/known_hosts"
 
 # History of marks within files (newest to oldest):
 
-> ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
-	*	1544078659	0
-	"	16	0
-	.	1	0
-	+	1	0
-
-> ~/.ssh/known_hosts2
-	*	1544075386	0
-	"	5	0
-
-> ~/.ssh/known_hosts
-	*	1544075369	0
-	"	25	0
-	.	25	0
-	+	25	0
-
-> ~/.ssh/id_rsa
-	*	1544075358	0
-	"	1	0
+> ~/workspace/utry/project/poweranalysisUI/src/global.js
+	*	1544680577	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	1
+	+	2	0
 
 > ~/.autosshrc
-	*	1544075317	0
-	"	18	41
-	^	18	42
-	.	16	41
-	+	1	27
-	+	4	38
-	+	2	43
-	+	4	70
-	+	4	38
-	+	2	0
-	+	2	37
-	+	4	49
-	+	4	36
-	+	4	11
-	+	4	22
-	+	2	0
-	+	4	0
-	+	4	38
-	+	2	0
-	+	2	40
-	+	4	41
-	+	2	5
-	+	4	5
-	+	2	13
-	+	4	38
-	+	5	0
-	+	7	0
-	+	8	0
-	+	10	39
+	*	1544679789	0
+	"	25	9
+	^	25	10
+	.	25	9
 	+	5	7
 	+	7	7
 	+	8	7
@@ -559,6 +524,148 @@ $workspace\/labs
 	+	11	40
 	+	15	42
 	+	16	41
+	+	27	31
+	+	28	43
+	+	27	44
+	+	32	24
+	+	31	27
+	+	30	17
+	+	28	31
+	+	32	12
+	+	31	24
+	+	27	12
+	+	26	12
+	+	25	12
+	+	28	12
+	+	29	12
+	+	27	12
+	+	26	12
+	+	25	12
+	+	27	12
+	+	28	12
+	+	29	12
+	+	30	23
+	+	31	24
+	+	32	24
+	+	27	7
+	+	28	7
+	+	29	7
+	+	30	7
+	+	31	7
+	+	32	7
+	+	33	7
+	+	34	7
+	+	35	7
+	+	36	7
+	+	26	7
+	+	25	7
+	+	24	7
+	+	23	7
+	+	27	13
+	+	29	16
+	+	30	12
+	+	32	13
+	+	31	13
+	+	32	10
+	+	31	23
+	+	29	12
+	+	28	14
+	+	27	7
+	+	26	9
+	+	25	9
+
+> ~/.ssh/known_hosts
+	*	1544586487	0
+	"	27	0
+	.	28	0
+	+	25	0
+	+	28	0
+
+> ~/.zshrc
+	*	1544577898	0
+	"	182	7
+	^	182	8
+	.	182	7
+	+	237	0
+	+	238	0
+	+	239	0
+	+	238	0
+	+	237	0
+	+	236	0
+	+	235	0
+	+	234	0
+	+	233	0
+	+	234	0
+	+	235	0
+	+	236	0
+	+	237	0
+	+	238	0
+	+	233	0
+	+	234	0
+	+	235	0
+	+	236	0
+	+	237	0
+	+	238	0
+	+	66	87
+	+	114	0
+	+	232	0
+	+	233	0
+	+	234	0
+	+	235	0
+	+	236	0
+	+	237	0
+	+	238	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	245	30
+	+	245	0
+	+	176	0
+	+	245	0
+	+	241	33
+	+	234	16
+	+	238	37
+	+	241	44
+	+	245	0
+	+	232	29
+	+	245	26
+	+	230	0
+	+	195	0
+	+	193	0
+	+	191	0
+	+	124	7
+	+	152	36
+	+	153	0
+	+	154	0
+	+	155	0
+	+	153	11
+	+	154	11
+	+	155	32
+	+	154	31
+	+	153	31
+	+	183	72
+	+	182	6
+	+	183	9
+	+	182	7
+	n	61	8
+
+> ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
+	*	1544078659	0
+	"	16	0
+	.	1	0
+	+	1	0
+
+> ~/.ssh/known_hosts2
+	*	1544075386	0
+	"	5	0
+
+> ~/.ssh/id_rsa
+	*	1544075358	0
+	"	1	0
 
 > ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
 	*	1544073265	0
@@ -605,74 +712,6 @@ $workspace\/labs
 > ~/workspace/labs/N/.git/MERGE_MSG
 	*	1542949802	0
 	"	1	0
-
-> ~/.zshrc
-	*	1542779449	0
-	"	152	34
-	^	152	35
-	.	153	31
-	+	236	0
-	+	237	0
-	+	238	0
-	+	237	0
-	+	236	0
-	+	235	0
-	+	234	0
-	+	233	0
-	+	232	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	232	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	66	87
-	+	114	0
-	+	231	0
-	+	232	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	238	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	244	30
-	+	244	0
-	+	176	0
-	+	244	0
-	+	240	33
-	+	233	16
-	+	237	37
-	+	240	44
-	+	244	0
-	+	231	29
-	+	244	26
-	+	229	0
-	+	194	0
-	+	192	0
-	+	190	0
-	+	124	7
-	+	152	36
-	+	153	0
-	+	154	0
-	+	155	0
-	+	153	11
-	+	154	11
-	+	155	32
-	+	154	31
-	+	153	31
-	n	61	8
 
 > ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 	*	1542765063	0
@@ -1444,12 +1483,3 @@ $workspace\/labs
 	.	25	38
 	+	17	22
 	+	25	38
-
-> ~/workspace/utry/IVS/src/main/resources/config/bootstrap.yml
-	*	1526365509	0
-	"	16	2
-	^	26	39
-	.	16	0
-	+	16	22
-	+	26	38
-	+	16	0
