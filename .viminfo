@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/webrun
+~MSle0~/ls
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,11 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1544680579,,"wq"
+|2,0,1545624215,,"wq"
 :q
-|2,0,1544679851,,"q"
+|2,0,1545620475,,"q"
+:!
+|2,0,1544766286,,"!"
 :q!
 |2,0,1544073529,,"q!"
 :Q
@@ -70,6 +72,12 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/ls
+|2,1,1545616369,47,"ls"
+?/75
+|2,1,1545276440,47,"75"
+?/ps
+|2,1,1544766269,47,"ps"
 ?/webrun
 |2,1,1544577875,47,"webrun"
 ?/10.0.12.112
@@ -197,37 +205,36 @@ $workspace\/labs
 "0	LINE	0
 	alias webrun="cd /Users/notalk/workspace/utry/project/IasWeb; npm run dev;"
 |3,0,0,1,1,0,1544405976,"alias webrun=\"cd /Users/notalk/workspace/utry/project/IasWeb; npm run dev;\""
-"1	LINE	0
-	212.64.83.57 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCZKwFEaeB0EqWVVc+V/SQqvYnjuYklglWMvR8nMpuQDEz1+3eyzLeVgpTtvV0ptok8s8kuIplM7anGcNTeFpPA=
-|3,0,1,1,1,0,1544586487,"212.64.83.57 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCZKwFEaeB0EqWVVc+V/SQqvYnjuYklglWMvR8nMpuQDEz1+3eyzLeVgpTtvV0ptok8s8kuIplM7anGcNTeFpPA="
+""1	LINE	0
+	alias p='pwd'
+|3,1,1,1,1,0,1545624045,"alias p='pwd'"
 "2	LINE	0
-	395
-<10.0.12.112 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyn62g/PQFWw5re1Tnou9dBpCZuHCHhsglAOGGR3wlI9BlT1yoLw8gt/FlpRPNz1GLiviuZZlM8iQrSpYOf/fU77fQdJjVtL9nzrhEOVQgpsvy07zTIGWxN3XdATGKdptvBBCuz+6OTP15MjbA5HBdOilfeGpf8WH03wBIE9zvu2GwsUxvTchEew4di/Izpi9rboMbdth9td94ytvXAmkEHbV6bnl5MATd53DbBtSfvmak5l0bRCsw/vPEB9pIvemEYuxSgBwOOmbEp1G+nMj9T3KPXQUyoisJ048GwtZRJ2LdwLpe/xphXellQ/uGoFCOGdYqbQWC5Iu5QHiYHiOSQ==
-|3,0,2,1,1,0,1544075368,"10.0.12.112 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyn62g/PQFWw5re1Tnou9dBpCZuHCHhsglAOGGR3wlI9BlT1yoLw8gt/FlpRPNz1GLiviuZZlM8iQrSpYOf/fU77fQdJjVtL9nzrhEOVQgpsvy07zTIGWxN3XdATGKdptvBBCuz+6OTP15MjbA5HBdOilfeGpf8WH03wBIE9zvu2GwsUxvTchEew4di/Izpi9rboMbdth9td94ytvXAmkEHbV6bnl5MATd53DbBtSfvmak5l0bRCsw/vPEB9pIvemEYuxSgBwOOmbEp1G+nMj9T3KPXQUyoisJ048GwtZRJ2LdwLpe/xphXellQ/uGoFCOGdYqbQWC5Iu5QHiYHiOSQ=="
+	alias c="cd"
+|3,0,2,1,1,0,1545624013,"alias c=\"cd\""
 "3	LINE	0
-	utry-qa-es|10.0.33.150|root|Utry0754|22|10
-|3,0,3,1,1,0,1543303881,"utry-qa-es|10.0.33.150|root|Utry0754|22|10"
+	alias c="cd"
+|3,0,3,1,1,0,1545624010,"alias c=\"cd\""
 "4	LINE	0
-	utry-135|10.0.10.135|root|utry1234|22|8
-|3,0,4,1,1,0,1543301873,"utry-135|10.0.10.135|root|utry1234|22|8"
+	alias b="cd .."
+|3,0,4,1,1,0,1545624003,"alias b=\"cd ..\""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1543227257,""
+	alias ls='ls -alh'
+|3,0,5,1,1,0,1545616387,"alias ls='ls -alh'"
 "6	LINE	0
-	bind-address=0.0.0.0
-|3,0,6,1,1,0,1543227256,"bind-address=0.0.0.0"
+	212.64.42.33 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN0jMprwvNE2XHhi9S73fcGQa0KhAAZ2apJVUHWqQ++hW4l+gNnVbzworukKzWnqtaDiLAknWUFAtSjTvQytuIs=
+|3,0,6,1,1,0,1545362823,"212.64.42.33 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN0jMprwvNE2XHhi9S73fcGQa0KhAAZ2apJVUHWqQ++hW4l+gNnVbzworukKzWnqtaDiLAknWUFAtSjTvQytuIs="
 "7	LINE	0
-	utry-116|10.0.10.116|root|utry6924|22|9
-|3,0,7,1,1,0,1543215535,"utry-116|10.0.10.116|root|utry6924|22|9"
+	212.64.43.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMnz+prNzeTKeax6VFHOhVgwKWMlXzZ5YSCagpId25Wk1JgkOAkEHtoJtGwcqjGNcjR54/f8pVoBYn1GDy4Bo+c=
+|3,0,7,1,1,0,1545362823,"212.64.43.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMnz+prNzeTKeax6VFHOhVgwKWMlXzZ5YSCagpId25Wk1JgkOAkEHtoJtGwcqjGNcjR54/f8pVoBYn1GDy4Bo+c="
 "8	LINE	0
-	utry-116|10.0.10.116|root|utry6924|22|9
-|3,0,8,1,1,0,1543215534,"utry-116|10.0.10.116|root|utry6924|22|9"
+	212.64.61.99 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG2i2oscoVKNKE+vW8W6QLnhHxv/afKQfYvM81cGIh9v6UADWThKIfUYZ19ssTTTZkxAGg7pCgILr6gqG7/+FPw=
+|3,0,8,1,1,0,1545283429,"212.64.61.99 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG2i2oscoVKNKE+vW8W6QLnhHxv/afKQfYvM81cGIh9v6UADWThKIfUYZ19ssTTTZkxAGg7pCgILr6gqG7/+FPw="
 "9	LINE	0
-	utry-116|10.0.10.116|root|utry6924|22|9
-|3,0,9,1,1,0,1543215534,"utry-116|10.0.10.116|root|utry6924|22|9"
-""-	CHAR	0
-	拟
-|3,1,36,0,1,0,1544669598,"拟"
+	212.64.43.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBH6DYJvo+J2agnaIeReDMrr/XkT16a2I36cAjIttCzjGz71sargUyzsbyPKbSzZo2/U4Wq2zUe2NXR2WhrZYM2s=
+|3,0,9,1,1,0,1545276447,"212.64.43.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBH6DYJvo+J2agnaIeReDMrr/XkT16a2I36cAjIttCzjGz71sargUyzsbyPKbSzZo2/U4Wq2zUe2NXR2WhrZYM2s="
+"-	CHAR	0
+	s
+|3,0,36,0,1,0,1545624018,"s"
 
 # global variables:
 !MAC	NUM	0
@@ -235,242 +242,315 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  2  0  ~/workspace/utry/project/poweranalysisUI/src/global.js
-|4,48,2,0,1544680579,"~/workspace/utry/project/poweranalysisUI/src/global.js"
-'1  25  9  ~/.autosshrc
-|4,49,25,9,1544679851,"~/.autosshrc"
-'2  25  9  ~/.autosshrc
-|4,50,25,9,1544669642,"~/.autosshrc"
-'3  31  13  ~/.autosshrc
-|4,51,31,13,1544669573,"~/.autosshrc"
-'4  31  13  ~/.autosshrc
-|4,52,31,13,1544669573,"~/.autosshrc"
-'5  31  13  ~/.autosshrc
-|4,53,31,13,1544669573,"~/.autosshrc"
-'6  31  13  ~/.autosshrc
-|4,54,31,13,1544669573,"~/.autosshrc"
-'7  23  7  ~/.autosshrc
-|4,55,23,7,1544669530,"~/.autosshrc"
-'8  23  7  ~/.autosshrc
-|4,56,23,7,1544669530,"~/.autosshrc"
-'9  23  7  ~/.autosshrc
-|4,57,23,7,1544669530,"~/.autosshrc"
+'0  135  23  ~/.zshrc
+|4,48,135,23,1545624215,"~/.zshrc"
+'1  32  12  ~/.autosshrc
+|4,49,32,12,1545620475,"~/.autosshrc"
+'2  32  12  ~/.autosshrc
+|4,50,32,12,1545617964,"~/.autosshrc"
+'3  123  0  ~/.zshrc
+|4,51,123,0,1545616393,"~/.zshrc"
+'4  124  0  ~/.zshrc
+|4,52,124,0,1545616393,"~/.zshrc"
+'5  38  0  ~/.ssh/known_hosts
+|4,53,38,0,1545362825,"~/.ssh/known_hosts"
+'6  32  12  ~/.autosshrc
+|4,54,32,12,1545360392,"~/.autosshrc"
+'7  32  12  ~/.autosshrc
+|4,55,32,12,1545360392,"~/.autosshrc"
+'8  32  12  ~/.autosshrc
+|4,56,32,12,1545360329,"~/.autosshrc"
+'9  32  12  ~/.autosshrc
+|4,57,32,12,1545360329,"~/.autosshrc"
 
 # Jumplist (newest first):
--'  2  0  ~/workspace/utry/project/poweranalysisUI/src/global.js
-|4,39,2,0,1544680579,"~/workspace/utry/project/poweranalysisUI/src/global.js"
--'  1  0  ~/workspace/utry/project/poweranalysisUI/src/global.js
-|4,39,1,0,1544680567,"~/workspace/utry/project/poweranalysisUI/src/global.js"
--'  25  9  ~/.autosshrc
-|4,39,25,9,1544679851,"~/.autosshrc"
--'  25  9  ~/.autosshrc
-|4,39,25,9,1544679851,"~/.autosshrc"
--'  25  9  ~/.autosshrc
-|4,39,25,9,1544669642,"~/.autosshrc"
--'  25  9  ~/.autosshrc
-|4,39,25,9,1544669642,"~/.autosshrc"
--'  31  13  ~/.autosshrc
-|4,39,31,13,1544669594,"~/.autosshrc"
--'  31  13  ~/.autosshrc
-|4,39,31,13,1544669594,"~/.autosshrc"
--'  31  13  ~/.autosshrc
-|4,39,31,13,1544669594,"~/.autosshrc"
--'  31  13  ~/.autosshrc
-|4,39,31,13,1544669594,"~/.autosshrc"
--'  31  13  ~/.autosshrc
-|4,39,31,13,1544669573,"~/.autosshrc"
--'  31  13  ~/.autosshrc
-|4,39,31,13,1544669573,"~/.autosshrc"
--'  23  7  ~/.autosshrc
-|4,39,23,7,1544669546,"~/.autosshrc"
--'  23  7  ~/.autosshrc
-|4,39,23,7,1544669546,"~/.autosshrc"
--'  23  7  ~/.autosshrc
-|4,39,23,7,1544669546,"~/.autosshrc"
--'  23  7  ~/.autosshrc
-|4,39,23,7,1544669546,"~/.autosshrc"
--'  23  7  ~/.autosshrc
-|4,39,23,7,1544669546,"~/.autosshrc"
--'  23  7  ~/.autosshrc
-|4,39,23,7,1544669546,"~/.autosshrc"
--'  23  7  ~/.autosshrc
-|4,39,23,7,1544669530,"~/.autosshrc"
--'  23  7  ~/.autosshrc
-|4,39,23,7,1544669530,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669492,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669492,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669492,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669492,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669492,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669492,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669492,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669492,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669458,"~/.autosshrc"
--'  27  18  ~/.autosshrc
-|4,39,27,18,1544669458,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669418,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669395,"~/.autosshrc"
--'  30  20  ~/.autosshrc
-|4,39,30,20,1544669395,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669333,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669312,"~/.autosshrc"
--'  28  39  ~/.autosshrc
-|4,39,28,39,1544669312,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  18  41  ~/.autosshrc
-|4,39,18,41,1544669279,"~/.autosshrc"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
--'  27  0  ~/.ssh/known_hosts
-|4,39,27,0,1544586488,"~/.ssh/known_hosts"
+-'  135  23  ~/.zshrc
+|4,39,135,23,1545624215,"~/.zshrc"
+-'  112  0  ~/.zshrc
+|4,39,112,0,1545624012,"~/.zshrc"
+-'  113  0  ~/.zshrc
+|4,39,113,0,1545624012,"~/.zshrc"
+-'  123  0  ~/.zshrc
+|4,39,123,0,1545623993,"~/.zshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545620475,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545620475,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545617964,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545617964,"~/.autosshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1545616393,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1545616393,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1545616393,"~/.zshrc"
+-'  124  0  ~/.zshrc
+|4,39,124,0,1545616393,"~/.zshrc"
+-'  122  9  ~/.zshrc
+|4,39,122,9,1545616372,"~/.zshrc"
+-'  119  7  ~/.zshrc
+|4,39,119,7,1545616372,"~/.zshrc"
+-'  106  28  ~/.zshrc
+|4,39,106,28,1545616372,"~/.zshrc"
+-'  81  3  ~/.zshrc
+|4,39,81,3,1545616372,"~/.zshrc"
+-'  63  30  ~/.zshrc
+|4,39,63,30,1545616372,"~/.zshrc"
+-'  123  9  ~/.zshrc
+|4,39,123,9,1545616372,"~/.zshrc"
+-'  120  7  ~/.zshrc
+|4,39,120,7,1545616372,"~/.zshrc"
+-'  106  28  ~/.zshrc
+|4,39,106,28,1545616372,"~/.zshrc"
+-'  81  3  ~/.zshrc
+|4,39,81,3,1545616372,"~/.zshrc"
+-'  63  30  ~/.zshrc
+|4,39,63,30,1545616372,"~/.zshrc"
+-'  123  9  ~/.zshrc
+|4,39,123,9,1545616372,"~/.zshrc"
+-'  120  7  ~/.zshrc
+|4,39,120,7,1545616372,"~/.zshrc"
+-'  106  28  ~/.zshrc
+|4,39,106,28,1545616372,"~/.zshrc"
+-'  81  3  ~/.zshrc
+|4,39,81,3,1545616372,"~/.zshrc"
+-'  63  30  ~/.zshrc
+|4,39,63,30,1545616372,"~/.zshrc"
+-'  123  9  ~/.zshrc
+|4,39,123,9,1545616372,"~/.zshrc"
+-'  120  7  ~/.zshrc
+|4,39,120,7,1545616372,"~/.zshrc"
+-'  106  28  ~/.zshrc
+|4,39,106,28,1545616372,"~/.zshrc"
+-'  81  3  ~/.zshrc
+|4,39,81,3,1545616372,"~/.zshrc"
+-'  63  30  ~/.zshrc
+|4,39,63,30,1545616372,"~/.zshrc"
+-'  123  9  ~/.zshrc
+|4,39,123,9,1545616372,"~/.zshrc"
+-'  120  7  ~/.zshrc
+|4,39,120,7,1545616372,"~/.zshrc"
+-'  106  28  ~/.zshrc
+|4,39,106,28,1545616372,"~/.zshrc"
+-'  81  3  ~/.zshrc
+|4,39,81,3,1545616372,"~/.zshrc"
+-'  63  30  ~/.zshrc
+|4,39,63,30,1545616372,"~/.zshrc"
+-'  45  54  ~/.zshrc
+|4,39,45,54,1545616371,"~/.zshrc"
+-'  37  10  ~/.zshrc
+|4,39,37,10,1545616371,"~/.zshrc"
+-'  36  52  ~/.zshrc
+|4,39,36,52,1545616371,"~/.zshrc"
+-'  246  18  ~/.zshrc
+|4,39,246,18,1545616371,"~/.zshrc"
+-'  45  54  ~/.zshrc
+|4,39,45,54,1545616371,"~/.zshrc"
+-'  37  10  ~/.zshrc
+|4,39,37,10,1545616371,"~/.zshrc"
+-'  36  52  ~/.zshrc
+|4,39,36,52,1545616371,"~/.zshrc"
+-'  241  18  ~/.zshrc
+|4,39,241,18,1545616371,"~/.zshrc"
+-'  45  54  ~/.zshrc
+|4,39,45,54,1545616371,"~/.zshrc"
+-'  37  10  ~/.zshrc
+|4,39,37,10,1545616371,"~/.zshrc"
+-'  36  52  ~/.zshrc
+|4,39,36,52,1545616371,"~/.zshrc"
+-'  241  18  ~/.zshrc
+|4,39,241,18,1545616371,"~/.zshrc"
+-'  45  54  ~/.zshrc
+|4,39,45,54,1545616371,"~/.zshrc"
+-'  37  10  ~/.zshrc
+|4,39,37,10,1545616371,"~/.zshrc"
+-'  36  52  ~/.zshrc
+|4,39,36,52,1545616371,"~/.zshrc"
+-'  241  18  ~/.zshrc
+|4,39,241,18,1545616371,"~/.zshrc"
+-'  45  54  ~/.zshrc
+|4,39,45,54,1545616371,"~/.zshrc"
+-'  37  10  ~/.zshrc
+|4,39,37,10,1545616371,"~/.zshrc"
+-'  36  52  ~/.zshrc
+|4,39,36,52,1545616371,"~/.zshrc"
+-'  241  18  ~/.zshrc
+|4,39,241,18,1545616371,"~/.zshrc"
+-'  239  18  ~/.zshrc
+|4,39,239,18,1545616370,"~/.zshrc"
+-'  234  18  ~/.zshrc
+|4,39,234,18,1545616370,"~/.zshrc"
+-'  234  18  ~/.zshrc
+|4,39,234,18,1545616370,"~/.zshrc"
+-'  234  18  ~/.zshrc
+|4,39,234,18,1545616370,"~/.zshrc"
+-'  234  18  ~/.zshrc
+|4,39,234,18,1545616370,"~/.zshrc"
+-'  230  59  ~/.zshrc
+|4,39,230,59,1545616369,"~/.zshrc"
+-'  204  0  ~/.zshrc
+|4,39,204,0,1545616369,"~/.zshrc"
+-'  225  59  ~/.zshrc
+|4,39,225,59,1545616369,"~/.zshrc"
+-'  199  0  ~/.zshrc
+|4,39,199,0,1545616369,"~/.zshrc"
+-'  225  59  ~/.zshrc
+|4,39,225,59,1545616369,"~/.zshrc"
+-'  199  0  ~/.zshrc
+|4,39,199,0,1545616369,"~/.zshrc"
+-'  225  59  ~/.zshrc
+|4,39,225,59,1545616369,"~/.zshrc"
+-'  199  0  ~/.zshrc
+|4,39,199,0,1545616369,"~/.zshrc"
+-'  225  59  ~/.zshrc
+|4,39,225,59,1545616369,"~/.zshrc"
+-'  199  0  ~/.zshrc
+|4,39,199,0,1545616369,"~/.zshrc"
+-'  200  23  ~/.zshrc
+|4,39,200,23,1545616364,"~/.zshrc"
+-'  195  23  ~/.zshrc
+|4,39,195,23,1545616364,"~/.zshrc"
+-'  195  23  ~/.zshrc
+|4,39,195,23,1545616364,"~/.zshrc"
+-'  195  23  ~/.zshrc
+|4,39,195,23,1545616364,"~/.zshrc"
+-'  195  23  ~/.zshrc
+|4,39,195,23,1545616364,"~/.zshrc"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  38  0  ~/.ssh/known_hosts
+|4,39,38,0,1545362825,"~/.ssh/known_hosts"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545360392,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545360392,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545360392,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545360392,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545360392,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545360392,"~/.autosshrc"
+-'  32  12  ~/.autosshrc
+|4,39,32,12,1545360392,"~/.autosshrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/utry/project/poweranalysisUI/src/global.js
-	*	1544680577	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	1	1
-	+	2	0
+> ~/.zshrc
+	*	1545624215	0
+	"	135	23
+	^	135	24
+	.	135	24
+	+	243	0
+	+	244	0
+	+	245	0
+	+	244	0
+	+	243	0
+	+	242	0
+	+	241	0
+	+	240	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	66	87
+	+	113	0
+	+	238	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	246	0
+	+	247	0
+	+	248	0
+	+	249	0
+	+	250	0
+	+	251	0
+	+	251	30
+	+	251	0
+	+	180	0
+	+	251	0
+	+	247	33
+	+	240	16
+	+	244	37
+	+	247	44
+	+	251	0
+	+	238	29
+	+	251	26
+	+	236	0
+	+	199	0
+	+	197	0
+	+	195	0
+	+	123	7
+	+	156	36
+	+	157	0
+	+	158	0
+	+	159	0
+	+	157	11
+	+	158	11
+	+	159	32
+	+	158	31
+	+	157	31
+	+	187	72
+	+	186	6
+	+	187	9
+	+	186	7
+	+	200	22
+	+	123	0
+	+	113	0
+	+	112	0
+	+	119	7
+	+	131	0
+	+	137	0
+	+	133	23
+	+	135	24
+	n	61	8
 
 > ~/.autosshrc
-	*	1544679789	0
-	"	25	9
+	*	1545620445	0
+	"	32	12
 	^	25	10
 	.	25	9
 	+	5	7
@@ -575,93 +655,35 @@ $workspace\/labs
 	+	25	9
 
 > ~/.ssh/known_hosts
-	*	1544586487	0
-	"	27	0
-	.	28	0
+	*	1545362825	0
+	"	38	0
+	.	38	0
 	+	25	0
+	+	27	0
+	+	29	0
+	+	36	0
+	+	27	0
+	+	38	0
+
+> ~/.ssh/known_hosts2
+	*	1545276450	0
+	"	28	0
+	.	28	0
 	+	28	0
 
-> ~/.zshrc
-	*	1544577898	0
-	"	182	7
-	^	182	8
-	.	182	7
-	+	237	0
-	+	238	0
-	+	239	0
-	+	238	0
-	+	237	0
-	+	236	0
-	+	235	0
-	+	234	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	238	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	238	0
-	+	66	87
-	+	114	0
-	+	232	0
-	+	233	0
-	+	234	0
-	+	235	0
-	+	236	0
-	+	237	0
-	+	238	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	245	30
-	+	245	0
-	+	176	0
-	+	245	0
-	+	241	33
-	+	234	16
-	+	238	37
-	+	241	44
-	+	245	0
-	+	232	29
-	+	245	26
-	+	230	0
-	+	195	0
-	+	193	0
-	+	191	0
-	+	124	7
-	+	152	36
-	+	153	0
-	+	154	0
-	+	155	0
-	+	153	11
-	+	154	11
-	+	155	32
-	+	154	31
-	+	153	31
-	+	183	72
-	+	182	6
-	+	183	9
-	+	182	7
-	n	61	8
+> ~/workspace/utry/project/poweranalysisUI/src/global.js
+	*	1544680577	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	1
+	+	2	0
 
 > ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
 	*	1544078659	0
 	"	16	0
 	.	1	0
 	+	1	0
-
-> ~/.ssh/known_hosts2
-	*	1544075386	0
-	"	5	0
 
 > ~/.ssh/id_rsa
 	*	1544075358	0
