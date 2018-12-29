@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ls
+~MSle0~/x
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,10 +20,12 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1545624215,,"wq"
 :q
-|2,0,1545620475,,"q"
+|2,0,1546049930,,"q"
+:wq
+|2,0,1545978108,,"wq"
+:w
+|2,0,1545974069,,"w"
 :!
 |2,0,1544766286,,"!"
 :q!
@@ -48,8 +50,6 @@ $workspace\/labs
 |2,0,1541498394,,".,.+32kkkkkkkkkkkkkk"
 :A
 |2,0,1537848065,,"A"
-:w
-|2,0,1537847912,,"w"
 :q:
 |2,0,1535531605,,"q:"
 ::q
@@ -72,6 +72,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/x
+|2,1,1545966325,47,"x"
 ?/ls
 |2,1,1545616369,47,"ls"
 ?/75
@@ -206,35 +208,41 @@ $workspace\/labs
 	alias webrun="cd /Users/notalk/workspace/utry/project/IasWeb; npm run dev;"
 |3,0,0,1,1,0,1544405976,"alias webrun=\"cd /Users/notalk/workspace/utry/project/IasWeb; npm run dev;\""
 ""1	LINE	0
-	alias p='pwd'
-|3,1,1,1,1,0,1545624045,"alias p='pwd'"
+	####################################################################################
+|3,1,1,1,1,0,1545974080,"####################################################################################"
 "2	LINE	0
-	alias c="cd"
-|3,0,2,1,1,0,1545624013,"alias c=\"cd\""
+	####################################################################################
+|3,0,2,1,1,0,1545974079,"####################################################################################"
 "3	LINE	0
-	alias c="cd"
-|3,0,3,1,1,0,1545624010,"alias c=\"cd\""
+	discovery.zen.minimum_master_nodes: 1
+|3,0,3,1,1,0,1545974078,"discovery.zen.minimum_master_nodes: 1"
 "4	LINE	0
-	alias b="cd .."
-|3,0,4,1,1,0,1545624003,"alias b=\"cd ..\""
+	index.analysis.analyzer.index_ansj.alias: [ansj_index_analyzer]
+	index.analysis.analyzer.index_ansj.type: index_ansj
+	index.analysis.analyzer.index_ansj.is_name: false
+	index.analysis.analyzer.query_ansj.alias: [ansj_index_analyzer]
+	index.analysis.analyzer.query_ansj.type: query_ansj
+	index.analysis.analyzer.query_ansj.is_name: false
+	cluster.name: utry-test
+|3,0,4,1,7,0,1545974077,"index.analysis.analyzer.index_ansj.alias: [ansj_index_analyzer]","index.analysis.analyzer.index_ansj.type: index_ansj","index.analysis.analyzer.index_ansj.is_name: false","index.analysis.analyzer.query_ansj.alias: [ansj_index_analyzer]","index.analysis.analyzer.query_ansj.type: query_ansj","index.analysis.analyzer.query_ansj.is_name: false","cluster.name: utry-test"
 "5	LINE	0
-	alias ls='ls -alh'
-|3,0,5,1,1,0,1545616387,"alias ls='ls -alh'"
+	alias x='exit'
+|3,0,5,1,1,0,1545966340,"alias x='exit'"
 "6	LINE	0
-	212.64.42.33 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN0jMprwvNE2XHhi9S73fcGQa0KhAAZ2apJVUHWqQ++hW4l+gNnVbzworukKzWnqtaDiLAknWUFAtSjTvQytuIs=
-|3,0,6,1,1,0,1545362823,"212.64.42.33 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBN0jMprwvNE2XHhi9S73fcGQa0KhAAZ2apJVUHWqQ++hW4l+gNnVbzworukKzWnqtaDiLAknWUFAtSjTvQytuIs="
+	discovery.zen.minimum_master_nodes: 1
+|3,0,6,1,1,0,1545966231,"discovery.zen.minimum_master_nodes: 1"
 "7	LINE	0
-	212.64.43.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMnz+prNzeTKeax6VFHOhVgwKWMlXzZ5YSCagpId25Wk1JgkOAkEHtoJtGwcqjGNcjR54/f8pVoBYn1GDy4Bo+c=
-|3,0,7,1,1,0,1545362823,"212.64.43.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMnz+prNzeTKeax6VFHOhVgwKWMlXzZ5YSCagpId25Wk1JgkOAkEHtoJtGwcqjGNcjR54/f8pVoBYn1GDy4Bo+c="
+	cluster.name: utry-test
+|3,0,7,1,1,0,1545966231,"cluster.name: utry-test"
 "8	LINE	0
-	212.64.61.99 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG2i2oscoVKNKE+vW8W6QLnhHxv/afKQfYvM81cGIh9v6UADWThKIfUYZ19ssTTTZkxAGg7pCgILr6gqG7/+FPw=
-|3,0,8,1,1,0,1545283429,"212.64.61.99 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBG2i2oscoVKNKE+vW8W6QLnhHxv/afKQfYvM81cGIh9v6UADWThKIfUYZ19ssTTTZkxAGg7pCgILr6gqG7/+FPw="
+	index.analysis.analyzer.query_ansj.is_name: false
+|3,0,8,1,1,0,1545966227,"index.analysis.analyzer.query_ansj.is_name: false"
 "9	LINE	0
-	212.64.43.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBH6DYJvo+J2agnaIeReDMrr/XkT16a2I36cAjIttCzjGz71sargUyzsbyPKbSzZo2/U4Wq2zUe2NXR2WhrZYM2s=
-|3,0,9,1,1,0,1545276447,"212.64.43.75 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBH6DYJvo+J2agnaIeReDMrr/XkT16a2I36cAjIttCzjGz71sargUyzsbyPKbSzZo2/U4Wq2zUe2NXR2WhrZYM2s="
+	index.analysis.analyzer.query_ansj.type: query_ansj
+|3,0,9,1,1,0,1545966227,"index.analysis.analyzer.query_ansj.type: query_ansj"
 "-	CHAR	0
-	s
-|3,0,36,0,1,0,1545624018,"s"
+	@
+|3,0,36,0,1,0,1545888007,"@"
 
 # global variables:
 !MAC	NUM	0
@@ -242,318 +250,236 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  135  23  ~/.zshrc
-|4,48,135,23,1545624215,"~/.zshrc"
-'1  32  12  ~/.autosshrc
-|4,49,32,12,1545620475,"~/.autosshrc"
-'2  32  12  ~/.autosshrc
-|4,50,32,12,1545617964,"~/.autosshrc"
-'3  123  0  ~/.zshrc
-|4,51,123,0,1545616393,"~/.zshrc"
-'4  124  0  ~/.zshrc
-|4,52,124,0,1545616393,"~/.zshrc"
-'5  38  0  ~/.ssh/known_hosts
-|4,53,38,0,1545362825,"~/.ssh/known_hosts"
-'6  32  12  ~/.autosshrc
-|4,54,32,12,1545360392,"~/.autosshrc"
-'7  32  12  ~/.autosshrc
-|4,55,32,12,1545360392,"~/.autosshrc"
-'8  32  12  ~/.autosshrc
-|4,56,32,12,1545360329,"~/.autosshrc"
-'9  32  12  ~/.autosshrc
-|4,57,32,12,1545360329,"~/.autosshrc"
+'0  35  43  ~/.autosshrc
+|4,48,35,43,1546049930,"~/.autosshrc"
+'1  11  0  ~/.zshrc
+|4,49,11,0,1545978108,"~/.zshrc"
+'2  12  0  ~/.zshrc
+|4,50,12,0,1545978089,"~/.zshrc"
+'3  12  0  ~/.zshrc
+|4,51,12,0,1545978089,"~/.zshrc"
+'4  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,52,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+'5  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,53,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+'6  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,54,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+'7  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,55,122,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+'8  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,56,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+'9  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,57,122,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
 
 # Jumplist (newest first):
--'  135  23  ~/.zshrc
-|4,39,135,23,1545624215,"~/.zshrc"
--'  112  0  ~/.zshrc
-|4,39,112,0,1545624012,"~/.zshrc"
--'  113  0  ~/.zshrc
-|4,39,113,0,1545624012,"~/.zshrc"
--'  123  0  ~/.zshrc
-|4,39,123,0,1545623993,"~/.zshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545620475,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545620475,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545617964,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545617964,"~/.autosshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1545616393,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1545616393,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1545616393,"~/.zshrc"
--'  124  0  ~/.zshrc
-|4,39,124,0,1545616393,"~/.zshrc"
--'  122  9  ~/.zshrc
-|4,39,122,9,1545616372,"~/.zshrc"
--'  119  7  ~/.zshrc
-|4,39,119,7,1545616372,"~/.zshrc"
--'  106  28  ~/.zshrc
-|4,39,106,28,1545616372,"~/.zshrc"
--'  81  3  ~/.zshrc
-|4,39,81,3,1545616372,"~/.zshrc"
--'  63  30  ~/.zshrc
-|4,39,63,30,1545616372,"~/.zshrc"
--'  123  9  ~/.zshrc
-|4,39,123,9,1545616372,"~/.zshrc"
--'  120  7  ~/.zshrc
-|4,39,120,7,1545616372,"~/.zshrc"
--'  106  28  ~/.zshrc
-|4,39,106,28,1545616372,"~/.zshrc"
--'  81  3  ~/.zshrc
-|4,39,81,3,1545616372,"~/.zshrc"
--'  63  30  ~/.zshrc
-|4,39,63,30,1545616372,"~/.zshrc"
--'  123  9  ~/.zshrc
-|4,39,123,9,1545616372,"~/.zshrc"
--'  120  7  ~/.zshrc
-|4,39,120,7,1545616372,"~/.zshrc"
--'  106  28  ~/.zshrc
-|4,39,106,28,1545616372,"~/.zshrc"
--'  81  3  ~/.zshrc
-|4,39,81,3,1545616372,"~/.zshrc"
--'  63  30  ~/.zshrc
-|4,39,63,30,1545616372,"~/.zshrc"
--'  123  9  ~/.zshrc
-|4,39,123,9,1545616372,"~/.zshrc"
--'  120  7  ~/.zshrc
-|4,39,120,7,1545616372,"~/.zshrc"
--'  106  28  ~/.zshrc
-|4,39,106,28,1545616372,"~/.zshrc"
--'  81  3  ~/.zshrc
-|4,39,81,3,1545616372,"~/.zshrc"
--'  63  30  ~/.zshrc
-|4,39,63,30,1545616372,"~/.zshrc"
--'  123  9  ~/.zshrc
-|4,39,123,9,1545616372,"~/.zshrc"
--'  120  7  ~/.zshrc
-|4,39,120,7,1545616372,"~/.zshrc"
--'  106  28  ~/.zshrc
-|4,39,106,28,1545616372,"~/.zshrc"
--'  81  3  ~/.zshrc
-|4,39,81,3,1545616372,"~/.zshrc"
--'  63  30  ~/.zshrc
-|4,39,63,30,1545616372,"~/.zshrc"
--'  45  54  ~/.zshrc
-|4,39,45,54,1545616371,"~/.zshrc"
--'  37  10  ~/.zshrc
-|4,39,37,10,1545616371,"~/.zshrc"
--'  36  52  ~/.zshrc
-|4,39,36,52,1545616371,"~/.zshrc"
--'  246  18  ~/.zshrc
-|4,39,246,18,1545616371,"~/.zshrc"
--'  45  54  ~/.zshrc
-|4,39,45,54,1545616371,"~/.zshrc"
--'  37  10  ~/.zshrc
-|4,39,37,10,1545616371,"~/.zshrc"
--'  36  52  ~/.zshrc
-|4,39,36,52,1545616371,"~/.zshrc"
--'  241  18  ~/.zshrc
-|4,39,241,18,1545616371,"~/.zshrc"
--'  45  54  ~/.zshrc
-|4,39,45,54,1545616371,"~/.zshrc"
--'  37  10  ~/.zshrc
-|4,39,37,10,1545616371,"~/.zshrc"
--'  36  52  ~/.zshrc
-|4,39,36,52,1545616371,"~/.zshrc"
--'  241  18  ~/.zshrc
-|4,39,241,18,1545616371,"~/.zshrc"
--'  45  54  ~/.zshrc
-|4,39,45,54,1545616371,"~/.zshrc"
--'  37  10  ~/.zshrc
-|4,39,37,10,1545616371,"~/.zshrc"
--'  36  52  ~/.zshrc
-|4,39,36,52,1545616371,"~/.zshrc"
--'  241  18  ~/.zshrc
-|4,39,241,18,1545616371,"~/.zshrc"
--'  45  54  ~/.zshrc
-|4,39,45,54,1545616371,"~/.zshrc"
--'  37  10  ~/.zshrc
-|4,39,37,10,1545616371,"~/.zshrc"
--'  36  52  ~/.zshrc
-|4,39,36,52,1545616371,"~/.zshrc"
--'  241  18  ~/.zshrc
-|4,39,241,18,1545616371,"~/.zshrc"
--'  239  18  ~/.zshrc
-|4,39,239,18,1545616370,"~/.zshrc"
--'  234  18  ~/.zshrc
-|4,39,234,18,1545616370,"~/.zshrc"
--'  234  18  ~/.zshrc
-|4,39,234,18,1545616370,"~/.zshrc"
--'  234  18  ~/.zshrc
-|4,39,234,18,1545616370,"~/.zshrc"
--'  234  18  ~/.zshrc
-|4,39,234,18,1545616370,"~/.zshrc"
--'  230  59  ~/.zshrc
-|4,39,230,59,1545616369,"~/.zshrc"
--'  204  0  ~/.zshrc
-|4,39,204,0,1545616369,"~/.zshrc"
--'  225  59  ~/.zshrc
-|4,39,225,59,1545616369,"~/.zshrc"
--'  199  0  ~/.zshrc
-|4,39,199,0,1545616369,"~/.zshrc"
--'  225  59  ~/.zshrc
-|4,39,225,59,1545616369,"~/.zshrc"
--'  199  0  ~/.zshrc
-|4,39,199,0,1545616369,"~/.zshrc"
--'  225  59  ~/.zshrc
-|4,39,225,59,1545616369,"~/.zshrc"
--'  199  0  ~/.zshrc
-|4,39,199,0,1545616369,"~/.zshrc"
--'  225  59  ~/.zshrc
-|4,39,225,59,1545616369,"~/.zshrc"
--'  199  0  ~/.zshrc
-|4,39,199,0,1545616369,"~/.zshrc"
--'  200  23  ~/.zshrc
-|4,39,200,23,1545616364,"~/.zshrc"
--'  195  23  ~/.zshrc
-|4,39,195,23,1545616364,"~/.zshrc"
--'  195  23  ~/.zshrc
-|4,39,195,23,1545616364,"~/.zshrc"
--'  195  23  ~/.zshrc
-|4,39,195,23,1545616364,"~/.zshrc"
--'  195  23  ~/.zshrc
-|4,39,195,23,1545616364,"~/.zshrc"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  38  0  ~/.ssh/known_hosts
-|4,39,38,0,1545362825,"~/.ssh/known_hosts"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545360392,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545360392,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545360392,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545360392,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545360392,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545360392,"~/.autosshrc"
--'  32  12  ~/.autosshrc
-|4,39,32,12,1545360392,"~/.autosshrc"
+-'  35  43  ~/.autosshrc
+|4,39,35,43,1546049930,"~/.autosshrc"
+-'  11  0  ~/.zshrc
+|4,39,11,0,1545978108,"~/.zshrc"
+-'  11  0  ~/.zshrc
+|4,39,11,0,1545978108,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1545978102,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1545978102,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1545978089,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1545978089,"~/.zshrc"
+-'  167  0  ~/.zshrc
+|4,39,167,0,1545977420,"~/.zshrc"
+-'  167  0  ~/.zshrc
+|4,39,167,0,1545977420,"~/.zshrc"
+-'  167  0  ~/.zshrc
+|4,39,167,0,1545977420,"~/.zshrc"
+-'  167  0  ~/.zshrc
+|4,39,167,0,1545977420,"~/.zshrc"
+-'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974460,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  65  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,65,0,1545974090,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974042,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974042,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974042,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974042,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974042,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974042,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974042,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  122  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,122,0,1545974042,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  132  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,132,0,1545973635,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  104  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,104,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  107  0  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+|4,39,107,0,1545969191,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+-'  167  0  ~/.zshrc
+|4,39,167,0,1545966348,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/.zshrc
-	*	1545624215	0
-	"	135	23
-	^	135	24
-	.	135	24
-	+	243	0
-	+	244	0
-	+	245	0
-	+	244	0
-	+	243	0
-	+	242	0
-	+	241	0
-	+	240	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	66	87
-	+	113	0
-	+	238	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	247	0
-	+	248	0
-	+	249	0
-	+	250	0
-	+	251	0
-	+	251	30
-	+	251	0
-	+	180	0
-	+	251	0
-	+	247	33
-	+	240	16
-	+	244	37
-	+	247	44
-	+	251	0
-	+	238	29
-	+	251	26
-	+	236	0
-	+	199	0
-	+	197	0
-	+	195	0
-	+	123	7
-	+	156	36
-	+	157	0
-	+	158	0
-	+	159	0
-	+	157	11
-	+	158	11
-	+	159	32
-	+	158	31
-	+	157	31
-	+	187	72
-	+	186	6
-	+	187	9
-	+	186	7
-	+	200	22
-	+	123	0
-	+	113	0
-	+	112	0
-	+	119	7
-	+	131	0
-	+	137	0
-	+	133	23
-	+	135	24
-	n	61	8
-
 > ~/.autosshrc
-	*	1545620445	0
-	"	32	12
-	^	25	10
-	.	25	9
-	+	5	7
+	*	1546049930	0
+	"	35	43
+	^	35	44
+	.	35	43
 	+	7	7
 	+	8	7
 	+	10	58
@@ -653,6 +579,124 @@ $workspace\/labs
 	+	27	7
 	+	26	9
 	+	25	9
+	+	35	43
+
+> ~/.zshrc
+	*	1545978107	0
+	"	11	0
+	^	11	0
+	.	11	0
+	+	244	0
+	+	245	0
+	+	246	0
+	+	245	0
+	+	244	0
+	+	243	0
+	+	242	0
+	+	241	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	66	87
+	+	113	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	246	0
+	+	247	0
+	+	248	0
+	+	249	0
+	+	250	0
+	+	251	0
+	+	252	0
+	+	252	30
+	+	252	0
+	+	182	0
+	+	252	0
+	+	248	33
+	+	241	16
+	+	245	37
+	+	248	44
+	+	252	0
+	+	239	29
+	+	252	26
+	+	237	0
+	+	201	0
+	+	199	0
+	+	197	0
+	+	123	7
+	+	158	36
+	+	159	0
+	+	160	0
+	+	161	0
+	+	159	11
+	+	160	11
+	+	161	32
+	+	160	31
+	+	159	31
+	+	189	72
+	+	188	6
+	+	189	9
+	+	188	7
+	+	202	22
+	+	123	0
+	+	113	0
+	+	112	0
+	+	119	7
+	+	131	0
+	+	139	0
+	+	133	23
+	+	135	24
+	+	136	30
+	+	137	30
+	+	125	27
+	+	135	6
+	+	222	0
+	+	11	0
+	+	12	0
+	+	11	0
+	n	61	8
+
+> ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
+	*	1545974471	0
+	"	119	19
+	^	119	24
+	.	104	0
+	+	104	0
+	+	102	0
+	+	120	31
+	+	119	23
+	+	104	0
+
+> /usr/local/etc/nginx/nginx.conf
+	*	1545715163	0
+	"	23	0
+
+> ~/workspace/utry/project/IasWeb/src/global.js
+	*	1545714510	0
+	"	11	0
+	^	6	39
+	.	11	0
+	+	7	0
+	+	6	38
+	+	10	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	11	0
 
 > ~/.ssh/known_hosts
 	*	1545362825	0
@@ -722,14 +766,6 @@ $workspace\/labs
 	^	13	34
 	.	13	33
 	+	13	33
-
-> ~/workspace/utry/project/IasWeb/src/global.js
-	*	1543227212	0
-	"	6	32
-	^	6	39
-	.	6	38
-	+	7	0
-	+	6	38
 
 > ~/workspace/labs/N/.git/MERGE_MSG
 	*	1542949802	0
@@ -1469,39 +1505,3 @@ $workspace\/labs
 	+	28	44
 	+	31	37
 	+	34	32
-
-> ~/workspace/labs/N/tech-stack.html
-	*	1526386723	0
-	"	40	9
-	^	40	12
-	.	40	9
-	+	4	37
-	+	16	15
-	+	19	0
-	+	20	0
-	+	21	0
-	+	24	18
-	+	16	12
-	+	18	18
-	+	48	0
-	+	26	0
-	+	27	0
-	+	25	0
-	+	40	0
-	+	41	0
-	+	36	0
-	+	32	0
-	+	28	0
-	+	16	15
-	+	28	9
-	+	32	9
-	+	36	9
-	+	40	9
-
-> ~/workspace/utry/ivs-task/src/main/resources/config/bootstrap.yml
-	*	1526374334	0
-	"	25	38
-	^	25	39
-	.	25	38
-	+	17	22
-	+	25	38
