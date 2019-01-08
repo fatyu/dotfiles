@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/x
+~MSle0~/opscri
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1546076676,,"wq"
+|2,0,1546929417,,"wq"
 :q
-|2,0,1546076614,,"q"
+|2,0,1546929325,,"q"
 :w
 |2,0,1545974069,,"w"
 :!
@@ -72,6 +72,10 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/opscri
+|2,1,1546929315,47,"opscri"
+?/10.0.2.6
+|2,1,1546824863,47,"10.0.2.6"
 ?/x
 |2,1,1545966325,47,"x"
 ?/ls
@@ -204,19 +208,25 @@ $workspace\/labs
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	qcloud-webui|212.64.65.206|root|:DbEhppuhJ/MvU@|22|27
-|3,1,0,1,1,0,1546076635,"qcloud-webui|212.64.65.206|root|:DbEhppuhJ/MvU@|22|27"
-"1	LINE	0
-	####################################################################################
-|3,0,1,1,1,0,1545974080,"####################################################################################"
+|3,0,0,1,1,0,1546076635,"qcloud-webui|212.64.65.206|root|:DbEhppuhJ/MvU@|22|27"
+""1	LINE	0
+	alias op="opscripts"
+|3,1,1,1,1,0,1546929413,"alias op=\"opscripts\""
 "2	LINE	0
-	####################################################################################
-|3,0,2,1,1,0,1545974079,"####################################################################################"
+	# opscripts alias
+|3,0,2,1,1,0,1546929412,"# opscripts alias"
 "3	LINE	0
-	discovery.zen.minimum_master_nodes: 1
-|3,0,3,1,1,0,1545974078,"discovery.zen.minimum_master_nodes: 1"
+	####################################################################################
+|3,0,3,1,1,0,1545974080,"####################################################################################"
 "4	LINE	0
+	####################################################################################
+|3,0,4,1,1,0,1545974079,"####################################################################################"
+"5	LINE	0
+	discovery.zen.minimum_master_nodes: 1
+|3,0,5,1,1,0,1545974078,"discovery.zen.minimum_master_nodes: 1"
+"6	LINE	0
 	index.analysis.analyzer.index_ansj.alias: [ansj_index_analyzer]
 	index.analysis.analyzer.index_ansj.type: index_ansj
 	index.analysis.analyzer.index_ansj.is_name: false
@@ -224,25 +234,19 @@ $workspace\/labs
 	index.analysis.analyzer.query_ansj.type: query_ansj
 	index.analysis.analyzer.query_ansj.is_name: false
 	cluster.name: utry-test
-|3,0,4,1,7,0,1545974077,"index.analysis.analyzer.index_ansj.alias: [ansj_index_analyzer]","index.analysis.analyzer.index_ansj.type: index_ansj","index.analysis.analyzer.index_ansj.is_name: false","index.analysis.analyzer.query_ansj.alias: [ansj_index_analyzer]","index.analysis.analyzer.query_ansj.type: query_ansj","index.analysis.analyzer.query_ansj.is_name: false","cluster.name: utry-test"
-"5	LINE	0
-	alias x='exit'
-|3,0,5,1,1,0,1545966340,"alias x='exit'"
-"6	LINE	0
-	discovery.zen.minimum_master_nodes: 1
-|3,0,6,1,1,0,1545966231,"discovery.zen.minimum_master_nodes: 1"
+|3,0,6,1,7,0,1545974077,"index.analysis.analyzer.index_ansj.alias: [ansj_index_analyzer]","index.analysis.analyzer.index_ansj.type: index_ansj","index.analysis.analyzer.index_ansj.is_name: false","index.analysis.analyzer.query_ansj.alias: [ansj_index_analyzer]","index.analysis.analyzer.query_ansj.type: query_ansj","index.analysis.analyzer.query_ansj.is_name: false","cluster.name: utry-test"
 "7	LINE	0
-	cluster.name: utry-test
-|3,0,7,1,1,0,1545966231,"cluster.name: utry-test"
+	alias x='exit'
+|3,0,7,1,1,0,1545966340,"alias x='exit'"
 "8	LINE	0
-	index.analysis.analyzer.query_ansj.is_name: false
-|3,0,8,1,1,0,1545966227,"index.analysis.analyzer.query_ansj.is_name: false"
+	discovery.zen.minimum_master_nodes: 1
+|3,0,8,1,1,0,1545966231,"discovery.zen.minimum_master_nodes: 1"
 "9	LINE	0
-	index.analysis.analyzer.query_ansj.type: query_ansj
-|3,0,9,1,1,0,1545966227,"index.analysis.analyzer.query_ansj.type: query_ansj"
+	cluster.name: utry-test
+|3,0,9,1,1,0,1545966231,"cluster.name: utry-test"
 "-	CHAR	0
-	@
-|3,0,36,0,1,0,1545888007,"@"
+	6
+|3,0,36,0,1,0,1546825127,"6"
 
 # global variables:
 !MAC	NUM	0
@@ -250,233 +254,326 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  40  42  ~/.autosshrc
-|4,48,40,42,1546076676,"~/.autosshrc"
-'1  181  27  ~/.zshrc
-|4,49,181,27,1546076626,"~/.zshrc"
-'2  1  0  ~/.autossh
-|4,50,1,0,1546076614,"~/.autossh"
-'3  181  25  ~/.zshrc
-|4,51,181,25,1546076606,"~/.zshrc"
-'4  35  43  ~/.autosshrc
-|4,52,35,43,1546049930,"~/.autosshrc"
-'5  35  43  ~/.autosshrc
-|4,53,35,43,1546049930,"~/.autosshrc"
-'6  11  0  ~/.zshrc
-|4,54,11,0,1545978108,"~/.zshrc"
-'7  11  0  ~/.zshrc
-|4,55,11,0,1545978108,"~/.zshrc"
-'8  11  0  ~/.zshrc
-|4,56,11,0,1545978108,"~/.zshrc"
-'9  11  0  ~/.zshrc
-|4,57,11,0,1545978108,"~/.zshrc"
+'0  166  0  ~/.zshrc
+|4,48,166,0,1546929417,"~/.zshrc"
+'1  170  2  ~/.zshrc
+|4,49,170,2,1546929325,"~/.zshrc"
+'2  170  2  ~/.zshrc
+|4,50,170,2,1546929325,"~/.zshrc"
+'3  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,51,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
+'4  168  0  ~/.zshrc
+|4,52,168,0,1546827558,"~/.zshrc"
+'5  168  0  ~/.zshrc
+|4,53,168,0,1546827558,"~/.zshrc"
+'6  168  0  ~/.zshrc
+|4,54,168,0,1546827558,"~/.zshrc"
+'7  168  0  ~/.zshrc
+|4,55,168,0,1546827558,"~/.zshrc"
+'8  40  42  ~/.autosshrc
+|4,56,40,42,1546827542,"~/.autosshrc"
+'9  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,57,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
 
 # Jumplist (newest first):
+-'  166  0  ~/.zshrc
+|4,39,166,0,1546929417,"~/.zshrc"
+-'  170  2  ~/.zshrc
+|4,39,170,2,1546929410,"~/.zshrc"
+-'  170  2  ~/.zshrc
+|4,39,170,2,1546929325,"~/.zshrc"
+-'  168  0  ~/.zshrc
+|4,39,168,0,1546929315,"~/.zshrc"
+-'  168  0  ~/.zshrc
+|4,39,168,0,1546929315,"~/.zshrc"
+-'  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,39,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
+-'  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,39,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
+-'  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,39,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
+-'  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,39,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
+-'  168  0  ~/.zshrc
+|4,39,168,0,1546827558,"~/.zshrc"
+-'  251  0  ~/.zshrc
+|4,39,251,0,1546827546,"~/.zshrc"
+-'  253  0  ~/.zshrc
+|4,39,253,0,1546827546,"~/.zshrc"
+-'  253  0  ~/.zshrc
+|4,39,253,0,1546827546,"~/.zshrc"
+-'  244  39  ~/.zshrc
+|4,39,244,39,1546827545,"~/.zshrc"
+-'  246  39  ~/.zshrc
+|4,39,246,39,1546827545,"~/.zshrc"
+-'  246  39  ~/.zshrc
+|4,39,246,39,1546827545,"~/.zshrc"
 -'  40  42  ~/.autosshrc
-|4,39,40,42,1546076676,"~/.autosshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546076633,"~/.autosshrc"
--'  181  27  ~/.zshrc
-|4,39,181,27,1546076626,"~/.zshrc"
--'  181  27  ~/.zshrc
-|4,39,181,27,1546076626,"~/.zshrc"
--'  1  0  ~/.autossh
-|4,39,1,0,1546076614,"~/.autossh"
--'  1  0  ~/.autossh
-|4,39,1,0,1546076614,"~/.autossh"
--'  1  0  ~/.autossh
-|4,39,1,0,1546076614,"~/.autossh"
--'  1  0  ~/.autossh
-|4,39,1,0,1546076614,"~/.autossh"
--'  181  25  ~/.zshrc
-|4,39,181,25,1546076606,"~/.zshrc"
--'  181  25  ~/.zshrc
-|4,39,181,25,1546076606,"~/.zshrc"
--'  181  25  ~/.zshrc
-|4,39,181,25,1546076606,"~/.zshrc"
--'  181  25  ~/.zshrc
-|4,39,181,25,1546076606,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1546076558,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1546076558,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1546076558,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1546076558,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1546076558,"~/.zshrc"
--'  13  0  ~/.zshrc
-|4,39,13,0,1546076558,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1546076556,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1546076556,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1546076556,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1546076556,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1546076556,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1546076556,"~/.zshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546049930,"~/.autosshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546049930,"~/.autosshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546049930,"~/.autosshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546049930,"~/.autosshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546049930,"~/.autosshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546049930,"~/.autosshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546049930,"~/.autosshrc"
--'  35  43  ~/.autosshrc
-|4,39,35,43,1546049930,"~/.autosshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1545978108,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1545978108,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1545978108,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1545978108,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1545978108,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1545978108,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1545978108,"~/.zshrc"
--'  11  0  ~/.zshrc
-|4,39,11,0,1545978108,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978102,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978089,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978089,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978089,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978089,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978089,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978089,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978089,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1545978089,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  167  0  ~/.zshrc
-|4,39,167,0,1545977420,"~/.zshrc"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
--'  119  19  ~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml
-|4,39,119,19,1545974581,"~/Downloads/2.工作/8.中间件或源码/elasticsearch-2.3.1/config/elasticsearch.yml"
+|4,39,40,42,1546827542,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1546827542,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1546827542,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1546827542,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1546827542,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1546827542,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1546827542,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1546827542,"~/.autosshrc"
+-'  9  18  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,39,9,18,1546825596,"~/workspace/utry/platform/UtryCloud/.git/config"
+-'  9  18  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,39,9,18,1546825596,"~/workspace/utry/platform/UtryCloud/.git/config"
+-'  9  18  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,39,9,18,1546825596,"~/workspace/utry/platform/UtryCloud/.git/config"
+-'  9  18  ~/workspace/utry/platform/UtryCloud/.git/config
+|4,39,9,18,1546825596,"~/workspace/utry/platform/UtryCloud/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/xform/.git/config
+|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  1  0  ~/workspace/utry/platform/xform/.git/config
+|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+-'  9  23  ~/workspace/utry/platform/utrycore/.git/config
+|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
 
 # History of marks within files (newest to oldest):
 
+> ~/.zshrc
+	*	1546929417	0
+	"	166	0
+	^	179	28
+	.	170	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	244	0
+	+	243	0
+	+	242	0
+	+	241	0
+	+	240	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	66	87
+	+	113	0
+	+	238	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	246	0
+	+	247	0
+	+	248	0
+	+	249	0
+	+	250	0
+	+	251	0
+	+	251	30
+	+	251	0
+	+	181	0
+	+	251	0
+	+	247	33
+	+	240	16
+	+	244	37
+	+	247	44
+	+	251	0
+	+	238	29
+	+	251	26
+	+	236	0
+	+	200	0
+	+	198	0
+	+	196	0
+	+	123	7
+	+	158	36
+	+	159	0
+	+	160	0
+	+	161	0
+	+	159	11
+	+	160	11
+	+	161	32
+	+	160	31
+	+	159	31
+	+	188	72
+	+	187	6
+	+	188	9
+	+	187	7
+	+	201	22
+	+	123	0
+	+	113	0
+	+	112	0
+	+	119	7
+	+	131	0
+	+	139	0
+	+	133	23
+	+	135	24
+	+	136	30
+	+	137	30
+	+	125	27
+	+	135	6
+	+	221	0
+	+	11	0
+	+	12	0
+	+	11	0
+	+	179	27
+	+	240	18
+	+	244	39
+	+	170	0
+	n	61	8
+
 > ~/.autosshrc
-	*	1546076674	0
+	*	1546827541	0
 	"	40	42
 	^	40	43
 	.	40	42
@@ -581,95 +678,93 @@ $workspace\/labs
 	+	38	0
 	+	40	42
 
-> ~/.zshrc
-	*	1546076624	0
-	"	181	27
-	^	181	28
-	.	181	27
-	+	245	0
-	+	246	0
-	+	247	0
-	+	246	0
-	+	245	0
-	+	244	0
-	+	243	0
-	+	242	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	66	87
-	+	113	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	247	0
-	+	248	0
-	+	249	0
-	+	250	0
-	+	251	0
-	+	252	0
-	+	253	0
-	+	253	30
-	+	253	0
-	+	183	0
-	+	253	0
-	+	249	33
-	+	242	16
-	+	246	37
-	+	249	44
-	+	253	0
-	+	240	29
-	+	253	26
-	+	238	0
-	+	202	0
-	+	200	0
-	+	198	0
-	+	123	7
-	+	158	36
-	+	159	0
-	+	160	0
-	+	161	0
-	+	159	11
-	+	160	11
-	+	161	32
-	+	160	31
-	+	159	31
-	+	190	72
-	+	189	6
-	+	190	9
-	+	189	7
-	+	203	22
-	+	123	0
-	+	113	0
-	+	112	0
-	+	119	7
-	+	131	0
-	+	139	0
-	+	133	23
-	+	135	24
-	+	136	30
-	+	137	30
-	+	125	27
-	+	135	6
-	+	223	0
-	+	11	0
-	+	12	0
-	+	11	0
-	+	181	27
-	n	61	8
+> ~/workspace/utry/platform/UtryCloud/.git/config
+	*	1546826834	0
+	"	1	5
+	^	9	19
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/xform/.git/config
+	*	1546825130	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/utrycore/.git/config
+	*	1546825108	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/utryAI/.git/config
+	*	1546825084	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/ut-platform-vue/.git/config
+	*	1546825063	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/task/.git/config
+	*	1546825028	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/sys/.git/config
+	*	1546825005	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/oam/.git/config
+	*	1546824986	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/hrm/.git/config
+	*	1546824964	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/host/.git/config
+	*	1546824926	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/filemanager/.git/config
+	*	1546824901	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/platform/cas/.git/config
+	*	1546824871	0
+	"	9	23
+	^	9	24
+	.	9	23
+	+	9	23
+
+> ~/workspace/utry/project/IasWeb/.git/COMMIT_EDITMSG
+	*	1546585603	0
+	"	1	0
 
 > ~/.autossh
 	*	1546076610	0
@@ -1290,162 +1385,3 @@ $workspace\/labs
 	+	69	24
 	+	22	14
 	+	116	21
-
-> ~/workspace/utry/dev.sh
-	*	1528429559	0
-	"	20	3
-	^	19	0
-	.	10	0
-	+	8	0
-	+	9	0
-	+	10	0
-
-> ~/workspace/test.sh
-	*	1528339334	0
-	"	93	76
-	^	93	77
-	.	93	76
-	+	93	76
-
-> ~/workspace/u.sh
-	*	1528338874	0
-	"	86	0
-	^	86	1
-	.	86	0
-	+	6	0
-	+	13	0
-	+	14	0
-	+	17	0
-	+	18	0
-	+	21	0
-	+	22	0
-	+	32	0
-	+	31	0
-	+	55	0
-	+	56	0
-	+	84	0
-	+	85	0
-	+	86	0
-
-> ~/workspace/cloud.sh
-	*	1528338489	0
-	"	35	5
-
-> ~/workspace/utry/IasWeb/src/utils/http.js
-	*	1527668251	0
-	"	18	29
-	^	18	30
-	.	18	30
-	+	18	26
-	+	17	24
-	+	18	30
-
-> ~/workspace/labs/D/markdown/前端添加查询参数.md
-	*	1527342053	0
-	"	1	0
-
-> ~/workspace/labs/D/markdown/常用的快捷键：.md
-	*	1527342027	0
-	"	41	0
-
-> ~/workspace/utry-test/cloud_hrm/src/main/resources/config/bootstrap.yml
-	*	1527039760	0
-	"	22	38
-	^	22	39
-	.	22	38
-	+	22	38
-
-> ~/workspace/regit-dev.sh
-	*	1526522657	0
-	"	21	0
-	.	103	0
-	+	1	40
-	+	1	3
-	+	1	8
-	+	103	0
-	+	4	36
-	+	3	39
-	+	75	0
-	+	72	0
-	+	70	0
-	+	43	49
-	+	45	0
-	+	68	0
-	+	68	41
-	+	58	0
-	+	55	0
-	+	52	0
-	+	49	0
-	+	47	0
-	+	61	0
-	+	64	0
-	+	67	0
-	+	46	4
-	+	49	0
-	+	48	76
-	+	51	72
-	+	54	73
-	+	57	85
-	+	60	65
-	+	62	76
-	+	65	70
-	+	51	0
-	+	46	40
-	+	49	0
-	+	52	0
-	+	55	0
-	+	58	0
-	+	61	0
-	+	64	0
-	+	67	0
-	+	97	0
-	+	96	65
-	+	62	66
-	+	58	0
-	+	55	0
-	+	52	0
-	+	49	0
-	+	64	0
-	+	62	0
-	+	61	0
-	+	65	0
-	+	67	0
-	+	47	0
-	+	44	0
-	+	68	0
-	+	70	0
-	+	87	0
-	+	83	0
-	+	79	0
-	+	75	0
-	+	91	0
-	+	103	0
-
-> ~/workspace/utry-test/formEngine/src/main/resources/config/bootstrap.yml
-	*	1526522387	0
-	"	20	0
-
-> ~/workspace/utry-test/DataProcessingSystem/src/main/resources/config/bootstrap.yml
-	*	1526521909	0
-	"	35	11
-	^	35	12
-	.	35	11
-	+	35	11
-
-> ~/workspace/labs/D/sync.sh
-	*	1526480197	0
-	"	1	0
-
-> ~/workspace/labs/dotfiles/dotfiles/.zshrc
-	*	1526467374	0
-	"	195	6
-	^	152	7
-	.	152	24
-	+	164	11
-	+	165	44
-	+	166	51
-	+	170	45
-	+	171	0
-	+	170	0
-	+	172	60
-	+	152	24
