@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/opscri
+~MSle0~/121.40.204.241
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1546929417,,"wq"
+|2,0,1547560906,,"wq"
 :q
-|2,0,1546929325,,"q"
+|2,0,1547536054,,"q"
 :w
 |2,0,1545974069,,"w"
 :!
@@ -72,6 +72,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/121.40.204.241
+|2,1,1546952554,47,"121.40.204.241"
 ?/opscri
 |2,1,1546929315,47,"opscri"
 ?/10.0.2.6
@@ -209,44 +211,41 @@ $workspace\/labs
 
 # Registers:
 "0	LINE	0
-	qcloud-webui|212.64.65.206|root|:DbEhppuhJ/MvU@|22|27
-|3,0,0,1,1,0,1546076635,"qcloud-webui|212.64.65.206|root|:DbEhppuhJ/MvU@|22|27"
-""1	LINE	0
-	alias op="opscripts"
-|3,1,1,1,1,0,1546929413,"alias op=\"opscripts\""
+		url = https://github.com/fatyu/dotfiles.git
+|3,0,0,1,1,0,1547100252,"	url = https://github.com/fatyu/dotfiles.git"
+"1	LINE	0
+	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
+|3,0,1,1,1,0,1546952563,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
 "2	LINE	0
-	# opscripts alias
-|3,0,2,1,1,0,1546929412,"# opscripts alias"
+	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
+|3,0,2,1,1,0,1546952562,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
 "3	LINE	0
-	####################################################################################
-|3,0,3,1,1,0,1545974080,"####################################################################################"
+	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
+|3,0,3,1,1,0,1546952561,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
 "4	LINE	0
-	####################################################################################
-|3,0,4,1,1,0,1545974079,"####################################################################################"
+	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
+|3,0,4,1,1,0,1546952560,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
 "5	LINE	0
-	discovery.zen.minimum_master_nodes: 1
-|3,0,5,1,1,0,1545974078,"discovery.zen.minimum_master_nodes: 1"
+	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
+|3,0,5,1,1,0,1546952559,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
 "6	LINE	0
-	index.analysis.analyzer.index_ansj.alias: [ansj_index_analyzer]
-	index.analysis.analyzer.index_ansj.type: index_ansj
-	index.analysis.analyzer.index_ansj.is_name: false
-	index.analysis.analyzer.query_ansj.alias: [ansj_index_analyzer]
-	index.analysis.analyzer.query_ansj.type: query_ansj
-	index.analysis.analyzer.query_ansj.is_name: false
-	cluster.name: utry-test
-|3,0,6,1,7,0,1545974077,"index.analysis.analyzer.index_ansj.alias: [ansj_index_analyzer]","index.analysis.analyzer.index_ansj.type: index_ansj","index.analysis.analyzer.index_ansj.is_name: false","index.analysis.analyzer.query_ansj.alias: [ansj_index_analyzer]","index.analysis.analyzer.query_ansj.type: query_ansj","index.analysis.analyzer.query_ansj.is_name: false","cluster.name: utry-test"
+	423
+<121.40.204.241github.com,13.250.177.223 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
+|3,0,6,1,1,0,1546952432,"121.40.204.241github.com,13.250.177.223 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
 "7	LINE	0
-	alias x='exit'
-|3,0,7,1,1,0,1545966340,"alias x='exit'"
+	394
+<10.0.2.115 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAqWFfUbIFFYWOrImnrnYNBBaKrF2i8ah2QG9rLCJt8BO2b8kIergb/OdZqyRLrSMQsYH0GpHMInesM1dSc8JK94XwnTRbJc5r4bLFWXJCQH2Jz13UIc7ACNzv+35W08w8I2cV9DhZA/yOunC9QKnZ0+KNs7tjN9bDVORKKFSxxP80aaM82vvJQ1IZDnePmWxz26s1o4fxVeO+JOPoSpTzekj4GoY9TMhbVUlyNqZuPDS7EG1MpukRuQEu7W0k9fMg8P30NRrUY+uPMODJv27MkgAtytranmhnF/1Q0G7yV9l2CZsyu6hcS07m7UV5XYCWNGS5TkBz67BXE6+pS/tqbw==
+|3,0,7,1,1,0,1546952367,"10.0.2.115 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAqWFfUbIFFYWOrImnrnYNBBaKrF2i8ah2QG9rLCJt8BO2b8kIergb/OdZqyRLrSMQsYH0GpHMInesM1dSc8JK94XwnTRbJc5r4bLFWXJCQH2Jz13UIc7ACNzv+35W08w8I2cV9DhZA/yOunC9QKnZ0+KNs7tjN9bDVORKKFSxxP80aaM82vvJQ1IZDnePmWxz26s1o4fxVeO+JOPoSpTzekj4GoY9TMhbVUlyNqZuPDS7EG1MpukRuQEu7W0k9fMg8P30NRrUY+uPMODJv27MkgAtytranmhnF/1Q0G7yV9l2CZsyu6hcS07m7UV5XYCWNGS5TkBz67BXE6+pS/tqbw=="
 "8	LINE	0
-	discovery.zen.minimum_master_nodes: 1
-|3,0,8,1,1,0,1545966231,"discovery.zen.minimum_master_nodes: 1"
+	395
+<10.0.10.115 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAtUTyEw/7K/EZsZDouhIIn4UkP/cflqJhexcGT22+yMMeW3mQDAuT1xW6NseizQtcUnhqED76eH78Qx7sTdV9NSQb2ldEsNWM83oX5wTzz+2a3rP4ON77daI6/lURm0n7Ge7i3Pa8pPPUOUswkWQjteNgV1hsFxKVzQlti6K6c1smwy85MGCoSidw8nfedAoFmlobApiVHrgLpWaDrpnsHbC2Pp0jfSNde1y+LdNPR4WN/tzQ+Qow3f9hfnFUyd1WLYVuRqc9Inpv/o/iTphnhjfVw1H/mPMHdHNraI1rL4UafucD4UTfFgEE2R4vc+A8tl3sI8eL+arkrWxmG+bkEw==
+|3,0,8,1,1,0,1546952367,"10.0.10.115 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAtUTyEw/7K/EZsZDouhIIn4UkP/cflqJhexcGT22+yMMeW3mQDAuT1xW6NseizQtcUnhqED76eH78Qx7sTdV9NSQb2ldEsNWM83oX5wTzz+2a3rP4ON77daI6/lURm0n7Ge7i3Pa8pPPUOUswkWQjteNgV1hsFxKVzQlti6K6c1smwy85MGCoSidw8nfedAoFmlobApiVHrgLpWaDrpnsHbC2Pp0jfSNde1y+LdNPR4WN/tzQ+Qow3f9hfnFUyd1WLYVuRqc9Inpv/o/iTphnhjfVw1H/mPMHdHNraI1rL4UafucD4UTfFgEE2R4vc+A8tl3sI8eL+arkrWxmG+bkEw=="
 "9	LINE	0
-	cluster.name: utry-test
-|3,0,9,1,1,0,1545966231,"cluster.name: utry-test"
-"-	CHAR	0
-	6
-|3,0,36,0,1,0,1546825127,"6"
+	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
+|3,0,9,1,1,0,1546952365,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
+""-	CHAR	0
+	.
+|3,1,36,0,1,0,1547560889,"."
 
 # global variables:
 !MAC	NUM	0
@@ -254,259 +253,258 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  166  0  ~/.zshrc
-|4,48,166,0,1546929417,"~/.zshrc"
-'1  170  2  ~/.zshrc
-|4,49,170,2,1546929325,"~/.zshrc"
-'2  170  2  ~/.zshrc
-|4,50,170,2,1546929325,"~/.zshrc"
-'3  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,51,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
-'4  168  0  ~/.zshrc
-|4,52,168,0,1546827558,"~/.zshrc"
-'5  168  0  ~/.zshrc
-|4,53,168,0,1546827558,"~/.zshrc"
-'6  168  0  ~/.zshrc
-|4,54,168,0,1546827558,"~/.zshrc"
-'7  168  0  ~/.zshrc
-|4,55,168,0,1546827558,"~/.zshrc"
-'8  40  42  ~/.autosshrc
-|4,56,40,42,1546827542,"~/.autosshrc"
-'9  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,57,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
+'0  201  20  ~/.zshrc
+|4,48,201,20,1547560906,"~/.zshrc"
+'1  201  155  ~/.zshrc
+|4,49,201,155,1547560742,"~/.zshrc"
+'2  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
+|4,50,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
+'3  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,51,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+'4  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,52,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+'5  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,53,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+'6  90  0  ~/.ssh/known_hosts2
+|4,54,90,0,1546952565,"~/.ssh/known_hosts2"
+'7  3  0  ~/.ssh/known_hosts
+|4,55,3,0,1546952549,"~/.ssh/known_hosts"
+'8  3  0  ~/.ssh/known_hosts
+|4,56,3,0,1546952434,"~/.ssh/known_hosts"
+'9  98  0  ~/.ssh/known_hosts2
+|4,57,98,0,1546952384,"~/.ssh/known_hosts2"
 
 # Jumplist (newest first):
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  155  ~/.zshrc
+|4,39,201,155,1547560742,"~/.zshrc"
 -'  166  0  ~/.zshrc
-|4,39,166,0,1546929417,"~/.zshrc"
--'  170  2  ~/.zshrc
-|4,39,170,2,1546929410,"~/.zshrc"
--'  170  2  ~/.zshrc
-|4,39,170,2,1546929325,"~/.zshrc"
--'  168  0  ~/.zshrc
-|4,39,168,0,1546929315,"~/.zshrc"
--'  168  0  ~/.zshrc
-|4,39,168,0,1546929315,"~/.zshrc"
--'  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,39,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
--'  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,39,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
--'  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,39,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
--'  1  5  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,39,1,5,1546843486,"~/workspace/utry/platform/UtryCloud/.git/config"
--'  168  0  ~/.zshrc
-|4,39,168,0,1546827558,"~/.zshrc"
--'  251  0  ~/.zshrc
-|4,39,251,0,1546827546,"~/.zshrc"
--'  253  0  ~/.zshrc
-|4,39,253,0,1546827546,"~/.zshrc"
--'  253  0  ~/.zshrc
-|4,39,253,0,1546827546,"~/.zshrc"
--'  244  39  ~/.zshrc
-|4,39,244,39,1546827545,"~/.zshrc"
--'  246  39  ~/.zshrc
-|4,39,246,39,1546827545,"~/.zshrc"
--'  246  39  ~/.zshrc
-|4,39,246,39,1546827545,"~/.zshrc"
--'  40  42  ~/.autosshrc
-|4,39,40,42,1546827542,"~/.autosshrc"
--'  40  42  ~/.autosshrc
-|4,39,40,42,1546827542,"~/.autosshrc"
--'  40  42  ~/.autosshrc
-|4,39,40,42,1546827542,"~/.autosshrc"
--'  40  42  ~/.autosshrc
-|4,39,40,42,1546827542,"~/.autosshrc"
--'  40  42  ~/.autosshrc
-|4,39,40,42,1546827542,"~/.autosshrc"
--'  40  42  ~/.autosshrc
-|4,39,40,42,1546827542,"~/.autosshrc"
--'  40  42  ~/.autosshrc
-|4,39,40,42,1546827542,"~/.autosshrc"
--'  40  42  ~/.autosshrc
-|4,39,40,42,1546827542,"~/.autosshrc"
--'  9  18  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,39,9,18,1546825596,"~/workspace/utry/platform/UtryCloud/.git/config"
--'  9  18  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,39,9,18,1546825596,"~/workspace/utry/platform/UtryCloud/.git/config"
--'  9  18  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,39,9,18,1546825596,"~/workspace/utry/platform/UtryCloud/.git/config"
--'  9  18  ~/workspace/utry/platform/UtryCloud/.git/config
-|4,39,9,18,1546825596,"~/workspace/utry/platform/UtryCloud/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/xform/.git/config
-|4,39,9,23,1546825131,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  1  0  ~/workspace/utry/platform/xform/.git/config
-|4,39,1,0,1546825119,"~/workspace/utry/platform/xform/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
--'  9  23  ~/workspace/utry/platform/utrycore/.git/config
-|4,39,9,23,1546825109,"~/workspace/utry/platform/utrycore/.git/config"
+|4,39,166,0,1547560598,"~/.zshrc"
+-'  166  0  ~/.zshrc
+|4,39,166,0,1547560598,"~/.zshrc"
+-'  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
+|4,39,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
+-'  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
+|4,39,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
+-'  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
+|4,39,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
+-'  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
+|4,39,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
+-'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
+|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  4  43  ~/workspace/labs/ARTS/sync.sh
+|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  90  0  ~/.ssh/known_hosts2
+|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1546929417	0
-	"	166	0
-	^	179	28
-	.	170	0
-	+	243	0
+	*	1547560906	0
+	"	201	20
+	^	201	21
+	.	201	20
 	+	244	0
+	+	245	0
+	+	246	0
 	+	245	0
 	+	244	0
 	+	243	0
 	+	242	0
 	+	241	0
 	+	240	0
-	+	239	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
 	+	240	0
 	+	241	0
 	+	242	0
 	+	243	0
 	+	244	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
+	+	245	0
 	+	66	87
 	+	113	0
-	+	238	0
 	+	239	0
 	+	240	0
 	+	241	0
@@ -520,18 +518,19 @@ $workspace\/labs
 	+	249	0
 	+	250	0
 	+	251	0
-	+	251	30
-	+	251	0
+	+	252	0
+	+	252	30
+	+	252	0
 	+	181	0
-	+	251	0
-	+	247	33
-	+	240	16
-	+	244	37
-	+	247	44
-	+	251	0
-	+	238	29
-	+	251	26
-	+	236	0
+	+	252	0
+	+	248	33
+	+	241	16
+	+	245	37
+	+	248	44
+	+	252	0
+	+	239	29
+	+	252	26
+	+	237	0
 	+	200	0
 	+	198	0
 	+	196	0
@@ -562,15 +561,59 @@ $workspace\/labs
 	+	137	30
 	+	125	27
 	+	135	6
-	+	221	0
+	+	222	0
 	+	11	0
 	+	12	0
 	+	11	0
 	+	179	27
-	+	240	18
-	+	244	39
+	+	241	18
+	+	245	39
 	+	170	0
+	+	201	20
 	n	61	8
+
+> ~/workspace/utry/platform/UtryCloud/build.gradle
+	*	1547536053	0
+	"	1	0
+
+> ~/workspace/labs/dotfiles/dotfiles/.git/config
+	*	1547100252	0
+	"	9	0
+
+> ~/workspace/labs/dotfiles/dotfiles/.gitconfig
+	*	1547100236	0
+	"	21	0
+
+> ~/workspace/labs/ARTS/sync.sh
+	*	1546997361	0
+	"	4	43
+	^	4	44
+	.	4	44
+	+	4	44
+
+> ~/.ssh/known_hosts2
+	*	1546952564	0
+	"	90	0
+	.	90	0
+	+	25	0
+	+	1	0
+	+	28	0
+	+	47	0
+	+	64	0
+	+	77	0
+	+	90	0
+
+> ~/.ssh/known_hosts
+	*	1546952548	0
+	"	3	0
+	.	3	0
+	+	23	0
+	+	25	0
+	+	27	0
+	+	34	0
+	+	25	0
+	+	36	0
+	+	3	0
 
 > ~/.autosshrc
 	*	1546827541	0
@@ -797,23 +840,6 @@ $workspace\/labs
 	+	11	0
 	+	10	0
 	+	11	0
-
-> ~/.ssh/known_hosts
-	*	1545362825	0
-	"	38	0
-	.	38	0
-	+	25	0
-	+	27	0
-	+	29	0
-	+	36	0
-	+	27	0
-	+	38	0
-
-> ~/.ssh/known_hosts2
-	*	1545276450	0
-	"	28	0
-	.	28	0
-	+	28	0
 
 > ~/workspace/utry/project/poweranalysisUI/src/global.js
 	*	1544680577	0
@@ -1139,13 +1165,6 @@ $workspace\/labs
 	.	1	365447
 	+	1	365447
 
-> ~/workspace/labs/ARTS/sync.sh
-	*	1529938683	0
-	"	4	43
-	^	4	44
-	.	4	44
-	+	4	44
-
 > ~/workspace/labs/N/tech-blog.html
 	*	1529677152	0
 	"	116	3
@@ -1368,20 +1387,3 @@ $workspace\/labs
 > ~/workspace/labs/kaldi/src/INSTALL
 	*	1528695206	0
 	"	1	0
-
-> ~/workspace/labs/kaldi/tools/inSTALL
-	*	1528694002	0
-	"	1	0
-
-> ~/workspace/labs/kaldi/INSTALL
-	*	1528693911	0
-	"	1	0
-
-> ~/workspace/utry/webapp/conf/server.xml
-	*	1528687574	0
-	"	55	4
-	^	22	15
-	.	116	21
-	+	69	24
-	+	22	14
-	+	116	21
