@@ -20,10 +20,14 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1547560906,,"wq"
 :q
-|2,0,1547536054,,"q"
+|2,0,1547630101,,"q"
+:wq
+|2,0,1547623247,,"wq"
+:.,.+29
+|2,0,1547623031,,".,.+29"
+:.,.+39
+|2,0,1547623026,,".,.+39"
 :w
 |2,0,1545974069,,"w"
 :!
@@ -210,42 +214,39 @@ $workspace\/labs
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-		url = https://github.com/fatyu/dotfiles.git
-|3,0,0,1,1,0,1547100252,"	url = https://github.com/fatyu/dotfiles.git"
+""0	LINE	0
+	alias bu='brew update'
+|3,1,0,1,1,0,1547623225,"alias bu='brew update'"
 "1	LINE	0
-	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
-|3,0,1,1,1,0,1546952563,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
+	
+|3,0,1,1,1,0,1547623089,""
 "2	LINE	0
-	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
-|3,0,2,1,1,0,1546952562,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
+	
+|3,0,2,1,1,0,1547623088,""
 "3	LINE	0
-	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
-|3,0,3,1,1,0,1546952561,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
+	
+|3,0,3,1,1,0,1547623088,""
 "4	LINE	0
-	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
-|3,0,4,1,1,0,1546952560,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
+	
+|3,0,4,1,1,0,1547623084,""
 "5	LINE	0
-	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
-|3,0,5,1,1,0,1546952559,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
+	
+|3,0,5,1,1,0,1547623081,""
 "6	LINE	0
-	423
-<121.40.204.241github.com,13.250.177.223 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
-|3,0,6,1,1,0,1546952432,"121.40.204.241github.com,13.250.177.223 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ=="
+	
+|3,0,6,1,1,0,1547623078,""
 "7	LINE	0
-	394
-<10.0.2.115 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAqWFfUbIFFYWOrImnrnYNBBaKrF2i8ah2QG9rLCJt8BO2b8kIergb/OdZqyRLrSMQsYH0GpHMInesM1dSc8JK94XwnTRbJc5r4bLFWXJCQH2Jz13UIc7ACNzv+35W08w8I2cV9DhZA/yOunC9QKnZ0+KNs7tjN9bDVORKKFSxxP80aaM82vvJQ1IZDnePmWxz26s1o4fxVeO+JOPoSpTzekj4GoY9TMhbVUlyNqZuPDS7EG1MpukRuQEu7W0k9fMg8P30NRrUY+uPMODJv27MkgAtytranmhnF/1Q0G7yV9l2CZsyu6hcS07m7UV5XYCWNGS5TkBz67BXE6+pS/tqbw==
-|3,0,7,1,1,0,1546952367,"10.0.2.115 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAqWFfUbIFFYWOrImnrnYNBBaKrF2i8ah2QG9rLCJt8BO2b8kIergb/OdZqyRLrSMQsYH0GpHMInesM1dSc8JK94XwnTRbJc5r4bLFWXJCQH2Jz13UIc7ACNzv+35W08w8I2cV9DhZA/yOunC9QKnZ0+KNs7tjN9bDVORKKFSxxP80aaM82vvJQ1IZDnePmWxz26s1o4fxVeO+JOPoSpTzekj4GoY9TMhbVUlyNqZuPDS7EG1MpukRuQEu7W0k9fMg8P30NRrUY+uPMODJv27MkgAtytranmhnF/1Q0G7yV9l2CZsyu6hcS07m7UV5XYCWNGS5TkBz67BXE6+pS/tqbw=="
+	
+|3,0,7,1,1,0,1547623077,""
 "8	LINE	0
-	395
-<10.0.10.115 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAtUTyEw/7K/EZsZDouhIIn4UkP/cflqJhexcGT22+yMMeW3mQDAuT1xW6NseizQtcUnhqED76eH78Qx7sTdV9NSQb2ldEsNWM83oX5wTzz+2a3rP4ON77daI6/lURm0n7Ge7i3Pa8pPPUOUswkWQjteNgV1hsFxKVzQlti6K6c1smwy85MGCoSidw8nfedAoFmlobApiVHrgLpWaDrpnsHbC2Pp0jfSNde1y+LdNPR4WN/tzQ+Qow3f9hfnFUyd1WLYVuRqc9Inpv/o/iTphnhjfVw1H/mPMHdHNraI1rL4UafucD4UTfFgEE2R4vc+A8tl3sI8eL+arkrWxmG+bkEw==
-|3,0,8,1,1,0,1546952367,"10.0.10.115 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAtUTyEw/7K/EZsZDouhIIn4UkP/cflqJhexcGT22+yMMeW3mQDAuT1xW6NseizQtcUnhqED76eH78Qx7sTdV9NSQb2ldEsNWM83oX5wTzz+2a3rP4ON77daI6/lURm0n7Ge7i3Pa8pPPUOUswkWQjteNgV1hsFxKVzQlti6K6c1smwy85MGCoSidw8nfedAoFmlobApiVHrgLpWaDrpnsHbC2Pp0jfSNde1y+LdNPR4WN/tzQ+Qow3f9hfnFUyd1WLYVuRqc9Inpv/o/iTphnhjfVw1H/mPMHdHNraI1rL4UafucD4UTfFgEE2R4vc+A8tl3sI8eL+arkrWxmG+bkEw=="
+	
+|3,0,8,1,1,0,1547623077,""
 "9	LINE	0
-	121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8=
-|3,0,9,1,1,0,1546952365,"121.40.204.241 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMsKDrLgGy53QIOhtHUuQUjcm8R+7rouUNwBNAEUmBudcxLI7CWTaXxSNmeB/3LbcE63q5l07U0IUiDG0DxVwE8="
-""-	CHAR	0
-	.
-|3,1,36,0,1,0,1547560889,"."
+	
+|3,0,9,1,1,0,1547623076,""
+"-	CHAR	0
+	n
+|3,0,36,0,1,0,1547623197,"n"
 
 # global variables:
 !MAC	NUM	0
@@ -253,259 +254,364 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  201  20  ~/.zshrc
-|4,48,201,20,1547560906,"~/.zshrc"
-'1  201  155  ~/.zshrc
-|4,49,201,155,1547560742,"~/.zshrc"
-'2  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
-|4,50,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
-'3  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,51,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
-'4  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,52,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
-'5  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,53,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
-'6  90  0  ~/.ssh/known_hosts2
-|4,54,90,0,1546952565,"~/.ssh/known_hosts2"
-'7  3  0  ~/.ssh/known_hosts
-|4,55,3,0,1546952549,"~/.ssh/known_hosts"
-'8  3  0  ~/.ssh/known_hosts
-|4,56,3,0,1546952434,"~/.ssh/known_hosts"
-'9  98  0  ~/.ssh/known_hosts2
-|4,57,98,0,1546952384,"~/.ssh/known_hosts2"
+'0  37  24  ~/.autosshrc
+|4,48,37,24,1547630101,"~/.autosshrc"
+'1  157  22  ~/.zshrc
+|4,49,157,22,1547629884,"~/.zshrc"
+'2  157  22  ~/.zshrc
+|4,50,157,22,1547623247,"~/.zshrc"
+'3  37  24  ~/.autosshrc
+|4,51,37,24,1547623160,"~/.autosshrc"
+'4  18  0  ~/.autosshrc
+|4,52,18,0,1547623092,"~/.autosshrc"
+'5  18  0  ~/.autosshrc
+|4,53,18,0,1547623092,"~/.autosshrc"
+'6  18  0  ~/.autosshrc
+|4,54,18,0,1547623092,"~/.autosshrc"
+'7  18  0  ~/.autosshrc
+|4,55,18,0,1547623092,"~/.autosshrc"
+'8  39  42  ~/.autosshrc
+|4,56,39,42,1547622958,"~/.autosshrc"
+'9  43  42  ~/.autosshrc
+|4,57,43,42,1547622958,"~/.autosshrc"
 
 # Jumplist (newest first):
+-'  37  24  ~/.autosshrc
+|4,39,37,24,1547630101,"~/.autosshrc"
+-'  157  22  ~/.zshrc
+|4,39,157,22,1547629884,"~/.zshrc"
+-'  157  22  ~/.zshrc
+|4,39,157,22,1547629884,"~/.zshrc"
+-'  157  22  ~/.zshrc
+|4,39,157,22,1547623247,"~/.zshrc"
+-'  157  22  ~/.zshrc
+|4,39,157,22,1547623247,"~/.zshrc"
+-'  202  20  ~/.zshrc
+|4,39,202,20,1547623171,"~/.zshrc"
+-'  202  20  ~/.zshrc
+|4,39,202,20,1547623171,"~/.zshrc"
+-'  202  20  ~/.zshrc
+|4,39,202,20,1547623171,"~/.zshrc"
+-'  202  20  ~/.zshrc
+|4,39,202,20,1547623171,"~/.zshrc"
+-'  37  24  ~/.autosshrc
+|4,39,37,24,1547623160,"~/.autosshrc"
+-'  37  24  ~/.autosshrc
+|4,39,37,24,1547623160,"~/.autosshrc"
+-'  37  24  ~/.autosshrc
+|4,39,37,24,1547623160,"~/.autosshrc"
+-'  37  24  ~/.autosshrc
+|4,39,37,24,1547623160,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623151,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623151,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623151,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623151,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623151,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623092,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623092,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623092,"~/.autosshrc"
+-'  18  0  ~/.autosshrc
+|4,39,18,0,1547623092,"~/.autosshrc"
+-'  37  36  ~/.autosshrc
+|4,39,37,36,1547623021,"~/.autosshrc"
+-'  37  36  ~/.autosshrc
+|4,39,37,36,1547623021,"~/.autosshrc"
+-'  37  36  ~/.autosshrc
+|4,39,37,36,1547623021,"~/.autosshrc"
+-'  37  36  ~/.autosshrc
+|4,39,37,36,1547623021,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  39  42  ~/.autosshrc
+|4,39,39,42,1547623014,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  43  42  ~/.autosshrc
+|4,39,43,42,1547622958,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  36  30  ~/.autosshrc
+|4,39,36,30,1547622932,"~/.autosshrc"
+-'  40  30  ~/.autosshrc
+|4,39,40,30,1547622932,"~/.autosshrc"
+-'  43  44  ~/.autosshrc
+|4,39,43,44,1547622907,"~/.autosshrc"
+-'  43  44  ~/.autosshrc
+|4,39,43,44,1547622907,"~/.autosshrc"
+-'  43  44  ~/.autosshrc
+|4,39,43,44,1547622907,"~/.autosshrc"
+-'  43  44  ~/.autosshrc
+|4,39,43,44,1547622907,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1547622811,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1547622811,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1547622811,"~/.autosshrc"
+-'  40  42  ~/.autosshrc
+|4,39,40,42,1547622811,"~/.autosshrc"
 -'  201  20  ~/.zshrc
 |4,39,201,20,1547560906,"~/.zshrc"
--'  201  155  ~/.zshrc
-|4,39,201,155,1547560742,"~/.zshrc"
--'  166  0  ~/.zshrc
-|4,39,166,0,1547560598,"~/.zshrc"
--'  166  0  ~/.zshrc
-|4,39,166,0,1547560598,"~/.zshrc"
--'  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
-|4,39,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
--'  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
-|4,39,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
--'  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
-|4,39,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
--'  1  0  ~/workspace/utry/platform/UtryCloud/build.gradle
-|4,39,1,0,1547536054,"~/workspace/utry/platform/UtryCloud/build.gradle"
--'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  9  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,9,0,1547100254,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.git/config
-|4,39,1,0,1547100249,"~/workspace/labs/dotfiles/dotfiles/.git/config"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  21  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,21,0,1547100238,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  1  0  ~/workspace/labs/dotfiles/dotfiles/.gitconfig
-|4,39,1,0,1547100227,"~/workspace/labs/dotfiles/dotfiles/.gitconfig"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  4  43  ~/workspace/labs/ARTS/sync.sh
-|4,39,4,43,1546997362,"~/workspace/labs/ARTS/sync.sh"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
--'  90  0  ~/.ssh/known_hosts2
-|4,39,90,0,1546952565,"~/.ssh/known_hosts2"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
+-'  201  20  ~/.zshrc
+|4,39,201,20,1547560906,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
+> ~/.autosshrc
+	*	1547630100	0
+	"	37	24
+	^	18	0
+	.	37	24
+	+	14	9
+	+	14	36
+	+	14	41
+	+	14	23
+	+	16	0
+	+	17	42
+	+	2	0
+	+	5	0
+	+	9	0
+	+	10	39
+	+	16	0
+	+	14	0
+	+	11	0
+	+	12	0
+	+	11	0
+	+	14	0
+	+	16	39
+	+	11	40
+	+	15	42
+	+	16	41
+	+	24	31
+	+	25	43
+	+	24	44
+	+	29	24
+	+	28	27
+	+	27	17
+	+	25	31
+	+	29	12
+	+	28	24
+	+	24	12
+	+	23	12
+	+	22	12
+	+	25	12
+	+	26	12
+	+	24	12
+	+	23	12
+	+	22	12
+	+	24	12
+	+	25	12
+	+	26	12
+	+	27	23
+	+	28	24
+	+	29	24
+	+	24	7
+	+	25	7
+	+	26	7
+	+	27	7
+	+	28	7
+	+	29	7
+	+	30	7
+	+	31	7
+	+	32	7
+	+	33	7
+	+	23	7
+	+	22	7
+	+	21	7
+	+	20	7
+	+	24	13
+	+	26	16
+	+	27	12
+	+	29	13
+	+	28	13
+	+	29	10
+	+	28	23
+	+	26	12
+	+	25	14
+	+	24	7
+	+	23	9
+	+	22	9
+	+	32	43
+	+	36	0
+	+	35	0
+	+	36	42
+	+	37	0
+	+	38	0
+	+	39	0
+	+	37	10
+	+	38	10
+	+	39	13
+	+	39	12
+	+	38	25
+	+	37	44
+	+	38	44
+	+	39	44
+	+	36	0
+	+	37	42
+	+	38	42
+	+	39	42
+	+	37	10
+	+	39	0
+	+	37	0
+	+	39	0
+	+	37	48
+	+	39	48
+	+	40	0
+	+	36	0
+	+	17	0
+	+	20	0
+	+	17	0
+	+	37	24
+
 > ~/.zshrc
-	*	1547560906	0
-	"	201	20
-	^	201	21
-	.	201	20
-	+	244	0
+	*	1547629883	0
+	"	157	22
+	^	157	23
+	.	157	22
 	+	245	0
+	+	246	0
+	+	247	0
 	+	246	0
 	+	245	0
 	+	244	0
 	+	243	0
 	+	242	0
 	+	241	0
-	+	240	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	246	0
 	+	241	0
 	+	242	0
 	+	243	0
 	+	244	0
 	+	245	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
+	+	246	0
 	+	66	87
 	+	113	0
-	+	239	0
 	+	240	0
 	+	241	0
 	+	242	0
@@ -519,36 +625,37 @@ $workspace\/labs
 	+	250	0
 	+	251	0
 	+	252	0
-	+	252	30
-	+	252	0
-	+	181	0
-	+	252	0
-	+	248	33
-	+	241	16
-	+	245	37
-	+	248	44
-	+	252	0
-	+	239	29
-	+	252	26
-	+	237	0
-	+	200	0
-	+	198	0
-	+	196	0
+	+	253	0
+	+	253	30
+	+	253	0
+	+	182	0
+	+	253	0
+	+	249	33
+	+	242	16
+	+	246	37
+	+	249	44
+	+	253	0
+	+	240	29
+	+	253	26
+	+	238	0
+	+	201	0
+	+	199	0
+	+	197	0
 	+	123	7
-	+	158	36
-	+	159	0
+	+	159	36
 	+	160	0
 	+	161	0
-	+	159	11
+	+	162	0
 	+	160	11
-	+	161	32
+	+	161	11
+	+	162	32
+	+	161	31
 	+	160	31
-	+	159	31
-	+	188	72
-	+	187	6
-	+	188	9
-	+	187	7
-	+	201	22
+	+	189	72
+	+	188	6
+	+	189	9
+	+	188	7
+	+	202	22
 	+	123	0
 	+	113	0
 	+	112	0
@@ -561,15 +668,19 @@ $workspace\/labs
 	+	137	30
 	+	125	27
 	+	135	6
-	+	222	0
+	+	223	0
 	+	11	0
 	+	12	0
 	+	11	0
-	+	179	27
-	+	241	18
-	+	245	39
-	+	170	0
-	+	201	20
+	+	180	27
+	+	242	18
+	+	246	39
+	+	171	0
+	+	202	20
+	+	152	8
+	+	157	8
+	+	156	8
+	+	157	22
 	n	61	8
 
 > ~/workspace/utry/platform/UtryCloud/build.gradle
@@ -614,112 +725,6 @@ $workspace\/labs
 	+	25	0
 	+	36	0
 	+	3	0
-
-> ~/.autosshrc
-	*	1546827541	0
-	"	40	42
-	^	40	43
-	.	40	42
-	+	8	19
-	+	7	19
-	+	5	38
-	+	7	38
-	+	8	38
-	+	10	72
-	+	8	33
-	+	7	33
-	+	9	38
-	+	10	77
-	+	5	0
-	+	10	77
-	+	9	38
-	+	8	38
-	+	7	38
-	+	5	38
-	+	4	37
-	+	2	1
-	+	4	0
-	+	2	1
-	+	10	78
-	+	16	42
-	+	13	39
-	+	14	0
-	+	16	0
-	+	13	39
-	+	16	0
-	+	14	9
-	+	14	36
-	+	14	41
-	+	14	23
-	+	16	0
-	+	18	42
-	+	2	0
-	+	5	0
-	+	9	0
-	+	10	39
-	+	16	0
-	+	14	0
-	+	11	0
-	+	12	0
-	+	11	0
-	+	14	0
-	+	16	39
-	+	11	40
-	+	15	42
-	+	16	41
-	+	27	31
-	+	28	43
-	+	27	44
-	+	32	24
-	+	31	27
-	+	30	17
-	+	28	31
-	+	32	12
-	+	31	24
-	+	27	12
-	+	26	12
-	+	25	12
-	+	28	12
-	+	29	12
-	+	27	12
-	+	26	12
-	+	25	12
-	+	27	12
-	+	28	12
-	+	29	12
-	+	30	23
-	+	31	24
-	+	32	24
-	+	27	7
-	+	28	7
-	+	29	7
-	+	30	7
-	+	31	7
-	+	32	7
-	+	33	7
-	+	34	7
-	+	35	7
-	+	36	7
-	+	26	7
-	+	25	7
-	+	24	7
-	+	23	7
-	+	27	13
-	+	29	16
-	+	30	12
-	+	32	13
-	+	31	13
-	+	32	10
-	+	31	23
-	+	29	12
-	+	28	14
-	+	27	7
-	+	26	9
-	+	25	9
-	+	35	43
-	+	40	0
-	+	38	0
-	+	40	42
 
 > ~/workspace/utry/platform/UtryCloud/.git/config
 	*	1546826834	0
