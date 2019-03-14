@@ -20,12 +20,12 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1552282142,,"q"
+:wq
+|2,0,1550116435,,"wq"
 ::q
 |2,0,1548039267,,":q"
-:q
-|2,0,1548039265,,"q"
-:wq
-|2,0,1547623247,,"wq"
 :.,.+29
 |2,0,1547623031,,".,.+29"
 :.,.+39
@@ -215,38 +215,43 @@ $workspace\/labs
 
 # Registers:
 ""0	LINE	0
-	alias bu='brew update'
-|3,1,0,1,1,0,1547623225,"alias bu='brew update'"
+	online-dky|114.55.84.48|root|Utry1234|22|12
+|3,1,0,1,1,0,1550627122,"online-dky|114.55.84.48|root|Utry1234|22|12"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1547623089,""
+	find *.wav|xargs rm -rf #如果需要保留原.wav 可以注释掉这行 
+|3,0,1,1,1,0,1550116428,"find *.wav|xargs rm -rf #如果需要保留原.wav 可以注释掉这行 "
 "2	LINE	0
-	
-|3,0,2,1,1,0,1547623088,""
+	rename .wav.mp3 .mp3 *.wav.mp3;dd
+|3,0,2,1,1,0,1550116424,"rename .wav.mp3 .mp3 *.wav.mp3;dd"
 "3	LINE	0
+	#!/bin/bash
+	find ./ -name *.mp3  | while read i
+	do
+	        echo "$i";
 	
-|3,0,3,1,1,0,1547623088,""
+	done
+|3,0,3,1,6,0,1550116395,"#!/bin/bash","find ./ -name *.mp3  | while read i","do","        echo \"$i\";","","done"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1547623084,""
+	        mv $i.c  $i.h
+|3,0,4,1,1,0,1550116264,"        mv $i.c  $i.h"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1547623081,""
+|3,0,5,1,1,0,1550116241,""
 "6	LINE	0
-	
-|3,0,6,1,1,0,1547623078,""
+	#http://blogdd.csdn.net/longxibendi
+|3,0,6,1,1,0,1550116240,"#http://blogdd.csdn.net/longxibendi"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1547623077,""
+	    	<!-- <AppenderRef ref="mongoDbAppender"/> -->
+|3,0,7,1,1,0,1548410530,"    	<!-- <AppenderRef ref=\"mongoDbAppender\"/> -->"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1547623077,""
+	    	<AppenderRef ref="RollingRandomAccessFile"/>
+|3,0,8,1,1,0,1548410529,"    	<AppenderRef ref=\"RollingRandomAccessFile\"/>"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1547623076,""
+	    	<AppenderRef ref="RollingRandomAccessFile"/>
+|3,0,9,1,1,0,1548410526,"    	<AppenderRef ref=\"RollingRandomAccessFile\"/>"
 "-	CHAR	0
-	n
-|3,0,36,0,1,0,1547623197,"n"
+	c
+|3,0,36,0,1,0,1550116259,"c"
 
 # global variables:
 !MAC	NUM	0
@@ -254,340 +259,238 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  37  24  ~/.autosshrc
-|4,48,37,24,1548039267,"~/.autosshrc"
-'1  202  43  ~/.zshrc
-|4,49,202,43,1547651485,"~/.zshrc"
-'2  37  24  ~/.autosshrc
-|4,50,37,24,1547630101,"~/.autosshrc"
-'3  157  22  ~/.zshrc
-|4,51,157,22,1547629884,"~/.zshrc"
-'4  157  22  ~/.zshrc
-|4,52,157,22,1547629884,"~/.zshrc"
-'5  157  22  ~/.zshrc
-|4,53,157,22,1547623247,"~/.zshrc"
-'6  157  22  ~/.zshrc
-|4,54,157,22,1547623247,"~/.zshrc"
-'7  37  24  ~/.autosshrc
-|4,55,37,24,1547623160,"~/.autosshrc"
-'8  37  24  ~/.autosshrc
-|4,56,37,24,1547623160,"~/.autosshrc"
-'9  18  0  ~/.autosshrc
-|4,57,18,0,1547623092,"~/.autosshrc"
+'0  9244  0  ~/workspace/utry/project/CKMS/dhl/.git/COMMIT_EDITMSG
+|4,48,9244,0,1552282142,"~/workspace/utry/project/CKMS/dhl/.git/COMMIT_EDITMSG"
+'1  147  23  ~/.zshrc
+|4,49,147,23,1552272645,"~/.zshrc"
+'2  1  0  ~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml
+|4,50,1,0,1551946838,"~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml"
+'3  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,51,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
+'4  18  0  ~/.autosshrc
+|4,52,18,0,1550627144,"~/.autosshrc"
+'5  36  0  ~/.autosshrc
+|4,53,36,0,1550626315,"~/.autosshrc"
+'6  36  0  ~/.autosshrc
+|4,54,36,0,1550626315,"~/.autosshrc"
+'7  5  0  ~/Downloads/mp32wav.sh
+|4,55,5,0,1550116435,"~/Downloads/mp32wav.sh"
+'8  1  0  ~/Downloads/mp32wav.sh
+|4,56,1,0,1550116323,"~/Downloads/mp32wav.sh"
+'9  5  0  ~/Downloads/mp32wav.sh
+|4,57,5,0,1550116323,"~/Downloads/mp32wav.sh"
 
 # Jumplist (newest first):
--'  37  24  ~/.autosshrc
-|4,39,37,24,1548039267,"~/.autosshrc"
+-'  9244  0  ~/workspace/utry/project/CKMS/dhl/.git/COMMIT_EDITMSG
+|4,39,9244,0,1552282142,"~/workspace/utry/project/CKMS/dhl/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/utry/project/CKMS/dhl/.git/COMMIT_EDITMSG
+|4,39,1,0,1552281826,"~/workspace/utry/project/CKMS/dhl/.git/COMMIT_EDITMSG"
+-'  147  23  ~/.zshrc
+|4,39,147,23,1552272645,"~/.zshrc"
+-'  147  23  ~/.zshrc
+|4,39,147,23,1552272645,"~/.zshrc"
 -'  202  43  ~/.zshrc
-|4,39,202,43,1547651485,"~/.zshrc"
+|4,39,202,43,1552272612,"~/.zshrc"
 -'  202  43  ~/.zshrc
-|4,39,202,43,1547651485,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547651469,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547651469,"~/.zshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547630101,"~/.autosshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547630101,"~/.autosshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547629884,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547629884,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547629884,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547629884,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547623247,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547623247,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547623247,"~/.zshrc"
--'  157  22  ~/.zshrc
-|4,39,157,22,1547623247,"~/.zshrc"
--'  202  20  ~/.zshrc
-|4,39,202,20,1547623171,"~/.zshrc"
--'  202  20  ~/.zshrc
-|4,39,202,20,1547623171,"~/.zshrc"
--'  202  20  ~/.zshrc
-|4,39,202,20,1547623171,"~/.zshrc"
--'  202  20  ~/.zshrc
-|4,39,202,20,1547623171,"~/.zshrc"
--'  202  20  ~/.zshrc
-|4,39,202,20,1547623171,"~/.zshrc"
--'  202  20  ~/.zshrc
-|4,39,202,20,1547623171,"~/.zshrc"
--'  202  20  ~/.zshrc
-|4,39,202,20,1547623171,"~/.zshrc"
--'  202  20  ~/.zshrc
-|4,39,202,20,1547623171,"~/.zshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547623160,"~/.autosshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547623160,"~/.autosshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547623160,"~/.autosshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547623160,"~/.autosshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547623160,"~/.autosshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547623160,"~/.autosshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547623160,"~/.autosshrc"
--'  37  24  ~/.autosshrc
-|4,39,37,24,1547623160,"~/.autosshrc"
+|4,39,202,43,1552272612,"~/.zshrc"
+-'  1  0  ~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml
+|4,39,1,0,1551946838,"~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml"
+-'  1  0  ~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml
+|4,39,1,0,1551946838,"~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml"
+-'  1  0  ~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml
+|4,39,1,0,1551946838,"~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml"
+-'  1  0  ~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml
+|4,39,1,0,1551946838,"~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml"
+-'  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,39,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
+-'  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,39,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
+-'  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,39,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
+-'  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,39,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
+-'  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,39,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
+-'  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,39,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
+-'  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,39,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
+-'  1  0  ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+|4,39,1,0,1551678914,"~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623151,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623092,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623092,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623092,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623092,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
 -'  18  0  ~/.autosshrc
-|4,39,18,0,1547623092,"~/.autosshrc"
--'  18  0  ~/.autosshrc
-|4,39,18,0,1547623092,"~/.autosshrc"
--'  18  0  ~/.autosshrc
-|4,39,18,0,1547623092,"~/.autosshrc"
--'  18  0  ~/.autosshrc
-|4,39,18,0,1547623092,"~/.autosshrc"
--'  37  36  ~/.autosshrc
-|4,39,37,36,1547623021,"~/.autosshrc"
--'  37  36  ~/.autosshrc
-|4,39,37,36,1547623021,"~/.autosshrc"
--'  37  36  ~/.autosshrc
-|4,39,37,36,1547623021,"~/.autosshrc"
--'  37  36  ~/.autosshrc
-|4,39,37,36,1547623021,"~/.autosshrc"
--'  37  36  ~/.autosshrc
-|4,39,37,36,1547623021,"~/.autosshrc"
--'  37  36  ~/.autosshrc
-|4,39,37,36,1547623021,"~/.autosshrc"
--'  37  36  ~/.autosshrc
-|4,39,37,36,1547623021,"~/.autosshrc"
--'  37  36  ~/.autosshrc
-|4,39,37,36,1547623021,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  39  42  ~/.autosshrc
-|4,39,39,42,1547623014,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  43  42  ~/.autosshrc
-|4,39,43,42,1547622958,"~/.autosshrc"
--'  36  30  ~/.autosshrc
-|4,39,36,30,1547622932,"~/.autosshrc"
--'  40  30  ~/.autosshrc
-|4,39,40,30,1547622932,"~/.autosshrc"
--'  36  30  ~/.autosshrc
-|4,39,36,30,1547622932,"~/.autosshrc"
--'  40  30  ~/.autosshrc
-|4,39,40,30,1547622932,"~/.autosshrc"
+|4,39,18,0,1550627144,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550627115,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  36  0  ~/.autosshrc
+|4,39,36,0,1550626315,"~/.autosshrc"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
+-'  5  0  ~/Downloads/mp32wav.sh
+|4,39,5,0,1550116435,"~/Downloads/mp32wav.sh"
 
 # History of marks within files (newest to oldest):
 
-> ~/.autosshrc
-	*	1548039265	0
-	"	37	24
-	^	18	0
-	.	37	24
-	+	14	9
-	+	14	36
-	+	14	41
-	+	14	23
-	+	16	0
-	+	17	42
-	+	2	0
-	+	5	0
-	+	9	0
-	+	10	39
-	+	16	0
-	+	14	0
-	+	11	0
-	+	12	0
-	+	11	0
-	+	14	0
-	+	16	39
-	+	11	40
-	+	15	42
-	+	16	41
-	+	24	31
-	+	25	43
-	+	24	44
-	+	29	24
-	+	28	27
-	+	27	17
-	+	25	31
-	+	29	12
-	+	28	24
-	+	24	12
-	+	23	12
-	+	22	12
-	+	25	12
-	+	26	12
-	+	24	12
-	+	23	12
-	+	22	12
-	+	24	12
-	+	25	12
-	+	26	12
-	+	27	23
-	+	28	24
-	+	29	24
-	+	24	7
-	+	25	7
-	+	26	7
-	+	27	7
-	+	28	7
-	+	29	7
-	+	30	7
-	+	31	7
-	+	32	7
-	+	33	7
-	+	23	7
-	+	22	7
-	+	21	7
-	+	20	7
-	+	24	13
-	+	26	16
-	+	27	12
-	+	29	13
-	+	28	13
-	+	29	10
-	+	28	23
-	+	26	12
-	+	25	14
-	+	24	7
-	+	23	9
-	+	22	9
-	+	32	43
-	+	36	0
-	+	35	0
-	+	36	42
-	+	37	0
-	+	38	0
-	+	39	0
-	+	37	10
-	+	38	10
-	+	39	13
-	+	39	12
-	+	38	25
-	+	37	44
-	+	38	44
-	+	39	44
-	+	36	0
-	+	37	42
-	+	38	42
-	+	39	42
-	+	37	10
-	+	39	0
-	+	37	0
-	+	39	0
-	+	37	48
-	+	39	48
-	+	40	0
-	+	36	0
-	+	17	0
-	+	20	0
-	+	17	0
-	+	37	24
+> ~/workspace/utry/project/CKMS/dhl/.git/COMMIT_EDITMSG
+	*	1552282091	0
+	"	9244	0
 
 > ~/.zshrc
-	*	1547651484	0
-	"	202	43
+	*	1552272643	0
+	"	147	23
 	^	157	23
 	.	157	22
 	+	245	0
@@ -682,6 +585,139 @@ $workspace\/labs
 	+	156	8
 	+	157	22
 	n	61	8
+
+> ~/Downloads/ivs_rt_translators_web/out/production/resources/mybatis/CallstateinfoMapper.xml
+	*	1551946837	0
+	"	1	0
+
+> ~/workspace/utry/platform/sys/src/main/java/utry/sys/utils/PropertyContextLoader.java
+	*	1551678875	0
+	"	1	0
+
+> ~/.autosshrc
+	*	1550627126	0
+	"	18	0
+	^	18	0
+	.	37	0
+	+	14	9
+	+	14	36
+	+	14	41
+	+	14	23
+	+	16	0
+	+	17	42
+	+	2	0
+	+	5	0
+	+	9	0
+	+	10	39
+	+	16	0
+	+	14	0
+	+	11	0
+	+	12	0
+	+	11	0
+	+	14	0
+	+	16	39
+	+	11	40
+	+	15	42
+	+	16	41
+	+	24	31
+	+	25	43
+	+	24	44
+	+	29	24
+	+	28	27
+	+	27	17
+	+	25	31
+	+	29	12
+	+	28	24
+	+	24	12
+	+	23	12
+	+	22	12
+	+	25	12
+	+	26	12
+	+	24	12
+	+	23	12
+	+	22	12
+	+	24	12
+	+	25	12
+	+	26	12
+	+	27	23
+	+	28	24
+	+	29	24
+	+	24	7
+	+	25	7
+	+	26	7
+	+	27	7
+	+	28	7
+	+	29	7
+	+	30	7
+	+	31	7
+	+	32	7
+	+	33	7
+	+	23	7
+	+	22	7
+	+	21	7
+	+	20	7
+	+	24	13
+	+	26	16
+	+	27	12
+	+	29	13
+	+	28	13
+	+	29	10
+	+	28	23
+	+	26	12
+	+	25	14
+	+	24	7
+	+	23	9
+	+	22	9
+	+	32	43
+	+	36	0
+	+	35	0
+	+	36	42
+	+	37	0
+	+	37	10
+	+	37	13
+	+	37	12
+	+	37	25
+	+	37	44
+	+	36	0
+	+	37	42
+	+	37	10
+	+	37	0
+	+	37	48
+	+	37	0
+	+	36	0
+	+	17	0
+	+	20	0
+	+	17	0
+	+	37	0
+
+> ~/Downloads/mp32wav.sh
+	*	1550116434	0
+	"	5	0
+	.	6	0
+	+	1	3
+	+	1	18
+	+	1	0
+	+	1	9
+	+	6	72
+	+	2	13
+	+	4	30
+	+	5	0
+	+	6	0
+
+> ~/Downloads/8780/webapps/workflow/WEB-INF/classes/config/redis.properties
+	*	1548410635	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
+
+> ~/Downloads/8780/webapps/workflow/WEB-INF/classes/log4j2.xml
+	*	1548410531	0
+	"	14	5
+	.	14	0
+	+	10	0
+	+	15	0
+	+	14	0
 
 > ~/workspace/utry/platform/UtryCloud/build.gradle
 	*	1547536053	0
@@ -1345,50 +1381,4 @@ $workspace\/labs
 
 > /private/tmp/.login.sh
 	*	1529024721	0
-	"	1	0
-
-> ~/workspace/utry/webapp/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-	*	1528860228	0
-	"	102	2
-	^	31	16
-	.	31	15
-	+	1	5
-	+	109	40
-	+	44	36
-	+	27	0
-	+	29	15
-	+	31	15
-
-> ~/workspace/labs/kaldi/egs/thchs30/s5/cmd.sh
-	*	1528786785	0
-	"	21	21
-	^	21	22
-	.	21	21
-	+	14	0
-	+	16	34
-	+	18	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	18	19
-	+	19	24
-	+	21	0
-	+	20	24
-	+	21	21
-
-> ~/workspace/labs/kaldi/egs/thchs30/README.txt
-	*	1528785636	0
-	"	1	0
-
-> ~/workspace/labs/kaldi/egs/librispeech/README.txt
-	*	1528766902	0
-	"	1	0
-
-> ~/workspace/labs/kaldi/egs/yesno/README.txt
-	*	1528766863	0
-	"	1	0
-
-> ~/workspace/labs/kaldi/src/INSTALL
-	*	1528695206	0
 	"	1	0
