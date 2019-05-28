@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1557715025,,"q"
+|2,0,1559007201,,"q"
 :wq
 |2,0,1556083950,,"wq"
 :.,.+9910
@@ -258,36 +258,70 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  18  0  ~/.autosshrc.bak
-|4,48,18,0,1557715025,"~/.autosshrc.bak"
-'1  18  0  ~/.autosshrc.bak
-|4,49,18,0,1557456380,"~/.autosshrc.bak"
-'2  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,50,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
-'3  9  47  ~/.autosshrc
-|4,51,9,47,1556083950,"~/.autosshrc"
-'4  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,52,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
-'5  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,53,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
-'6  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,54,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
-'7  28  0  ~/workspace/utry/runtime/sys/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
-|4,55,28,0,1556002017,"~/workspace/utry/runtime/sys/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml"
-'8  80  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,56,80,51,1555999277,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
-'9  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,57,83,51,1555999277,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+'0  140  0  ~/.zshrc
+|4,48,140,0,1559007201,"~/.zshrc"
+'1  1  0  ~/.zshrc
+|4,49,1,0,1558665752,"~/.zshrc"
+'2  1  0  ~/.zshrc
+|4,50,1,0,1558665752,"~/.zshrc"
+'3  18  0  ~/.autosshrc.bak
+|4,51,18,0,1557715025,"~/.autosshrc.bak"
+'4  18  0  ~/.autosshrc.bak
+|4,52,18,0,1557456380,"~/.autosshrc.bak"
+'5  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,53,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+'6  9  47  ~/.autosshrc
+|4,54,9,47,1556083950,"~/.autosshrc"
+'7  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
+|4,55,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
+'8  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
+|4,56,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
+'9  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
+|4,57,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
 
 # Jumplist (newest first):
+-'  140  0  ~/.zshrc
+|4,39,140,0,1559007201,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1559005730,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1558665752,"~/.zshrc"
+-'  187  0  ~/.zshrc
+|4,39,187,0,1558665605,"~/.zshrc"
+-'  187  0  ~/.zshrc
+|4,39,187,0,1558665605,"~/.zshrc"
 -'  18  0  ~/.autosshrc.bak
 |4,39,18,0,1557715025,"~/.autosshrc.bak"
+-'  18  0  ~/.autosshrc.bak
+|4,39,18,0,1557715025,"~/.autosshrc.bak"
+-'  18  0  ~/.autosshrc.bak
+|4,39,18,0,1557715025,"~/.autosshrc.bak"
+-'  18  0  ~/.autosshrc.bak
+|4,39,18,0,1557715025,"~/.autosshrc.bak"
+-'  18  0  ~/.autosshrc.bak
+|4,39,18,0,1557456380,"~/.autosshrc.bak"
+-'  18  0  ~/.autosshrc.bak
+|4,39,18,0,1557456380,"~/.autosshrc.bak"
+-'  18  0  ~/.autosshrc.bak
+|4,39,18,0,1557456380,"~/.autosshrc.bak"
 -'  18  0  ~/.autosshrc.bak
 |4,39,18,0,1557456380,"~/.autosshrc.bak"
 -'  1  0  ~/.autosshrc.bak
 |4,39,1,0,1557456368,"~/.autosshrc.bak"
 -'  1  0  ~/.autosshrc.bak
 |4,39,1,0,1557456368,"~/.autosshrc.bak"
+-'  1  0  ~/.autosshrc.bak
+|4,39,1,0,1557456368,"~/.autosshrc.bak"
+-'  1  0  ~/.autosshrc.bak
+|4,39,1,0,1557456368,"~/.autosshrc.bak"
+-'  1  0  ~/.autosshrc.bak
+|4,39,1,0,1557456368,"~/.autosshrc.bak"
+-'  1  0  ~/.autosshrc.bak
+|4,39,1,0,1557456368,"~/.autosshrc.bak"
+-'  1  0  ~/.autosshrc.bak
+|4,39,1,0,1557456368,"~/.autosshrc.bak"
+-'  1  0  ~/.autosshrc.bak
+|4,39,1,0,1557456368,"~/.autosshrc.bak"
 -'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
 |4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
 -'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
@@ -296,6 +330,54 @@ $workspace\/labs
 |4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
 -'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
 |4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
+-'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
+|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
 -'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
 |4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
 -'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
@@ -320,6 +402,54 @@ $workspace\/labs
 |4,39,9,47,1556083950,"~/.autosshrc"
 -'  9  47  ~/.autosshrc
 |4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
+-'  9  47  ~/.autosshrc
+|4,39,9,47,1556083950,"~/.autosshrc"
 -'  4  40  ~/.autosshrc
 |4,39,4,40,1556083721,"~/.autosshrc"
 -'  4  40  ~/.autosshrc
@@ -336,152 +466,121 @@ $workspace\/labs
 |4,39,4,40,1556083721,"~/.autosshrc"
 -'  4  40  ~/.autosshrc
 |4,39,4,40,1556083721,"~/.autosshrc"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  83  51  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,39,83,51,1556015174,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  1  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,39,1,0,1556014424,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
--'  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,39,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
--'  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,39,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
--'  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,39,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
--'  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,39,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
--'  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,39,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
--'  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,39,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
--'  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,39,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
--'  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,39,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
+-'  4  40  ~/.autosshrc
+|4,39,4,40,1556083721,"~/.autosshrc"
+-'  4  40  ~/.autosshrc
+|4,39,4,40,1556083721,"~/.autosshrc"
+-'  4  40  ~/.autosshrc
+|4,39,4,40,1556083721,"~/.autosshrc"
+-'  4  40  ~/.autosshrc
+|4,39,4,40,1556083721,"~/.autosshrc"
+-'  4  40  ~/.autosshrc
+|4,39,4,40,1556083721,"~/.autosshrc"
+-'  4  40  ~/.autosshrc
+|4,39,4,40,1556083721,"~/.autosshrc"
+-'  4  40  ~/.autosshrc
+|4,39,4,40,1556083721,"~/.autosshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	*	1559007201	0
+	"	140	0
+	^	157	23
+	.	188	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	244	0
+	+	243	0
+	+	242	0
+	+	241	0
+	+	240	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	66	87
+	+	113	0
+	+	238	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
+	+	244	0
+	+	245	0
+	+	246	0
+	+	247	0
+	+	248	0
+	+	249	0
+	+	250	0
+	+	251	0
+	+	251	30
+	+	251	0
+	+	182	0
+	+	251	0
+	+	247	33
+	+	240	16
+	+	244	37
+	+	247	44
+	+	251	0
+	+	238	29
+	+	251	26
+	+	236	0
+	+	199	0
+	+	197	0
+	+	195	0
+	+	123	7
+	+	159	36
+	+	160	0
+	+	161	0
+	+	162	0
+	+	160	11
+	+	161	11
+	+	162	32
+	+	161	31
+	+	160	31
+	+	188	72
+	+	188	6
+	+	188	9
+	+	188	7
+	+	200	22
+	+	123	0
+	+	113	0
+	+	112	0
+	+	119	7
+	+	131	0
+	+	139	0
+	+	133	23
+	+	135	24
+	+	136	30
+	+	137	30
+	+	125	27
+	+	135	6
+	+	221	0
+	+	11	0
+	+	12	0
+	+	11	0
+	+	180	27
+	+	240	18
+	+	244	39
+	+	171	0
+	+	200	20
+	+	152	8
+	+	157	8
+	+	156	8
+	+	157	22
+	+	188	0
+	n	61	8
 
 > ~/.autosshrc.bak
 	*	1557715025	0
@@ -660,105 +759,6 @@ $workspace\/labs
 	+	1	11
 	+	2	11
 	+	3	47
-
-> ~/.zshrc
-	*	1552632787	0
-	"	187	0
-	^	157	23
-	.	188	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	244	0
-	+	243	0
-	+	242	0
-	+	241	0
-	+	240	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	66	87
-	+	113	0
-	+	238	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	247	0
-	+	248	0
-	+	249	0
-	+	250	0
-	+	251	0
-	+	251	30
-	+	251	0
-	+	182	0
-	+	251	0
-	+	247	33
-	+	240	16
-	+	244	37
-	+	247	44
-	+	251	0
-	+	238	29
-	+	251	26
-	+	236	0
-	+	199	0
-	+	197	0
-	+	195	0
-	+	123	7
-	+	159	36
-	+	160	0
-	+	161	0
-	+	162	0
-	+	160	11
-	+	161	11
-	+	162	32
-	+	161	31
-	+	160	31
-	+	188	72
-	+	188	6
-	+	188	9
-	+	188	7
-	+	200	22
-	+	123	0
-	+	113	0
-	+	112	0
-	+	119	7
-	+	131	0
-	+	139	0
-	+	133	23
-	+	135	24
-	+	136	30
-	+	137	30
-	+	125	27
-	+	135	6
-	+	221	0
-	+	11	0
-	+	12	0
-	+	11	0
-	+	180	27
-	+	240	18
-	+	244	39
-	+	171	0
-	+	200	20
-	+	152	8
-	+	157	8
-	+	156	8
-	+	157	22
-	+	188	0
-	n	61	8
 
 > ~/workspace/utry/project/CKMS/dhl/.git/COMMIT_EDITMSG
 	*	1552282091	0
