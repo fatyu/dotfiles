@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/7.67
+~MSle0~/yu
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1559007201,,"q"
+|2,0,1561104013,,"q"
 :wq
-|2,0,1556083950,,"wq"
+|2,0,1560218803,,"wq"
 :.,.+9910
 |2,0,1555645183,,".,.+9910"
 ::q
@@ -78,6 +78,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/yu
+|2,1,1559007710,47,"yu"
 ?/7.67
 |2,1,1555998526,47,"7.67"
 ?/121.40.204.241
@@ -218,39 +220,39 @@ $workspace\/labs
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	utry-pre-apps|192.168.204.13|root|Utry1234|22|7
-|3,0,0,1,1,0,1556083852,"utry-pre-apps|192.168.204.13|root|Utry1234|22|7"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1556083931,""
+""0	LINE	0
+	alias ghu='git config user.email "33862677@qq.com";git config user.name "fatyu"'
+|3,1,0,1,1,0,1560218767,"alias ghu='git config user.email \"33862677@qq.com\";git config user.name \"fatyu\"'"
+"1	LINE	0
+	alias arts="cd /Users/notalk/workspace/labs/ARTS"
+|3,0,1,1,1,0,1559007287,"alias arts=\"cd /Users/notalk/workspace/labs/ARTS\""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1556083930,""
+	alias dev="cd /Users/notalk/workspace/labs/"
+|3,0,2,1,1,0,1559007274,"alias dev=\"cd /Users/notalk/workspace/labs/\""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1556083930,""
+	ias uc='cd /Users/notalk/workspace/utry/platform'
+|3,0,3,1,1,0,1559007242,"ias uc='cd /Users/notalk/workspace/utry/platform'"
 "4	LINE	0
 	
-|3,0,4,1,1,0,1556083929,""
+|3,0,4,1,1,0,1556083931,""
 "5	LINE	0
-	utry-114|10.0.10.114|root|utry5747|22|5
-|3,0,5,1,1,0,1556083927,"utry-114|10.0.10.114|root|utry5747|22|5"
+	
+|3,0,5,1,1,0,1556083930,""
 "6	LINE	0
-	utry-113|10.0.10.113|root|utry2356|22|4
-|3,0,6,1,1,0,1556083926,"utry-113|10.0.10.113|root|utry2356|22|4"
+	
+|3,0,6,1,1,0,1556083930,""
 "7	LINE	0
-	utry-112|10.0.10.112|root|utry0978|22|3
-|3,0,7,1,1,0,1556083925,"utry-112|10.0.10.112|root|utry0978|22|3"
+	
+|3,0,7,1,1,0,1556083929,""
 "8	LINE	0
-	utry-111|10.0.10.111|root|utry1017|22|2
-|3,0,8,1,1,0,1556083925,"utry-111|10.0.10.111|root|utry1017|22|2"
+	utry-114|10.0.10.114|root|utry5747|22|5
+|3,0,8,1,1,0,1556083927,"utry-114|10.0.10.114|root|utry5747|22|5"
 "9	LINE	0
-	utry-pre|10.0.10.112|root|utry0978|22|3
-|3,0,9,1,1,0,1556083850,"utry-pre|10.0.10.112|root|utry0978|22|3"
+	utry-113|10.0.10.113|root|utry2356|22|4
+|3,0,9,1,1,0,1556083926,"utry-113|10.0.10.113|root|utry2356|22|4"
 "-	CHAR	0
-	s
-|3,0,36,0,1,0,1556083858,"s"
+	p
+|3,0,36,0,1,0,1559007246,"p"
 
 # global variables:
 !MAC	NUM	0
@@ -258,258 +260,259 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  140  0  ~/.zshrc
-|4,48,140,0,1559007201,"~/.zshrc"
-'1  1  0  ~/.zshrc
-|4,49,1,0,1558665752,"~/.zshrc"
-'2  1  0  ~/.zshrc
-|4,50,1,0,1558665752,"~/.zshrc"
-'3  18  0  ~/.autosshrc.bak
-|4,51,18,0,1557715025,"~/.autosshrc.bak"
-'4  18  0  ~/.autosshrc.bak
-|4,52,18,0,1557456380,"~/.autosshrc.bak"
-'5  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,53,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
-'6  9  47  ~/.autosshrc
-|4,54,9,47,1556083950,"~/.autosshrc"
-'7  7  0  ~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml
-|4,55,7,0,1556017062,"~/Downloads/SpringCloud-Learning-master/2-Dalston版教程示例/config-client/src/main/resources/bootstrap.yml"
-'8  67  18  ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
-|4,56,67,18,1556015249,"~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml"
-'9  79  0  ~/workspace/utry/runtime/gitconfig/config-client-default.properties
-|4,57,79,0,1556010911,"~/workspace/utry/runtime/gitconfig/config-client-default.properties"
+'0  168  14  ~/.zshrc
+|4,48,168,14,1561104014,"~/.zshrc"
+'1  168  80  ~/.zshrc
+|4,49,168,80,1560218803,"~/.zshrc"
+'2  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,50,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
+'3  209  0  ~/.zshrc
+|4,51,209,0,1559552258,"~/.zshrc"
+'4  208  0  ~/.zshrc
+|4,52,208,0,1559552258,"~/.zshrc"
+'5  209  0  ~/.zshrc
+|4,53,209,0,1559552258,"~/.zshrc"
+'6  208  0  ~/.zshrc
+|4,54,208,0,1559552258,"~/.zshrc"
+'7  150  6  ~/Desktop/index.html
+|4,55,150,6,1559124518,"~/Desktop/index.html"
+'8  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,56,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+'9  2  0  ~/workspace/labs/D/.gitignore
+|4,57,2,0,1559007773,"~/workspace/labs/D/.gitignore"
 
 # Jumplist (newest first):
--'  140  0  ~/.zshrc
-|4,39,140,0,1559007201,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1559005730,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1558665752,"~/.zshrc"
--'  187  0  ~/.zshrc
-|4,39,187,0,1558665605,"~/.zshrc"
--'  187  0  ~/.zshrc
-|4,39,187,0,1558665605,"~/.zshrc"
--'  18  0  ~/.autosshrc.bak
-|4,39,18,0,1557715025,"~/.autosshrc.bak"
--'  18  0  ~/.autosshrc.bak
-|4,39,18,0,1557715025,"~/.autosshrc.bak"
--'  18  0  ~/.autosshrc.bak
-|4,39,18,0,1557715025,"~/.autosshrc.bak"
--'  18  0  ~/.autosshrc.bak
-|4,39,18,0,1557715025,"~/.autosshrc.bak"
--'  18  0  ~/.autosshrc.bak
-|4,39,18,0,1557456380,"~/.autosshrc.bak"
--'  18  0  ~/.autosshrc.bak
-|4,39,18,0,1557456380,"~/.autosshrc.bak"
--'  18  0  ~/.autosshrc.bak
-|4,39,18,0,1557456380,"~/.autosshrc.bak"
--'  18  0  ~/.autosshrc.bak
-|4,39,18,0,1557456380,"~/.autosshrc.bak"
--'  1  0  ~/.autosshrc.bak
-|4,39,1,0,1557456368,"~/.autosshrc.bak"
--'  1  0  ~/.autosshrc.bak
-|4,39,1,0,1557456368,"~/.autosshrc.bak"
--'  1  0  ~/.autosshrc.bak
-|4,39,1,0,1557456368,"~/.autosshrc.bak"
--'  1  0  ~/.autosshrc.bak
-|4,39,1,0,1557456368,"~/.autosshrc.bak"
--'  1  0  ~/.autosshrc.bak
-|4,39,1,0,1557456368,"~/.autosshrc.bak"
--'  1  0  ~/.autosshrc.bak
-|4,39,1,0,1557456368,"~/.autosshrc.bak"
--'  1  0  ~/.autosshrc.bak
-|4,39,1,0,1557456368,"~/.autosshrc.bak"
--'  1  0  ~/.autosshrc.bak
-|4,39,1,0,1557456368,"~/.autosshrc.bak"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  13  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,13,0,1557284263,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  1  0  ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
-|4,39,1,0,1557282239,"~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  9  47  ~/.autosshrc
-|4,39,9,47,1556083950,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
--'  4  40  ~/.autosshrc
-|4,39,4,40,1556083721,"~/.autosshrc"
+-'  168  14  ~/.zshrc
+|4,39,168,14,1561104014,"~/.zshrc"
+-'  168  80  ~/.zshrc
+|4,39,168,80,1560218803,"~/.zshrc"
+-'  209  0  ~/.zshrc
+|4,39,209,0,1560218755,"~/.zshrc"
+-'  209  0  ~/.zshrc
+|4,39,209,0,1560218755,"~/.zshrc"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
+|4,39,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
+-'  208  0  ~/.zshrc
+|4,39,208,0,1559552258,"~/.zshrc"
+-'  208  0  ~/.zshrc
+|4,39,208,0,1559552258,"~/.zshrc"
+-'  208  0  ~/.zshrc
+|4,39,208,0,1559552258,"~/.zshrc"
+-'  187  7  ~/.zshrc
+|4,39,187,7,1559546936,"~/.zshrc"
+-'  186  7  ~/.zshrc
+|4,39,186,7,1559546936,"~/.zshrc"
+-'  187  7  ~/.zshrc
+|4,39,187,7,1559546936,"~/.zshrc"
+-'  186  7  ~/.zshrc
+|4,39,186,7,1559546936,"~/.zshrc"
+-'  186  7  ~/.zshrc
+|4,39,186,7,1559546936,"~/.zshrc"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  150  6  ~/Desktop/index.html
+|4,39,150,6,1559124518,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/Desktop/index.html
+|4,39,1,0,1559124511,"~/Desktop/index.html"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
+|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+-'  2  0  ~/workspace/labs/D/.gitignore
+|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1559007201	0
-	"	140	0
-	^	157	23
-	.	188	0
+	*	1561104011	0
+	"	168	14
+	^	168	83
+	.	168	80
+	+	242	0
 	+	243	0
-	+	244	0
-	+	245	0
 	+	244	0
 	+	243	0
 	+	242	0
 	+	241	0
 	+	240	0
 	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
+	+	238	0
 	+	239	0
 	+	240	0
 	+	241	0
 	+	242	0
 	+	243	0
-	+	244	0
+	+	238	0
+	+	239	0
+	+	240	0
+	+	241	0
+	+	242	0
+	+	243	0
 	+	66	87
 	+	113	0
+	+	237	0
 	+	238	0
 	+	239	0
 	+	240	0
@@ -523,22 +526,21 @@ $workspace\/labs
 	+	248	0
 	+	249	0
 	+	250	0
-	+	251	0
-	+	251	30
-	+	251	0
-	+	182	0
-	+	251	0
-	+	247	33
-	+	240	16
-	+	244	37
-	+	247	44
-	+	251	0
-	+	238	29
-	+	251	26
-	+	236	0
+	+	250	30
+	+	250	0
+	+	183	0
+	+	250	0
+	+	246	33
+	+	239	16
+	+	243	37
+	+	246	44
+	+	250	0
+	+	237	29
+	+	250	26
+	+	235	0
 	+	199	0
 	+	197	0
-	+	195	0
+	+	196	0
 	+	123	7
 	+	159	36
 	+	160	0
@@ -549,11 +551,11 @@ $workspace\/labs
 	+	162	32
 	+	161	31
 	+	160	31
-	+	188	72
-	+	188	6
-	+	188	9
-	+	188	7
-	+	200	22
+	+	189	72
+	+	189	6
+	+	189	9
+	+	189	7
+	+	199	22
 	+	123	0
 	+	113	0
 	+	112	0
@@ -566,21 +568,53 @@ $workspace\/labs
 	+	137	30
 	+	125	27
 	+	135	6
-	+	221	0
+	+	220	0
 	+	11	0
 	+	12	0
 	+	11	0
-	+	180	27
-	+	240	18
-	+	244	39
-	+	171	0
-	+	200	20
+	+	181	27
+	+	239	18
+	+	243	39
+	+	172	0
+	+	199	20
 	+	152	8
 	+	157	8
 	+	156	8
 	+	157	22
+	+	189	0
+	+	187	30
+	+	197	0
+	+	199	0
+	+	189	0
 	+	188	0
+	+	187	7
+	+	168	80
 	n	61	8
+
+> ~/workspace/labs/D/.git/MERGE_MSG
+	*	1559798386	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/index.html
+	*	1559124517	0
+	"	150	6
+	^	150	7
+	.	150	6
+	+	150	6
+
+> ~/workspace/labs/D/.git/COMMIT_EDITMSG
+	*	1559023023	0
+	"	1	0
+
+> ~/workspace/labs/D/.gitignore
+	*	1559007771	0
+	"	2	0
+	^	2	1
+	.	2	0
+	+	2	0
 
 > ~/.autosshrc.bak
 	*	1557715025	0
@@ -1392,19 +1426,3 @@ $workspace\/labs
 > ~/workspace/labs/kaldi/egs/wsj/s5/utils/run.pl
 	*	1529549933	0
 	"	261	0
-
-> ~/workspace/labs/kaldi/egs/thchs30/s5/ts30/data_thchs30/dev/C8_747.wav.trn
-	*	1529489340	0
-	"	1	0
-
-> ~/workspace/labs/kaldi/egs/thchs30/s5/data/dev/wav.scp
-	*	1529489276	0
-	"	1	0
-
-> ~/workspace/labs/kaldi/egs/thchs30/s5/data/dev/phone.txt
-	*	1529489213	0
-	"	1	0
-
-> ~/workspace/labs/kaldi/egs/thchs30/s5/data/dev/word.txt
-	*	1529489178	0
-	"	893	0
