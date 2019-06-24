@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1561104013,,"q"
 :wq
-|2,0,1560218803,,"wq"
+|2,0,1561337198,,"wq"
+:q
+|2,0,1561336644,,"q"
 :.,.+9910
 |2,0,1555645183,,".,.+9910"
 ::q
@@ -221,8 +221,8 @@ $workspace\/labs
 
 # Registers:
 ""0	LINE	0
-	alias ghu='git config user.email "33862677@qq.com";git config user.name "fatyu"'
-|3,1,0,1,1,0,1560218767,"alias ghu='git config user.email \"33862677@qq.com\";git config user.name \"fatyu\"'"
+	alias z1s="/Users/notalk/workspace/labs/zookeeper/z1/bin/zkServer.sh status"
+|3,1,0,1,1,0,1561337183,"alias z1s=\"/Users/notalk/workspace/labs/zookeeper/z1/bin/zkServer.sh status\""
 "1	LINE	0
 	alias arts="cd /Users/notalk/workspace/labs/ARTS"
 |3,0,1,1,1,0,1559007287,"alias arts=\"cd /Users/notalk/workspace/labs/ARTS\""
@@ -251,8 +251,8 @@ $workspace\/labs
 	utry-113|10.0.10.113|root|utry2356|22|4
 |3,0,9,1,1,0,1556083926,"utry-113|10.0.10.113|root|utry2356|22|4"
 "-	CHAR	0
-	p
-|3,0,36,0,1,0,1559007246,"p"
+	r
+|3,0,36,0,1,0,1561336254,"r"
 
 # global variables:
 !MAC	NUM	0
@@ -260,247 +260,236 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  168  14  ~/.zshrc
-|4,48,168,14,1561104014,"~/.zshrc"
-'1  168  80  ~/.zshrc
-|4,49,168,80,1560218803,"~/.zshrc"
-'2  1  0  ~/workspace/labs/D/.git/MERGE_MSG
-|4,50,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
-'3  209  0  ~/.zshrc
-|4,51,209,0,1559552258,"~/.zshrc"
-'4  208  0  ~/.zshrc
-|4,52,208,0,1559552258,"~/.zshrc"
-'5  209  0  ~/.zshrc
-|4,53,209,0,1559552258,"~/.zshrc"
-'6  208  0  ~/.zshrc
-|4,54,208,0,1559552258,"~/.zshrc"
-'7  150  6  ~/Desktop/index.html
-|4,55,150,6,1559124518,"~/Desktop/index.html"
-'8  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,56,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
-'9  2  0  ~/workspace/labs/D/.gitignore
-|4,57,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+'0  259  51  ~/.zshrc
+|4,48,259,51,1561337198,"~/.zshrc"
+'1  257  117  ~/.zshrc
+|4,49,257,117,1561336949,"~/.zshrc"
+'2  257  117  ~/.zshrc
+|4,50,257,117,1561336949,"~/.zshrc"
+'3  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,51,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+'4  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,52,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+'5  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,53,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+'6  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,54,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+'7  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,55,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+'8  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,56,12,53,1561336285,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+'9  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,57,12,53,1561336285,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
 
 # Jumplist (newest first):
+-'  259  51  ~/.zshrc
+|4,39,259,51,1561337198,"~/.zshrc"
+-'  257  117  ~/.zshrc
+|4,39,257,117,1561337151,"~/.zshrc"
+-'  257  117  ~/.zshrc
+|4,39,257,117,1561336949,"~/.zshrc"
+-'  250  0  ~/.zshrc
+|4,39,250,0,1561336832,"~/.zshrc"
+-'  250  0  ~/.zshrc
+|4,39,250,0,1561336832,"~/.zshrc"
 -'  168  14  ~/.zshrc
-|4,39,168,14,1561104014,"~/.zshrc"
--'  168  80  ~/.zshrc
-|4,39,168,80,1560218803,"~/.zshrc"
--'  209  0  ~/.zshrc
-|4,39,209,0,1560218755,"~/.zshrc"
--'  209  0  ~/.zshrc
-|4,39,209,0,1560218755,"~/.zshrc"
--'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
-|4,39,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
--'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
-|4,39,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
--'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
-|4,39,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
--'  1  0  ~/workspace/labs/D/.git/MERGE_MSG
-|4,39,1,0,1559798387,"~/workspace/labs/D/.git/MERGE_MSG"
--'  208  0  ~/.zshrc
-|4,39,208,0,1559552258,"~/.zshrc"
--'  208  0  ~/.zshrc
-|4,39,208,0,1559552258,"~/.zshrc"
--'  208  0  ~/.zshrc
-|4,39,208,0,1559552258,"~/.zshrc"
--'  187  7  ~/.zshrc
-|4,39,187,7,1559546936,"~/.zshrc"
--'  186  7  ~/.zshrc
-|4,39,186,7,1559546936,"~/.zshrc"
--'  187  7  ~/.zshrc
-|4,39,187,7,1559546936,"~/.zshrc"
--'  186  7  ~/.zshrc
-|4,39,186,7,1559546936,"~/.zshrc"
--'  186  7  ~/.zshrc
-|4,39,186,7,1559546936,"~/.zshrc"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  150  6  ~/Desktop/index.html
-|4,39,150,6,1559124518,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/Desktop/index.html
-|4,39,1,0,1559124511,"~/Desktop/index.html"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  1  0  ~/workspace/labs/D/.git/COMMIT_EDITMSG
-|4,39,1,0,1559023027,"~/workspace/labs/D/.git/COMMIT_EDITMSG"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
--'  2  0  ~/workspace/labs/D/.gitignore
-|4,39,2,0,1559007773,"~/workspace/labs/D/.gitignore"
+|4,39,168,14,1561336831,"~/.zshrc"
+-'  168  14  ~/.zshrc
+|4,39,168,14,1561336831,"~/.zshrc"
+-'  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,32,28,1561336774,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,32,28,1561336774,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,32,28,1561336774,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,32,28,1561336774,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,12,53,1561336652,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,12,53,1561336652,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,12,53,1561336652,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+|4,39,12,53,1561336652,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
 
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1561104011	0
-	"	168	14
-	^	168	83
-	.	168	80
-	+	242	0
-	+	243	0
-	+	244	0
-	+	243	0
-	+	242	0
-	+	241	0
-	+	240	0
-	+	239	0
-	+	238	0
-	+	239	0
-	+	240	0
+	*	1561337196	0
+	"	259	51
+	^	258	76
+	.	259	51
 	+	241	0
 	+	242	0
 	+	243	0
@@ -589,7 +578,50 @@ $workspace\/labs
 	+	188	0
 	+	187	7
 	+	168	80
+	+	256	2
+	+	254	1
+	+	251	0
+	+	256	65
+	+	257	119
+	+	263	0
+	+	258	74
+	+	259	0
+	+	260	0
+	+	259	7
+	+	260	51
+	+	259	51
 	n	61	8
+
+> ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
+	*	1561336788	0
+	"	12	48
+	^	32	29
+	.	12	48
+	+	12	53
+	+	34	28
+	+	33	28
+	+	32	28
+	+	12	48
+
+> ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
+	*	1561336640	0
+	"	32	28
+	^	32	29
+	.	32	28
+	+	12	54
+	+	34	28
+	+	33	28
+	+	32	28
+
+> ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
+	*	1561336603	0
+	"	33	28
+	^	33	29
+	.	33	28
+	+	12	53
+	+	31	28
+	+	32	28
+	+	33	28
 
 > ~/workspace/labs/D/.git/MERGE_MSG
 	*	1559798386	0
@@ -1414,15 +1446,3 @@ $workspace\/labs
 	*	1529550179	0
 	"	9	0
 	^	9	0
-
-> ~/workspace/labs/kaldi/egs/yesno/s5/run.sh
-	*	1529550147	0
-	"	1	0
-
-> ~/workspace/labs/ali/kaldi/egs/yesno/s5/local/prepare_data.sh
-	*	1529549990	0
-	"	1	0
-
-> ~/workspace/labs/kaldi/egs/wsj/s5/utils/run.pl
-	*	1529549933	0
-	"	261	0
