@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/yu
+~MSle0~/1.do
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,10 +20,12 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1561337198,,"wq"
 :q
-|2,0,1561336644,,"q"
+|2,0,1562833337,,"q"
+:wq
+|2,0,1562807457,,"wq"
+:q!
+|2,0,1562137458,,"q!"
 :.,.+9910
 |2,0,1555645183,,".,.+9910"
 ::q
@@ -36,8 +38,6 @@ $workspace\/labs
 |2,0,1545974069,,"w"
 :!
 |2,0,1544766286,,"!"
-:q!
-|2,0,1544073529,,"q!"
 :Q
 |2,0,1544073242,,"Q"
 :WQ
@@ -78,6 +78,18 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/1.do
+|2,1,1562807448,47,"1.do"
+?/app
+|2,1,1562238490,47,"app"
+?/pass
+|2,1,1562137403,47,"pass"
+?/u
+|2,1,1562114358,47,"u"
+?/alias
+|2,1,1562081070,47,"alias"
+?/autoss:q
+|2,1,1561430688,47,"autoss:q"
 ?/yu
 |2,1,1559007710,47,"yu"
 ?/7.67
@@ -158,8 +170,6 @@ $workspace\/labs
 |2,1,1526881777,47,"sql"
 ?/easy
 |2,1,1526522502,47,"easy"
-?/alias
-|2,1,1526520963,47,"alias"
 ?/color=auto
 |2,1,1526467262,47,"color=auto"
 ?/cloud
@@ -220,39 +230,39 @@ $workspace\/labs
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	alias z1s="/Users/notalk/workspace/labs/zookeeper/z1/bin/zkServer.sh status"
-|3,1,0,1,1,0,1561337183,"alias z1s=\"/Users/notalk/workspace/labs/zookeeper/z1/bin/zkServer.sh status\""
+"0	LINE	0
+	alias u='cd /Users/notalk/workspace/utry'
+|3,0,0,1,1,0,1562114368,"alias u='cd /Users/notalk/workspace/utry'"
 "1	LINE	0
-	alias arts="cd /Users/notalk/workspace/labs/ARTS"
-|3,0,1,1,1,0,1559007287,"alias arts=\"cd /Users/notalk/workspace/labs/ARTS\""
+	    fi
+|3,0,1,1,1,0,1562738398,"    fi"
 "2	LINE	0
-	alias dev="cd /Users/notalk/workspace/labs/"
-|3,0,2,1,1,0,1559007274,"alias dev=\"cd /Users/notalk/workspace/labs/\""
+	    cd ../;                          #直接返回webserver目录。
+|3,0,2,1,1,0,1562738396,"    cd ../;                          #直接返回webserver目录。"
 "3	LINE	0
-	ias uc='cd /Users/notalk/workspace/utry/platform'
-|3,0,3,1,1,0,1559007242,"ias uc='cd /Users/notalk/workspace/utry/platform'"
+	    else                             #表示如果不存在App目录，就直接返回webserver目录
+|3,0,3,1,1,0,1562738396,"    else                             #表示如果不存在App目录，就直接返回webserver目录"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1556083931,""
+	    chmod -R 777 Runtime;            #设置权限
+|3,0,4,1,1,0,1562738386,"    chmod -R 777 Runtime;            #设置权限"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1556083930,""
+	    cd www/App;                      #进入App目录
+|3,0,5,1,1,0,1562738385,"    cd www/App;                      #进入App目录"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1556083930,""
+	    if [ -d "www/App" ];then         
+|3,0,6,1,1,0,1562738382,"    if [ -d \"www/App\" ];then         "
 "7	LINE	0
-	
-|3,0,7,1,1,0,1556083929,""
+	#bash
+|3,0,7,1,1,0,1562738365,"#bash"
 "8	LINE	0
-	utry-114|10.0.10.114|root|utry5747|22|5
-|3,0,8,1,1,0,1556083927,"utry-114|10.0.10.114|root|utry5747|22|5"
+	alias lt='colorls -t 
+|3,0,8,1,1,0,1562082115,"alias lt='colorls -t "
 "9	LINE	0
-	utry-113|10.0.10.113|root|utry2356|22|4
-|3,0,9,1,1,0,1556083926,"utry-113|10.0.10.113|root|utry2356|22|4"
-"-	CHAR	0
-	r
-|3,0,36,0,1,0,1561336254,"r"
+	alias lc= 'colorls -Alh --sd'
+|3,0,9,1,1,0,1562081351,"alias lc= 'colorls -Alh --sd'"
+""-	CHAR	0
+	.
+|3,1,36,0,1,0,1562807455,"."
 
 # global variables:
 !MAC	NUM	0
@@ -260,337 +270,489 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  259  51  ~/.zshrc
-|4,48,259,51,1561337198,"~/.zshrc"
-'1  257  117  ~/.zshrc
-|4,49,257,117,1561336949,"~/.zshrc"
-'2  257  117  ~/.zshrc
-|4,50,257,117,1561336949,"~/.zshrc"
-'3  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,51,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
-'4  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,52,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
-'5  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,53,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
-'6  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,54,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
-'7  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,55,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
-'8  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,56,12,53,1561336285,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
-'9  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,57,12,53,1561336285,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
+'0  1  0  ~/workspace/utry/platform/translators/.git/config
+|4,48,1,0,1562833337,"~/workspace/utry/platform/translators/.git/config"
+'1  7  6  ~/workspace/utry/platform/gitlab.sh
+|4,49,7,6,1562807874,"~/workspace/utry/platform/gitlab.sh"
+'2  196  42  ~/.zshrc
+|4,50,196,42,1562807457,"~/.zshrc"
+'3  18  35  ~/.zshrc
+|4,51,18,35,1562738764,"~/.zshrc"
+'4  18  35  ~/.zshrc
+|4,52,18,35,1562738764,"~/.zshrc"
+'5  7  6  ~/workspace/utry/platform/gitlab.sh
+|4,53,7,6,1562738710,"~/workspace/utry/platform/gitlab.sh"
+'6  5  33  ~/workspace/utry/platform/gitlab.sh
+|4,54,5,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+'7  4  33  ~/workspace/utry/platform/gitlab.sh
+|4,55,4,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+'8  5  33  ~/workspace/utry/platform/gitlab.sh
+|4,56,5,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+'9  4  33  ~/workspace/utry/platform/gitlab.sh
+|4,57,4,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
 
 # Jumplist (newest first):
--'  259  51  ~/.zshrc
-|4,39,259,51,1561337198,"~/.zshrc"
--'  257  117  ~/.zshrc
-|4,39,257,117,1561337151,"~/.zshrc"
--'  257  117  ~/.zshrc
-|4,39,257,117,1561336949,"~/.zshrc"
--'  250  0  ~/.zshrc
-|4,39,250,0,1561336832,"~/.zshrc"
--'  250  0  ~/.zshrc
-|4,39,250,0,1561336832,"~/.zshrc"
--'  168  14  ~/.zshrc
-|4,39,168,14,1561336831,"~/.zshrc"
--'  168  14  ~/.zshrc
-|4,39,168,14,1561336831,"~/.zshrc"
--'  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  12  48  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,12,48,1561336788,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,32,28,1561336774,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,32,28,1561336774,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,32,28,1561336774,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,32,28,1561336774,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,32,28,1561336670,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,12,53,1561336652,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,12,53,1561336652,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,12,53,1561336652,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
-|4,39,12,53,1561336652,"~/workspace/labs/zookeeper/z3/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  32  28  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,32,28,1561336647,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  13  43  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,13,43,1561336628,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  12  53  ~/workspace/labs/zookeeper/z2/conf/zoo.cfg
-|4,39,12,53,1561336622,"~/workspace/labs/zookeeper/z2/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
--'  33  28  ~/workspace/labs/zookeeper/z1/conf/zoo.cfg
-|4,39,33,28,1561336605,"~/workspace/labs/zookeeper/z1/conf/zoo.cfg"
+-'  1  0  ~/workspace/utry/platform/translators/.git/config
+|4,39,1,0,1562833337,"~/workspace/utry/platform/translators/.git/config"
+-'  7  6  ~/workspace/utry/platform/gitlab.sh
+|4,39,7,6,1562807874,"~/workspace/utry/platform/gitlab.sh"
+-'  7  6  ~/workspace/utry/platform/gitlab.sh
+|4,39,7,6,1562807874,"~/workspace/utry/platform/gitlab.sh"
+-'  196  42  ~/.zshrc
+|4,39,196,42,1562807457,"~/.zshrc"
+-'  196  42  ~/.zshrc
+|4,39,196,42,1562807457,"~/.zshrc"
+-'  196  42  ~/.zshrc
+|4,39,196,42,1562807457,"~/.zshrc"
+-'  196  42  ~/.zshrc
+|4,39,196,42,1562807457,"~/.zshrc"
+-'  18  35  ~/.zshrc
+|4,39,18,35,1562807448,"~/.zshrc"
+-'  18  35  ~/.zshrc
+|4,39,18,35,1562807448,"~/.zshrc"
+-'  18  35  ~/.zshrc
+|4,39,18,35,1562807448,"~/.zshrc"
+-'  18  35  ~/.zshrc
+|4,39,18,35,1562807448,"~/.zshrc"
+-'  18  35  ~/.zshrc
+|4,39,18,35,1562738764,"~/.zshrc"
+-'  18  35  ~/.zshrc
+|4,39,18,35,1562738764,"~/.zshrc"
+-'  18  35  ~/.zshrc
+|4,39,18,35,1562738764,"~/.zshrc"
+-'  18  35  ~/.zshrc
+|4,39,18,35,1562738764,"~/.zshrc"
+-'  7  6  ~/workspace/utry/platform/gitlab.sh
+|4,39,7,6,1562738710,"~/workspace/utry/platform/gitlab.sh"
+-'  7  6  ~/workspace/utry/platform/gitlab.sh
+|4,39,7,6,1562738710,"~/workspace/utry/platform/gitlab.sh"
+-'  7  6  ~/workspace/utry/platform/gitlab.sh
+|4,39,7,6,1562738710,"~/workspace/utry/platform/gitlab.sh"
+-'  7  6  ~/workspace/utry/platform/gitlab.sh
+|4,39,7,6,1562738710,"~/workspace/utry/platform/gitlab.sh"
+-'  5  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,5,33,1562738676,"~/workspace/utry/platform/gitlab.sh"
+-'  5  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,5,33,1562738676,"~/workspace/utry/platform/gitlab.sh"
+-'  5  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,5,33,1562738676,"~/workspace/utry/platform/gitlab.sh"
+-'  5  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,5,33,1562738676,"~/workspace/utry/platform/gitlab.sh"
+-'  5  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,5,33,1562738676,"~/workspace/utry/platform/gitlab.sh"
+-'  5  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,5,33,1562738676,"~/workspace/utry/platform/gitlab.sh"
+-'  4  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,4,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+-'  4  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,4,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+-'  4  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,4,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+-'  4  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,4,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+-'  4  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,4,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+-'  4  33  ~/workspace/utry/platform/gitlab.sh
+|4,39,4,33,1562738573,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  1  0  ~/workspace/utry/platform/gitlab.sh
+|4,39,1,0,1562738530,"~/workspace/utry/platform/gitlab.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  3  65  ~/workspace/utry/platform/utry.sh
+|4,39,3,65,1562738485,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
+-'  1  0  ~/workspace/utry/platform/utry.sh
+|4,39,1,0,1562738363,"~/workspace/utry/platform/utry.sh"
 
 # History of marks within files (newest to oldest):
 
+> ~/workspace/utry/platform/translators/.git/config
+	*	1562833336	0
+	"	1	0
+
+> ~/workspace/utry/platform/gitlab.sh
+	*	1562807872	0
+	"	7	6
+	^	7	7
+	.	7	6
+	+	4	44
+	+	5	33
+	+	3	7
+	+	6	8
+	+	8	0
+	+	7	6
+
 > ~/.zshrc
-	*	1561337196	0
-	"	259	51
-	^	258	76
-	.	259	51
-	+	241	0
-	+	242	0
-	+	243	0
-	+	238	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	66	87
-	+	113	0
-	+	237	0
-	+	238	0
-	+	239	0
-	+	240	0
-	+	241	0
-	+	242	0
-	+	243	0
-	+	244	0
-	+	245	0
-	+	246	0
-	+	247	0
-	+	248	0
-	+	249	0
+	*	1562807456	0
+	"	196	42
+	^	18	37
+	.	196	42
+	+	265	0
+	+	191	0
+	+	265	0
+	+	261	33
+	+	254	16
+	+	258	37
+	+	261	44
+	+	265	0
+	+	252	29
+	+	265	26
 	+	250	0
-	+	250	30
-	+	250	0
-	+	183	0
-	+	250	0
-	+	246	33
-	+	239	16
-	+	243	37
-	+	246	44
-	+	250	0
-	+	237	29
-	+	250	26
-	+	235	0
-	+	199	0
-	+	197	0
-	+	196	0
-	+	123	7
-	+	159	36
-	+	160	0
-	+	161	0
-	+	162	0
-	+	160	11
-	+	161	11
-	+	162	32
-	+	161	31
-	+	160	31
-	+	189	72
-	+	189	6
-	+	189	9
-	+	189	7
-	+	199	22
-	+	123	0
-	+	113	0
-	+	112	0
-	+	119	7
+	+	209	0
+	+	207	0
+	+	206	0
+	+	131	7
+	+	167	36
+	+	168	0
+	+	169	0
+	+	170	0
+	+	168	11
+	+	169	11
+	+	170	32
+	+	169	31
+	+	168	31
+	+	199	72
+	+	199	6
+	+	199	9
+	+	199	7
+	+	209	22
 	+	131	0
+	+	118	0
+	+	117	0
+	+	124	7
 	+	139	0
-	+	133	23
-	+	135	24
-	+	136	30
-	+	137	30
-	+	125	27
-	+	135	6
-	+	220	0
+	+	147	0
+	+	141	23
+	+	143	24
+	+	144	30
+	+	145	30
+	+	133	27
+	+	143	6
+	+	235	0
 	+	11	0
-	+	12	0
+	+	13	0
 	+	11	0
-	+	181	27
-	+	239	18
-	+	243	39
-	+	172	0
-	+	199	20
-	+	152	8
-	+	157	8
-	+	156	8
-	+	157	22
-	+	189	0
-	+	187	30
-	+	197	0
+	+	189	27
+	+	254	18
+	+	258	39
+	+	180	0
+	+	209	20
+	+	160	8
+	+	165	8
+	+	164	8
+	+	165	22
 	+	199	0
-	+	189	0
-	+	188	0
-	+	187	7
-	+	168	80
-	+	256	2
-	+	254	1
-	+	251	0
-	+	256	65
-	+	257	119
-	+	263	0
-	+	258	74
-	+	259	0
-	+	260	0
-	+	259	7
-	+	260	51
-	+	259	51
-	n	61	8
+	+	197	30
+	+	207	0
+	+	209	0
+	+	199	0
+	+	198	0
+	+	197	7
+	+	176	80
+	+	271	2
+	+	269	1
+	+	266	0
+	+	271	65
+	+	272	119
+	+	278	0
+	+	273	74
+	+	274	0
+	+	275	0
+	+	274	7
+	+	275	51
+	+	274	51
+	+	228	17
+	+	12	0
+	+	11	35
+	+	18	35
+	+	17	54
+	+	130	27
+	+	130	7
+	+	130	0
+	+	130	7
+	+	127	21
+	+	128	24
+	+	127	24
+	+	128	19
+	+	127	20
+	+	129	0
+	+	195	0
+	+	196	0
+	+	195	49
+	+	196	47
+	+	173	44
+	+	36	0
+	+	209	21
+	+	18	35
+	+	16	47
+	+	18	36
+	+	196	42
+	n	66	8
+
+> ~/workspace/utry/platform/utry.sh
+	*	1562738483	0
+	"	3	65
+	^	3	68
+	.	3	68
+	+	1	64
+	+	5	3
+	+	4	10
+	+	5	0
+	+	3	11
+	+	4	59
+	+	3	65
+	+	4	59
+	+	3	68
+
+> ~/workspace/utry/platform/utry
+	*	1562738358	0
+	"	1	0
+
+> /usr/local/etc/redis.conf
+	*	1562137453	0
+	"	78	8
+	^	56	1
+	.	56	0
+	+	56	0
+
+> /opt/settings/server.properties
+	*	1562039889	0
+	"	1	58
+	^	1	59
+	.	1	58
+	+	1	58
+
+> ~/workspace/labs/N/.git/MERGE_MSG
+	*	1561618074	0
+	"	1	0
+
+> ~/.autosshrc
+	*	1561430728	0
+	"	11	19
+	^	11	20
+	.	11	19
+	+	3	40
+	+	4	42
+	+	4	41
+	+	14	31
+	+	14	43
+	+	14	44
+	+	14	24
+	+	14	27
+	+	14	17
+	+	14	31
+	+	14	12
+	+	14	24
+	+	14	12
+	+	14	23
+	+	14	24
+	+	14	7
+	+	14	13
+	+	14	16
+	+	14	12
+	+	14	13
+	+	14	10
+	+	14	23
+	+	14	12
+	+	14	14
+	+	14	7
+	+	14	9
+	+	14	43
+	+	14	0
+	+	14	42
+	+	14	0
+	+	14	10
+	+	14	13
+	+	14	12
+	+	14	25
+	+	14	44
+	+	14	0
+	+	14	42
+	+	14	10
+	+	14	0
+	+	14	48
+	+	14	0
+	+	13	0
+	+	14	0
+	+	13	0
+	+	14	0
+	+	13	0
+	+	3	0
+	+	2	0
+	+	13	0
+	+	12	0
+	+	4	0
+	+	3	0
+	+	3	38
+	+	4	41
+	+	4	0
+	+	5	0
+	+	12	0
+	+	5	7
+	+	12	7
+	+	5	12
+	+	12	10
+	+	12	7
+	+	5	46
+	+	4	0
+	+	5	46
+	+	12	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	6	10
+	+	7	25
+	+	8	11
+	+	9	13
+	+	6	25
+	+	7	43
+	+	8	26
+	+	9	28
+	+	6	44
+	+	7	62
+	+	8	46
+	+	9	48
+	+	3	0
+	+	4	0
+	+	2	0
+	+	3	38
+	+	5	46
+	+	6	44
+	+	7	62
+	+	8	45
+	+	9	47
+	+	10	0
+	+	11	19
 
 > ~/workspace/labs/zookeeper/z3/conf/zoo.cfg
 	*	1561336788	0
@@ -655,103 +817,6 @@ $workspace\/labs
 > ~/workspace/utry/project/shouweizhe/gitconfig/config-dev.properties
 	*	1557282251	0
 	"	13	0
-
-> ~/.autosshrc
-	*	1556083949	0
-	"	9	47
-	^	9	48
-	.	9	47
-	+	3	40
-	+	4	42
-	+	4	41
-	+	12	31
-	+	12	43
-	+	12	44
-	+	12	24
-	+	12	27
-	+	12	17
-	+	12	31
-	+	12	12
-	+	12	24
-	+	12	12
-	+	12	23
-	+	12	24
-	+	12	7
-	+	12	13
-	+	12	16
-	+	12	12
-	+	12	13
-	+	12	10
-	+	12	23
-	+	12	12
-	+	12	14
-	+	12	7
-	+	12	9
-	+	12	43
-	+	12	0
-	+	12	42
-	+	12	0
-	+	12	10
-	+	12	13
-	+	12	12
-	+	12	25
-	+	12	44
-	+	12	0
-	+	12	42
-	+	12	10
-	+	12	0
-	+	12	48
-	+	12	0
-	+	11	0
-	+	12	0
-	+	11	0
-	+	12	0
-	+	11	0
-	+	3	0
-	+	2	0
-	+	11	0
-	+	10	0
-	+	4	0
-	+	3	0
-	+	3	38
-	+	4	41
-	+	4	0
-	+	5	0
-	+	10	0
-	+	5	7
-	+	10	7
-	+	5	12
-	+	10	10
-	+	10	7
-	+	5	46
-	+	4	0
-	+	5	46
-	+	10	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	6	10
-	+	7	25
-	+	8	11
-	+	9	13
-	+	6	25
-	+	7	43
-	+	8	26
-	+	9	28
-	+	6	44
-	+	7	62
-	+	8	46
-	+	9	48
-	+	3	0
-	+	4	0
-	+	2	0
-	+	3	38
-	+	5	46
-	+	6	44
-	+	7	62
-	+	8	45
-	+	9	47
 
 > ~/workspace/utry/runtime/oam/webapps/ROOT/WEB-INF/classes/config/application.yml
 	*	1556015248	0
@@ -1081,10 +1146,6 @@ $workspace\/labs
 	^	13	34
 	.	13	33
 	+	13	33
-
-> ~/workspace/labs/N/.git/MERGE_MSG
-	*	1542949802	0
-	"	1	0
 
 > ~/workspace/utry/deploy/znzjfxtomcat/tomcat/tomcat-DataProcessingSystem/webapps/ROOT/WEB-INF/classes/config/bootstrap.yml
 	*	1542765063	0
@@ -1421,28 +1482,3 @@ $workspace\/labs
 > ~/workspace/labs/ali/kaldi/egs/yesno/s5/local/prepare_lm.sh
 	*	1529630418	0
 	"	1	0
-
-> ~/workspace/labs/kaldi/egs/aishell/s5/run.sh
-	*	1529562331	0
-	"	1	0
-
-> ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/DFSMN_S.proto
-	*	1529559262	0
-	"	19	0
-
-> ~/workspace/labs/ali/kaldi/egs/librispeech/s5/local/nnet/run_fsmn_ivector.sh
-	*	1529559221	0
-	"	142	0
-
-> ~/workspace/labs/ali/kaldi/egs/thchs30/s5/run.sh
-	*	1529559090	0
-	"	9	0
-
-> ~/workspace/labs/ali/kaldi/egs/librispeech/s5/run.sh
-	*	1529558457	0
-	"	67	18
-
-> ~/workspace/labs/ali/kaldi/egs/librispeech/README.txt
-	*	1529550179	0
-	"	9	0
-	^	9	0
