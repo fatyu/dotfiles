@@ -28,3 +28,5 @@
 	trustExitCode = true
 [commit]
 	template = /Users/notalk/.stCommitMsg
+[credential]
+	helper = store
