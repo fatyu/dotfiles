@@ -21,9 +21,9 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1574746852,,"wq"
+|2,0,1575616896,,"wq"
 :q
-|2,0,1574746017,,"q"
+|2,0,1575349431,,"q"
 :wq!
 |2,0,1574144120,,"wq!"
 :Wq
@@ -291,8 +291,8 @@ $workspace\/labs
 	utry-ali-03|47.99.139.215|root|dWzyo7HBdbi1A|22|14
 |3,0,9,1,1,0,1574410767,"utry-ali-03|47.99.139.215|root|dWzyo7HBdbi1A|22|14"
 ""-	CHAR	0
-	1
-|3,1,36,0,1,0,1574644713,"1"
+	x
+|3,1,36,0,1,0,1575525249,"x"
 
 # global variables:
 !MAC	NUM	0
@@ -300,281 +300,351 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  1025  6  ~/Downloads/redis/9379.conf
-|4,48,1025,6,1574746852,"~/Downloads/redis/9379.conf"
-'1  82  55  ~/Downloads/redis/8379.conf
-|4,49,82,55,1574746674,"~/Downloads/redis/8379.conf"
-'2  239  19  ~/Downloads/redis/8379.conf
-|4,50,239,19,1574746108,"~/Downloads/redis/8379.conf"
-'3  239  19  ~/Downloads/redis/8379.conf
-|4,51,239,19,1574746108,"~/Downloads/redis/8379.conf"
-'4  239  19  ~/Downloads/redis/7379.conf
-|4,52,239,19,1574746089,"~/Downloads/redis/7379.conf"
-'5  239  19  ~/Downloads/redis/6379.conf
-|4,53,239,19,1574746065,"~/Downloads/redis/6379.conf"
-'6  1  0  ~/Downloads/redis/nodes-6379.conf
-|4,54,1,0,1574746017,"~/Downloads/redis/nodes-6379.conf"
-'7  218  23  ~/Downloads/redis/8379.conf
-|4,55,218,23,1574745931,"~/Downloads/redis/8379.conf"
-'8  218  23  ~/Downloads/redis/8379.conf
-|4,56,218,23,1574745931,"~/Downloads/redis/8379.conf"
-'9  218  23  ~/Downloads/redis/8379.conf
-|4,57,218,23,1574745931,"~/Downloads/redis/8379.conf"
+'0  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,48,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+'1  130  14  ~/.zshrc
+|4,49,130,14,1575525251,"~/.zshrc"
+'2  3  9  ~/.gitconfig
+|4,50,3,9,1575525202,"~/.gitconfig"
+'3  11  37  ~/.autosshrc
+|4,51,11,37,1575349441,"~/.autosshrc"
+'4  11  37  ~/.autosshrc
+|4,52,11,37,1575349431,"~/.autosshrc"
+'5  1025  6  ~/Downloads/redis/9379.conf
+|4,53,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+'6  82  55  ~/Downloads/redis/8379.conf
+|4,54,82,55,1574746674,"~/Downloads/redis/8379.conf"
+'7  239  19  ~/Downloads/redis/8379.conf
+|4,55,239,19,1574746108,"~/Downloads/redis/8379.conf"
+'8  239  19  ~/Downloads/redis/8379.conf
+|4,56,239,19,1574746108,"~/Downloads/redis/8379.conf"
+'9  239  19  ~/Downloads/redis/7379.conf
+|4,57,239,19,1574746089,"~/Downloads/redis/7379.conf"
 
 # Jumplist (newest first):
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  3  9  ~/.gitconfig
+|4,39,3,9,1575525202,"~/.gitconfig"
+-'  3  9  ~/.gitconfig
+|4,39,3,9,1575525202,"~/.gitconfig"
+-'  3  9  ~/.gitconfig
+|4,39,3,9,1575525202,"~/.gitconfig"
+-'  3  9  ~/.gitconfig
+|4,39,3,9,1575525202,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1575525180,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1575525180,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1575525180,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1575525180,"~/.gitconfig"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349441,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349441,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349441,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349441,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349441,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349441,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349441,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349441,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349431,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349431,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349431,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349431,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349431,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349431,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349431,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1575349431,"~/.autosshrc"
 -'  1025  6  ~/Downloads/redis/9379.conf
 |4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1025  6  ~/Downloads/redis/9379.conf
+|4,39,1025,6,1574746852,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
+-'  1  0  ~/Downloads/redis/9379.conf
+|4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
 -'  1  0  ~/Downloads/redis/9379.conf
 |4,39,1,0,1574746756,"~/Downloads/redis/9379.conf"
 -'  82  55  ~/Downloads/redis/8379.conf
 |4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
 -'  82  55  ~/Downloads/redis/8379.conf
 |4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
--'  702  28  ~/Downloads/redis/8379.conf
-|4,39,702,28,1574746672,"~/Downloads/redis/8379.conf"
--'  702  28  ~/Downloads/redis/8379.conf
-|4,39,702,28,1574746672,"~/Downloads/redis/8379.conf"
--'  249  6  ~/Downloads/redis/8379.conf
-|4,39,249,6,1574746669,"~/Downloads/redis/8379.conf"
--'  249  6  ~/Downloads/redis/8379.conf
-|4,39,249,6,1574746669,"~/Downloads/redis/8379.conf"
--'  239  19  ~/Downloads/redis/8379.conf
-|4,39,239,19,1574746658,"~/Downloads/redis/8379.conf"
--'  239  19  ~/Downloads/redis/8379.conf
-|4,39,239,19,1574746658,"~/Downloads/redis/8379.conf"
--'  239  19  ~/Downloads/redis/8379.conf
-|4,39,239,19,1574746108,"~/Downloads/redis/8379.conf"
--'  239  19  ~/Downloads/redis/8379.conf
-|4,39,239,19,1574746108,"~/Downloads/redis/8379.conf"
--'  220  23  ~/Downloads/redis/8379.conf
-|4,39,220,23,1574746098,"~/Downloads/redis/8379.conf"
--'  220  23  ~/Downloads/redis/8379.conf
-|4,39,220,23,1574746098,"~/Downloads/redis/8379.conf"
--'  220  23  ~/Downloads/redis/8379.conf
-|4,39,220,23,1574746098,"~/Downloads/redis/8379.conf"
--'  220  23  ~/Downloads/redis/8379.conf
-|4,39,220,23,1574746098,"~/Downloads/redis/8379.conf"
--'  218  23  ~/Downloads/redis/8379.conf
-|4,39,218,23,1574746093,"~/Downloads/redis/8379.conf"
--'  218  23  ~/Downloads/redis/8379.conf
-|4,39,218,23,1574746093,"~/Downloads/redis/8379.conf"
--'  218  23  ~/Downloads/redis/8379.conf
-|4,39,218,23,1574746093,"~/Downloads/redis/8379.conf"
--'  218  23  ~/Downloads/redis/8379.conf
-|4,39,218,23,1574746093,"~/Downloads/redis/8379.conf"
--'  239  19  ~/Downloads/redis/7379.conf
-|4,39,239,19,1574746089,"~/Downloads/redis/7379.conf"
--'  239  19  ~/Downloads/redis/7379.conf
-|4,39,239,19,1574746089,"~/Downloads/redis/7379.conf"
--'  239  19  ~/Downloads/redis/7379.conf
-|4,39,239,19,1574746089,"~/Downloads/redis/7379.conf"
--'  239  19  ~/Downloads/redis/7379.conf
-|4,39,239,19,1574746089,"~/Downloads/redis/7379.conf"
--'  239  19  ~/Downloads/redis/7379.conf
-|4,39,239,19,1574746089,"~/Downloads/redis/7379.conf"
--'  239  19  ~/Downloads/redis/7379.conf
-|4,39,239,19,1574746089,"~/Downloads/redis/7379.conf"
--'  239  19  ~/Downloads/redis/7379.conf
-|4,39,239,19,1574746089,"~/Downloads/redis/7379.conf"
--'  239  19  ~/Downloads/redis/7379.conf
-|4,39,239,19,1574746089,"~/Downloads/redis/7379.conf"
--'  579  6  ~/Downloads/redis/7379.conf
-|4,39,579,6,1574746082,"~/Downloads/redis/7379.conf"
--'  579  6  ~/Downloads/redis/7379.conf
-|4,39,579,6,1574746082,"~/Downloads/redis/7379.conf"
--'  579  6  ~/Downloads/redis/7379.conf
-|4,39,579,6,1574746082,"~/Downloads/redis/7379.conf"
--'  579  6  ~/Downloads/redis/7379.conf
-|4,39,579,6,1574746082,"~/Downloads/redis/7379.conf"
--'  579  6  ~/Downloads/redis/7379.conf
-|4,39,579,6,1574746082,"~/Downloads/redis/7379.conf"
--'  579  6  ~/Downloads/redis/7379.conf
-|4,39,579,6,1574746082,"~/Downloads/redis/7379.conf"
--'  579  6  ~/Downloads/redis/7379.conf
-|4,39,579,6,1574746082,"~/Downloads/redis/7379.conf"
--'  579  6  ~/Downloads/redis/7379.conf
-|4,39,579,6,1574746082,"~/Downloads/redis/7379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  239  19  ~/Downloads/redis/6379.conf
-|4,39,239,19,1574746065,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  95  0  ~/Downloads/redis/6379.conf
-|4,39,95,0,1574746054,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
--'  702  2  ~/Downloads/redis/6379.conf
-|4,39,702,2,1574746041,"~/Downloads/redis/6379.conf"
--'  152  26  ~/Downloads/redis/6379.conf
-|4,39,152,26,1574746041,"~/Downloads/redis/6379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
+-'  82  55  ~/Downloads/redis/8379.conf
+|4,39,82,55,1574746674,"~/Downloads/redis/8379.conf"
 
 # History of marks within files (newest to oldest):
 
-> ~/Downloads/redis/9379.conf
-	*	1574746849	0
-	"	1025	6
-	.	249	6
-	+	84	5
-	+	95	26
-	+	152	23
-	+	249	6
-
-> ~/Downloads/redis/8379.conf
-	*	1574746673	0
-	"	82	55
-	^	239	20
-	.	249	6
-	+	84	5
-	+	95	26
-	+	152	23
-	+	239	19
-	+	249	6
-
-> ~/Downloads/redis/7379.conf
-	*	1574746088	0
-	"	239	19
-	^	239	20
-	.	239	19
-	+	84	5
-	+	95	26
-	+	152	23
-	+	249	6
-	+	239	19
-
-> ~/Downloads/redis/6379.conf
-	*	1574746064	0
-	"	239	19
-	^	239	20
-	.	239	19
-	+	97	13
-	+	94	0
-	+	130	12
-	+	249	10
-	+	95	29
-	+	152	26
-	+	239	19
-
-> ~/Downloads/redis/nodes-6379.conf
-	*	1574745952	0
+> ~/workspace/utry/platform/db/.git/MERGE_MSG
+	*	1575616895	0
 	"	1	0
 
+> ~/.zshrc
+	*	1575525250	0
+	"	130	14
+	^	244	1
+	.	130	14
+	+	265	0
+	+	261	33
+	+	254	16
+	+	258	37
+	+	261	44
+	+	265	0
+	+	252	29
+	+	265	26
+	+	250	0
+	+	209	0
+	+	207	0
+	+	206	0
+	+	131	7
+	+	167	36
+	+	168	0
+	+	169	0
+	+	170	0
+	+	168	11
+	+	169	11
+	+	170	32
+	+	169	31
+	+	168	31
+	+	199	72
+	+	199	6
+	+	199	9
+	+	199	7
+	+	209	22
+	+	131	0
+	+	118	0
+	+	117	0
+	+	124	7
+	+	139	0
+	+	147	0
+	+	141	23
+	+	143	24
+	+	144	30
+	+	145	30
+	+	133	27
+	+	143	6
+	+	235	0
+	+	11	0
+	+	13	0
+	+	11	0
+	+	189	27
+	+	254	18
+	+	258	39
+	+	180	0
+	+	209	20
+	+	160	8
+	+	165	8
+	+	164	8
+	+	165	22
+	+	199	0
+	+	197	30
+	+	207	0
+	+	209	0
+	+	199	0
+	+	198	0
+	+	197	7
+	+	176	80
+	+	271	2
+	+	269	1
+	+	266	0
+	+	271	65
+	+	272	119
+	+	278	0
+	+	273	74
+	+	274	0
+	+	275	0
+	+	274	7
+	+	275	51
+	+	274	51
+	+	228	17
+	+	12	0
+	+	11	35
+	+	18	35
+	+	17	54
+	+	130	27
+	+	130	7
+	+	130	0
+	+	130	7
+	+	127	21
+	+	128	24
+	+	127	24
+	+	128	19
+	+	127	20
+	+	129	0
+	+	195	0
+	+	196	0
+	+	195	49
+	+	196	47
+	+	173	44
+	+	36	0
+	+	209	21
+	+	18	35
+	+	16	47
+	+	18	36
+	+	196	42
+	+	244	17
+	+	130	14
+	n	66	8
+
+> ~/.gitconfig
+	*	1575525200	0
+	"	3	9
+	^	3	10
+	.	9	11
+	+	9	11
+
 > ~/.autosshrc
-	*	1574410802	0
+	*	1575349440	0
 	"	11	37
 	^	11	38
 	.	11	37
@@ -679,6 +749,54 @@ $workspace\/labs
 	+	10	38
 	+	11	37
 
+> ~/Downloads/redis/9379.conf
+	*	1574746849	0
+	"	1025	6
+	.	249	6
+	+	84	5
+	+	95	26
+	+	152	23
+	+	249	6
+
+> ~/Downloads/redis/8379.conf
+	*	1574746673	0
+	"	82	55
+	^	239	20
+	.	249	6
+	+	84	5
+	+	95	26
+	+	152	23
+	+	239	19
+	+	249	6
+
+> ~/Downloads/redis/7379.conf
+	*	1574746088	0
+	"	239	19
+	^	239	20
+	.	239	19
+	+	84	5
+	+	95	26
+	+	152	23
+	+	249	6
+	+	239	19
+
+> ~/Downloads/redis/6379.conf
+	*	1574746064	0
+	"	239	19
+	^	239	20
+	.	239	19
+	+	97	13
+	+	94	0
+	+	130	12
+	+	249	10
+	+	95	29
+	+	152	26
+	+	239	19
+
+> ~/Downloads/redis/nodes-6379.conf
+	*	1574745952	0
+	"	1	0
+
 > ~/Downloads/redis/6381.conf
 	*	1574384269	0
 	"	85	0
@@ -780,113 +898,6 @@ $workspace\/labs
 > ~/workspace/labs/D/.git/COMMIT_EDITMSG
 	*	1563936865	0
 	"	1	0
-
-> ~/.zshrc
-	*	1563772310	0
-	"	244	17
-	^	244	1
-	.	244	17
-	+	191	0
-	+	265	0
-	+	261	33
-	+	254	16
-	+	258	37
-	+	261	44
-	+	265	0
-	+	252	29
-	+	265	26
-	+	250	0
-	+	209	0
-	+	207	0
-	+	206	0
-	+	131	7
-	+	167	36
-	+	168	0
-	+	169	0
-	+	170	0
-	+	168	11
-	+	169	11
-	+	170	32
-	+	169	31
-	+	168	31
-	+	199	72
-	+	199	6
-	+	199	9
-	+	199	7
-	+	209	22
-	+	131	0
-	+	118	0
-	+	117	0
-	+	124	7
-	+	139	0
-	+	147	0
-	+	141	23
-	+	143	24
-	+	144	30
-	+	145	30
-	+	133	27
-	+	143	6
-	+	235	0
-	+	11	0
-	+	13	0
-	+	11	0
-	+	189	27
-	+	254	18
-	+	258	39
-	+	180	0
-	+	209	20
-	+	160	8
-	+	165	8
-	+	164	8
-	+	165	22
-	+	199	0
-	+	197	30
-	+	207	0
-	+	209	0
-	+	199	0
-	+	198	0
-	+	197	7
-	+	176	80
-	+	271	2
-	+	269	1
-	+	266	0
-	+	271	65
-	+	272	119
-	+	278	0
-	+	273	74
-	+	274	0
-	+	275	0
-	+	274	7
-	+	275	51
-	+	274	51
-	+	228	17
-	+	12	0
-	+	11	35
-	+	18	35
-	+	17	54
-	+	130	27
-	+	130	7
-	+	130	0
-	+	130	7
-	+	127	21
-	+	128	24
-	+	127	24
-	+	128	19
-	+	127	20
-	+	129	0
-	+	195	0
-	+	196	0
-	+	195	49
-	+	196	47
-	+	173	44
-	+	36	0
-	+	209	21
-	+	18	35
-	+	16	47
-	+	18	36
-	+	196	42
-	+	244	17
-	n	66	8
 
 > ~/workspace/utry/platform/sys/out/production/resources/config/bootstrap.yml
 	*	1563426710	0
@@ -1492,11 +1503,3 @@ $workspace\/labs
 	+	436	90
 	+	472	0
 	+	471	74
-
-> ~/workspace/utry/ivs-root/.git/MERGE_MSG
-	*	1532511412	0
-	"	1	0
-
-> ~/workspace/utry/IasWeb/.git/MERGE_MSG
-	*	1531382099	0
-	"	1	0
