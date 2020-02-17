@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1577354013,,"q"
+|2,0,1581473355,,"q"
 :wq
 |2,0,1575616896,,"wq"
 :wq!
@@ -300,30 +300,64 @@ $workspace\/labs
 !LINUX	NUM	1
 
 # File marks:
-'0  218  14  ~/.zshrc
-|4,48,218,14,1577354013,"~/.zshrc"
-'1  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
-|4,49,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
-'2  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
-|4,50,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
-'3  130  14  ~/.zshrc
-|4,51,130,14,1575525251,"~/.zshrc"
-'4  130  14  ~/.zshrc
-|4,52,130,14,1575525251,"~/.zshrc"
-'5  3  9  ~/.gitconfig
-|4,53,3,9,1575525202,"~/.gitconfig"
-'6  11  37  ~/.autosshrc
-|4,54,11,37,1575349441,"~/.autosshrc"
-'7  11  37  ~/.autosshrc
-|4,55,11,37,1575349431,"~/.autosshrc"
-'8  1025  6  ~/Downloads/redis/9379.conf
-|4,56,1025,6,1574746852,"~/Downloads/redis/9379.conf"
-'9  82  55  ~/Downloads/redis/8379.conf
-|4,57,82,55,1574746674,"~/Downloads/redis/8379.conf"
+'0  11  37  ~/.autosshrc
+|4,48,11,37,1581473355,"~/.autosshrc"
+'1  11  37  ~/.autosshrc
+|4,49,11,37,1581063567,"~/.autosshrc"
+'2  11  37  ~/.autosshrc
+|4,50,11,37,1580805618,"~/.autosshrc"
+'3  11  37  ~/.autosshrc
+|4,51,11,37,1580805618,"~/.autosshrc"
+'4  218  14  ~/.zshrc
+|4,52,218,14,1577354013,"~/.zshrc"
+'5  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,53,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+'6  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,54,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+'7  130  14  ~/.zshrc
+|4,55,130,14,1575525251,"~/.zshrc"
+'8  130  14  ~/.zshrc
+|4,56,130,14,1575525251,"~/.zshrc"
+'9  3  9  ~/.gitconfig
+|4,57,3,9,1575525202,"~/.gitconfig"
 
 # Jumplist (newest first):
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1581473355,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1581063567,"~/.autosshrc"
+-'  11  37  ~/.autosshrc
+|4,39,11,37,1580805618,"~/.autosshrc"
 -'  218  14  ~/.zshrc
 |4,39,218,14,1577354013,"~/.zshrc"
+-'  218  14  ~/.zshrc
+|4,39,218,14,1577354013,"~/.zshrc"
+-'  218  14  ~/.zshrc
+|4,39,218,14,1577354013,"~/.zshrc"
+-'  218  14  ~/.zshrc
+|4,39,218,14,1577354013,"~/.zshrc"
+-'  218  14  ~/.zshrc
+|4,39,218,14,1577354013,"~/.zshrc"
+-'  218  14  ~/.zshrc
+|4,39,218,14,1577354013,"~/.zshrc"
+-'  218  14  ~/.zshrc
+|4,39,218,14,1577354013,"~/.zshrc"
+-'  218  14  ~/.zshrc
+|4,39,218,14,1577354013,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1577353903,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1577353903,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1577353903,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1577353903,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1577353903,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1577353903,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1577353903,"~/.zshrc"
 -'  130  14  ~/.zshrc
 |4,39,130,14,1577353903,"~/.zshrc"
 -'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
@@ -331,6 +365,62 @@ $workspace\/labs
 -'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
 |4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575858224,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
+|4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
+-'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
 |4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
 -'  1  0  ~/workspace/utry/platform/db/.git/MERGE_MSG
 |4,39,1,0,1575616896,"~/workspace/utry/platform/db/.git/MERGE_MSG"
@@ -342,6 +432,62 @@ $workspace\/labs
 |4,39,130,14,1575525251,"~/.zshrc"
 -'  130  14  ~/.zshrc
 |4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
+-'  130  14  ~/.zshrc
+|4,39,130,14,1575525251,"~/.zshrc"
 -'  244  17  ~/.zshrc
 |4,39,244,17,1575525223,"~/.zshrc"
 -'  244  17  ~/.zshrc
@@ -352,178 +498,138 @@ $workspace\/labs
 |4,39,244,17,1575525223,"~/.zshrc"
 -'  244  17  ~/.zshrc
 |4,39,244,17,1575525223,"~/.zshrc"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  3  9  ~/.gitconfig
-|4,39,3,9,1575525202,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  1  0  ~/.gitconfig
-|4,39,1,0,1575525180,"~/.gitconfig"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349441,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
--'  11  37  ~/.autosshrc
-|4,39,11,37,1575349431,"~/.autosshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
+-'  244  17  ~/.zshrc
+|4,39,244,17,1575525223,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.autosshrc
+	*	1581473350	0
+	"	11	37
+	^	11	38
+	.	11	37
+	+	10	0
+	+	5	7
+	+	10	7
+	+	5	12
+	+	10	10
+	+	10	7
+	+	5	46
+	+	4	0
+	+	5	46
+	+	10	0
+	+	6	0
+	+	6	10
+	+	6	25
+	+	6	11
+	+	6	13
+	+	6	25
+	+	6	43
+	+	6	26
+	+	6	28
+	+	6	44
+	+	6	62
+	+	6	46
+	+	6	48
+	+	4	0
+	+	2	0
+	+	4	38
+	+	5	46
+	+	6	44
+	+	6	62
+	+	6	45
+	+	6	47
+	+	6	48
+	+	7	19
+	+	8	0
+	+	8	40
+	+	10	0
+	+	8	0
+	+	8	40
+	+	9	42
+	+	10	44
+	+	10	0
+	+	10	12
+	+	10	44
+	+	10	17
+	+	10	49
+	+	10	10
+	+	10	11
+	+	10	30
+	+	10	10
+	+	10	24
+	+	10	30
+	+	10	31
+	+	10	30
+	+	10	0
+	+	10	43
+	+	10	42
+	+	10	49
+	+	10	48
+	+	10	49
+	+	10	48
+	+	10	49
+	+	10	51
+	+	10	0
+	+	11	21
+	+	4	0
+	+	11	43
+	+	11	0
+	+	4	33
+	+	4	0
+	+	8	0
+	+	4	40
+	+	5	46
+	+	6	44
+	+	6	62
+	+	6	45
+	+	6	47
+	+	7	38
+	+	7	0
+	+	2	0
+	+	4	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	2	41
+	+	4	0
+	+	10	39
+	+	11	42
+	+	11	38
+	+	1	6
+	+	2	8
+	+	1	10
+	+	2	10
+	+	6	0
+	+	10	0
+	+	11	0
+	+	4	0
+	+	6	47
+	+	8	39
+	+	10	38
+	+	11	37
 
 > ~/.zshrc
 	*	1577354012	0
@@ -642,112 +748,6 @@ $workspace\/labs
 	^	3	10
 	.	9	11
 	+	9	11
-
-> ~/.autosshrc
-	*	1575349440	0
-	"	11	37
-	^	11	38
-	.	11	37
-	+	10	0
-	+	5	7
-	+	10	7
-	+	5	12
-	+	10	10
-	+	10	7
-	+	5	46
-	+	4	0
-	+	5	46
-	+	10	0
-	+	6	0
-	+	6	10
-	+	6	25
-	+	6	11
-	+	6	13
-	+	6	25
-	+	6	43
-	+	6	26
-	+	6	28
-	+	6	44
-	+	6	62
-	+	6	46
-	+	6	48
-	+	4	0
-	+	2	0
-	+	4	38
-	+	5	46
-	+	6	44
-	+	6	62
-	+	6	45
-	+	6	47
-	+	6	48
-	+	7	19
-	+	8	0
-	+	8	40
-	+	10	0
-	+	8	0
-	+	8	40
-	+	9	42
-	+	10	44
-	+	10	0
-	+	10	12
-	+	10	44
-	+	10	17
-	+	10	49
-	+	10	10
-	+	10	11
-	+	10	30
-	+	10	10
-	+	10	24
-	+	10	30
-	+	10	31
-	+	10	30
-	+	10	0
-	+	10	43
-	+	10	42
-	+	10	49
-	+	10	48
-	+	10	49
-	+	10	48
-	+	10	49
-	+	10	51
-	+	10	0
-	+	11	21
-	+	4	0
-	+	11	43
-	+	11	0
-	+	4	33
-	+	4	0
-	+	8	0
-	+	4	40
-	+	5	46
-	+	6	44
-	+	6	62
-	+	6	45
-	+	6	47
-	+	7	38
-	+	7	0
-	+	2	0
-	+	4	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	2	41
-	+	4	0
-	+	10	39
-	+	11	42
-	+	11	38
-	+	1	6
-	+	2	8
-	+	1	10
-	+	2	10
-	+	6	0
-	+	10	0
-	+	11	0
-	+	4	0
-	+	6	47
-	+	8	39
-	+	10	38
-	+	11	37
 
 > ~/Downloads/redis/9379.conf
 	*	1574746849	0

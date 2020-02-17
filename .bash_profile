@@ -16,3 +16,5 @@ alias jdk9="export JAVA_HOME=$JAVA_9_HOME"
 alias jdk="export JAVA_HOME=$JAVA_0_HOME"
 #ADDED BY 010 EDITOR
 export PATH="$PATH:/Applications/010 Editor.app/Contents/CmdLine"
+
+export PATH="$HOME/.cargo/bin:$PATH"
