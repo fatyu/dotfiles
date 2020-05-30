@@ -30,3 +30,7 @@
 	template = /Users/notalk/.stCommitMsg
 [credential]
 	helper = store
+[http]
+	postBuffer = 524288000
+[https]
+	postBuffer = 524288000
