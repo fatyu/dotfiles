@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/telnet
+~MSle0~/http
 
 # Last Substitute Search Pattern:
 ~MSle0&labs
@@ -20,10 +20,10 @@
 $workspace\/labs
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1590983480,,"q"
 :wq
-|2,0,1590983466,,"wq"
+|2,0,1591691651,,"wq"
+:q
+|2,0,1591690647,,"q"
 :Wq
 |2,0,1590983152,,"Wq"
 :q!
@@ -82,6 +82,8 @@ $workspace\/labs
 |2,0,1520952981,,"setnum onl"
 
 # Search String History (newest to oldest):
+?/http
+|2,1,1591690623,47,"http"
 ?/telnet
 |2,1,1590568994,47,"telnet"
 ?/BREW_REPO
@@ -180,8 +182,6 @@ $workspace\/labs
 |2,1,1528768864,47,"expo"
 ?/8080
 |2,1,1528688111,47,"8080"
-?/tfc
-|2,1,1528429619,47,"tfc"
 
 # Expression History (newest to oldest):
 
@@ -232,244 +232,236 @@ $workspace\/labs
 |3,0,36,0,1,0,1590983462,"a"
 
 # File marks:
-'0  1  0  ~/workspace/labs/arthas/run.sh
-|4,48,1,0,1590983480,"~/workspace/labs/arthas/run.sh"
-'1  165  0  ~/.zshrc
-|4,49,165,0,1590983466,"~/.zshrc"
-'2  166  13  ~/.zshrc
-|4,50,166,13,1590983392,"~/.zshrc"
-'3  166  56  ~/.zshrc
-|4,51,166,56,1590983272,"~/.zshrc"
-'4  165  56  ~/.zshrc
-|4,52,165,56,1590983272,"~/.zshrc"
-'5  166  56  ~/.zshrc
-|4,53,166,56,1590983272,"~/.zshrc"
-'6  177  0  ~/.zshrc
-|4,54,177,0,1590983169,"~/.zshrc"
-'7  173  0  ~/.zshrc
-|4,55,173,0,1590983169,"~/.zshrc"
-'8  169  0  ~/.zshrc
-|4,56,169,0,1590983169,"~/.zshrc"
-'9  173  0  ~/.zshrc
-|4,57,173,0,1590983169,"~/.zshrc"
+'0  151  39  ~/.zshrc
+|4,48,151,39,1591691651,"~/.zshrc"
+'1  40  7507  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,49,40,7507,1591690647,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+'2  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,50,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+'3  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,51,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+'4  1  0  ~/.autosshrc
+|4,52,1,0,1591669828,"~/.autosshrc"
+'5  1  0  ~/.autosshrc
+|4,53,1,0,1591595604,"~/.autosshrc"
+'6  181  10  ~/.zshrc
+|4,54,181,10,1591585584,"~/.zshrc"
+'7  181  10  ~/.zshrc
+|4,55,181,10,1591585584,"~/.zshrc"
+'8  181  22  ~/.zshrc
+|4,56,181,22,1591585547,"~/.zshrc"
+'9  181  22  ~/.zshrc
+|4,57,181,22,1591585547,"~/.zshrc"
 
 # Jumplist (newest first):
--'  1  0  ~/workspace/labs/arthas/run.sh
-|4,39,1,0,1590983480,"~/workspace/labs/arthas/run.sh"
--'  165  0  ~/.zshrc
-|4,39,165,0,1590983466,"~/.zshrc"
+-'  151  39  ~/.zshrc
+|4,39,151,39,1591691651,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591691630,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1590983459,"~/.zshrc"
--'  166  13  ~/.zshrc
-|4,39,166,13,1590983392,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1590983283,"~/.zshrc"
--'  166  56  ~/.zshrc
-|4,39,166,56,1590983272,"~/.zshrc"
--'  166  56  ~/.zshrc
-|4,39,166,56,1590983272,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1590983177,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1590983177,"~/.zshrc"
--'  177  0  ~/.zshrc
-|4,39,177,0,1590983169,"~/.zshrc"
--'  173  0  ~/.zshrc
-|4,39,173,0,1590983169,"~/.zshrc"
--'  173  0  ~/.zshrc
-|4,39,173,0,1590983169,"~/.zshrc"
--'  169  0  ~/.zshrc
-|4,39,169,0,1590983169,"~/.zshrc"
--'  177  0  ~/.zshrc
-|4,39,177,0,1590983169,"~/.zshrc"
--'  173  0  ~/.zshrc
-|4,39,173,0,1590983169,"~/.zshrc"
--'  177  0  ~/.zshrc
-|4,39,177,0,1590983169,"~/.zshrc"
--'  173  0  ~/.zshrc
-|4,39,173,0,1590983169,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1590983164,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1590983164,"~/.zshrc"
--'  180  0  ~/.zshrc
-|4,39,180,0,1590983155,"~/.zshrc"
--'  176  0  ~/.zshrc
-|4,39,176,0,1590983155,"~/.zshrc"
--'  176  0  ~/.zshrc
-|4,39,176,0,1590983155,"~/.zshrc"
--'  176  0  ~/.zshrc
-|4,39,176,0,1590983155,"~/.zshrc"
--'  172  0  ~/.zshrc
-|4,39,172,0,1590983155,"~/.zshrc"
--'  180  0  ~/.zshrc
-|4,39,180,0,1590983155,"~/.zshrc"
--'  176  0  ~/.zshrc
-|4,39,176,0,1590983155,"~/.zshrc"
--'  180  0  ~/.zshrc
-|4,39,180,0,1590983155,"~/.zshrc"
--'  176  0  ~/.zshrc
-|4,39,176,0,1590983155,"~/.zshrc"
--'  176  0  ~/.zshrc
-|4,39,176,0,1590983155,"~/.zshrc"
--'  116  0  ~/.zshrc
-|4,39,116,0,1590982822,"~/.zshrc"
--'  116  0  ~/.zshrc
-|4,39,116,0,1590982822,"~/.zshrc"
--'  116  0  ~/.zshrc
-|4,39,116,0,1590982822,"~/.zshrc"
--'  116  0  ~/.zshrc
-|4,39,116,0,1590982822,"~/.zshrc"
--'  116  0  ~/.zshrc
-|4,39,116,0,1590982822,"~/.zshrc"
--'  116  0  ~/.zshrc
-|4,39,116,0,1590982822,"~/.zshrc"
--'  116  0  ~/.zshrc
-|4,39,116,0,1590982822,"~/.zshrc"
--'  116  0  ~/.zshrc
-|4,39,116,0,1590982822,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1590982683,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1590982683,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1590982683,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1590982683,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1590982683,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1590982683,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1590982683,"~/.zshrc"
--'  151  0  ~/.zshrc
-|4,39,151,0,1590982683,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1590982682,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1590982682,"~/.zshrc"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  24  ~/workspace/labs/arthas/run.sh
-|4,39,1,24,1590982661,"~/workspace/labs/arthas/run.sh"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
--'  1  8  ~/workspace/labs/daily/.git/MERGE_MSG
-|4,39,1,8,1590642759,"~/workspace/labs/daily/.git/MERGE_MSG"
+|4,39,1,0,1591691629,"~/.zshrc"
+-'  40  7507  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,40,7507,1591690647,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  40  7507  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,40,7507,1591690647,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  38  28458  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,38,28458,1591690639,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  38  28458  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,38,28458,1591690639,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  34  5  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,34,5,1591690637,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  29  5  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,29,5,1591690637,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  34  5  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,34,5,1591690637,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  29  5  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,29,5,1591690637,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  24  40  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,24,40,1591690636,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  24  40  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,24,40,1591690636,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  16  3  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,16,3,1591690635,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  16  3  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,16,3,1591690635,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  13  23326  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,13,23326,1591690634,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  5  11889  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,5,11889,1591690634,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  13  23326  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,13,23326,1591690634,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  5  11889  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,5,11889,1591690634,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,1,0,1591690623,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+|4,39,1,0,1591690623,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
+-'  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,39,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+-'  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,39,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+-'  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,39,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+-'  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,39,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,39,1,0,1591690137,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,39,1,0,1591690137,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,39,1,0,1591690137,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+|4,39,1,0,1591690137,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
+-'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591669828,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1591595604,"~/.autosshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
+-'  181  10  ~/.zshrc
+|4,39,181,10,1591585584,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/labs/arthas/run.sh
-	*	1590983478	0
-	"	1	0
-	^	1	25
-	.	1	24
-	+	1	24
-
 > ~/.zshrc
-	*	1590983466	0
-	"	165	0
-	.	165	0
-	+	90	24
-	+	89	24
+	*	1591691650	0
+	"	151	39
+	^	151	40
+	.	151	39
 	+	90	19
 	+	89	20
 	+	90	0
@@ -568,17 +560,24 @@ $workspace\/labs
 	+	159	0
 	+	165	13
 	+	165	0
+	+	181	11
+	+	151	39
 	n	67	8
 
-> ~/workspace/labs/daily/.git/MERGE_MSG
-	*	1590642758	0
-	"	1	8
-	^	1	11
-	.	1	7
-	+	1	7
+> ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+	*	1591690646	0
+	"	40	7507
+
+> ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+	*	1591690140	0
+	"	6	0
+
+> ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+	*	1591690132	0
+	"	3	12
 
 > ~/.autosshrc
-	*	1590111925	0
+	*	1591669811	0
 	"	1	0
 	^	3	18
 	.	3	17
@@ -682,6 +681,20 @@ $workspace\/labs
 	+	2	17
 	+	1	17
 	+	3	17
+
+> ~/workspace/labs/arthas/run.sh
+	*	1590983478	0
+	"	1	0
+	^	1	25
+	.	1	24
+	+	1	24
+
+> ~/workspace/labs/daily/.git/MERGE_MSG
+	*	1590642758	0
+	"	1	8
+	^	1	11
+	.	1	7
+	+	1	7
 
 > /usr/local/etc/privoxy/config
 	*	1590030270	0
@@ -1323,30 +1336,3 @@ $workspace\/labs
 > ~/.ssh/id_rsa
 	*	1544075358	0
 	"	1	0
-
-> ~/Downloads/elasticsearch-2.3.1/config/elasticsearch.yml
-	*	1544073265	0
-	"	53	0
-	^	84	1
-	.	83	1
-	+	83	1
-
-> ~/Downloads/elasticsearch-2.3.1/config/logging.yml
-	*	1544073242	0
-	"	2	21
-	^	2	22
-	.	2	21
-	+	2	21
-
-> /usr/local/etc/my.cnf
-	*	1543281715	0
-	"	4	0
-	^	4	1
-	.	4	0
-	+	4	24
-	+	6	20
-	+	7	8
-	+	7	19
-	+	4	23
-	+	7	0
-	+	4	0
