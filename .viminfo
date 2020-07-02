@@ -21,9 +21,11 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1591691651,,"wq"
+|2,0,1593654561,,"wq"
 :q
-|2,0,1591690647,,"q"
+|2,0,1593654497,,"q"
+:Q
+|2,0,1593433534,,"Q"
 :Wq
 |2,0,1590983152,,"Wq"
 :q!
@@ -38,8 +40,6 @@ $workspace\/labs
 |2,0,1573865267,,":q"
 ::
 |2,0,1571361224,,":"
-:Q
-|2,0,1563772222,,"Q"
 :.,.+9910
 |2,0,1555645183,,".,.+9910"
 :.,.+29
@@ -199,9 +199,9 @@ $workspace\/labs
 "0	LINE	0
 	export PATH=/usr/local/bin:$PATH
 |3,0,0,1,1,0,1590484454,"export PATH=/usr/local/bin:$PATH"
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1590983465,""
+|3,0,1,1,1,0,1590983465,""
 "2	LINE	0
 	
 |3,0,2,1,1,0,1590983464,""
@@ -227,357 +227,254 @@ $workspace\/labs
 "9	LINE	0
 	
 |3,0,9,1,1,0,1590983106,""
-"-	CHAR	0
-	a
-|3,0,36,0,1,0,1590983462,"a"
+""-	CHAR	0
+	/
+|3,1,36,0,1,0,1593654558,"/"
 
 # File marks:
-'0  151  39  ~/.zshrc
-|4,48,151,39,1591691651,"~/.zshrc"
-'1  40  7507  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,49,40,7507,1591690647,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
-'2  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,50,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
-'3  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,51,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
-'4  1  0  ~/.autosshrc
-|4,52,1,0,1591669828,"~/.autosshrc"
-'5  1  0  ~/.autosshrc
-|4,53,1,0,1591595604,"~/.autosshrc"
-'6  181  10  ~/.zshrc
-|4,54,181,10,1591585584,"~/.zshrc"
-'7  181  10  ~/.zshrc
-|4,55,181,10,1591585584,"~/.zshrc"
-'8  181  22  ~/.zshrc
-|4,56,181,22,1591585547,"~/.zshrc"
-'9  181  22  ~/.zshrc
-|4,57,181,22,1591585547,"~/.zshrc"
+'0  22  33  ~/workspace/labs/dotfiles/sync.sh
+|4,48,22,33,1593654561,"~/workspace/labs/dotfiles/sync.sh"
+'1  1  0  ~/workspace/labs/dotfiles/sync.sh
+|4,49,1,0,1593654497,"~/workspace/labs/dotfiles/sync.sh"
+'2  1  0  ~/workspace/labs/dotfiles/sync.sh
+|4,50,1,0,1593654497,"~/workspace/labs/dotfiles/sync.sh"
+'3  1  0  ~/.autosshrc
+|4,51,1,0,1593433539,"~/.autosshrc"
+'4  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,52,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+'5  151  0  ~/.zshrc
+|4,53,151,0,1591780544,"~/.zshrc"
+'6  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,54,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+'7  150  0  ~/.zshrc
+|4,55,150,0,1591758682,"~/.zshrc"
+'8  150  0  ~/.zshrc
+|4,56,150,0,1591758682,"~/.zshrc"
+'9  151  39  ~/.zshrc
+|4,57,151,39,1591756827,"~/.zshrc"
 
 # Jumplist (newest first):
--'  151  39  ~/.zshrc
-|4,39,151,39,1591691651,"~/.zshrc"
+-'  22  33  ~/workspace/labs/dotfiles/sync.sh
+|4,39,22,33,1593654561,"~/workspace/labs/dotfiles/sync.sh"
+-'  1  0  ~/workspace/labs/dotfiles/sync.sh
+|4,39,1,0,1593654518,"~/workspace/labs/dotfiles/sync.sh"
+-'  1  0  ~/workspace/labs/dotfiles/sync.sh
+|4,39,1,0,1593654497,"~/workspace/labs/dotfiles/sync.sh"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1593433539,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1593433539,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1593433539,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1593433539,"~/.autosshrc"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
 -'  181  0  ~/.zshrc
-|4,39,181,0,1591691630,"~/.zshrc"
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
+-'  38  0  ~/.zshrc
+|4,39,38,0,1591780537,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1591691629,"~/.zshrc"
--'  40  7507  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,40,7507,1591690647,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  40  7507  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,40,7507,1591690647,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  38  28458  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,38,28458,1591690639,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  38  28458  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,38,28458,1591690639,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  34  5  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,34,5,1591690637,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  29  5  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,29,5,1591690637,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  34  5  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,34,5,1591690637,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  29  5  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,29,5,1591690637,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  24  40  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,24,40,1591690636,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  24  40  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,24,40,1591690636,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  16  3  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,16,3,1591690635,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  16  3  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,16,3,1591690635,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  13  23326  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,13,23326,1591690634,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  5  11889  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,5,11889,1591690634,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  13  23326  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,13,23326,1591690634,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  5  11889  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,5,11889,1591690634,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,1,0,1591690623,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-|4,39,1,0,1591690623,"~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js"
--'  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,39,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
--'  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,39,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
--'  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,39,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
--'  6  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,39,6,0,1591690227,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,39,1,0,1591690137,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,39,1,0,1591690137,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,39,1,0,1591690137,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-|4,39,1,0,1591690137,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties"
--'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  3  12  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,3,12,1591690133,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-|4,39,1,0,1591690120,"~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591669828,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  1  0  ~/.autosshrc
-|4,39,1,0,1591595604,"~/.autosshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
--'  181  10  ~/.zshrc
-|4,39,181,10,1591585584,"~/.zshrc"
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1591780535,"~/.zshrc"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
 
 # History of marks within files (newest to oldest):
 
-> ~/.zshrc
-	*	1591691650	0
-	"	151	39
-	^	151	40
-	.	151	39
-	+	90	19
-	+	89	20
-	+	90	0
-	+	116	0
-	+	116	49
-	+	116	47
-	+	107	44
-	+	37	0
-	+	117	21
-	+	19	35
-	+	17	47
-	+	19	36
-	+	116	42
-	+	127	17
-	+	91	14
-	+	146	81
-	+	15	36
-	+	14	1
-	+	148	93
-	+	122	0
-	+	116	7
-	+	146	0
-	+	117	0
-	+	107	0
-	+	105	0
-	+	106	0
-	+	105	0
-	+	116	0
-	+	117	0
-	+	72	1
-	+	77	0
-	+	85	0
-	+	88	0
-	+	99	0
-	+	100	0
-	+	101	0
-	+	124	0
-	+	150	32
-	+	152	0
-	+	152	30
-	+	151	53
-	+	152	0
-	+	151	39
-	+	151	44
-	+	151	40
-	+	163	0
-	+	156	72
-	+	161	0
-	+	156	72
-	+	157	0
-	+	151	0
-	+	148	0
-	+	162	0
-	+	117	0
-	+	116	0
-	+	165	0
-	+	62	0
-	+	77	0
-	+	85	0
-	+	90	0
-	+	91	0
-	+	93	0
-	+	91	0
-	+	86	0
-	+	101	0
-	+	103	0
-	+	172	0
-	+	171	17
-	+	107	0
-	+	114	0
-	+	112	0
-	+	114	0
-	+	116	0
-	+	122	0
-	+	120	0
-	+	176	62
-	+	77	0
-	+	127	0
-	+	131	0
-	+	144	0
-	+	151	0
-	+	148	74
-	+	161	0
-	+	163	0
-	+	169	76
-	+	171	0
-	+	163	0
-	+	165	0
-	+	173	0
-	+	165	14
-	+	165	6
-	+	165	0
-	+	157	0
-	+	158	0
-	+	161	0
-	+	159	0
-	+	165	13
-	+	165	0
-	+	181	11
-	+	151	39
-	n	67	8
-
-> ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
-	*	1591690646	0
-	"	40	7507
-
-> ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
-	*	1591690140	0
-	"	6	0
-
-> ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
-	*	1591690132	0
-	"	3	12
+> ~/workspace/labs/dotfiles/sync.sh
+	*	1593654560	0
+	"	22	33
+	.	22	33
+	+	2	35
+	+	4	38
+	+	6	32
+	+	8	33
+	+	10	40
+	+	12	40
+	+	14	34
+	+	16	37
+	+	18	36
+	+	20	35
+	+	22	33
 
 > ~/.autosshrc
-	*	1591669811	0
+	*	1593433537	0
 	"	1	0
 	^	3	18
 	.	3	17
@@ -681,6 +578,135 @@ $workspace\/labs
 	+	2	17
 	+	1	17
 	+	3	17
+
+> /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+	*	1592275849	0
+	"	636	0
+
+> ~/.zshrc
+	*	1591780543	0
+	"	151	0
+	^	150	1
+	.	151	0
+	+	90	0
+	+	116	0
+	+	116	49
+	+	116	47
+	+	107	44
+	+	37	0
+	+	117	21
+	+	19	35
+	+	17	47
+	+	19	36
+	+	116	42
+	+	127	17
+	+	91	14
+	+	146	81
+	+	15	36
+	+	14	1
+	+	148	93
+	+	122	0
+	+	116	7
+	+	146	0
+	+	117	0
+	+	107	0
+	+	105	0
+	+	106	0
+	+	105	0
+	+	116	0
+	+	117	0
+	+	72	1
+	+	77	0
+	+	85	0
+	+	88	0
+	+	99	0
+	+	100	0
+	+	101	0
+	+	124	0
+	+	150	32
+	+	152	0
+	+	152	30
+	+	151	53
+	+	152	0
+	+	151	39
+	+	151	44
+	+	151	40
+	+	163	0
+	+	156	72
+	+	161	0
+	+	156	72
+	+	157	0
+	+	151	0
+	+	148	0
+	+	162	0
+	+	117	0
+	+	116	0
+	+	165	0
+	+	62	0
+	+	77	0
+	+	85	0
+	+	90	0
+	+	91	0
+	+	93	0
+	+	91	0
+	+	86	0
+	+	101	0
+	+	103	0
+	+	172	0
+	+	171	17
+	+	107	0
+	+	114	0
+	+	112	0
+	+	114	0
+	+	116	0
+	+	122	0
+	+	120	0
+	+	176	62
+	+	77	0
+	+	127	0
+	+	131	0
+	+	144	0
+	+	151	0
+	+	148	74
+	+	161	0
+	+	163	0
+	+	169	76
+	+	171	0
+	+	163	0
+	+	165	0
+	+	173	0
+	+	165	14
+	+	165	6
+	+	165	0
+	+	157	0
+	+	158	0
+	+	161	0
+	+	159	0
+	+	165	13
+	+	165	0
+	+	181	11
+	+	151	0
+	+	150	0
+	+	151	0
+	n	67	8
+
+> /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+	*	1591766481	0
+	"	278	0
+	.	26	0
+	+	26	0
+
+> ~/Desktop/KG/KBQA/tomcat/webapps/igraph/lib/interactive-graph-0.1.0/interactive-graph.min.js
+	*	1591690646	0
+	"	40	7507
+
+> ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf3.properties
+	*	1591690140	0
+	"	6	0
+
+> ~/Desktop/KG/KBQA/tomcat/webapps/ROOT/WEB-INF/conf4.properties
+	*	1591690132	0
+	"	3	12
 
 > ~/workspace/labs/arthas/run.sh
 	*	1590983478	0
@@ -1318,21 +1344,3 @@ $workspace\/labs
 	+	11	0
 	+	10	0
 	+	11	0
-
-> ~/workspace/utry/project/poweranalysisUI/src/global.js
-	*	1544680577	0
-	"	2	0
-	^	2	0
-	.	2	0
-	+	1	1
-	+	2	0
-
-> ~/Downloads/2.工作/4.电科院/功能二和三的测试案例文件和说明/中间结果.xlsx
-	*	1544078659	0
-	"	16	0
-	.	1	0
-	+	1	0
-
-> ~/.ssh/id_rsa
-	*	1544075358	0
-	"	1	0
