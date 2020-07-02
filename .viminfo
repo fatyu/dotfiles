@@ -21,7 +21,7 @@ $workspace\/labs
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1593654561,,"wq"
+|2,0,1593657084,,"wq"
 :q
 |2,0,1593654497,,"q"
 :Q
@@ -228,36 +228,46 @@ $workspace\/labs
 	
 |3,0,9,1,1,0,1590983106,""
 ""-	CHAR	0
-	/
-|3,1,36,0,1,0,1593654558,"/"
+	-
+|3,1,36,0,1,0,1593657083,"-"
 
 # File marks:
-'0  22  33  ~/workspace/labs/dotfiles/sync.sh
-|4,48,22,33,1593654561,"~/workspace/labs/dotfiles/sync.sh"
-'1  1  0  ~/workspace/labs/dotfiles/sync.sh
-|4,49,1,0,1593654497,"~/workspace/labs/dotfiles/sync.sh"
+'0  3  46  ~/workspace/labs/dotfiles/README.md
+|4,48,3,46,1593657084,"~/workspace/labs/dotfiles/README.md"
+'1  22  33  ~/workspace/labs/dotfiles/sync.sh
+|4,49,22,33,1593654561,"~/workspace/labs/dotfiles/sync.sh"
 '2  1  0  ~/workspace/labs/dotfiles/sync.sh
 |4,50,1,0,1593654497,"~/workspace/labs/dotfiles/sync.sh"
-'3  1  0  ~/.autosshrc
-|4,51,1,0,1593433539,"~/.autosshrc"
-'4  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
-|4,52,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
-'5  151  0  ~/.zshrc
-|4,53,151,0,1591780544,"~/.zshrc"
-'6  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,54,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
-'7  150  0  ~/.zshrc
-|4,55,150,0,1591758682,"~/.zshrc"
+'3  1  0  ~/workspace/labs/dotfiles/sync.sh
+|4,51,1,0,1593654497,"~/workspace/labs/dotfiles/sync.sh"
+'4  1  0  ~/.autosshrc
+|4,52,1,0,1593433539,"~/.autosshrc"
+'5  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,53,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+'6  151  0  ~/.zshrc
+|4,54,151,0,1591780544,"~/.zshrc"
+'7  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
+|4,55,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
 '8  150  0  ~/.zshrc
 |4,56,150,0,1591758682,"~/.zshrc"
-'9  151  39  ~/.zshrc
-|4,57,151,39,1591756827,"~/.zshrc"
+'9  150  0  ~/.zshrc
+|4,57,150,0,1591758682,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  3  46  ~/workspace/labs/dotfiles/README.md
+|4,39,3,46,1593657084,"~/workspace/labs/dotfiles/README.md"
+-'  1  0  ~/workspace/labs/dotfiles/README.md
+|4,39,1,0,1593657077,"~/workspace/labs/dotfiles/README.md"
+-'  22  33  ~/workspace/labs/dotfiles/sync.sh
+|4,39,22,33,1593654561,"~/workspace/labs/dotfiles/sync.sh"
 -'  22  33  ~/workspace/labs/dotfiles/sync.sh
 |4,39,22,33,1593654561,"~/workspace/labs/dotfiles/sync.sh"
 -'  1  0  ~/workspace/labs/dotfiles/sync.sh
 |4,39,1,0,1593654518,"~/workspace/labs/dotfiles/sync.sh"
+-'  1  0  ~/workspace/labs/dotfiles/sync.sh
+|4,39,1,0,1593654518,"~/workspace/labs/dotfiles/sync.sh"
+-'  1  0  ~/workspace/labs/dotfiles/sync.sh
+|4,39,1,0,1593654497,"~/workspace/labs/dotfiles/sync.sh"
 -'  1  0  ~/workspace/labs/dotfiles/sync.sh
 |4,39,1,0,1593654497,"~/workspace/labs/dotfiles/sync.sh"
 -'  1  0  ~/.autosshrc
@@ -268,6 +278,14 @@ $workspace\/labs
 |4,39,1,0,1593433539,"~/.autosshrc"
 -'  1  0  ~/.autosshrc
 |4,39,1,0,1593433539,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1593433539,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1593433539,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1593433539,"~/.autosshrc"
+-'  1  0  ~/.autosshrc
+|4,39,1,0,1593433539,"~/.autosshrc"
 -'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
 |4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
 -'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
@@ -284,6 +302,38 @@ $workspace\/labs
 |4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
 -'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
 |4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  636  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,636,0,1592275914,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
+-'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
+|4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
 -'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
 |4,39,1,0,1592274055,"/usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini"
 -'  1  0  /usr/local/Cellar/grafana/7.0.3/share/grafana/conf/defaults.ini
@@ -332,6 +382,38 @@ $workspace\/labs
 |4,39,151,0,1591780544,"~/.zshrc"
 -'  151  0  ~/.zshrc
 |4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
+-'  151  0  ~/.zshrc
+|4,39,151,0,1591780544,"~/.zshrc"
 -'  181  0  ~/.zshrc
 |4,39,181,0,1591780538,"~/.zshrc"
 -'  181  0  ~/.zshrc
@@ -364,98 +446,22 @@ $workspace\/labs
 |4,39,181,0,1591780538,"~/.zshrc"
 -'  181  0  ~/.zshrc
 |4,39,181,0,1591780538,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  38  0  ~/.zshrc
-|4,39,38,0,1591780537,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1591780535,"~/.zshrc"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
--'  278  0  /usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf
-|4,39,278,0,1591766482,"/usr/local/Cellar/neo4j/3.5.14/libexec/conf/neo4j.conf"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
+-'  181  0  ~/.zshrc
+|4,39,181,0,1591780538,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/workspace/labs/dotfiles/README.md
+	*	1593657084	0
+	"	3	46
+	.	3	46
+	+	3	46
 
 > ~/workspace/labs/dotfiles/sync.sh
 	*	1593654560	0
@@ -1331,16 +1337,3 @@ $workspace\/labs
 > /usr/local/etc/nginx/nginx.conf
 	*	1545715163	0
 	"	23	0
-
-> ~/workspace/utry/project/IasWeb/src/global.js
-	*	1545714510	0
-	"	11	0
-	^	6	39
-	.	11	0
-	+	7	0
-	+	6	38
-	+	10	0
-	+	12	0
-	+	11	0
-	+	10	0
-	+	11	0
